@@ -1,6 +1,6 @@
 export const SITE = {
   name: "DeskSetupPro",
-  url: "https://desksetuppro.com",
+  url: "https://desksetuppro.vercel.app",
   tagline: "The Science of a Perfect Workspace",
   description: "Data-backed reviews, ergonomic benchmarks, and aesthetic deep-dives to help you build the ultimate desk setup.",
   locale: "en_US",
