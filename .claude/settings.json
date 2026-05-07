@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Issam\\\\\" -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match '\\(VanLife|Kitchen|vanlife|kitchen\\)' } | Select-Object FullName)",
+      "PowerShell(ls -Directory \"C:\\\\Users\\\\Issam\\\\VanLifeKitchen.com\" | where { $_.Name -notin @\\('node_modules', '.next', '.git'\\) })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Issam\\\\VanLifeKitchen.com\\\\src\" -Recurse | Select-Object -First 50 | ForEach-Object { $_.FullName.Replace\\('C:\\\\Users\\\\Issam\\\\VanLifeKitchen.com\\\\', ''\\) })",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Issam\\\\GarageGymBuilder\\\\src\\\\content\\\\best-gear\" -Recurse -File | Select-Object -First 30 | ForEach-Object { $_.FullName.Replace\\('C:\\\\Users\\\\Issam\\\\GarageGymBuilder\\\\src\\\\content\\\\best-gear\\\\', ''\\) })",
+      "PowerShell(head -20)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(npx --version)",
+      "Bash(mv DeskSetupPro/docs DeskSetupPro_docs_backup)",
+      "Bash(mv DeskSetupPro/.claude DeskSetupPro_claude_backup)"
+    ]
+  }
+}

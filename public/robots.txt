@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://desksetuppro.com/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
