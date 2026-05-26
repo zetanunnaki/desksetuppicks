@@ -1,5 +1,8 @@
-import "dotenv/config";
+import dotenv from "dotenv";
 import fs from "fs";
+
+dotenv.config({ path: ".env.local" });
+dotenv.config();
 
 const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
 const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
@@ -78,7 +81,8 @@ async function searchProduct(productName, category) {
     resources: [
       "itemInfo.title",
       "offersV2.listings.price",
-      "offersV2.listings.savingBasis",
+      "offersV2.listings.condition",
+      "offersV2.listings.availability",
       "images.primary.large",
       "customerReviews.starRating",
       "customerReviews.count",
@@ -100,6 +104,18 @@ async function searchProduct(productName, category) {
       console.warn(`  Rate limited — waiting 2s and retrying...`);
       await sleep(2000);
       return searchProduct(productName, category);
+    }
+
+    if (response.status === 403) {
+      const errBody = await response.text();
+      if (errBody.includes("AssociateNotEligible")) {
+        console.error("\n  Account not yet eligible for Creators API.");
+        console.error("  New credentials can take 24-48 hours to activate.");
+        console.error("  Your account qualifies — try again tomorrow.\n");
+        process.exit(0);
+      }
+      console.error(`  API error (403) for "${productName}": ${errBody}`);
+      return null;
     }
 
     if (!response.ok) {
@@ -141,10 +157,7 @@ async function searchProduct(productName, category) {
         firstListing?.price?.displayAmount ||
         firstListing?.Price?.DisplayAmount ||
         null;
-      const listPrice =
-        firstListing?.savingBasis?.displayAmount ||
-        firstListing?.SavingBasis?.DisplayAmount ||
-        null;
+      const listPrice = null;
       const imageUrl =
         item.images?.primary?.large?.url ||
         item.Images?.Primary?.Large?.URL ||
