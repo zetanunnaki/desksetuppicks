@@ -8,7 +8,8 @@ const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
 const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
 const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "desksetuppro02-20";
 const MARKETPLACE = process.env.AMAZON_MARKETPLACE || "www.amazon.com";
-const MIN_RATING = 4.0;
+const MIN_RATING = 4.5;
+const MIN_REVIEW_COUNT = 50;
 
 const TOKEN_ENDPOINT = "https://api.amazon.com/auth/o2/token";
 const API_BASE = "https://creatorsapi.amazon/catalog/v1";
@@ -85,7 +86,7 @@ async function searchProduct(productName, category) {
   const body = {
     keywords: productName,
     searchIndex,
-    itemCount: 3,
+    itemCount: 5,
     partnerTag: PARTNER_TAG,
     partnerType: "Associates",
     resources: [
@@ -159,22 +160,49 @@ async function searchProduct(productName, category) {
         continue;
       }
 
+      const reviewCount =
+        item.customerReviews?.count ??
+        item.CustomerReviews?.Count ??
+        null;
+
+      if (reviewCount !== null && reviewCount < MIN_REVIEW_COUNT) {
+        console.warn(
+          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — only ${reviewCount} reviews (need ${MIN_REVIEW_COUNT}+)`
+        );
+        continue;
+      }
+
       const listings =
         item.offersV2?.listings || item.Offers?.Listings || [];
       const firstListing = listings[0];
+
+      if (!firstListing) {
+        console.warn(
+          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — no offers (out of stock)`
+        );
+        continue;
+      }
+
+      const availability =
+        firstListing?.availability?.message ||
+        firstListing?.availability?.type ||
+        firstListing?.Availability?.Message ||
+        null;
+
+      if (availability && /out of stock|unavailable/i.test(availability)) {
+        console.warn(
+          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — ${availability}`
+        );
+        continue;
+      }
 
       const price =
         firstListing?.price?.displayAmount ||
         firstListing?.Price?.DisplayAmount ||
         null;
-      const listPrice = null;
       const imageUrl =
         item.images?.primary?.large?.url ||
         item.Images?.Primary?.Large?.URL ||
-        null;
-      const reviewCount =
-        item.customerReviews?.count ??
-        item.CustomerReviews?.Count ??
         null;
       const detailPageUrl =
         item.detailPageURL || item.DetailPageURL || null;
@@ -183,16 +211,15 @@ async function searchProduct(productName, category) {
       return {
         asin,
         amazonPrice: price,
-        amazonListPrice: listPrice,
         amazonImageUrl: imageUrl,
         amazonRating: ratingValue,
-        reviewCount: reviewCount,
+        reviewCount,
         amazonUrl: detailPageUrl,
       };
     }
 
     console.warn(
-      `  All results for "${productName}" below ${MIN_RATING} stars — skipping`
+      `  No qualifying results for "${productName}" (need ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock)`
     );
     return null;
   } catch (error) {
@@ -204,7 +231,7 @@ async function searchProduct(productName, category) {
 async function main() {
   console.log("=== Amazon Creators API Product Enrichment ===");
   console.log(`Partner tag: ${PARTNER_TAG}`);
-  console.log(`Minimum rating filter: ${MIN_RATING}+ stars\n`);
+  console.log(`Quality filters: ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock\n`);
 
   const productsFile = "src/content/products.json";
   const data = JSON.parse(fs.readFileSync(productsFile, "utf-8"));
@@ -223,7 +250,6 @@ async function main() {
     if (result) {
       product.asin = result.asin;
       product.amazonPrice = result.amazonPrice;
-      product.amazonListPrice = result.amazonListPrice;
       product.amazonImageUrl = result.amazonImageUrl;
       product.amazonRating = result.amazonRating;
       product.reviewCount = result.reviewCount;
@@ -231,7 +257,7 @@ async function main() {
       product.lastAmazonSync = today;
       enrichedCount++;
       console.log(
-        `  Found: ${result.amazonPrice || "no price"} | ${result.amazonRating || "?"}/5 | ${result.reviewCount || 0} reviews`
+        `  OK: ${result.amazonPrice || "no price"} | ${result.amazonRating}/5 | ${result.reviewCount} reviews`
       );
     } else {
       skippedCount++;
@@ -246,7 +272,7 @@ async function main() {
 
   console.log("\n=== Summary ===");
   console.log(`Enriched: ${enrichedCount}`);
-  console.log(`Skipped (low rating / not found): ${skippedCount}`);
+  console.log(`Skipped (didn't meet quality bar): ${skippedCount}`);
   console.log(`Products written to: ${productsFile}`);
 }
 

@@ -31,7 +31,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/flexispot-e7-pro.webp",
       "imagePlaceholder": "FlexiSpot E7 Pro standing desk in white with dual monitors",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": true,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -68,7 +70,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/uplift-v2-commercial.webp",
       "imagePlaceholder": "Uplift V2 Commercial standing desk with bamboo desktop",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
@@ -111,127 +115,6 @@
       "lastUpdated": "2026-05-01"
     },
     {
-      "id": "vari-electric-standing-desk",
-      "name": "Vari Electric Standing Desk 60\"",
-      "slug": "vari-electric-standing-desk",
-      "category": "standing-desks",
-      "shortDescription": "The Vari Electric Standing Desk arrives 95% pre-assembled — making it the fastest standing desk to set up on the market, ready to use in under 5 minutes.",
-      "prosAndCons": {
-        "pros": [
-          "Ships 95% pre-assembled — from box to desk in under 5 minutes",
-          "Sturdy powder-coated steel frame holds up under daily professional use",
-          "Clean cable management tray included in the box"
-        ],
-        "cons": [
-          "Single-motor design creates more wobble at maximum height than dual-motor rivals",
-          "Fewer desktop size options than brands like Uplift or FlexiSpot"
-        ]
-      },
-      "specifications": {
-        "Weight Capacity": "200 lbs",
-        "Height Range": "25.5\"–50.5\"",
-        "Motor": "Single motor",
-        "Warranty": "5 Years",
-        "Assembly Time": "<5 minutes"
-      },
-      "priceRange": "$595",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/vari-electric-standing-desk.webp",
-      "imagePlaceholder": "Vari Electric 60-inch standing desk in white with laptop setup",
-      "badges": [],
-      "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "stek-idasen",
-      "name": "IKEA IDÅSEN Electric",
-      "slug": "stek-idasen",
-      "category": "standing-desks",
-      "shortDescription": "The IKEA IDÅSEN combines Scandinavian design with a surprisingly capable electric motor, making it the most stylish entry in the standing desk category.",
-      "prosAndCons": [
-        {
-          "pros": [
-            "Minimalist design integrates seamlessly with Scandinavian-style offices",
-            "Sit/stand reminder feature helps build healthy standing habits",
-            "Available in three tasteful colorways unavailable from most competitors"
-          ],
-          "cons": [
-            "Priced higher than comparable-spec alternatives from FlexiSpot",
-            "Limited to IKEA's own desktop sizes with no third-party expansion options"
-          ]
-        }
-      ],
-      "prosAndCons": {
-        "pros": [
-          "Minimalist design integrates seamlessly with Scandinavian-style offices",
-          "Sit/stand reminder feature helps build healthy standing habits",
-          "Available in three tasteful colorways unavailable from most competitors"
-        ],
-        "cons": [
-          "Priced higher than comparable-spec alternatives from FlexiSpot",
-          "Limited to IKEA's own desktop sizes with no third-party expansion options"
-        ]
-      },
-      "specifications": {
-        "Weight Capacity": "154 lbs",
-        "Height Range": "22.4\"–48\"",
-        "Motor": "Single motor",
-        "Warranty": "10 Years",
-        "Desktop": "63\" × 31.5\""
-      },
-      "priceRange": "$649",
-      "rating": 4.2,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/stek-idasen.webp",
-      "imagePlaceholder": "IKEA IDÅSEN electric desk in beige with minimal workspace",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "autonomous-smartdesk-pro",
-      "name": "Autonomous SmartDesk Pro",
-      "slug": "autonomous-smartdesk-pro",
-      "category": "standing-desks",
-      "shortDescription": "The Autonomous SmartDesk Pro brings dual-motor performance and a programmable app-connected controller to the budget-friendly tier of the standing desk market.",
-      "prosAndCons": {
-        "pros": [
-          "App connectivity lets you schedule sit/stand reminders from your phone",
-          "Dual-motor frame at under $500 undercuts many single-motor rivals",
-          "Wide desktop size selection from 53\" to 70\""
-        ],
-        "cons": [
-          "Customer service responsiveness lags behind Uplift and FlexiSpot",
-          "Bluetooth app can be unreliable on Android devices"
-        ]
-      },
-      "specifications": {
-        "Weight Capacity": "310 lbs",
-        "Height Range": "26.2\"–52\"",
-        "Motor": "Dual motor",
-        "Warranty": "5 Years",
-        "App Control": "iOS & Android"
-      },
-      "priceRange": "$449",
-      "rating": 4.1,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/autonomous-smartdesk-pro.webp",
-      "imagePlaceholder": "Autonomous SmartDesk Pro in black with ultra-wide monitor",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 6,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
       "id": "herman-miller-aeron",
       "name": "Herman Miller Aeron",
       "slug": "herman-miller-aeron",
@@ -262,7 +145,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/herman-miller-aeron.webp",
       "imagePlaceholder": "Herman Miller Aeron chair in graphite at a standing desk",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": true,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -298,7 +183,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/steelcase-leap-v2.webp",
       "imagePlaceholder": "Steelcase Leap V2 chair in black fabric at a desk",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
@@ -341,114 +228,6 @@
       "lastUpdated": "2026-05-01"
     },
     {
-      "id": "branch-ergonomic-chair",
-      "name": "Branch Ergonomic Chair",
-      "slug": "branch-ergonomic-chair",
-      "category": "ergonomic-chairs",
-      "shortDescription": "The Branch Ergonomic Chair is the best-value full-feature ergonomic chair under $500, with adjustable lumbar, 5D armrests, and a 300 lb capacity.",
-      "prosAndCons": {
-        "pros": [
-          "5D armrests with forward/backward pivot are rare at this price point",
-          "Adjustable lumbar depth and height covers a wider range of body types",
-          "Ships fully assembled — no tools required to start using it"
-        ],
-        "cons": [
-          "Mesh breathability is slightly below Herman Miller and Steelcase equivalents",
-          "Seat cushion firmness may be too stiff for users who prefer softer seating"
-        ]
-      },
-      "specifications": {
-        "Armrests": "5D",
-        "Lumbar": "Adjustable depth & height",
-        "Warranty": "5 Years",
-        "Seat Depth": "15\"–18\"",
-        "Weight Capacity": "300 lbs"
-      },
-      "priceRange": "$499",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/branch-ergonomic-chair.webp",
-      "imagePlaceholder": "Branch Ergonomic Chair in gray mesh at a home office desk",
-      "badges": [],
-      "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "hm-sayl-chair",
-      "name": "Herman Miller Sayl",
-      "slug": "hm-sayl-chair",
-      "category": "ergonomic-chairs",
-      "shortDescription": "The Herman Miller Sayl delivers the iconic brand's ergonomic heritage in a contemporary, suspension-back design at nearly half the price of the Aeron.",
-      "prosAndCons": {
-        "pros": [
-          "Unframed back suspension mimics a net-like support that adapts to movement",
-          "Striking design adds aesthetic value to home offices and creative studios",
-          "12-year warranty mirrors the Aeron's coverage at a much lower price"
-        ],
-        "cons": [
-          "Lumbar support is less customizable than the Aeron's PostureFit SL system",
-          "No headrest option limits usefulness for users who recline frequently"
-        ]
-      },
-      "specifications": {
-        "Back": "Unframed AireWeave 2 suspension",
-        "Warranty": "12 Years",
-        "Seat Material": "Foam with fabric",
-        "Height Range": "16.5\"–21\"",
-        "Weight Capacity": "350 lbs"
-      },
-      "priceRange": "$795",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/hm-sayl-chair.webp",
-      "imagePlaceholder": "Herman Miller Sayl chair in blue with white frame",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "flexispot-bs14",
-      "name": "FlexiSpot BS14 Mesh Chair",
-      "slug": "flexispot-bs14",
-      "category": "ergonomic-chairs",
-      "shortDescription": "The FlexiSpot BS14 is the best budget ergonomic chair under $200, combining a breathable mesh back, adjustable lumbar, and headrest in a package that punches above its weight.",
-      "prosAndCons": {
-        "pros": [
-          "Adjustable lumbar cushion and headrest at a price most competitors ignore",
-          "Breathable mesh keeps you cool during long summer work sessions",
-          "3D armrests with soft PU padding offer comfort normally found in pricier chairs"
-        ],
-        "cons": [
-          "Seat cushion compression becomes noticeable after 6–12 months of daily use",
-          "Assembly instructions could be clearer — budget an extra 20 minutes"
-        ]
-      },
-      "specifications": {
-        "Back": "Breathable mesh",
-        "Armrests": "3D adjustable",
-        "Warranty": "2 Years",
-        "Seat Height": "17\"–20.5\"",
-        "Weight Capacity": "250 lbs"
-      },
-      "priceRange": "$199",
-      "rating": 4.1,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/flexispot-bs14.webp",
-      "imagePlaceholder": "FlexiSpot BS14 mesh ergonomic chair in black",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 6,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
       "id": "fully-jarvis-monitor-arm",
       "name": "Fully Jarvis Monitor Arm",
       "slug": "fully-jarvis-monitor-arm",
@@ -478,7 +257,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/fully-jarvis-monitor-arm.webp",
       "imagePlaceholder": "Fully Jarvis Monitor Arm with 27-inch monitor in white",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": true,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -514,45 +295,11 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/ergotron-lx-arm.webp",
       "imagePlaceholder": "Ergotron LX monitor arm in white holding a 32-inch display",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "amazonbasics-monitor-arm",
-      "name": "Amazon Basics Single Monitor Arm",
-      "slug": "amazonbasics-monitor-arm",
-      "category": "monitor-arms",
-      "shortDescription": "The Amazon Basics Monitor Arm is the best budget pick in the category — a functional gas spring arm that gets out of the way and works reliably for everyday monitor positioning.",
-      "prosAndCons": {
-        "pros": [
-          "Under $35 makes it the most accessible gas spring arm available",
-          "Supports monitors up to 17.6 lbs which covers most 27-inch displays",
-          "Quick installation with both clamp and grommet hardware included"
-        ],
-        "cons": [
-          "Cable management is minimal with only basic clips — no routing channel",
-          "Build quality feels plasticky at the joints compared to Ergotron and Fully"
-        ]
-      },
-      "specifications": {
-        "Max Load": "17.6 lbs",
-        "VESA": "75/100 mm",
-        "Reach": "15.7\"",
-        "Tilt": "+45° / -45°",
-        "Warranty": "1 Year"
-      },
-      "priceRange": "$33",
-      "rating": 4.0,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/amazonbasics-monitor-arm.webp",
-      "imagePlaceholder": "Amazon Basics monitor arm holding a 24-inch monitor in black",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -588,43 +335,7 @@
       "imagePlaceholder": "Ergotron LX Dual Stacking Arm with two 24-inch monitors",
       "badges": [],
       "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "vivo-dual-monitor-arm",
-      "name": "VIVO Dual Monitor Arm",
-      "slug": "vivo-dual-monitor-arm",
-      "category": "monitor-arms",
-      "shortDescription": "The VIVO Dual Monitor Arm is the best side-by-side dual arm under $50, giving independent height, tilt, and swivel adjustments for two monitors on a single grommet or clamp base.",
-      "prosAndCons": {
-        "pros": [
-          "Side-by-side configuration is ideal for video editing and wide-format work",
-          "Independent adjustment per arm allows asymmetric monitor sizes",
-          "Affordable entry point for dual-arm setups at under $50"
-        ],
-        "cons": [
-          "Center pole mount can flex slightly when adjusting heavy 32-inch+ monitors",
-          "Cable management requires additional clips not included in the box"
-        ]
-      },
-      "specifications": {
-        "Max Load": "17.6 lbs per arm",
-        "VESA": "75/100 mm",
-        "Configuration": "Side-by-side dual",
-        "Tilt": "+30° / -30°",
-        "Warranty": "3 Years"
-      },
-      "priceRange": "$46",
-      "rating": 4.2,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/vivo-dual-monitor-arm.webp",
-      "imagePlaceholder": "VIVO dual monitor arm with two 24-inch screens side by side",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
+      "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -658,7 +369,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/ordo-xl-desk-mat.webp",
       "imagePlaceholder": "Ordo XL black desk mat with keyboard and mouse on a white desk",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -694,9 +407,11 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/grovemade-leather-mat.webp",
       "imagePlaceholder": "Grovemade leather desk mat in tan with brass accents",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
-      "rank": 2,
+      "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -730,81 +445,11 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/steelseries-qck-xxl.webp",
       "imagePlaceholder": "SteelSeries QcK XXL desk mat in black with gaming setup",
-      "badges": ["Budget Pick"],
+      "badges": [
+        "Budget Pick"
+      ],
       "featured": false,
-      "rank": 3,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "mous-desk-pad",
-      "name": "Mous Desk Pad",
-      "slug": "mous-desk-pad",
-      "category": "desk-mats",
-      "shortDescription": "The Mous Desk Pad offers a refined wool-felt surface that stands out in minimalist setups, with a weight distribution that keeps corners flat without rubber backing.",
-      "prosAndCons": {
-        "pros": [
-          "Wool felt surface provides a soft, quiet typing surface unlike any fabric alternative",
-          "100% recycled wool construction appeals to sustainability-conscious buyers",
-          "Naturally flat — no curling corners even after extended use"
-        ],
-        "cons": [
-          "Felt surface is not ideal for precision gaming mice that demand micro-weave cloth",
-          "Limited in size options compared to fabric-based extended mats"
-        ]
-      },
-      "specifications": {
-        "Size": "800 × 350 mm",
-        "Material": "Recycled wool felt",
-        "Thickness": "5 mm",
-        "Edges": "Raw edge",
-        "Water Resistance": "Low"
-      },
-      "priceRange": "$55",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/mous-desk-pad.webp",
-      "imagePlaceholder": "Mous desk pad in gray felt with Apple setup",
-      "badges": [],
-      "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "ktrio-large-desk-mat",
-      "name": "KTRIO Large Desk Mat",
-      "slug": "ktrio-large-desk-mat",
-      "category": "desk-mats",
-      "shortDescription": "The KTRIO Large Desk Mat is the best ultra-affordable extended pad — a 1000×500mm surface with a smooth polyester top and anti-fray stitching for under $20.",
-      "prosAndCons": {
-        "pros": [
-          "1000×500mm is one of the largest sizes available at any price point",
-          "Anti-fray edge stitching outlasts unstitched budget alternatives by years",
-          "Smooth polyester top works well with optical mice for everyday office tasks"
-        ],
-        "cons": [
-          "Polyester surface has more friction than micro-weave cloth pads",
-          "Base grip is adequate but slides slightly on very smooth desk surfaces"
-        ]
-      },
-      "specifications": {
-        "Size": "1000 × 500 mm",
-        "Material": "Polyester + Rubber base",
-        "Thickness": "3 mm",
-        "Edges": "Stitched",
-        "Water Resistance": "Light splash"
-      },
-      "priceRange": "$18",
-      "rating": 4.2,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/ktrio-large-desk-mat.webp",
-      "imagePlaceholder": "KTRIO large desk mat in dark blue with keyboard",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
+      "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -838,7 +483,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/logitech-brio-4k.webp",
       "imagePlaceholder": "Logitech Brio 4K webcam clipped to a monitor bezel",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -874,43 +521,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/elgato-facecam-mk2.webp",
       "imagePlaceholder": "Elgato Facecam MK.2 on a desk with ring light",
-      "badges": ["Premium Pick"],
-      "featured": false,
-      "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "anker-powerconf-c300",
-      "name": "Anker PowerConf C300",
-      "slug": "anker-powerconf-c300",
-      "category": "webcams",
-      "shortDescription": "The Anker PowerConf C300 is the best webcam under $80 — a sharp 1080p AI-auto-framing camera that keeps you centered even as you move around your workspace.",
-      "prosAndCons": {
-        "pros": [
-          "AI auto-framing keeps you centered in frame without manual adjustments",
-          "HDR mode performs surprisingly well in high-contrast backlit environments",
-          "Compact form factor with USB-C connection works on laptop lids without overhang"
-        ],
-        "cons": [
-          "Auto-framing can introduce slight cropping that some users find distracting",
-          "Microphone array picks up more keyboard noise than dedicated USB microphones"
-        ]
-      },
-      "specifications": {
-        "Resolution": "1080p60",
-        "AI Framing": "Auto-framing AI",
-        "FOV": "78°",
-        "HDR": "Yes",
-        "Connection": "USB-C"
-      },
-      "priceRange": "$79",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/anker-powerconf-c300.webp",
-      "imagePlaceholder": "Anker PowerConf C300 webcam on top of laptop screen",
-      "badges": ["Budget Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
@@ -948,43 +561,7 @@
       "imagePlaceholder": "Razer Kiyo Pro Ultra webcam on desk with RGB lighting",
       "badges": [],
       "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "logitech-c920x",
-      "name": "Logitech C920x HD Pro",
-      "slug": "logitech-c920x",
-      "category": "webcams",
-      "shortDescription": "The Logitech C920x is the most reliable 1080p webcam available — a decade-proven design with plug-and-play compatibility across every major platform.",
-      "prosAndCons": {
-        "pros": [
-          "Works out of the box with Zoom, Teams, Google Meet, and OBS without driver installation",
-          "Dual built-in microphones with noise cancellation cover most home office scenarios",
-          "One of the most widely compatible webcams for streaming software"
-        ],
-        "cons": [
-          "1080p/30fps ceiling is behind newer 4K and 60fps alternatives in the same price range",
-          "Autofocus performance can hunt slightly in mixed artificial and natural lighting"
-        ]
-      },
-      "specifications": {
-        "Resolution": "1080p30",
-        "Autofocus": "Automatic (full HD)",
-        "Microphone": "Dual stereo with noise cancellation",
-        "FOV": "78°",
-        "Connection": "USB-A"
-      },
-      "priceRange": "$79",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/logitech-c920x.webp",
-      "imagePlaceholder": "Logitech C920x webcam clipped to monitor in home office",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
+      "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1018,7 +595,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/keychron-q1-pro.webp",
       "imagePlaceholder": "Keychron Q1 Pro in carbon black on a desk mat",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -1030,19 +609,6 @@
       "slug": "corsair-k70-rgb-pro",
       "category": "keyboards",
       "shortDescription": "The Corsair K70 RGB Pro is the best full-size mechanical keyboard for users who want dedicated media controls, a numpad, and the proven reliability of Cherry MX switches.",
-      "prosAndCons": [
-        {
-          "pros": [
-            "Cherry MX switches are time-tested across millions of keystrokes for long-term reliability",
-            "Dedicated media controls with a textured aluminum volume roller are a tactile luxury",
-            "PBT double-shot keycaps resist shine and fading far better than ABS alternatives"
-          ],
-          "cons": [
-            "Full-size layout requires significant desk footprint — not ideal for small desks",
-            "No wireless option means permanent cable management consideration"
-          ]
-        }
-      ],
       "prosAndCons": {
         "pros": [
           "Cherry MX switches are time-tested across millions of keystrokes for long-term reliability",
@@ -1069,79 +635,7 @@
       "imagePlaceholder": "Corsair K70 RGB Pro full-size keyboard on dark desk mat",
       "badges": [],
       "featured": false,
-      "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "logitech-mx-keys-s",
-      "name": "Logitech MX Keys S",
-      "slug": "logitech-mx-keys-s",
-      "category": "keyboards",
-      "shortDescription": "The Logitech MX Keys S is the best low-profile wireless keyboard for productivity-focused users who value ultra-quiet typing and seamless multi-device switching.",
-      "prosAndCons": {
-        "pros": [
-          "Easy Switch lets you toggle between 3 devices instantly with a dedicated key per device",
-          "Backlit spherical keys with smart illumination that activates only when hands approach",
-          "USB-C charging reaches a full charge in 3 hours with up to 10 days battery life"
-        ],
-        "cons": [
-          "Low-profile scissor switches will disappoint users coming from high-actuation mechanical boards",
-          "No per-key RGB — only white backlight which limits aesthetic customization"
-        ]
-      },
-      "specifications": {
-        "Layout": "Full-size (US)",
-        "Switch": "Low-profile scissor",
-        "Connectivity": "Bluetooth / Logi Bolt USB",
-        "Battery": "Up to 10 days",
-        "Backlight": "White smart backlight"
-      },
-      "priceRange": "$109",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/logitech-mx-keys-s.webp",
-      "imagePlaceholder": "Logitech MX Keys S in graphite on a white desk",
-      "badges": [],
-      "featured": false,
       "rank": 3,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "anne-pro-2",
-      "name": "Anne Pro 2",
-      "slug": "anne-pro-2",
-      "category": "keyboards",
-      "shortDescription": "The Anne Pro 2 is the best 60% wireless mechanical keyboard for minimalist desk setups — Bluetooth 4.0, hot-swappable switches, and full RGB in a palm-sized form factor.",
-      "prosAndCons": {
-        "pros": [
-          "60% layout dramatically reduces desk footprint and allows more mouse real estate",
-          "Bluetooth 4.0 wireless with up to 8 hours of continuous RGB use on a charge",
-          "Hot-swappable PCB allows switch changes without soldering"
-        ],
-        "cons": [
-          "60% layout requires memorizing function-layer shortcuts for arrow keys and F-row",
-          "Bluetooth connection stability can vary depending on USB dongle interference"
-        ]
-      },
-      "specifications": {
-        "Layout": "60% (61 keys)",
-        "Switch": "Gateron / Kailh (swappable)",
-        "Connectivity": "Bluetooth 4.0 / USB-C",
-        "Battery": "1900 mAh",
-        "Backlight": "RGB per key"
-      },
-      "priceRange": "$65",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/anne-pro-2.webp",
-      "imagePlaceholder": "Anne Pro 2 white 60% keyboard on minimal desk setup",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1177,7 +671,7 @@
       "imagePlaceholder": "NuPhy Air75 V2 in white on a minimal white desk setup",
       "badges": [],
       "featured": false,
-      "rank": 5,
+      "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1211,7 +705,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/logitech-mx-master-3s.webp",
       "imagePlaceholder": "Logitech MX Master 3S in graphite on a desk mat",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -1249,79 +745,7 @@
       "imagePlaceholder": "Razer Pro Click V2 white mouse on desk mat",
       "badges": [],
       "featured": false,
-      "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "apple-magic-mouse",
-      "name": "Apple Magic Mouse",
-      "slug": "apple-magic-mouse",
-      "category": "mice",
-      "shortDescription": "The Apple Magic Mouse offers a seamless multi-touch glass surface and deep macOS gesture integration that is unmatched by any third-party mouse for Mac-native users.",
-      "prosAndCons": {
-        "pros": [
-          "Multi-touch glass surface supports all macOS gestures natively without driver software",
-          "Ultra-flat profile looks stunning on clean Apple desk setups",
-          "Bluetooth Low Energy for long battery life and zero lag on modern Macs"
-        ],
-        "cons": [
-          "Charging port is on the bottom — mouse is completely unusable while charging",
-          "No scroll wheel means vertical scrolling depends entirely on touch gestures"
-        ]
-      },
-      "specifications": {
-        "Surface": "Multi-touch glass",
-        "Connectivity": "Bluetooth",
-        "Battery": "Rechargeable (up to 1 month)",
-        "Weight": "99g",
-        "Compatibility": "macOS optimized"
-      },
-      "priceRange": "$79",
-      "rating": 4.1,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/apple-magic-mouse.webp",
-      "imagePlaceholder": "Apple Magic Mouse in white on a white desk",
-      "badges": [],
-      "featured": false,
       "rank": 3,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "anker-vertical-mouse",
-      "name": "Anker 2.4G Vertical Mouse",
-      "slug": "anker-vertical-mouse",
-      "category": "mice",
-      "shortDescription": "The Anker Vertical Mouse reduces wrist pronation with its 57° vertical grip angle, offering genuine RSI relief at a price that makes ergonomic mice accessible to everyone.",
-      "prosAndCons": {
-        "pros": [
-          "57° vertical grip angle aligns the wrist in a handshake position to reduce pronation",
-          "Under $30 makes ergonomic vertical mice accessible for RSI-prevention budgets",
-          "2.4GHz wireless with AA batteries that last 12+ months between replacements"
-        ],
-        "cons": [
-          "800/1200/1600 DPI ceiling is limiting for users on high-DPI 4K displays",
-          "Plastic build quality reflects the low price point with visible seam lines"
-        ]
-      },
-      "specifications": {
-        "DPI": "800 / 1200 / 1600",
-        "Grip Angle": "57° vertical",
-        "Connectivity": "2.4GHz USB",
-        "Battery": "1× AA (12+ months)",
-        "Weight": "130g"
-      },
-      "priceRange": "$29",
-      "rating": 4.2,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/anker-vertical-mouse.webp",
-      "imagePlaceholder": "Anker vertical mouse in black on desk",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1357,7 +781,7 @@
       "imagePlaceholder": "Logitech MX Anywhere 3S in pale grey on laptop bag",
       "badges": [],
       "featured": false,
-      "rank": 5,
+      "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1391,7 +815,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/lg-27gp950-b.webp",
       "imagePlaceholder": "LG 27GP950-B 4K monitor with game scene on screen",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -1427,7 +853,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/dell-ultrasharp-u2723de.webp",
       "imagePlaceholder": "Dell UltraSharp U2723DE 4K monitor on ergonomic desk",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
@@ -1470,42 +898,6 @@
       "lastUpdated": "2026-05-01"
     },
     {
-      "id": "lg-27ul500-w",
-      "name": "LG 27UL500-W",
-      "slug": "lg-27ul500-w",
-      "category": "monitors",
-      "shortDescription": "The LG 27UL500-W is the best budget 4K monitor — a 27-inch IPS panel with HDR10 and 99% sRGB at under $300, making 4K accessible to a wide range of home office budgets.",
-      "prosAndCons": {
-        "pros": [
-          "Under $300 4K IPS monitor with genuine 99% sRGB color coverage is exceptional value",
-          "HDR10 support handles Netflix and YouTube HDR content better than most budget rivals",
-          "FreeSync support allows smoother playback on compatible AMD graphics cards"
-        ],
-        "cons": [
-          "Display stand has limited height adjustment — a monitor arm is recommended",
-          "Speakers are minimal — a separate audio solution is necessary for calls"
-        ]
-      },
-      "specifications": {
-        "Panel": "IPS",
-        "Resolution": "3840 × 2160 (4K)",
-        "Refresh Rate": "60Hz",
-        "Color Coverage": "99% sRGB",
-        "HDR": "HDR10"
-      },
-      "priceRange": "$279",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/lg-27ul500-w.webp",
-      "imagePlaceholder": "LG 27UL500-W 4K white monitor on desk",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
       "id": "asus-proart-pa279cv",
       "name": "ASUS ProArt PA279CV",
       "slug": "asus-proart-pa279cv",
@@ -1537,7 +929,7 @@
       "imagePlaceholder": "ASUS ProArt PA279CV 4K monitor with color swatches on screen",
       "badges": [],
       "featured": false,
-      "rank": 5,
+      "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1571,7 +963,9 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/elgato-key-light.webp",
       "imagePlaceholder": "Elgato Key Light on desk arm illuminating creator setup",
-      "badges": ["Editor's Choice"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
@@ -1607,81 +1001,11 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/benq-screenbar-halo.webp",
       "imagePlaceholder": "BenQ ScreenBar Halo mounted on monitor with amber rear glow",
-      "badges": ["Premium Pick"],
+      "badges": [
+        "Premium Pick"
+      ],
       "featured": false,
       "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "govee-glide-hexa",
-      "name": "Govee Glide Hexa Light Panels",
-      "slug": "govee-glide-hexa",
-      "category": "lighting",
-      "shortDescription": "The Govee Glide Hexa Light Panels are the best accent lighting upgrade for creative setups — RGBIC hexagon panels with music sync and Alexa/Google integration for under $80.",
-      "prosAndCons": {
-        "pros": [
-          "RGBIC segmented control displays multiple colors per panel simultaneously",
-          "Music sync mode reacts to audio in real time for streaming and content creation",
-          "Alexa and Google Home integration enables voice control from anywhere in the room"
-        ],
-        "cons": [
-          "Govee app quality lags behind Matter-based smart home platforms",
-          "Adhesive backing is permanent — removal risks wall paint damage"
-        ]
-      },
-      "specifications": {
-        "Panels": "10 hexagons",
-        "Color": "RGBIC",
-        "Control": "App / Alexa / Google",
-        "Music Sync": "Yes",
-        "Power": "Plug-in adapter"
-      },
-      "priceRange": "$79",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/govee-glide-hexa.webp",
-      "imagePlaceholder": "Govee Hexa light panels in teal and purple on white wall",
-      "badges": [],
-      "featured": false,
-      "rank": 3,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "xiaomi-mi-led-desk-lamp-pro",
-      "name": "Xiaomi Mi LED Desk Lamp Pro",
-      "slug": "xiaomi-mi-led-desk-lamp-pro",
-      "category": "lighting",
-      "shortDescription": "The Xiaomi Mi LED Desk Lamp Pro delivers 700 lumens of flicker-free illumination with a full 1700K–6500K range — all controlled from the Mi Home app at a class-leading $45 price.",
-      "prosAndCons": {
-        "pros": [
-          "Flicker-free at any brightness level reduces visual fatigue during 8+ hour sessions",
-          "1700K–6500K color temperature range is wider than most competitors in this price tier",
-          "Touch-sensitive dimming strip allows quick adjustments without opening an app"
-        ],
-        "cons": [
-          "Mi Home app requires a Xiaomi account and cloud connectivity for smart features",
-          "Arm articulation is limited to a single pivot — less adjustable than a proper task lamp"
-        ]
-      },
-      "specifications": {
-        "Brightness": "700 lumens",
-        "Color Temperature": "1700K–6500K",
-        "CRI": "90+",
-        "Control": "Touch + Mi Home app",
-        "Power": "USB-C"
-      },
-      "priceRange": "$45",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/xiaomi-mi-led-desk-lamp-pro.webp",
-      "imagePlaceholder": "Xiaomi Mi LED Desk Lamp Pro on white desk with book",
-      "badges": ["Budget Pick"],
-      "featured": false,
-      "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1717,7 +1041,7 @@
       "imagePlaceholder": "BenQ ScreenBar Plus on monitor with wireless controller on desk",
       "badges": [],
       "featured": false,
-      "rank": 5,
+      "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1751,81 +1075,11 @@
       "asin": "PLACEHOLDER",
       "imageUrl": "/images/products/cable-matters-under-desk-tray.webp",
       "imagePlaceholder": "Cable Matters under-desk tray mounted with surge protector and cables",
-      "badges": ["Editor's Choice"],
-      "featured": false,
-      "rank": 1,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "joto-cable-sleeve",
-      "name": "JOTO Cable Management Sleeve",
-      "slug": "joto-cable-sleeve",
-      "category": "cable-management",
-      "shortDescription": "The JOTO Cable Management Sleeve bundles your desk cables into a single tidy run — a flexible neoprene sleeve with a zip-along opening for easy cable additions and removals.",
-      "prosAndCons": {
-        "pros": [
-          "Zip-along opening allows adding or removing cables without cutting zip ties or re-routing",
-          "Neoprene material is flexible enough to route around corners and desk legs",
-          "Available in multiple lengths and colors to match desk aesthetics"
-        ],
-        "cons": [
-          "Cannot contain cables that need individual routing or frequent repositioning",
-          "Thick bundles can make the sleeve appear bulky along the visible cable run"
-        ]
-      },
-      "specifications": {
-        "Length": "25 inches (multiple options)",
-        "Material": "Neoprene",
-        "Opening": "Zip-along",
-        "Colors": "Black, White, Gray",
-        "Max Diameter": "1.5 inch bundle"
-      },
-      "priceRange": "$12",
-      "rating": 4.3,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/joto-cable-sleeve.webp",
-      "imagePlaceholder": "JOTO cable sleeve in black bundling desk cables along monitor stand",
-      "badges": ["Budget Pick"],
+      "badges": [
+        "Editor's Choice"
+      ],
       "featured": false,
       "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "bluelounge-cablebox",
-      "name": "Bluelounge CableBox",
-      "slug": "bluelounge-cablebox",
-      "category": "cable-management",
-      "shortDescription": "The Bluelounge CableBox is the most stylish cable management box available — a plastic enclosure that conceals your entire power strip and cable excess in a design-forward shell.",
-      "prosAndCons": {
-        "pros": [
-          "Completely hides power strips, adapters, and excess cable length in one elegant box",
-          "Ventilated lid design prevents heat buildup from power bricks inside the box",
-          "Available in white and dark colorways that complement most desk aesthetics"
-        ],
-        "cons": [
-          "Fixed box size limits the number of adapters that fit — large bricks may not clear the lid",
-          "Cable entry ports have fixed positions that may not align with all desk configurations"
-        ]
-      },
-      "specifications": {
-        "Internal Size": "14\" × 5\" × 4.5\"",
-        "Material": "ABS plastic",
-        "Cable Ports": "2 × 1.25\" openings",
-        "Lid": "Ventilated",
-        "Colors": "White, Dark"
-      },
-      "priceRange": "$35",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/bluelounge-cablebox.webp",
-      "imagePlaceholder": "Bluelounge CableBox in white hiding power strip under desk",
-      "badges": [],
-      "featured": false,
-      "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     },
@@ -1861,43 +1115,7 @@
       "imagePlaceholder": "VELCRO cable ties bundling keyboard and monitor cables",
       "badges": [],
       "featured": false,
-      "rank": 4,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "racktangle-desk-cable-rack",
-      "name": "Racktangle Under-Desk Cable Rack",
-      "slug": "racktangle-desk-cable-rack",
-      "category": "cable-management",
-      "shortDescription": "The Racktangle Under-Desk Cable Rack is the premium magnetic cable management solution — a sleek aluminum channel that snaps cables in place beneath your desk with rare-earth magnets.",
-      "prosAndCons": {
-        "pros": [
-          "Rare-earth magnets hold the channel firmly to any steel or magnetic desk surface without drilling",
-          "Brushed aluminum construction matches premium desk accessories in all-metal setups",
-          "Modular design allows adding extension sections for desks wider than 60 inches"
-        ],
-        "cons": [
-          "Magnetic mounting only works on steel or metal desks — not compatible with wood or glass",
-          "At $55 it is the most expensive cable management item in this roundup"
-        ]
-      },
-      "specifications": {
-        "Length": "24 inches (modular)",
-        "Material": "Brushed aluminum",
-        "Mount": "Rare-earth magnets or screws",
-        "Cable Slots": "Up to 6 cables",
-        "Finish": "Silver or Space Gray"
-      },
-      "priceRange": "$55",
-      "rating": 4.4,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/racktangle-desk-cable-rack.webp",
-      "imagePlaceholder": "Racktangle aluminum cable rack mounted under a white desk",
-      "badges": ["Premium Pick"],
-      "featured": false,
-      "rank": 5,
+      "rank": 1,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01"
     }

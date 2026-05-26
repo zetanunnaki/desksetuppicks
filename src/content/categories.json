@@ -6,12 +6,18 @@
       "slug": "standing-desks",
       "icon": "Maximize2",
       "description": "Ergonomic height-adjustable desks for active working.",
-      "productCount": 6,
+      "productCount": 3,
       "metaTitle": "The Best Standing Desks of 2026 | DeskSetupPicks",
       "metaDescription": "We benchmarked 12 standing desks for motor speed, stability, and build quality. These are the best standing desks you can buy right now.",
       "priceRange": "$150–$950",
       "buyingGuideIntro": "Choosing the right standing desk depends on your space, budget, and how often you switch between sitting and standing.",
-      "keyFactors": ["Motor type", "Height range", "Weight capacity", "Desktop size", "Warranty"],
+      "keyFactors": [
+        "Motor type",
+        "Height range",
+        "Weight capacity",
+        "Desktop size",
+        "Warranty"
+      ],
       "featured": true
     },
     {
@@ -20,12 +26,18 @@
       "slug": "ergonomic-chairs",
       "icon": "Armchair",
       "description": "High-performance seating engineered for long work sessions.",
-      "productCount": 6,
+      "productCount": 3,
       "metaTitle": "The Best Ergonomic Chairs of 2026 | DeskSetupPicks",
       "metaDescription": "We tested 14 ergonomic chairs over 6 weeks. Here are the chairs that actually support your back, reduce fatigue, and last for years.",
       "priceRange": "$200–$1,400",
       "buyingGuideIntro": "A great ergonomic chair is an investment in your health and productivity. The right chair depends on your height, weight, and how many hours you sit per day.",
-      "keyFactors": ["Lumbar support", "Seat depth adjustment", "Armrest flexibility", "Breathability", "Weight capacity"],
+      "keyFactors": [
+        "Lumbar support",
+        "Seat depth adjustment",
+        "Armrest flexibility",
+        "Breathability",
+        "Weight capacity"
+      ],
       "featured": true
     },
     {
@@ -34,12 +46,18 @@
       "slug": "monitor-arms",
       "icon": "ScreenShare",
       "description": "Flexible monitor mounts that free up desk space and improve posture.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Monitor Arms of 2026 | DeskSetupPicks",
       "metaDescription": "Monitor arms that clear your desk, position screens at eye level, and hold steady all day. Our picks after testing 9 models.",
       "priceRange": "$30–$250",
       "buyingGuideIntro": "A quality monitor arm transforms your workspace by freeing up desk real estate and letting you position your screen exactly where your neck and eyes are most comfortable.",
-      "keyFactors": ["Weight capacity", "VESA compatibility", "Articulation range", "Cable management", "Clamp vs grommet mount"],
+      "keyFactors": [
+        "Weight capacity",
+        "VESA compatibility",
+        "Articulation range",
+        "Cable management",
+        "Clamp vs grommet mount"
+      ],
       "featured": true
     },
     {
@@ -48,12 +66,18 @@
       "slug": "desk-mats",
       "icon": "Layers",
       "description": "Large desk pads that protect your surface and anchor your setup.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Desk Mats of 2026 | DeskSetupPicks",
       "metaDescription": "The best desk mats for every setup — from minimal leather to oversized gaming pads. We tested stitching, grip, and mouse glide on all of them.",
       "priceRange": "$20–$80",
       "buyingGuideIntro": "Desk mats do more than look good — they protect your desk surface, improve mouse tracking, and give your setup a cohesive, polished look.",
-      "keyFactors": ["Size", "Surface texture", "Edge stitching", "Base grip", "Water resistance"],
+      "keyFactors": [
+        "Size",
+        "Surface texture",
+        "Edge stitching",
+        "Base grip",
+        "Water resistance"
+      ],
       "featured": false
     },
     {
@@ -62,12 +86,18 @@
       "slug": "webcams",
       "icon": "Video",
       "description": "4K and 1080p webcams for crystal-clear video calls and streaming.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Webcams of 2026 | DeskSetupPicks",
       "metaDescription": "We tested 10 webcams in real home office lighting conditions. These are the sharpest, most reliable webcams for video calls and streaming.",
       "priceRange": "$50–$300",
       "buyingGuideIntro": "Built-in laptop cameras rarely cut it for professional video calls. A dedicated webcam dramatically improves how you look on screen, building credibility in every meeting.",
-      "keyFactors": ["Resolution", "Frame rate", "Low-light performance", "Field of view", "Autofocus quality"],
+      "keyFactors": [
+        "Resolution",
+        "Frame rate",
+        "Low-light performance",
+        "Field of view",
+        "Autofocus quality"
+      ],
       "featured": false
     },
     {
@@ -76,12 +106,18 @@
       "slug": "keyboards",
       "icon": "Keyboard",
       "description": "Tactile mechanical keyboards for typists and productivity enthusiasts.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Mechanical Keyboards of 2026 | DeskSetupPicks",
       "metaDescription": "From 60% compact boards to full-size layouts, these are the mechanical keyboards with the best feel, build quality, and value.",
       "priceRange": "$50–$200",
       "buyingGuideIntro": "Mechanical keyboards outlast membrane boards by years and give you tactile feedback that makes long typing sessions more comfortable and accurate.",
-      "keyFactors": ["Switch type", "Form factor", "Build quality", "Wireless vs wired", "Keycap material"],
+      "keyFactors": [
+        "Switch type",
+        "Form factor",
+        "Build quality",
+        "Wireless vs wired",
+        "Keycap material"
+      ],
       "featured": false
     },
     {
@@ -90,12 +126,18 @@
       "slug": "mice",
       "icon": "MousePointer2",
       "description": "Precision wireless mice designed for all-day comfort.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Wireless Mice of 2026 | DeskSetupPicks",
       "metaDescription": "We tested 11 wireless mice for battery life, sensor accuracy, and ergonomics. These are the best for productivity and creative work.",
       "priceRange": "$30–$160",
       "buyingGuideIntro": "A good wireless mouse eliminates cable drag, lasts all day on a single charge, and fits your hand naturally even after hours of use.",
-      "keyFactors": ["Sensor accuracy", "Battery life", "Ergonomics", "Connection type", "DPI range"],
+      "keyFactors": [
+        "Sensor accuracy",
+        "Battery life",
+        "Ergonomics",
+        "Connection type",
+        "DPI range"
+      ],
       "featured": false
     },
     {
@@ -104,12 +146,18 @@
       "slug": "monitors",
       "icon": "Monitor",
       "description": "4K IPS and OLED monitors for sharp, color-accurate displays.",
-      "productCount": 5,
+      "productCount": 4,
       "metaTitle": "The Best 4K Monitors of 2026 | DeskSetupPicks",
       "metaDescription": "We calibrated and tested 13 4K monitors for color accuracy, refresh rate, and ergonomics. These are the best for creative and productivity work.",
       "priceRange": "$250–$1,200",
       "buyingGuideIntro": "A 4K monitor is the single biggest upgrade to your visual experience at a desk. Sharper text, more screen real estate, and better color accuracy make everything easier on your eyes.",
-      "keyFactors": ["Panel type", "Color accuracy", "Refresh rate", "Connectivity", "Ergonomic stand"],
+      "keyFactors": [
+        "Panel type",
+        "Color accuracy",
+        "Refresh rate",
+        "Connectivity",
+        "Ergonomic stand"
+      ],
       "featured": false
     },
     {
@@ -118,12 +166,18 @@
       "slug": "lighting",
       "icon": "Lamp",
       "description": "Smart and task lighting that reduces eye strain for any workspace.",
-      "productCount": 5,
+      "productCount": 3,
       "metaTitle": "The Best Desk Lighting of 2026 | DeskSetupPicks",
       "metaDescription": "The right desk light eliminates glare, reduces eye strain, and makes video calls look professional. These are our tested top picks.",
       "priceRange": "$25–$200",
       "buyingGuideIntro": "Poor lighting is one of the most overlooked causes of eye strain and headaches during long work sessions. The right desk lamp changes everything.",
-      "keyFactors": ["Color temperature range", "Brightness levels", "Flicker rate", "Color rendering index", "USB vs AC power"],
+      "keyFactors": [
+        "Color temperature range",
+        "Brightness levels",
+        "Flicker rate",
+        "Color rendering index",
+        "USB vs AC power"
+      ],
       "featured": false
     },
     {
@@ -132,12 +186,18 @@
       "slug": "cable-management",
       "icon": "Zap",
       "description": "Trays, clips, and sleeves to tame the cable chaos under your desk.",
-      "productCount": 5,
+      "productCount": 2,
       "metaTitle": "The Best Cable Management Solutions of 2026 | DeskSetupPicks",
       "metaDescription": "From under-desk cable trays to magnetic clips, these are the cable management solutions that make a real difference in a clean setup.",
       "priceRange": "$10–$60",
       "buyingGuideIntro": "A clean, organized desk setup requires thinking about cables from the start. The right cable management system keeps your setup looking sharp and makes future changes easy.",
-      "keyFactors": ["Mount type", "Capacity", "Material durability", "Adjustability", "Compatibility with desk type"],
+      "keyFactors": [
+        "Mount type",
+        "Capacity",
+        "Material durability",
+        "Adjustability",
+        "Compatibility with desk type"
+      ],
       "featured": false
     },
     {
@@ -151,7 +211,13 @@
       "metaDescription": "We tested and compared leading headsets for call clarity, noise cancellation, and all-day comfort. Find the best headset for your home office or hybrid work setup.",
       "priceRange": "$40–$400",
       "buyingGuideIntro": "A great headset is essential for remote workers who spend hours on calls — it shields you from distractions and ensures your voice comes through crystal clear. The right model balances microphone quality, noise cancellation, and comfort for marathon work sessions.",
-      "keyFactors": ["Sound quality", "Microphone clarity", "Noise cancellation", "Comfort for long wear", "Battery life"],
+      "keyFactors": [
+        "Sound quality",
+        "Microphone clarity",
+        "Noise cancellation",
+        "Comfort for long wear",
+        "Battery life"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -166,7 +232,13 @@
       "metaDescription": "We compared USB hubs and docking stations for port variety, power delivery, and display output reliability. These are the best options for expanding your desk setup's connectivity.",
       "priceRange": "$25–$300",
       "buyingGuideIntro": "Modern laptops often ship with just a handful of ports, making a quality USB hub or dock the missing link in any productive desk setup. The right dock can connect your monitors, drives, and peripherals through a single cable.",
-      "keyFactors": ["Port count", "Power delivery", "Display output", "Data speed", "Compatibility"],
+      "keyFactors": [
+        "Port count",
+        "Power delivery",
+        "Display output",
+        "Data speed",
+        "Compatibility"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -181,7 +253,13 @@
       "metaDescription": "We evaluated monitor risers and desk shelves for build quality, storage capacity, and ergonomic lift. These picks help you reclaim surface space and improve your viewing angle.",
       "priceRange": "$20–$150",
       "buyingGuideIntro": "A desk shelf or monitor riser does double duty — it elevates your screen to eye level to protect your posture while adding valuable storage space underneath. Choosing the right one depends on your desk size, monitor weight, and how much organization you need.",
-      "keyFactors": ["Weight capacity", "Height adjustment", "Storage space", "Material quality", "Footprint"],
+      "keyFactors": [
+        "Weight capacity",
+        "Height adjustment",
+        "Storage space",
+        "Material quality",
+        "Footprint"
+      ],
       "featured": false,
       "searchIndex": "OfficeProducts"
     },
@@ -196,7 +274,13 @@
       "metaDescription": "We tested USB and XLR microphones for voice clarity, background noise rejection, and ease of setup. These are the best desk microphones for calls, podcasting, and streaming.",
       "priceRange": "$50–$350",
       "buyingGuideIntro": "A dedicated microphone is a game-changer for anyone who communicates on video calls or creates content — your voice will sound polished and professional instead of hollow and distant. The key is matching the mic's polar pattern and connection type to your room and workflow.",
-      "keyFactors": ["Polar pattern", "Connection type", "Sound quality", "Background noise rejection", "Plug and play"],
+      "keyFactors": [
+        "Polar pattern",
+        "Connection type",
+        "Sound quality",
+        "Background noise rejection",
+        "Plug and play"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -211,7 +295,13 @@
       "metaDescription": "We tested compact desktop speakers for sound quality, connectivity, and desk footprint. These are the best speakers for home offices and creative workstations.",
       "priceRange": "$40–$500",
       "buyingGuideIntro": "A good pair of desktop speakers transforms your workspace audio experience — making music, calls, and notifications sound rich and clear without the fatigue of wearing headphones all day. Size and connectivity options are the first things to consider for a desktop setup.",
-      "keyFactors": ["Sound quality", "Size and footprint", "Connectivity", "Power source", "Bass response"],
+      "keyFactors": [
+        "Sound quality",
+        "Size and footprint",
+        "Connectivity",
+        "Power source",
+        "Bass response"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -226,7 +316,13 @@
       "metaDescription": "We compared laptop stands for height adjustability, stability, and ventilation. These picks bring your screen to eye level and keep your laptop running cool.",
       "priceRange": "$20–$120",
       "buyingGuideIntro": "Using a laptop flat on your desk forces you to hunch forward and look down, which puts enormous strain on your neck over a long day. A laptop stand raises your screen to eye level in seconds and dramatically improves your sitting posture.",
-      "keyFactors": ["Height adjustment", "Stability", "Laptop size compatibility", "Portability", "Ventilation"],
+      "keyFactors": [
+        "Height adjustment",
+        "Stability",
+        "Laptop size compatibility",
+        "Portability",
+        "Ventilation"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -241,7 +337,13 @@
       "metaDescription": "We tested desk organizers for compartment design, material quality, and real-world usability. These picks keep your desktop clutter-free without sacrificing style.",
       "priceRange": "$15–$100",
       "buyingGuideIntro": "A well-organized desk reduces cognitive load and helps you stay focused — when everything has a designated place, you spend less time searching and more time working. Look for organizers that match your workflow, not just your aesthetic.",
-      "keyFactors": ["Compartments", "Material quality", "Desk footprint", "Modular design", "Aesthetic"],
+      "keyFactors": [
+        "Compartments",
+        "Material quality",
+        "Desk footprint",
+        "Modular design",
+        "Aesthetic"
+      ],
       "featured": false,
       "searchIndex": "OfficeProducts"
     },
@@ -256,7 +358,13 @@
       "metaDescription": "We tested power strips and surge protectors for outlet count, USB charging speed, and surge protection ratings. These are the best options for powering a full desk setup safely.",
       "priceRange": "$20–$120",
       "buyingGuideIntro": "A high-quality surge protector is the unsung hero of any desk setup — it powers all your devices while protecting them from voltage spikes that can silently damage expensive hardware. The best models also add USB charging and smart controls to simplify your cable situation.",
-      "keyFactors": ["Outlet count", "USB ports", "Surge protection rating", "Cord length", "Mount options"],
+      "keyFactors": [
+        "Outlet count",
+        "USB ports",
+        "Surge protection rating",
+        "Cord length",
+        "Mount options"
+      ],
       "featured": false,
       "searchIndex": "Electronics"
     },
@@ -271,7 +379,13 @@
       "metaDescription": "We tested ergonomic footrests for adjustability, surface comfort, and stability during long work sessions. These are the best footrests for improving circulation and reducing leg fatigue.",
       "priceRange": "$25–$90",
       "buyingGuideIntro": "For desk workers whose feet don't rest flat on the floor, a footrest is a critical ergonomic tool — it takes pressure off your lower back and improves circulation during long sitting sessions. Tilt range and surface texture are the most important factors to evaluate.",
-      "keyFactors": ["Height adjustment", "Surface texture", "Tilt range", "Size", "Anti-slip base"],
+      "keyFactors": [
+        "Height adjustment",
+        "Surface texture",
+        "Tilt range",
+        "Size",
+        "Anti-slip base"
+      ],
       "featured": false,
       "searchIndex": "OfficeProducts"
     },
@@ -286,7 +400,13 @@
       "metaDescription": "We compared keyboard and mouse wrist rests across gel and memory foam options, testing comfort, durability, and ergonomic positioning. These are our top picks for reducing wrist strain.",
       "priceRange": "$10–$60",
       "buyingGuideIntro": "Wrist rests help keep your wrists in a neutral, flat position during typing and mousing, which reduces the repetitive strain that leads to discomfort over time. Choosing between gel and memory foam — and matching the size to your keyboard — makes all the difference in practice.",
-      "keyFactors": ["Material (gel vs memory foam)", "Size compatibility", "Surface texture", "Durability", "Ergonomic angle"],
+      "keyFactors": [
+        "Material (gel vs memory foam)",
+        "Size compatibility",
+        "Surface texture",
+        "Durability",
+        "Ergonomic angle"
+      ],
       "featured": false,
       "searchIndex": "OfficeProducts"
     }

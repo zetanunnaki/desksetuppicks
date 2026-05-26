@@ -8,7 +8,8 @@ const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
 const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
 const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "desksetuppro02-20";
 const MARKETPLACE = process.env.AMAZON_MARKETPLACE || "www.amazon.com";
-const MIN_RATING = 4.0;
+const MIN_RATING = 4.5;
+const MIN_REVIEW_COUNT = 50;
 const TARGET_PER_CATEGORY = 15;
 
 const TOKEN_ENDPOINT = "https://api.amazon.com/auth/o2/token";
@@ -165,6 +166,29 @@ const CATEGORY_SEARCH_INDEX = {
   "wrist-rests": "OfficeProducts",
 };
 
+const CATEGORY_LABELS = {
+  "standing-desks": "standing desk",
+  "ergonomic-chairs": "ergonomic chair",
+  "monitor-arms": "monitor arm",
+  "desk-mats": "desk mat",
+  "webcams": "webcam",
+  "keyboards": "mechanical keyboard",
+  "mice": "wireless mouse",
+  "monitors": "4K monitor",
+  "lighting": "desk light",
+  "cable-management": "cable management solution",
+  "headsets": "headset",
+  "usb-hubs": "USB hub",
+  "desk-shelves": "desk shelf",
+  "microphones": "microphone",
+  "speakers": "desktop speaker",
+  "laptop-stands": "laptop stand",
+  "desk-organizers": "desk organizer",
+  "power-strips": "power strip",
+  "footrests": "footrest",
+  "wrist-rests": "wrist rest",
+};
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -184,6 +208,29 @@ function determineBudgetTier(priceStr) {
   if (num < 50) return "budget";
   if (num < 200) return "mid-range";
   return "premium";
+}
+
+function inferUseCases(title, features, category, budgetTier) {
+  const cases = [];
+  const text = `${title} ${features.join(" ")}`.toLowerCase();
+
+  if (budgetTier === "budget") cases.push("Budget-Friendly");
+  if (budgetTier === "premium") cases.push("Premium Pick");
+
+  if (/home office|work from home|wfh/i.test(text)) cases.push("Work From Home");
+  if (/gaming/i.test(text)) cases.push("Gaming");
+  if (/streaming|podcast|content creat/i.test(text)) cases.push("Content Creation");
+  if (/portable|travel|foldable|compact/i.test(text)) cases.push("Portable");
+  if (/dual monitor|multi.?monitor/i.test(text)) cases.push("Multi-Monitor Setup");
+  if (/small desk|small space|compact/i.test(text)) cases.push("Small Spaces");
+  if (/ergonomic|posture|back support|lumbar/i.test(text)) cases.push("Ergonomic");
+  if (/quiet|silent|noise cancel/i.test(text)) cases.push("Quiet Environment");
+  if (/usb.?c|thunderbolt/i.test(text)) cases.push("USB-C Setup");
+  if (/wireless|bluetooth/i.test(text)) cases.push("Wireless");
+  if (/minimalist|clean|sleek/i.test(text)) cases.push("Minimalist Setup");
+
+  if (cases.length === 0) cases.push("General Use");
+  return cases;
 }
 
 let accessToken = null;
@@ -233,6 +280,7 @@ async function searchItems(keywords, searchIndex, page = 1) {
       "itemInfo.features",
       "offersV2.listings.price",
       "offersV2.listings.condition",
+      "offersV2.listings.availability",
       "images.primary.large",
       "customerReviews.starRating",
       "customerReviews.count",
@@ -279,10 +327,27 @@ function extractProduct(item, category) {
     item.CustomerReviews?.StarRating?.Value;
   const ratingValue = rating != null ? parseFloat(rating) : null;
 
-  if (ratingValue !== null && ratingValue < MIN_RATING) return null;
+  if (ratingValue === null || ratingValue < MIN_RATING) return null;
+
+  const reviewCount =
+    item.customerReviews?.count ??
+    item.CustomerReviews?.Count ??
+    null;
+
+  if (reviewCount === null || reviewCount < MIN_REVIEW_COUNT) return null;
 
   const listings = item.offersV2?.listings || item.Offers?.Listings || [];
   const firstListing = listings[0];
+
+  if (!firstListing) return null;
+
+  const availability =
+    firstListing?.availability?.message ||
+    firstListing?.availability?.type ||
+    firstListing?.Availability?.Message ||
+    null;
+
+  if (availability && /out of stock|unavailable/i.test(availability)) return null;
 
   const title =
     item.itemInfo?.title?.displayValue ||
@@ -296,10 +361,6 @@ function extractProduct(item, category) {
     item.images?.primary?.large?.url ||
     item.Images?.Primary?.Large?.URL ||
     null;
-  const reviewCount =
-    item.customerReviews?.count ??
-    item.CustomerReviews?.Count ??
-    null;
   const detailPageUrl = item.detailPageURL || item.DetailPageURL || null;
   const asin = item.asin || item.ASIN;
   const features =
@@ -308,30 +369,48 @@ function extractProduct(item, category) {
     [];
 
   const slug = slugify(title);
-  const id = slug;
+  const categoryLabel = CATEGORY_LABELS[category] || category;
+  const budgetTier = determineBudgetTier(price);
 
   const pros = features.slice(0, 4).map((f) =>
-    f.length > 120 ? f.substring(0, 117) + "..." : f
+    f.length > 150 ? f.substring(0, 147) + "..." : f
   );
 
+  const shortDesc = features[0]
+    ? features[0].length > 160
+      ? features[0].substring(0, 157) + "..."
+      : features[0]
+    : `A ${ratingValue}-star rated ${categoryLabel} backed by ${reviewCount.toLocaleString()} customer reviews on Amazon.`;
+
+  const useCases = inferUseCases(title, features, category, budgetTier);
+
   return {
-    id,
+    id: slug,
     name: title,
     slug,
     category,
-    shortDescription: features[0] || `Top-rated ${title} with ${ratingValue || "high"}/5 stars on Amazon.`,
+    shortDescription: shortDesc,
     prosAndCons: {
-      pros: pros.length > 0 ? pros : [`Highly rated at ${ratingValue}/5 stars on Amazon`],
-      cons: ["See Amazon listing for full details"],
+      pros:
+        pros.length >= 2
+          ? pros
+          : [
+              `Rated ${ratingValue}/5 stars with ${reviewCount.toLocaleString()} verified reviews`,
+              `${price ? `Available at ${price}` : "Competitively priced"} — ${budgetTier} tier`,
+            ],
+      cons: [
+        "Review full specifications on the Amazon listing before purchasing",
+        "Availability and pricing may vary",
+      ],
     },
     specifications: {},
     priceRange: price || "Check Amazon",
-    rating: ratingValue || 4.5,
+    rating: ratingValue,
     affiliateUrl: "",
     asin,
     imageUrl: `/images/products/${slug}.webp`,
     imagePlaceholder: title,
-    badges: ratingValue && ratingValue >= 4.7 ? ["Top Rated"] : [],
+    badges: ratingValue >= 4.8 ? ["Top Rated"] : [],
     featured: false,
     rank: 99,
     dateAdded: new Date().toISOString().split("T")[0],
@@ -342,8 +421,8 @@ function extractProduct(item, category) {
     reviewCount,
     amazonUrl: detailPageUrl,
     lastAmazonSync: new Date().toISOString().split("T")[0],
-    budgetTier: determineBudgetTier(price),
-    useCases: [],
+    budgetTier,
+    useCases,
   };
 }
 
@@ -373,7 +452,7 @@ async function discoverForCategory(category) {
         if (product) {
           products.push(product);
           console.log(
-            `    + ${product.name.substring(0, 60)} | ${product.amazonRating}/5 | ${product.amazonPrice || "?"}`
+            `    + ${product.name.substring(0, 55)} | ${product.amazonRating}/5 | ${product.reviewCount.toLocaleString()} reviews | ${product.amazonPrice || "?"}`
           );
         }
 
@@ -386,7 +465,6 @@ async function discoverForCategory(category) {
     await sleep(1100);
   }
 
-  // Rank by rating (highest first), then review count
   products.sort((a, b) => {
     const rDiff = (b.amazonRating || 0) - (a.amazonRating || 0);
     if (rDiff !== 0) return rDiff;
@@ -394,7 +472,10 @@ async function discoverForCategory(category) {
   });
   products.forEach((p, i) => {
     p.rank = i + 1;
-    if (i === 0 && p.amazonRating >= 4.5) p.badges = ["Editor's Choice"];
+    if (i === 0 && p.amazonRating >= 4.7) {
+      p.badges = ["Editor's Choice"];
+      p.featured = true;
+    }
   });
 
   return products;
@@ -403,7 +484,7 @@ async function discoverForCategory(category) {
 async function main() {
   console.log("=== Amazon Product Discovery ===");
   console.log(`Target: ~${TARGET_PER_CATEGORY} products per category`);
-  console.log(`Minimum rating: ${MIN_RATING}+ stars`);
+  console.log(`Quality bar: ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock`);
   console.log(`Categories: ${Object.keys(CATEGORY_SEARCH_QUERIES).length}\n`);
 
   const categoriesFile = "src/content/categories.json";
@@ -423,16 +504,14 @@ async function main() {
     console.log(`\n[${category.toUpperCase()}]`);
     const products = await discoverForCategory(category);
 
-    // Filter out products we already have
     const novel = products.filter((p) => !existingAsins.has(p.asin));
     novel.forEach((p) => existingAsins.add(p.asin));
     allNewProducts.push(...novel);
 
     console.log(
-      `  Found ${products.length} products, ${novel.length} new\n`
+      `  Found ${products.length} qualifying products, ${novel.length} new\n`
     );
 
-    // Update category productCount
     const cat = categoriesData.categories.find((c) => c.id === category);
     if (cat) {
       const existingCount = existingData.products.filter(
@@ -442,7 +521,6 @@ async function main() {
     }
   }
 
-  // Merge with existing products
   existingData.products.push(...allNewProducts);
 
   fs.writeFileSync(productsFile, JSON.stringify(existingData, null, 2) + "\n");
@@ -454,8 +532,8 @@ async function main() {
   console.log("=== Discovery Complete ===");
   console.log(`New products discovered: ${allNewProducts.length}`);
   console.log(`Total products now: ${existingData.products.length}`);
+  console.log(`All products meet: ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock`);
   console.log(`Written to: ${productsFile}`);
-  console.log(`Categories updated: ${categoriesFile}`);
 }
 
 main().catch((err) => {
