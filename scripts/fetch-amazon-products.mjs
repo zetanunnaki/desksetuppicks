@@ -1,25 +1,20 @@
 import "dotenv/config";
 import fs from "fs";
-import ProductAdvertisingAPIv1 from "paapi5-nodejs-sdk";
 
-const ACCESS_KEY = process.env.AMAZON_ACCESS_KEY;
-const SECRET_KEY = process.env.AMAZON_SECRET_KEY;
-const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "desksetuppicks-20";
+const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
+const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
+const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "desksetuppro02-20";
 const MARKETPLACE = process.env.AMAZON_MARKETPLACE || "www.amazon.com";
 const MIN_RATING = 4.0;
 
-if (!ACCESS_KEY || !SECRET_KEY) {
-  console.error("Missing AMAZON_ACCESS_KEY or AMAZON_SECRET_KEY in .env.local");
-  process.exit(1);
+const TOKEN_ENDPOINT = "https://api.amazon.com/auth/o2/token";
+const API_BASE = "https://creatorsapi.amazon/catalog/v1";
+
+if (!CLIENT_ID || !CLIENT_SECRET) {
+  console.warn("AMAZON_CLIENT_ID or AMAZON_CLIENT_SECRET not set — skipping product enrichment.");
+  console.warn("  Products will use existing data from products.json.");
+  process.exit(0);
 }
-
-const defaultClient = ProductAdvertisingAPIv1.ApiClient.instance;
-defaultClient.accessKey = ACCESS_KEY;
-defaultClient.secretKey = SECRET_KEY;
-defaultClient.host = MARKETPLACE;
-defaultClient.region = "us-east-1";
-
-const api = new ProductAdvertisingAPIv1.DefaultApi();
 
 const CATEGORY_SEARCH_INDEX = {
   "standing-desks": "OfficeProducts",
@@ -38,48 +33,129 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+let accessToken = null;
+let tokenExpiresAt = 0;
+
+async function getAccessToken() {
+  if (accessToken && Date.now() < tokenExpiresAt - 60_000) {
+    return accessToken;
+  }
+
+  console.log("Authenticating with Amazon Creators API...");
+  const credentials = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString("base64");
+
+  const response = await fetch(TOKEN_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization: `Basic ${credentials}`,
+    },
+    body: "grant_type=client_credentials&scope=creatorsapi::default",
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Auth failed (${response.status}): ${body}`);
+  }
+
+  const data = await response.json();
+  accessToken = data.access_token;
+  tokenExpiresAt = Date.now() + data.expires_in * 1000;
+  console.log("Authenticated successfully.\n");
+  return accessToken;
+}
+
 async function searchProduct(productName, category) {
   const searchIndex = CATEGORY_SEARCH_INDEX[category] || "All";
+  const token = await getAccessToken();
 
-  const searchItemsRequest = new ProductAdvertisingAPIv1.SearchItemsRequest();
-  searchItemsRequest.PartnerTag = PARTNER_TAG;
-  searchItemsRequest.PartnerType = "Associates";
-  searchItemsRequest.Keywords = productName;
-  searchItemsRequest.SearchIndex = searchIndex;
-  searchItemsRequest.ItemCount = 3;
-  searchItemsRequest.Resources = [
-    "ItemInfo.Title",
-    "Offers.Listings.Price",
-    "Offers.Listings.SavingBasis",
-    "Images.Primary.Large",
-    "CustomerReviews.StarRating",
-    "CustomerReviews.Count",
-    "BrowseNodeInfo.BrowseNodes",
-  ];
+  const body = {
+    keywords: productName,
+    searchIndex,
+    itemCount: 3,
+    partnerTag: PARTNER_TAG,
+    partnerType: "Associates",
+    resources: [
+      "itemInfo.title",
+      "offersV2.listings.price",
+      "offersV2.listings.savingBasis",
+      "images.primary.large",
+      "customerReviews.starRating",
+      "customerReviews.count",
+    ],
+  };
 
   try {
-    const data = await api.searchItems(searchItemsRequest);
+    const response = await fetch(`${API_BASE}/searchItems`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "x-marketplace": MARKETPLACE,
+      },
+      body: JSON.stringify(body),
+    });
 
-    if (!data.SearchResult || !data.SearchResult.Items || data.SearchResult.Items.length === 0) {
+    if (response.status === 429) {
+      console.warn(`  Rate limited — waiting 2s and retrying...`);
+      await sleep(2000);
+      return searchProduct(productName, category);
+    }
+
+    if (!response.ok) {
+      const errBody = await response.text();
+      console.error(`  API error (${response.status}) for "${productName}": ${errBody}`);
+      return null;
+    }
+
+    const data = await response.json();
+
+    const items =
+      data.searchResult?.items ||
+      data.SearchResult?.Items ||
+      [];
+
+    if (items.length === 0) {
       console.warn(`  No results for: ${productName}`);
       return null;
     }
 
-    for (const item of data.SearchResult.Items) {
-      const starRating = item.CustomerReviews?.StarRating?.Value;
-      const ratingValue = starRating ? parseFloat(starRating) : null;
+    for (const item of items) {
+      const starRating =
+        item.customerReviews?.starRating?.value ??
+        item.CustomerReviews?.StarRating?.Value;
+      const ratingValue = starRating != null ? parseFloat(starRating) : null;
 
       if (ratingValue !== null && ratingValue < MIN_RATING) {
-        console.warn(`  Skipping "${item.ItemInfo?.Title?.DisplayValue}" — rating ${ratingValue} < ${MIN_RATING}`);
+        console.warn(
+          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — rating ${ratingValue} < ${MIN_RATING}`
+        );
         continue;
       }
 
-      const price = item.Offers?.Listings?.[0]?.Price?.DisplayAmount || null;
-      const listPrice = item.Offers?.Listings?.[0]?.SavingBasis?.DisplayAmount || null;
-      const imageUrl = item.Images?.Primary?.Large?.URL || null;
-      const reviewCount = item.CustomerReviews?.Count || null;
-      const detailPageUrl = item.DetailPageURL || null;
-      const asin = item.ASIN;
+      const listings =
+        item.offersV2?.listings || item.Offers?.Listings || [];
+      const firstListing = listings[0];
+
+      const price =
+        firstListing?.price?.displayAmount ||
+        firstListing?.Price?.DisplayAmount ||
+        null;
+      const listPrice =
+        firstListing?.savingBasis?.displayAmount ||
+        firstListing?.SavingBasis?.DisplayAmount ||
+        null;
+      const imageUrl =
+        item.images?.primary?.large?.url ||
+        item.Images?.Primary?.Large?.URL ||
+        null;
+      const reviewCount =
+        item.customerReviews?.count ??
+        item.CustomerReviews?.Count ??
+        null;
+      const detailPageUrl =
+        item.detailPageURL || item.DetailPageURL || null;
+      const asin = item.asin || item.ASIN;
 
       return {
         asin,
@@ -92,17 +168,19 @@ async function searchProduct(productName, category) {
       };
     }
 
-    console.warn(`  All results for "${productName}" below ${MIN_RATING} stars — skipping`);
+    console.warn(
+      `  All results for "${productName}" below ${MIN_RATING} stars — skipping`
+    );
     return null;
   } catch (error) {
-    const errMsg = error?.response?.body || error?.message || error;
-    console.error(`  API error for "${productName}":`, errMsg);
+    console.error(`  API error for "${productName}":`, error.message || error);
     return null;
   }
 }
 
 async function main() {
-  console.log("=== Amazon PA-API Product Enrichment ===");
+  console.log("=== Amazon Creators API Product Enrichment ===");
+  console.log(`Partner tag: ${PARTNER_TAG}`);
   console.log(`Minimum rating filter: ${MIN_RATING}+ stars\n`);
 
   const productsFile = "src/content/products.json";
@@ -111,7 +189,6 @@ async function main() {
 
   let enrichedCount = 0;
   let skippedCount = 0;
-  let errorCount = 0;
   const today = new Date().toISOString().split("T")[0];
 
   for (let i = 0; i < products.length; i++) {
@@ -130,12 +207,13 @@ async function main() {
       product.amazonUrl = result.amazonUrl;
       product.lastAmazonSync = today;
       enrichedCount++;
-      console.log(`  ✓ Found: ${result.amazonPrice || "no price"} | ${result.amazonRating || "?"}/5 | ${result.reviewCount || 0} reviews`);
+      console.log(
+        `  Found: ${result.amazonPrice || "no price"} | ${result.amazonRating || "?"}/5 | ${result.reviewCount || 0} reviews`
+      );
     } else {
       skippedCount++;
     }
 
-    // Respect PA-API rate limit: 1 request per second
     if (i < products.length - 1) {
       await sleep(1100);
     }
@@ -146,7 +224,6 @@ async function main() {
   console.log("\n=== Summary ===");
   console.log(`Enriched: ${enrichedCount}`);
   console.log(`Skipped (low rating / not found): ${skippedCount}`);
-  console.log(`Errors: ${errorCount}`);
   console.log(`Products written to: ${productsFile}`);
 }
 

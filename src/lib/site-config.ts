@@ -6,7 +6,7 @@ export const SITE = {
   locale: "en_US",
   twitter: "@desksetuppicks",
   defaultOgImage: "/images/og/default.webp",
-  amazonTag: "desksetuppicks-20",
+  amazonTag: "desksetuppro02-20",
   social: {
     twitter: "https://twitter.com/desksetuppicks",
     pinterest: "https://pinterest.com/desksetuppicks",
