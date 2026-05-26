@@ -30,6 +30,16 @@ const CATEGORY_SEARCH_INDEX = {
   "monitors": "Electronics",
   "lighting": "Tools",
   "cable-management": "OfficeProducts",
+  "headsets": "Electronics",
+  "usb-hubs": "Electronics",
+  "desk-shelves": "OfficeProducts",
+  "microphones": "Electronics",
+  "speakers": "Electronics",
+  "laptop-stands": "Electronics",
+  "desk-organizers": "OfficeProducts",
+  "power-strips": "Electronics",
+  "footrests": "OfficeProducts",
+  "wrist-rests": "OfficeProducts",
 };
 
 function sleep(ms) {

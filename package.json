@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "fetch-products": "node scripts/fetch-amazon-products.mjs",
+    "discover-products": "node scripts/discover-products.mjs",
     "build": "node scripts/fetch-amazon-products.mjs && node scripts/generate-sitemap.mjs && next build",
     "build:no-fetch": "node scripts/generate-sitemap.mjs && next build",
     "start": "next start",

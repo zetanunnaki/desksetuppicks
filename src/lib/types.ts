@@ -42,6 +42,8 @@ export interface Product {
   reviewCount?: number;
   amazonUrl?: string;
   lastAmazonSync?: string;
+  budgetTier?: "budget" | "mid-range" | "premium";
+  useCases?: string[];
 }
 
 export interface Guide {
