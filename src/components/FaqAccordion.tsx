@@ -16,7 +16,6 @@ export function FaqAccordion({ faqs }: { faqs: FaqItem[] }) {
     setOpenIndex((prev) => (prev === idx ? null : idx));
   };
 
-  // JSON-LD FAQPage schema
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -44,46 +43,60 @@ export function FaqAccordion({ faqs }: { faqs: FaqItem[] }) {
         </h2>
       </div>
 
-      <div className="space-y-4">
-        {faqs.map((faq, idx) => (
-          <div
-            key={idx}
-            className="glass-card rounded-[2rem] overflow-hidden"
-          >
-            <button
-              onClick={() => toggle(idx)}
-              className="w-full flex items-center justify-between p-8 text-left group"
+      <div className="space-y-3">
+        {faqs.map((faq, idx) => {
+          const isOpen = openIndex === idx;
+          return (
+            <div
+              key={idx}
+              className={`glass-card rounded-[2rem] overflow-hidden transition-colors duration-300 ${
+                isOpen ? "border-indigo-500/30" : ""
+              }`}
             >
-              <span className="text-base md:text-lg font-bold text-white pr-8 group-hover:text-indigo-300 transition-colors">
-                {faq.question}
-              </span>
-              <motion.span
-                animate={{ rotate: openIndex === idx ? 90 : 0 }}
-                transition={{ duration: 0.2 }}
-                className="flex-none"
+              <button
+                onClick={() => toggle(idx)}
+                className="w-full flex items-center gap-5 p-6 md:p-8 text-left group"
               >
-                <ChevronRight className="w-5 h-5 text-slate-500" />
-              </motion.span>
-            </button>
-            <AnimatePresence initial={false}>
-              {openIndex === idx && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
-                  className="overflow-hidden"
+                <span className={`text-[10px] font-black tracking-widest transition-colors duration-300 ${
+                  isOpen ? "text-indigo-400" : "text-slate-700"
+                }`}>
+                  {String(idx + 1).padStart(2, "0")}
+                </span>
+                <span className={`flex-1 text-base md:text-lg font-bold transition-colors duration-300 ${
+                  isOpen ? "text-indigo-300" : "text-white group-hover:text-indigo-300"
+                }`}>
+                  {faq.question}
+                </span>
+                <motion.span
+                  animate={{ rotate: isOpen ? 90 : 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="flex-none"
                 >
-                  <div className="px-8 pb-8">
-                    <p className="text-sm text-slate-400 leading-relaxed">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-        ))}
+                  <ChevronRight className={`w-5 h-5 transition-colors duration-300 ${
+                    isOpen ? "text-indigo-400" : "text-slate-600"
+                  }`} />
+                </motion.span>
+              </button>
+              <AnimatePresence initial={false}>
+                {isOpen && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <div className="px-6 md:px-8 pb-6 md:pb-8 pl-[3.75rem] md:pl-[4.75rem]">
+                      <p className="text-sm text-slate-400 leading-relaxed">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

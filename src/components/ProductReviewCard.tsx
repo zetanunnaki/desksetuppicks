@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Check, X } from "lucide-react";
+import { Check, X, Package } from "lucide-react";
 import { StarRating } from "./StarRating";
 import { Badge } from "./Badge";
 import { AffiliateButton } from "./AffiliateButton";
@@ -55,30 +55,37 @@ export function ProductReviewCard({
       </div>
 
       {/* Product image */}
-      <div className="aspect-[21/9] rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 mb-12 flex items-center justify-center overflow-hidden">
+      <div className="aspect-[21/9] rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800/50 mb-12 flex items-center justify-center overflow-hidden relative group">
         {product.amazonImageUrl ? (
           <img
             src={product.amazonImageUrl}
             alt={product.name}
-            className="max-h-full object-contain p-8"
+            loading="lazy"
+            className="max-h-full object-contain p-8 group-hover:scale-105 transition-transform duration-700"
           />
         ) : (
-          <span className="text-xs text-slate-700 font-black uppercase tracking-widest">
-            {product.imagePlaceholder}
-          </span>
+          <div className="flex flex-col items-center gap-3">
+            <Package className="w-16 h-16 text-slate-800" />
+            <span className="text-xs text-slate-700 font-bold uppercase tracking-widest">
+              Photo coming soon
+            </span>
+          </div>
         )}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Pros and Cons */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-        <div className="glass-card p-8 border-emerald-500/10">
+        <div className="glass-card p-8 border-l-2 border-l-emerald-500/30 hover:border-l-emerald-500/60 transition-colors">
           <h3 className="text-xs font-black text-emerald-400 uppercase tracking-widest mb-6">
             What We Love
           </h3>
           <ul className="space-y-4">
             {product.prosAndCons.pros.map((pro, i) => (
               <li key={i} className="flex items-start space-x-3">
-                <Check className="w-4 h-4 text-emerald-400 mt-0.5 flex-none" />
+                <div className="w-5 h-5 rounded-full bg-emerald-500/10 flex items-center justify-center flex-none mt-0.5">
+                  <Check className="w-3 h-3 text-emerald-400" />
+                </div>
                 <span className="text-sm text-slate-300 leading-relaxed">
                   {pro}
                 </span>
@@ -86,14 +93,16 @@ export function ProductReviewCard({
             ))}
           </ul>
         </div>
-        <div className="glass-card p-8 border-rose-500/10">
+        <div className="glass-card p-8 border-l-2 border-l-rose-500/30 hover:border-l-rose-500/60 transition-colors">
           <h3 className="text-xs font-black text-rose-400 uppercase tracking-widest mb-6">
             What Could Improve
           </h3>
           <ul className="space-y-4">
             {product.prosAndCons.cons.map((con, i) => (
               <li key={i} className="flex items-start space-x-3">
-                <X className="w-4 h-4 text-rose-400 mt-0.5 flex-none" />
+                <div className="w-5 h-5 rounded-full bg-rose-500/10 flex items-center justify-center flex-none mt-0.5">
+                  <X className="w-3 h-3 text-rose-400" />
+                </div>
                 <span className="text-sm text-slate-300 leading-relaxed">
                   {con}
                 </span>
@@ -104,7 +113,7 @@ export function ProductReviewCard({
       </div>
 
       {/* Verdict */}
-      <div className="mb-12">
+      <div className="mb-12 relative pl-6 border-l-2 border-indigo-500/30">
         <p className="text-2xl md:text-3xl text-white font-bold italic leading-relaxed">
           &ldquo;{product.shortDescription}&rdquo;
         </p>
@@ -117,7 +126,7 @@ export function ProductReviewCard({
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
           {specs.map(([key, value]) => (
-            <div key={key}>
+            <div key={key} className="p-3 rounded-xl bg-slate-800/30">
               <span className="text-[10px] font-bold text-slate-600 uppercase tracking-widest block mb-1">
                 {key}
               </span>
@@ -125,10 +134,10 @@ export function ProductReviewCard({
             </div>
           ))}
         </div>
-        <div className="flex flex-col xl:flex-row items-start xl:items-center gap-4">
+        <div className="flex flex-col xl:flex-row items-start xl:items-center gap-4 pt-4 border-t border-slate-800/50">
           <AffiliateButton asin={product.asin} amazonUrl={product.amazonUrl} />
           <div className="flex flex-col">
-            <span className="text-sm text-white font-bold">{displayPrice}</span>
+            <span className="text-lg text-white font-black">{displayPrice}</span>
             {product.amazonListPrice && product.amazonPrice !== product.amazonListPrice && (
               <span className="text-xs text-slate-500 line-through">
                 {product.amazonListPrice}
