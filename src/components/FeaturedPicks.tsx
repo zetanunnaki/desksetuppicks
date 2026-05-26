@@ -37,8 +37,14 @@ export function FeaturedPicks() {
               transition={{ delay: idx * 0.1 }}
               className="glass-card glass-card-hover group p-2 relative"
             >
-              {/* Image placeholder */}
               <div className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem] mb-6 bg-gradient-to-br from-slate-800 to-slate-900">
+                {product.amazonImageUrl && (
+                  <img
+                    src={product.amazonImageUrl}
+                    alt={product.name}
+                    className="absolute inset-0 w-full h-full object-contain p-6"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />
                 {product.badges.includes("Editor's Choice") && (
                   <div className="absolute top-4 left-4">
@@ -49,10 +55,19 @@ export function FeaturedPicks() {
                   <div className="bg-slate-950/60 backdrop-blur-md px-3 py-1 rounded-lg border border-slate-700/50">
                     <div className="flex items-center space-x-1">
                       <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                      <span className="text-xs font-bold text-white">{product.rating}</span>
+                      <span className="text-xs font-bold text-white">
+                        {product.amazonRating || product.rating}
+                      </span>
+                      {product.reviewCount && (
+                        <span className="text-[10px] text-slate-400">
+                          ({product.reviewCount.toLocaleString()})
+                        </span>
+                      )}
                     </div>
                   </div>
-                  <span className="text-xl font-black text-white">{product.priceRange}</span>
+                  <span className="text-xl font-black text-white">
+                    {product.amazonPrice || product.priceRange}
+                  </span>
                 </div>
               </div>
 

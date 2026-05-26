@@ -3,16 +3,18 @@ import { amazonLink } from "@/lib/affiliate";
 
 interface AffiliateButtonProps {
   asin: string;
+  amazonUrl?: string;
   label?: string;
   variant?: "primary" | "table";
 }
 
 export function AffiliateButton({
   asin,
+  amazonUrl,
   label = "Check Retailer Price",
   variant = "primary",
 }: AffiliateButtonProps) {
-  const href = amazonLink(asin);
+  const href = amazonLink(asin, amazonUrl);
 
   if (variant === "table") {
     return (

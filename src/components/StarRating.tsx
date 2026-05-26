@@ -1,6 +1,12 @@
 import { Star } from "lucide-react";
 
-export function StarRating({ rating }: { rating: number }) {
+export function StarRating({
+  rating,
+  reviewCount,
+}: {
+  rating: number;
+  reviewCount?: number;
+}) {
   return (
     <div className="flex items-center space-x-1">
       {[...Array(5)].map((_, i) => (
@@ -14,6 +20,11 @@ export function StarRating({ rating }: { rating: number }) {
         />
       ))}
       <span className="ml-2 text-sm font-bold text-white">{rating}</span>
+      {reviewCount != null && (
+        <span className="ml-1 text-xs text-slate-500">
+          ({reviewCount.toLocaleString()})
+        </span>
+      )}
     </div>
   );
 }

@@ -25,7 +25,7 @@ export function ComparisonTable({ products }: { products: Product[] }) {
   const sorted = [...products].sort((a, b) => {
     const mult = sortDir === "asc" ? 1 : -1;
     if (sortKey === "name") return mult * a.name.localeCompare(b.name);
-    return mult * (a.rating - b.rating);
+    return mult * ((a.amazonRating || a.rating) - (b.amazonRating || b.rating));
   });
 
   return (
@@ -66,6 +66,11 @@ export function ComparisonTable({ products }: { products: Product[] }) {
                     Price
                   </span>
                 </th>
+                <th className="text-left px-8 py-6">
+                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                    Reviews
+                  </span>
+                </th>
                 <th className="text-right px-8 py-6">
                   <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
                     Action
@@ -76,6 +81,8 @@ export function ComparisonTable({ products }: { products: Product[] }) {
             <tbody>
               {sorted.map((product, idx) => {
                 const isEditorChoice = product.badges.includes("Editor's Choice");
+                const displayPrice = product.amazonPrice || product.priceRange;
+                const displayRating = product.amazonRating || product.rating;
                 return (
                   <tr
                     key={product.id}
@@ -88,7 +95,15 @@ export function ComparisonTable({ products }: { products: Product[] }) {
                         <span className="text-xs font-black text-slate-600 w-6">
                           {String(idx + 1).padStart(2, "0")}
                         </span>
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 flex-none" />
+                        {product.amazonImageUrl ? (
+                          <img
+                            src={product.amazonImageUrl}
+                            alt={product.name}
+                            className="w-12 h-12 rounded-xl object-contain bg-white flex-none"
+                          />
+                        ) : (
+                          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 flex-none" />
+                        )}
                         <div>
                           <span className="text-sm font-bold text-white">
                             {product.name}
@@ -108,24 +123,35 @@ export function ComparisonTable({ products }: { products: Product[] }) {
                             className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-full"
                             initial={{ width: 0 }}
                             whileInView={{
-                              width: `${(product.rating / 5) * 100}%`,
+                              width: `${(displayRating / 5) * 100}%`,
                             }}
                             viewport={{ once: true }}
                             transition={{ duration: 1, ease: "easeOut" }}
                           />
                         </div>
                         <span className="text-sm font-black text-white">
-                          {product.rating}
+                          {displayRating}
                         </span>
                       </div>
                     </td>
                     <td className="px-8 py-6">
                       <span className="text-sm font-bold text-slate-300">
-                        {product.priceRange}
+                        {displayPrice}
+                      </span>
+                    </td>
+                    <td className="px-8 py-6">
+                      <span className="text-sm text-slate-400">
+                        {product.reviewCount
+                          ? product.reviewCount.toLocaleString()
+                          : "—"}
                       </span>
                     </td>
                     <td className="px-8 py-6 text-right">
-                      <AffiliateButton asin={product.asin} variant="table" />
+                      <AffiliateButton
+                        asin={product.asin}
+                        amazonUrl={product.amazonUrl}
+                        variant="table"
+                      />
                     </td>
                   </tr>
                 );
@@ -138,6 +164,8 @@ export function ComparisonTable({ products }: { products: Product[] }) {
         <div className="md:hidden divide-y divide-slate-800/30">
           {sorted.map((product, idx) => {
             const isEditorChoice = product.badges.includes("Editor's Choice");
+            const displayPrice = product.amazonPrice || product.priceRange;
+            const displayRating = product.amazonRating || product.rating;
             return (
               <div
                 key={product.id}
@@ -147,7 +175,15 @@ export function ComparisonTable({ products }: { products: Product[] }) {
                   <span className="text-xs font-black text-slate-600">
                     {String(idx + 1).padStart(2, "0")}
                   </span>
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-slate-800 to-slate-900 flex-none" />
+                  {product.amazonImageUrl ? (
+                    <img
+                      src={product.amazonImageUrl}
+                      alt={product.name}
+                      className="w-10 h-10 rounded-lg object-contain bg-white flex-none"
+                    />
+                  ) : (
+                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-slate-800 to-slate-900 flex-none" />
+                  )}
                   <div className="flex-1 min-w-0">
                     <span className="text-sm font-bold text-white block truncate">
                       {product.name}
@@ -166,21 +202,32 @@ export function ComparisonTable({ products }: { products: Product[] }) {
                         className="h-full bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-full"
                         initial={{ width: 0 }}
                         whileInView={{
-                          width: `${(product.rating / 5) * 100}%`,
+                          width: `${(displayRating / 5) * 100}%`,
                         }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, ease: "easeOut" }}
                       />
                     </div>
                     <span className="text-sm font-black text-white">
-                      {product.rating}
+                      {displayRating}
                     </span>
                   </div>
-                  <span className="text-sm font-bold text-slate-300">
-                    {product.priceRange}
-                  </span>
+                  <div className="flex items-center space-x-3">
+                    {product.reviewCount && (
+                      <span className="text-xs text-slate-500">
+                        {product.reviewCount.toLocaleString()} reviews
+                      </span>
+                    )}
+                    <span className="text-sm font-bold text-slate-300">
+                      {displayPrice}
+                    </span>
+                  </div>
                 </div>
-                <AffiliateButton asin={product.asin} variant="table" />
+                <AffiliateButton
+                  asin={product.asin}
+                  amazonUrl={product.amazonUrl}
+                  variant="table"
+                />
               </div>
             );
           })}
@@ -188,7 +235,7 @@ export function ComparisonTable({ products }: { products: Product[] }) {
 
         <div className="px-8 py-4 border-t border-slate-800/30">
           <p className="text-[10px] text-slate-600 italic">
-            Prices are checked every 24 hours. Gear availability may fluctuate.
+            Prices updated via Amazon Creators API. Availability may vary.
           </p>
         </div>
       </div>

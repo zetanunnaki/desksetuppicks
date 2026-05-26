@@ -17,6 +17,7 @@ export function ProductReviewCard({
   const num = String(index + 1).padStart(2, "0");
   const isEditorChoice = product.badges.includes("Editor's Choice");
   const specs = Object.entries(product.specifications);
+  const displayPrice = product.amazonPrice || product.priceRange;
 
   return (
     <motion.div
@@ -37,7 +38,10 @@ export function ProductReviewCard({
               {product.name}
             </h2>
             <div className="mt-3">
-              <StarRating rating={product.rating} />
+              <StarRating
+                rating={product.amazonRating || product.rating}
+                reviewCount={product.reviewCount}
+              />
             </div>
           </div>
         </div>
@@ -50,11 +54,19 @@ export function ProductReviewCard({
         )}
       </div>
 
-      {/* Image placeholder */}
-      <div className="aspect-[21/9] rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 mb-12 flex items-center justify-center">
-        <span className="text-xs text-slate-700 font-black uppercase tracking-widest">
-          {product.imagePlaceholder}
-        </span>
+      {/* Product image */}
+      <div className="aspect-[21/9] rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 mb-12 flex items-center justify-center overflow-hidden">
+        {product.amazonImageUrl ? (
+          <img
+            src={product.amazonImageUrl}
+            alt={product.name}
+            className="max-h-full object-contain p-8"
+          />
+        ) : (
+          <span className="text-xs text-slate-700 font-black uppercase tracking-widest">
+            {product.imagePlaceholder}
+          </span>
+        )}
       </div>
 
       {/* Pros and Cons */}
@@ -114,8 +126,15 @@ export function ProductReviewCard({
           ))}
         </div>
         <div className="flex flex-col xl:flex-row items-start xl:items-center gap-4">
-          <AffiliateButton asin={product.asin} />
-          <span className="text-sm text-slate-500">{product.priceRange}</span>
+          <AffiliateButton asin={product.asin} amazonUrl={product.amazonUrl} />
+          <div className="flex flex-col">
+            <span className="text-sm text-white font-bold">{displayPrice}</span>
+            {product.amazonListPrice && product.amazonPrice !== product.amazonListPrice && (
+              <span className="text-xs text-slate-500 line-through">
+                {product.amazonListPrice}
+              </span>
+            )}
+          </div>
         </div>
       </div>
     </motion.div>

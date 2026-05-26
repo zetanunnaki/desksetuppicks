@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-sitemap.mjs && next build",
+    "fetch-products": "node scripts/fetch-amazon-products.mjs",
+    "build": "node scripts/fetch-amazon-products.mjs && node scripts/generate-sitemap.mjs && next build",
+    "build:no-fetch": "node scripts/generate-sitemap.mjs && next build",
     "start": "next start",
     "lint": "eslint"
   },
