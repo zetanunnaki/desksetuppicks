@@ -153,9 +153,10 @@ async function searchProduct(productName, category) {
         item.CustomerReviews?.StarRating?.Value;
       const ratingValue = starRating != null ? parseFloat(starRating) : null;
 
-      if (ratingValue !== null && ratingValue < MIN_RATING) {
+      if (ratingValue === null || ratingValue < MIN_RATING) {
+        const title = item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue;
         console.warn(
-          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — rating ${ratingValue} < ${MIN_RATING}`
+          `  Skipping "${title}" — ${ratingValue === null ? "no rating data" : `rating ${ratingValue} < ${MIN_RATING}`}`
         );
         continue;
       }
@@ -165,9 +166,10 @@ async function searchProduct(productName, category) {
         item.CustomerReviews?.Count ??
         null;
 
-      if (reviewCount !== null && reviewCount < MIN_REVIEW_COUNT) {
+      if (reviewCount === null || reviewCount < MIN_REVIEW_COUNT) {
+        const title = item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue;
         console.warn(
-          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — only ${reviewCount} reviews (need ${MIN_REVIEW_COUNT}+)`
+          `  Skipping "${title}" — ${reviewCount === null ? "no review data" : `only ${reviewCount} reviews (need ${MIN_REVIEW_COUNT}+)`}`
         );
         continue;
       }
