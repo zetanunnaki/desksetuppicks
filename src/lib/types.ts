@@ -35,6 +35,13 @@ export interface Product {
   rank: number;
   dateAdded: string;
   lastUpdated: string;
+  amazonPrice?: string;
+  amazonListPrice?: string;
+  amazonImageUrl?: string;
+  amazonRating?: number;
+  reviewCount?: number;
+  amazonUrl?: string;
+  lastAmazonSync?: string;
 }
 
 export interface Guide {
