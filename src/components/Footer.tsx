@@ -1,9 +1,7 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
 import Link from "next/link";
-import { Laptop, CheckCircle2, Loader2 } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { Laptop } from "lucide-react";
 
 const editorialLinks = [
   { href: "/reviews/standing-desks", label: "Our Reviews" },
@@ -20,27 +18,14 @@ const companyLinks = [
 ];
 
 export function Footer() {
-  const [email, setEmail] = useState("");
-  const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    if (!email) return;
-    setStatus("loading");
-    setTimeout(() => {
-      setStatus("success");
-      setEmail("");
-    }, 1000);
-  };
-
   return (
     <footer className="bg-slate-950 pt-24 pb-12 border-t border-slate-900 relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-indigo-600/3 blur-[120px] rounded-full" />
 
       <div className="max-w-7xl mx-auto px-6 relative">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <Link href="/" className="flex items-center space-x-3 mb-8 group">
               <div className="p-2 bg-indigo-600 rounded-xl group-hover:bg-indigo-500 transition-colors">
                 <Laptop className="w-5 h-5 text-white" />
@@ -106,54 +91,6 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
-
-          {/* Newsletter */}
-          <div>
-            <h3 className="text-sm font-black text-white uppercase tracking-widest mb-6">
-              Stay in the Loop
-            </h3>
-            <p className="text-sm text-slate-500 leading-relaxed mb-6">
-              Weekly picks and setup inspiration, straight to your inbox.
-            </p>
-            <AnimatePresence mode="wait">
-              {status === "success" ? (
-                <motion.div
-                  key="success"
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className="flex items-center gap-2 py-3"
-                >
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                  <span className="text-sm text-emerald-400 font-bold">Subscribed!</span>
-                </motion.div>
-              ) : (
-                <motion.form
-                  key="form"
-                  className="space-y-3"
-                  onSubmit={handleSubmit}
-                >
-                  <input
-                    type="email"
-                    placeholder="Your email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-4 py-3 rounded-xl text-sm bg-slate-900/60 border border-slate-800/50 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 transition-colors"
-                  />
-                  <button
-                    type="submit"
-                    disabled={status === "loading"}
-                    className="w-full py-3 bg-indigo-600 text-white text-xs font-black rounded-xl hover:bg-indigo-500 transition-colors uppercase tracking-widest flex items-center justify-center gap-2 disabled:opacity-60"
-                  >
-                    {status === "loading" ? (
-                      <Loader2 className="w-4 h-4 animate-spin" />
-                    ) : (
-                      "Subscribe"
-                    )}
-                  </button>
-                </motion.form>
-              )}
-            </AnimatePresence>
           </div>
         </div>
 

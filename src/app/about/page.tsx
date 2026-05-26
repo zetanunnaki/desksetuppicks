@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Search, FlaskConical, PenLine, Shield, Users, Star } from "lucide-react";
-import { NewsletterCTA } from "@/components/NewsletterCTA";
 import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
@@ -186,7 +185,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <NewsletterCTA variant="full-width" />
       <BackToTop />
     </div>
   );

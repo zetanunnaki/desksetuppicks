@@ -6,7 +6,6 @@ import { getGuideBySlug } from "@/lib/data";
 import { getGuideContent, getAllGuideSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
-import { NewsletterCTA } from "@/components/NewsletterCTA";
 import { BackToTop } from "@/components/BackToTop";
 
 export function generateStaticParams() {
@@ -85,15 +84,10 @@ export default async function GuidePage({
 
       <AffiliateDisclosure />
 
-      <div className="section-container py-0 flex flex-col lg:flex-row gap-16">
-        <article className="flex-1 min-w-0">
+      <div className="section-container py-0">
+        <article className="max-w-3xl">
           <MdxContent source={content} />
         </article>
-        <aside className="lg:w-80 flex-none">
-          <div className="sticky top-32 space-y-8">
-            <NewsletterCTA variant="sidebar" />
-          </div>
-        </aside>
       </div>
 
       <BackToTop />

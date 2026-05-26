@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NewsletterCTA } from "@/components/NewsletterCTA";
 import type { Product } from "@/lib/types";
 
 const sections = [
@@ -95,8 +94,6 @@ export function Sidebar({ products }: { products: Product[] }) {
             })}
           </nav>
         </div>
-
-        <NewsletterCTA variant="sidebar" />
 
         <div className="w-full h-64 bg-slate-900/40 border border-slate-800/50 rounded-[2rem] flex items-center justify-center backdrop-blur-xl">
           <span className="text-[10px] text-slate-700 font-black tracking-widest uppercase italic">

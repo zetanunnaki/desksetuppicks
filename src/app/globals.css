@@ -120,5 +120,5 @@
 }
 
 @media print {
-  header, footer, .ad-slot, .newsletter-cta, .back-to-top { display: none !important; }
+  header, footer, .ad-slot, .back-to-top { display: none !important; }
 }

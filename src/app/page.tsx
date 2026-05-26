@@ -3,7 +3,6 @@ import { FeaturedPicks } from "@/components/FeaturedPicks";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { TrustSection } from "@/components/TrustSection";
 import { AdSlot } from "@/components/AdSlot";
-import { NewsletterCTA } from "@/components/NewsletterCTA";
 
 export default function HomePage() {
   return (
@@ -13,7 +12,6 @@ export default function HomePage() {
       <CategoryGrid />
       <AdSlot />
       <TrustSection />
-      <NewsletterCTA variant="full-width" />
     </div>
   );
 }
