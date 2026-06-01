@@ -8,8 +8,14 @@ const CLIENT_ID = process.env.AMAZON_CLIENT_ID;
 const CLIENT_SECRET = process.env.AMAZON_CLIENT_SECRET;
 const PARTNER_TAG = process.env.AMAZON_PARTNER_TAG || "desksetuppro02-20";
 const MARKETPLACE = process.env.AMAZON_MARKETPLACE || "www.amazon.com";
-const MIN_RATING = 4.5;
-const MIN_REVIEW_COUNT = 50;
+// NOTE: The Amazon Creators API (like PA-API 5.0) does NOT return star ratings
+// or review counts. Quality (4.5+ stars) is enforced via the human-curated
+// `rating` field already in products.json. This script enriches each product
+// with live ASIN, price, image, stock status, and affiliate URL only.
+const MIN_CURATED_RATING = 4.5;
+// Minimum token-overlap score required to trust an API result is the same
+// product we curated (prevents linking the wrong item, e.g. E6 vs E7).
+const MIN_MATCH_SCORE = 0.4;
 
 const TOKEN_ENDPOINT = "https://api.amazon.com/auth/o2/token";
 const API_BASE = "https://creatorsapi.amazon/catalog/v1";
@@ -29,7 +35,7 @@ const CATEGORY_SEARCH_INDEX = {
   "keyboards": "Electronics",
   "mice": "Electronics",
   "monitors": "Electronics",
-  "lighting": "Tools",
+  "lighting": "Electronics",
   "cable-management": "OfficeProducts",
   "headsets": "Electronics",
   "usb-hubs": "Electronics",
@@ -45,6 +51,30 @@ const CATEGORY_SEARCH_INDEX = {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+const STOPWORDS = new Set([
+  "the", "a", "an", "for", "with", "and", "of", "in", "to", "pro", "inch",
+  "desk", "office", "home", "computer", "premium",
+]);
+
+function tokenize(str) {
+  return (str || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((t) => t.length > 1 && !STOPWORDS.has(t));
+}
+
+// Fraction of the curated product-name tokens that appear in the candidate
+// title. 1.0 = every meaningful word matched. Used to avoid linking the wrong
+// variant (e.g. searching "FlexiSpot E7 Pro" and getting an "E6" result).
+function matchScore(productName, candidateTitle) {
+  const want = tokenize(productName);
+  if (want.length === 0) return 0;
+  const have = new Set(tokenize(candidateTitle));
+  const hits = want.filter((t) => have.has(t)).length;
+  return hits / want.length;
 }
 
 let accessToken = null;
@@ -79,6 +109,101 @@ async function getAccessToken() {
   return accessToken;
 }
 
+const ITEM_RESOURCES = [
+  "itemInfo.title",
+  "offersV2.listings.price",
+  "offersV2.listings.condition",
+  "offersV2.listings.availability",
+  "images.primary.large",
+];
+
+// Pull the buyable in-stock listing's price/list-price/availability from an item.
+function extractListing(item) {
+  const listings = item.offersV2?.listings || item.Offers?.Listings || [];
+  const listing = listings[0];
+  if (!listing) return null;
+
+  const availability =
+    listing?.availability?.message ||
+    listing?.availability?.type ||
+    listing?.Availability?.Message ||
+    "";
+  if (/out of stock|unavailable/i.test(availability)) return null;
+
+  const price =
+    listing?.price?.displayAmount ||
+    listing?.price?.money?.displayAmount ||
+    listing?.Price?.DisplayAmount ||
+    null;
+  if (!price) return null;
+
+  return {
+    amazonPrice: price,
+    amazonListPrice: listing?.price?.savingBasis?.money?.displayAmount || null,
+    amazonImageUrl:
+      item.images?.primary?.large?.url ||
+      item.Images?.Primary?.Large?.URL ||
+      null,
+    amazonUrl: item.detailPageURL || item.DetailPageURL || null,
+  };
+}
+
+// Exact lookup by ASIN — no fuzzy matching, always the correct product.
+async function getItemByAsin(asin) {
+  const token = await getAccessToken();
+  const body = {
+    itemIds: [asin],
+    itemIdType: "ASIN",
+    partnerTag: PARTNER_TAG,
+    partnerType: "Associates",
+    resources: ITEM_RESOURCES,
+  };
+
+  try {
+    const response = await fetch(`${API_BASE}/getItems`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+        "x-marketplace": MARKETPLACE,
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (response.status === 429) {
+      console.warn(`  Rate limited — waiting 2s and retrying...`);
+      await sleep(2000);
+      return getItemByAsin(asin);
+    }
+
+    if (!response.ok) {
+      const errBody = await response.text();
+      console.error(`  API error (${response.status}) for ASIN ${asin}: ${errBody}`);
+      return null;
+    }
+
+    const data = await response.json();
+    const items =
+      data.itemsResult?.items || data.ItemsResult?.Items || data.items || [];
+    const item = items[0];
+    if (!item) {
+      console.warn(`  ASIN ${asin} returned no item.`);
+      return null;
+    }
+
+    const listing = extractListing(item);
+    if (!listing) {
+      console.warn(`  ASIN ${asin} is out of stock or has no price.`);
+      return null;
+    }
+
+    return { asin, ...listing, matchScore: 1 };
+  } catch (error) {
+    console.error(`  API error for ASIN ${asin}:`, error.message || error);
+    return null;
+  }
+}
+
 async function searchProduct(productName, category) {
   const searchIndex = CATEGORY_SEARCH_INDEX[category] || "All";
   const token = await getAccessToken();
@@ -89,15 +214,7 @@ async function searchProduct(productName, category) {
     itemCount: 5,
     partnerTag: PARTNER_TAG,
     partnerType: "Associates",
-    resources: [
-      "itemInfo.title",
-      "offersV2.listings.price",
-      "offersV2.listings.condition",
-      "offersV2.listings.availability",
-      "images.primary.large",
-      "customerReviews.starRating",
-      "customerReviews.count",
-    ],
+    resources: ITEM_RESOURCES,
   };
 
   try {
@@ -147,83 +264,74 @@ async function searchProduct(productName, category) {
       return null;
     }
 
+    // Score every candidate by name match + in-stock + has-price, then pick
+    // the best. Ratings/reviews are NOT available from the API — quality is
+    // already guaranteed by the curated 4.5+ rating in products.json.
+    let best = null;
+
     for (const item of items) {
-      const starRating =
-        item.customerReviews?.starRating?.value ??
-        item.CustomerReviews?.StarRating?.Value;
-      const ratingValue = starRating != null ? parseFloat(starRating) : null;
+      const title =
+        item.itemInfo?.title?.displayValue ||
+        item.ItemInfo?.Title?.DisplayValue ||
+        "";
 
-      if (ratingValue === null || ratingValue < MIN_RATING) {
-        const title = item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue;
-        console.warn(
-          `  Skipping "${title}" — ${ratingValue === null ? "no rating data" : `rating ${ratingValue} < ${MIN_RATING}`}`
-        );
-        continue;
-      }
-
-      const reviewCount =
-        item.customerReviews?.count ??
-        item.CustomerReviews?.Count ??
-        null;
-
-      if (reviewCount === null || reviewCount < MIN_REVIEW_COUNT) {
-        const title = item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue;
-        console.warn(
-          `  Skipping "${title}" — ${reviewCount === null ? "no review data" : `only ${reviewCount} reviews (need ${MIN_REVIEW_COUNT}+)`}`
-        );
-        continue;
-      }
-
-      const listings =
-        item.offersV2?.listings || item.Offers?.Listings || [];
+      const listings = item.offersV2?.listings || item.Offers?.Listings || [];
       const firstListing = listings[0];
-
-      if (!firstListing) {
-        console.warn(
-          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — no offers (out of stock)`
-        );
-        continue;
-      }
+      if (!firstListing) continue; // no offer = no buyable stock
 
       const availability =
         firstListing?.availability?.message ||
         firstListing?.availability?.type ||
         firstListing?.Availability?.Message ||
-        null;
+        "";
 
-      if (availability && /out of stock|unavailable/i.test(availability)) {
-        console.warn(
-          `  Skipping "${item.itemInfo?.title?.displayValue || item.ItemInfo?.Title?.DisplayValue}" — ${availability}`
-        );
-        continue;
-      }
+      if (/out of stock|unavailable/i.test(availability)) continue;
 
       const price =
         firstListing?.price?.displayAmount ||
+        firstListing?.price?.money?.displayAmount ||
         firstListing?.Price?.DisplayAmount ||
         null;
-      const imageUrl =
-        item.images?.primary?.large?.url ||
-        item.Images?.Primary?.Large?.URL ||
-        null;
-      const detailPageUrl =
-        item.detailPageURL || item.DetailPageURL || null;
-      const asin = item.asin || item.ASIN;
+      if (!price) continue; // no price = can't display
 
-      return {
-        asin,
-        amazonPrice: price,
-        amazonImageUrl: imageUrl,
-        amazonRating: ratingValue,
-        reviewCount,
-        amazonUrl: detailPageUrl,
-      };
+      const score = matchScore(productName, title);
+      if (!best || score > best.score) {
+        best = {
+          score,
+          title,
+          asin: item.asin || item.ASIN,
+          amazonPrice: price,
+          amazonListPrice:
+            firstListing?.price?.savingBasis?.money?.displayAmount || null,
+          amazonImageUrl:
+            item.images?.primary?.large?.url ||
+            item.Images?.Primary?.Large?.URL ||
+            null,
+          amazonUrl: item.detailPageURL || item.DetailPageURL || null,
+        };
+      }
     }
 
-    console.warn(
-      `  No qualifying results for "${productName}" (need ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock)`
-    );
-    return null;
+    if (!best) {
+      console.warn(`  No in-stock results with a price for "${productName}"`);
+      return null;
+    }
+
+    if (best.score < MIN_MATCH_SCORE) {
+      console.warn(
+        `  Skipping "${productName}" — best match too weak (${(best.score * 100).toFixed(0)}%): "${best.title}"`
+      );
+      return null;
+    }
+
+    return {
+      asin: best.asin,
+      amazonPrice: best.amazonPrice,
+      amazonListPrice: best.amazonListPrice,
+      amazonImageUrl: best.amazonImageUrl,
+      amazonUrl: best.amazonUrl,
+      matchScore: best.score,
+    };
   } catch (error) {
     console.error(`  API error for "${productName}":`, error.message || error);
     return null;
@@ -233,7 +341,8 @@ async function searchProduct(productName, category) {
 async function main() {
   console.log("=== Amazon Creators API Product Enrichment ===");
   console.log(`Partner tag: ${PARTNER_TAG}`);
-  console.log(`Quality filters: ${MIN_RATING}+ stars, ${MIN_REVIEW_COUNT}+ reviews, in stock\n`);
+  console.log(`Curated quality bar: ${MIN_CURATED_RATING}+ stars (from products.json)`);
+  console.log(`API enriches: ASIN, price, image, stock, affiliate URL\n`);
 
   const productsFile = "src/content/products.json";
   const data = JSON.parse(fs.readFileSync(productsFile, "utf-8"));
@@ -245,21 +354,50 @@ async function main() {
 
   for (let i = 0; i < products.length; i++) {
     const product = products[i];
-    console.log(`[${i + 1}/${products.length}] Searching: ${product.name}`);
 
-    const result = await searchProduct(product.name, product.category);
+    // Enforce the curated quality bar before spending an API call.
+    if (typeof product.rating !== "number" || product.rating < MIN_CURATED_RATING) {
+      console.warn(
+        `[${i + 1}/${products.length}] Skipping "${product.name}" — curated rating ${product.rating ?? "—"} < ${MIN_CURATED_RATING}`
+      );
+      skippedCount++;
+      continue;
+    }
+
+    // ASIN is the only reliable input: keyword search matches the wrong
+    // variant too often (e.g. E7 Pro -> E6, "U2723DE" -> P2425H bundle).
+    // Products without a real ASIN are skipped, not searched, so wrong data
+    // can never enter the catalog. Set SEARCH_FALLBACK=1 to opt into search.
+    const hasAsin = product.asin && product.asin !== "PLACEHOLDER";
+
+    if (!hasAsin && process.env.SEARCH_FALLBACK !== "1") {
+      console.warn(
+        `[${i + 1}/${products.length}] Needs ASIN: "${product.name}" — no ASIN set, skipping (add ASIN to enrich)`
+      );
+      skippedCount++;
+      continue;
+    }
+
+    const mode = hasAsin ? "ASIN" : "Search";
+    console.log(`[${i + 1}/${products.length}] ${mode}: ${product.name}`);
+
+    const result = hasAsin
+      ? await getItemByAsin(product.asin)
+      : await searchProduct(product.name, product.category);
 
     if (result) {
       product.asin = result.asin;
       product.amazonPrice = result.amazonPrice;
+      if (result.amazonListPrice) product.amazonListPrice = result.amazonListPrice;
       product.amazonImageUrl = result.amazonImageUrl;
-      product.amazonRating = result.amazonRating;
-      product.reviewCount = result.reviewCount;
       product.amazonUrl = result.amazonUrl;
       product.lastAmazonSync = today;
       enrichedCount++;
+      const matchNote = hasAsin
+        ? "exact ASIN"
+        : `match ${(result.matchScore * 100).toFixed(0)}%`;
       console.log(
-        `  OK: ${result.amazonPrice || "no price"} | ${result.amazonRating}/5 | ${result.reviewCount} reviews`
+        `  OK: ${result.amazonPrice} | rating ${product.rating}/5 (curated) | ${matchNote} | ${result.asin}`
       );
     } else {
       skippedCount++;

@@ -4,18 +4,30 @@ import { useEffect, useState } from "react";
 import type { Product } from "@/lib/types";
 
 const sections = [
-  { id: "benchmarks", label: "Quick Benchmarks", num: "01" },
-  { id: "reviews", label: "Top Recommendations", num: "02" },
-  { id: "buying-guide", label: "Buying Guide", num: "03" },
-  { id: "faq", label: "The Setup FAQ", num: "04" },
+  { id: "benchmarks", label: "Introduction", num: "01" },
+  { id: "benchmarks", label: "The shortlist", num: "02" },
 ];
 
 export function Sidebar({ products }: { products: Product[] }) {
   const [activeId, setActiveId] = useState<string>("");
 
+  const productSections = products.map((p, idx) => ({
+    id: `review-${p.slug}`,
+    label: `${String(idx + 1).padStart(2, "0")} · ${p.name}`,
+    num: String(idx + 3).padStart(2, "0"),
+  }));
+
+  const allSections = [
+    ...sections,
+    ...productSections,
+    { id: "buying-guide", label: "How we test", num: String(products.length + 3).padStart(2, "0") },
+    { id: "faq", label: "FAQ", num: String(products.length + 4).padStart(2, "0") },
+  ];
+
   useEffect(() => {
-    const ids = [...sections.map((s) => s.id), ...products.map((p) => `review-${p.slug}`)];
-    const elements = ids.map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+    const ids = allSections.map((s) => s.id);
+    const unique = [...new Set(ids)];
+    const elements = unique.map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
 
     if (elements.length === 0) return;
 
@@ -36,70 +48,38 @@ export function Sidebar({ products }: { products: Product[] }) {
     return () => observer.disconnect();
   }, [products]);
 
-  const isActive = (id: string) => activeId === id;
-  const isInReviews = activeId.startsWith("review-");
-
   return (
-    <aside className="lg:w-80 flex-none z-10">
-      <div className="sticky top-32 space-y-8">
-        <div className="glass-card p-8">
-          <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-6">
-            Navigation Directory
-          </h3>
-          <nav className="space-y-3 text-sm">
-            {sections.map((section) => {
-              const active = isActive(section.id) || (section.id === "reviews" && isInReviews);
-              return (
-                <div key={section.id}>
-                  <a
-                    href={`#${section.id}`}
-                    className={`flex items-center space-x-3 py-1.5 transition-all duration-300 ${
-                      active
-                        ? "text-indigo-400"
-                        : "text-slate-400 hover:text-indigo-400"
-                    }`}
-                  >
-                    <span className={`text-[10px] font-black transition-colors duration-300 ${
-                      active ? "text-indigo-400" : "text-slate-600"
-                    }`}>
-                      {section.num}
-                    </span>
-                    <span className="font-bold">{section.label}</span>
-                    {active && (
-                      <span className="ml-auto w-1.5 h-1.5 rounded-full bg-indigo-400" />
-                    )}
-                  </a>
-                  {section.id === "reviews" && (
-                    <div className="ml-9 mt-1 space-y-1 border-l border-slate-800 pl-3">
-                      {products.map((product) => {
-                        const productActive = isActive(`review-${product.slug}`);
-                        return (
-                          <a
-                            key={product.id}
-                            href={`#review-${product.slug}`}
-                            className={`block text-xs py-1 transition-all duration-300 truncate ${
-                              productActive
-                                ? "text-indigo-400 translate-x-1"
-                                : "text-slate-500 hover:text-indigo-400"
-                            }`}
-                          >
-                            {product.name}
-                          </a>
-                        );
-                      })}
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </nav>
-        </div>
-
-        <div className="w-full h-64 bg-slate-900/40 border border-slate-800/50 rounded-[2rem] flex items-center justify-center backdrop-blur-xl">
-          <span className="text-[10px] text-slate-700 font-black tracking-widest uppercase italic">
-            [ Sponsored ]
-          </span>
-        </div>
+    <aside className="lg:w-56 flex-none z-10">
+      <div className="sticky top-32">
+        <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] mb-5">
+          On This Page
+        </p>
+        <nav className="space-y-0.5 text-sm">
+          {allSections.map((section, idx) => {
+            const active = activeId === section.id;
+            return (
+              <a
+                key={`${section.id}-${idx}`}
+                href={`#${section.id}`}
+                className={`flex items-center gap-3 px-3 py-2 rounded-lg transition-all duration-200 ${
+                  active
+                    ? "bg-indigo-500/10 text-indigo-400"
+                    : "text-slate-500 hover:text-slate-300"
+                }`}
+              >
+                <span className={`text-[10px] font-bold ${active ? "text-indigo-400" : "text-slate-700"}`}>
+                  {section.num}
+                </span>
+                <span className={`text-sm truncate ${active ? "font-bold" : "font-medium"}`}>
+                  {section.label}
+                </span>
+                {active && (
+                  <span className="ml-auto w-1.5 h-1.5 rounded-full bg-indigo-400 flex-none" />
+                )}
+              </a>
+            );
+          })}
+        </nav>
       </div>
     </aside>
   );

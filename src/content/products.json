@@ -1,118 +1,129 @@
 {
   "products": [
     {
-      "id": "flexispot-e7-pro",
-      "name": "FlexiSpot E7 Pro",
-      "slug": "flexispot-e7-pro",
+      "id": "flexispot-en1-48x24",
+      "name": "FlexiSpot EN1 Standing Desk 48×24",
+      "slug": "flexispot-en1-48x24",
       "category": "standing-desks",
-      "shortDescription": "The FlexiSpot E7 Pro is a dual-motor standing desk with industry-leading stability, a 355 lb weight capacity, and a 15-year warranty that outlasts the competition.",
+      "shortDescription": "The FlexiSpot EN1 pairs a seamless one-piece desktop with quiet electric height adjustment and 4 memory presets — rock-solid, wobble-free stability that handles dual monitors with ease.",
       "prosAndCons": {
         "pros": [
-          "Exceptionally stable even at full height with dual-motor dual-crossbar frame",
-          "355 lb weight capacity handles multi-monitor professional setups with ease",
-          "15-year warranty is the longest in the standing desk category",
-          "Memory controller supports 4 preset heights for quick transitions"
+          "Seamless one-piece desktop is noticeably more stable than two-piece tops",
+          "4 memory presets and quiet sub-50dB motor",
+          "176 lb capacity comfortably handles dual-monitor setups"
         ],
         "cons": [
-          "At $499 it sits at the higher end of the mid-range budget",
-          "Assembly takes 45–60 minutes and requires two people for the desktop"
+          "Single-motor lift is slower than dual-motor desks",
+          "48×24 footprint is compact for very large setups"
         ]
       },
       "specifications": {
-        "Weight Capacity": "355 lbs",
-        "Height Range": "22.8\"–48.4\"",
-        "Motor": "Dual motor, 2x350W",
-        "Warranty": "15 Years",
-        "Frame Colors": "White, Black, Gray"
+        "Top": "One-piece seamless",
+        "Size": "48 × 24 in",
+        "Capacity": "176 lbs",
+        "Presets": "4 memory",
+        "Frame": "Black"
       },
-      "priceRange": "$499",
-      "rating": 4.8,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/flexispot-e7-pro.webp",
-      "imagePlaceholder": "FlexiSpot E7 Pro standing desk in white with dual monitors",
-      "badges": [
-        "Editor's Choice"
-      ],
-      "featured": true,
-      "rank": 1,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "uplift-v2-commercial",
-      "name": "Uplift V2 Commercial",
-      "slug": "uplift-v2-commercial",
-      "category": "standing-desks",
-      "shortDescription": "The Uplift V2 Commercial is the premium workhorse of adjustable desks, with a 3-stage frame, superior wobble resistance, and a class-leading customization catalog.",
-      "prosAndCons": {
-        "pros": [
-          "3-stage legs provide extra height range ideal for very tall users",
-          "Vast desktop customization options including bamboo, laminate, and solid hardwood",
-          "Advanced keypad with activity tracking and anti-collision detection"
-        ],
-        "cons": [
-          "Pricing climbs quickly when adding premium desktop materials",
-          "Shipping lead times can reach 2–3 weeks for custom configurations",
-          "Base price for commercial frame is higher than most competitors"
-        ]
-      },
-      "specifications": {
-        "Weight Capacity": "330 lbs",
-        "Height Range": "22.6\"–49.2\"",
-        "Motor": "Dual motor",
-        "Warranty": "Lifetime on frame",
-        "Frame Stages": "3-stage"
-      },
-      "priceRange": "$799",
-      "rating": 4.7,
-      "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/uplift-v2-commercial.webp",
-      "imagePlaceholder": "Uplift V2 Commercial standing desk with bamboo desktop",
-      "badges": [
-        "Premium Pick"
-      ],
-      "featured": false,
-      "rank": 2,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
-    },
-    {
-      "id": "flexispot-e5",
-      "name": "FlexiSpot E5",
-      "slug": "flexispot-e5",
-      "category": "standing-desks",
-      "shortDescription": "The FlexiSpot E5 delivers a rock-solid dual-motor frame and 220 lb capacity at a price that undercuts the premium tier by $200 or more.",
-      "prosAndCons": {
-        "pros": [
-          "Dual-motor drive eliminates the sway common in single-motor alternatives",
-          "Quiet operation at just 45 dB makes transitions unobtrusive in shared spaces",
-          "Includes a child lock feature preventing accidental desk movement"
-        ],
-        "cons": [
-          "220 lb weight capacity is lower than flagship models",
-          "Desktop finish options are more limited than premium competitors"
-        ]
-      },
-      "specifications": {
-        "Weight Capacity": "220 lbs",
-        "Height Range": "23.6\"–49.2\"",
-        "Motor": "Dual motor",
-        "Warranty": "5 Years",
-        "Noise Level": "≤45 dB"
-      },
-      "priceRange": "$319",
+      "priceRange": "$139.99",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/flexispot-e5.webp",
-      "imagePlaceholder": "FlexiSpot E5 standing desk in black",
+      "asin": "B08BHPMYGK",
+      "imageUrl": "/images/products/flexispot-en1-48x24.webp",
+      "imagePlaceholder": "FlexiSpot EN1 Standing Desk 48×24",
+      "badges": [],
+      "featured": true,
+      "rank": 2,
+      "dateAdded": "2026-05-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$139.99",
+      "amazonListPrice": "$169.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41fVLrl+dnL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08BHPMYGK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "vari-classic-60x30",
+      "name": "Vari Classic Electric Standing Desk 60×30",
+      "slug": "vari-classic-60x30",
+      "category": "standing-desks",
+      "shortDescription": "The Vari Classic is the premium pick — a thick one-piece butcher-block top, dual-motor lift, 200 lb capacity, 4 memory presets, and patented under-10-minute assembly. Top-tier build for serious home offices.",
+      "prosAndCons": {
+        "pros": [
+          "Dual-motor lift is fast, quiet, and exceptionally stable",
+          "Thick one-piece butcher-block top with 200 lb capacity",
+          "Patented quick-attach assembly in under 10 minutes",
+          "Lifetime warranty from Vari"
+        ],
+        "cons": [
+          "Premium price well above budget desks",
+          "Large 60×30 footprint needs the space"
+        ]
+      },
+      "specifications": {
+        "Top": "One-piece butcher block",
+        "Size": "60 × 30 in",
+        "Capacity": "200 lbs",
+        "Motor": "Dual",
+        "Presets": "4 memory"
+      },
+      "priceRange": "$829.00",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B089CNX4B5",
+      "imageUrl": "/images/products/vari-classic-60x30.webp",
+      "imagePlaceholder": "Vari Classic Electric Standing Desk 60×30",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-05-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$829.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31fIg8iVOYL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B089CNX4B5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "ergear-egesd5b",
+      "name": "ErGear EGESD5B Standing Desk",
+      "slug": "ergear-egesd5b",
+      "category": "standing-desks",
+      "shortDescription": "The ErGear EGESD5B is a UL-certified electric standing desk with aerospace-grade lifting columns tested over 100,000 cycles — outstanding stability and safety at an unbeatable sub-$100 price.",
+      "prosAndCons": {
+        "pros": [
+          "UL-certified with lift columns tested 100,000+ cycles",
+          "Excellent stability for the price",
+          "Simple, fast assembly"
+        ],
+        "cons": [
+          "Basic single-motor lift, no frills",
+          "No memory presets on the base model"
+        ]
+      },
+      "specifications": {
+        "Top": "Splice board",
+        "Size": "48 × 24 in",
+        "Capacity": "176 lbs",
+        "Certification": "UL",
+        "Frame": "Black"
+      },
+      "priceRange": "$99.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0B41YH9B6",
+      "imageUrl": "/images/products/ergear-egesd5b.webp",
+      "imagePlaceholder": "ErGear EGESD5B Standing Desk",
       "badges": [],
       "featured": false,
-      "rank": 3,
+      "rank": 4,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$99.99",
+      "amazonListPrice": "$139.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0B41YH9B6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "herman-miller-aeron",
@@ -142,7 +153,7 @@
       "priceRange": "$1,395",
       "rating": 4.9,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B014V8TSO0",
       "imageUrl": "/images/products/herman-miller-aeron.webp",
       "imagePlaceholder": "Herman Miller Aeron chair in graphite at a standing desk",
       "badges": [
@@ -151,7 +162,11 @@
       "featured": true,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$660.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41XPT72xdxL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B014V8TSO0?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "steelcase-leap-v2",
@@ -180,7 +195,7 @@
       "priceRange": "$1,150",
       "rating": 4.8,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B07TF9P886",
       "imageUrl": "/images/products/steelcase-leap-v2.webp",
       "imagePlaceholder": "Steelcase Leap V2 chair in black fabric at a desk",
       "badges": [
@@ -189,7 +204,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$22.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31e6JLXZ3+L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07TF9P886?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "secretlab-titan-evo",
@@ -218,14 +237,18 @@
       "priceRange": "$549",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0GX6TLMHZ",
       "imageUrl": "/images/products/secretlab-titan-evo.webp",
       "imagePlaceholder": "Secretlab Titan Evo 2022 in black SoftWeave fabric",
       "badges": [],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$18.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31E-YTkDdEL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0GX6TLMHZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "fully-jarvis-monitor-arm",
@@ -254,7 +277,7 @@
       "priceRange": "$129",
       "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0BTN8JH3K",
       "imageUrl": "/images/products/fully-jarvis-monitor-arm.webp",
       "imagePlaceholder": "Fully Jarvis Monitor Arm with 27-inch monitor in white",
       "badges": [
@@ -263,7 +286,11 @@
       "featured": true,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$59.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21OR8SG5+ML._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BTN8JH3K?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "ergotron-lx-arm",
@@ -292,7 +319,7 @@
       "priceRange": "$159",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B06Y5WBVXC",
       "imageUrl": "/images/products/ergotron-lx-arm.webp",
       "imagePlaceholder": "Ergotron LX monitor arm in white holding a 32-inch display",
       "badges": [
@@ -301,119 +328,138 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$289.55",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31qRkOHPbKL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B06Y5WBVXC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "ergotron-lx-dual",
-      "name": "Ergotron LX Dual Stacking Arm",
-      "slug": "ergotron-lx-dual",
+      "id": "huanuo-flowlift-dual",
+      "name": "HUANUO FlowLift Dual Monitor Arm",
+      "slug": "huanuo-flowlift-dual",
       "category": "monitor-arms",
-      "shortDescription": "The Ergotron LX Dual Stacking Arm is the definitive solution for stacked dual-monitor setups, handling two monitors up to 40 lbs combined on a single desk mount.",
+      "shortDescription": "The HUANUO FlowLift dual arm is a hugely popular pick with smooth one-hand pneumatic adjustment, wide tilt/swivel/rotate, built-in cable management, and both C-clamp and grommet mounts — holds two 13–32\" screens.",
       "prosAndCons": {
         "pros": [
-          "Stacking design is cleaner and more stable than side-by-side dual arm alternatives",
-          "Supports monitors up to 40 lbs combined with independent tilt per screen",
-          "Single desk clamp footprint preserves more desk edge than dual-pole solutions"
+          "One-hand pneumatic spring makes repositioning effortless",
+          "Fits two 13–32\" screens, 4.4–19.8 lbs each",
+          "Built-in cable management and dual mount options"
         ],
         "cons": [
-          "Stacked layout works best for research or reading workflows — less ideal for video work",
-          "Premium price requires a larger upfront investment than two single arms"
+          "Heavier screens sag at the extremes of the range",
+          "Assembly instructions are sparse"
         ]
       },
       "specifications": {
-        "Max Load": "40 lbs combined",
-        "VESA": "75/100 mm",
-        "Reach": "20\" per arm",
-        "Configuration": "Stacked dual",
-        "Warranty": "10 Years"
+        "Type": "Dual arm",
+        "Screens": "13–32 in",
+        "Capacity": "4.4–19.8 lbs/arm",
+        "Mount": "C-clamp + grommet",
+        "Motion": "Full (tilt/swivel/rotate)"
       },
-      "priceRange": "$249",
-      "rating": 4.5,
+      "priceRange": "$59.99",
+      "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/ergotron-lx-dual.webp",
-      "imagePlaceholder": "Ergotron LX Dual Stacking Arm with two 24-inch monitors",
-      "badges": [],
+      "asin": "B07T5SY43L",
+      "imageUrl": "/images/products/huanuo-flowlift-dual.webp",
+      "imagePlaceholder": "HUANUO FlowLift dual monitor arm",
+      "badges": [
+        "Best Value"
+      ],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$59.99",
+      "amazonListPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Mr-S3C6XL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07T5SY43L?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "ordo-xl-desk-mat",
-      "name": "Ordo XL Desk Mat",
-      "slug": "ordo-xl-desk-mat",
+      "id": "aothia-desk-pad",
+      "name": "Aothia PU Leather Desk Pad",
+      "slug": "aothia-desk-pad",
       "category": "desk-mats",
-      "shortDescription": "The Ordo XL Desk Mat is the top desk mat for minimalist setups — a 900×400mm extended surface with a premium micro-weave top and a non-slip natural rubber base.",
+      "shortDescription": "The Aothia desk pad is the most-reviewed mat on Amazon — a smooth PU-leather surface with a grip-enhanced suede backing, fully waterproof, and an unbeatable entry price.",
       "prosAndCons": {
         "pros": [
-          "Micro-weave surface provides excellent mouse glide while maintaining precision",
-          "Natural rubber base holds the mat absolutely still even during fast mouse movements",
-          "Triple-stitched edges resist fraying far longer than single-stitched alternatives"
+          "Smooth PU-leather surface is great for mouse and writing",
+          "Grip-enhanced suede backing stays put",
+          "Waterproof and wipes clean instantly"
         ],
         "cons": [
-          "Dark colorways show desk debris and crumbs more visibly than competitors",
-          "At 4mm thick it sits slightly higher than ultra-flat alternatives"
+          "Smaller 23.6 x 13.7 size by default",
+          "PU leather, not genuine leather"
         ]
       },
       "specifications": {
-        "Size": "900 × 400 mm",
-        "Thickness": "4 mm",
-        "Material": "Micro-weave + Natural Rubber",
-        "Edges": "Triple stitched",
-        "Water Resistance": "Splash resistant"
+        "Material": "PU leather",
+        "Size": "23.6\" x 13.7\"",
+        "Backing": "Non-slip suede",
+        "Waterproof": "Yes",
+        "Sizes": "Up to 48 x 17"
       },
-      "priceRange": "$39",
-      "rating": 4.7,
+      "priceRange": "$9.99",
+      "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/ordo-xl-desk-mat.webp",
-      "imagePlaceholder": "Ordo XL black desk mat with keyboard and mouse on a white desk",
+      "asin": "B091F3Y53V",
+      "imageUrl": "/images/products/aothia-desk-pad.webp",
+      "imagePlaceholder": "Aothia PU leather desk pad",
       "badges": [
-        "Editor's Choice"
+        "Best Value"
       ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$9.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/411OTIiT0EL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B091F3Y53V?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "grovemade-leather-mat",
-      "name": "Grovemade Leather Desk Mat",
-      "slug": "grovemade-leather-mat",
+      "id": "gallaway-leather-mat",
+      "name": "Gallaway Leather Desk Mat",
+      "slug": "gallaway-leather-mat",
       "category": "desk-mats",
-      "shortDescription": "The Grovemade Leather Desk Mat is the premium choice for executives and creatives who want genuine top-grain leather that ages beautifully on their desk.",
+      "shortDescription": "The Gallaway Leather Desk Mat is a large 36\" x 17\" PU-leather desk pad that protects your desk, gives mouse and keyboard a smooth surface, and looks far more premium than its price.",
       "prosAndCons": {
         "pros": [
-          "Top-grain leather develops a rich patina over years of use",
-          "Cork base is naturally antimicrobial and provides a premium feel underhand",
-          "Made in Portland, OR — one of the few domestically produced desk accessories"
+          "Large 36\" x 17\" footprint covers keyboard, mouse, and writing area",
+          "Smooth PU-leather surface tracks well for any mouse and wipes clean",
+          "Soft underside grips the desk and protects the finish"
         ],
         "cons": [
-          "At $80+ it is significantly more expensive than fabric and microfiber alternatives",
-          "Mouse tracking can vary depending on mouse sensor type and leather texture"
+          "PU leather is not genuine leather and will not patina",
+          "Ships rolled—needs a day or two to lie flat"
         ]
       },
       "specifications": {
-        "Size": "800 × 400 mm",
-        "Material": "Full-grain leather + cork base",
-        "Edges": "Natural leather edge",
-        "Origin": "Made in USA",
-        "Water Resistance": "Moderate"
+        "Material": "PU leather",
+        "Size": "36\" x 17\" (Large)",
+        "Color": "Dark Brown",
+        "Reversible": "No",
+        "Underside": "Non-slip"
       },
       "priceRange": "$79",
-      "rating": 4.5,
+      "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/grovemade-leather-mat.webp",
-      "imagePlaceholder": "Grovemade leather desk mat in tan with brass accents",
+      "asin": "B07QT81VRS",
+      "imageUrl": "/images/products/gallaway-leather-mat.webp",
+      "imagePlaceholder": "Gallaway dark brown leather desk mat with laptop and mouse",
       "badges": [
         "Premium Pick"
       ],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$29.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41OodagX1OL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07QT81VRS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "steelseries-qck-xxl",
@@ -440,9 +486,9 @@
         "Edges": "Stitched"
       },
       "priceRange": "$25",
-      "rating": 4.6,
+      "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B00WAA2704",
       "imageUrl": "/images/products/steelseries-qck-xxl.webp",
       "imagePlaceholder": "SteelSeries QcK XXL desk mat in black with gaming setup",
       "badges": [
@@ -451,7 +497,12 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$29.99",
+      "amazonListPrice": "$34.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21D455bl6oL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00WAA2704?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "logitech-brio-4k",
@@ -480,7 +531,7 @@
       "priceRange": "$199",
       "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B09NBWWP79",
       "imageUrl": "/images/products/logitech-brio-4k.webp",
       "imagePlaceholder": "Logitech Brio 4K webcam clipped to a monitor bezel",
       "badges": [
@@ -489,7 +540,11 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$167.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21JK5gzEnYL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09NBWWP79?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "elgato-facecam-mk2",
@@ -518,7 +573,7 @@
       "priceRange": "$159",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0CW1S7XP5",
       "imageUrl": "/images/products/elgato-facecam-mk2.webp",
       "imagePlaceholder": "Elgato Facecam MK.2 on a desk with ring light",
       "badges": [
@@ -527,7 +582,11 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$139.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31v1y7qj8QL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CW1S7XP5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "razer-kiyo-pro-ultra",
@@ -556,14 +615,18 @@
       "priceRange": "$299",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0CT6FFK4R",
       "imageUrl": "/images/products/razer-kiyo-pro-ultra.webp",
       "imagePlaceholder": "Razer Kiyo Pro Ultra webcam on desk with RGB lighting",
       "badges": [],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$399.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/413NnHzV0CL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CT6FFK4R?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "keychron-q1-pro",
@@ -592,7 +655,7 @@
       "priceRange": "$199",
       "rating": 4.8,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0H1JV4DGG",
       "imageUrl": "/images/products/keychron-q1-pro.webp",
       "imagePlaceholder": "Keychron Q1 Pro in carbon black on a desk mat",
       "badges": [
@@ -601,7 +664,11 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$157.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41C0NrEm4VL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0H1JV4DGG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "corsair-k70-rgb-pro",
@@ -630,14 +697,19 @@
       "priceRange": "$139",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0CH3MRGK7",
       "imageUrl": "/images/products/corsair-k70-rgb-pro.webp",
       "imagePlaceholder": "Corsair K70 RGB Pro full-size keyboard on dark desk mat",
       "badges": [],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$84.99",
+      "amazonListPrice": "$109.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41vKRIn880L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CH3MRGK7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "nuphy-air75-v2",
@@ -666,14 +738,19 @@
       "priceRange": "$119",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0CMZ7PPNB",
       "imageUrl": "/images/products/nuphy-air75-v2.webp",
       "imagePlaceholder": "NuPhy Air75 V2 in white on a minimal white desk setup",
       "badges": [],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$98.76",
+      "amazonListPrice": "$113.06",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41R186D-rBL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CMZ7PPNB?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "logitech-mx-master-3s",
@@ -702,7 +779,7 @@
       "priceRange": "$99",
       "rating": 4.9,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B09HM94VDS",
       "imageUrl": "/images/products/logitech-mx-master-3s.webp",
       "imagePlaceholder": "Logitech MX Master 3S in graphite on a desk mat",
       "badges": [
@@ -711,7 +788,12 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$89.99",
+      "amazonListPrice": "$119.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31vwylJ4PgL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09HM94VDS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "razer-pro-click-v2",
@@ -740,14 +822,18 @@
       "priceRange": "$129",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0F72VH42N",
       "imageUrl": "/images/products/razer-pro-click-v2.webp",
       "imagePlaceholder": "Razer Pro Click V2 white mouse on desk mat",
       "badges": [],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$99.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31Vmvc3i6ZL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0F72VH42N?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "logitech-mx-anywhere-3s",
@@ -776,52 +862,62 @@
       "priceRange": "$49",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0BPY4ZQXG",
       "imageUrl": "/images/products/logitech-mx-anywhere-3s.webp",
       "imagePlaceholder": "Logitech MX Anywhere 3S in pale grey on laptop bag",
       "badges": [],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$89.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/3139Bbxxp-L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BPY4ZQXG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "lg-27gp950-b",
-      "name": "LG 27GP950-B",
-      "slug": "lg-27gp950-b",
+      "id": "lg-27gx704a-b",
+      "name": "LG UltraGear 27GX704A-B",
+      "slug": "lg-27gx704a-b",
       "category": "monitors",
-      "shortDescription": "The LG 27GP950-B is the best 4K 144Hz gaming and creative monitor — an IPS Nano Color panel with 98% DCI-P3 coverage, HDMI 2.1, and DisplayPort 1.4 for true next-gen connectivity.",
+      "shortDescription": "The LG 27GX704A-B is a 27\" QHD OLED gaming monitor with a blistering 240Hz refresh and 0.03ms response — near-instant pixels, perfect blacks, and HDMI 2.1 for PS5/Xbox at full speed.",
       "prosAndCons": {
         "pros": [
-          "144Hz refresh rate with 4K resolution is now accessible to creative professionals who also play games",
-          "98% DCI-P3 color coverage makes it suitable for color-grading and professional photo editing",
-          "HDMI 2.1 supports 4K/144Hz from PlayStation 5 and Xbox Series X"
+          "OLED panel delivers true per-pixel blacks and infinite contrast no IPS monitor can match",
+          "240Hz at 0.03ms response is effectively blur-free for fast competitive play",
+          "HDMI 2.1 plus DisplayPort with G-Sync Compatible and FreeSync Premium Pro covers PC and console"
         ],
         "cons": [
-          "HDR performance (DisplayHDR 600) is adequate but not cinema-grade — blacks stay gray",
-          "No USB-C with power delivery limits connectivity for MacBook users"
+          "QHD (1440p) rather than 4K — sharpness trails 4K panels on large text",
+          "OLED carries some risk of burn-in with static UI over very long sessions"
         ]
       },
       "specifications": {
-        "Panel": "IPS Nano Color",
-        "Resolution": "3840 × 2160 (4K)",
-        "Refresh Rate": "144Hz",
-        "Color Coverage": "98% DCI-P3",
-        "Connectivity": "HDMI 2.1, DP 1.4, USB-A hub"
+        "Panel": "OLED",
+        "Resolution": "2560 × 1440 (QHD)",
+        "Refresh Rate": "240Hz",
+        "Response": "0.03ms (GtG)",
+        "HDR": "DisplayHDR TrueBlack 400",
+        "Connectivity": "HDMI 2.1, DisplayPort"
       },
       "priceRange": "$699",
       "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/lg-27gp950-b.webp",
-      "imagePlaceholder": "LG 27GP950-B 4K monitor with game scene on screen",
+      "asin": "B0FNQ4B2Z2",
+      "imageUrl": "/images/products/lg-27gx704a-b.webp",
+      "imagePlaceholder": "LG 27GX704A-B OLED gaming monitor with vivid game scene",
       "badges": [
         "Editor's Choice"
       ],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$469.99",
+      "amazonListPrice": "$496.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51Uvkpvhc2L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0FNQ4B2Z2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "dell-ultrasharp-u2723de",
@@ -888,14 +984,18 @@
       "priceRange": "$1,199",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0CB71BY87",
       "imageUrl": "/images/products/samsung-viewfinity-s9.webp",
       "imagePlaceholder": "Samsung ViewFinity S9 5K monitor with MacBook Pro connected",
       "badges": [],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$1,499.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41u-92vzHnL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CB71BY87?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "asus-proart-pa279cv",
@@ -924,14 +1024,19 @@
       "priceRange": "$399",
       "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B08K2GFDKM",
       "imageUrl": "/images/products/asus-proart-pa279cv.webp",
       "imagePlaceholder": "ASUS ProArt PA279CV 4K monitor with color swatches on screen",
       "badges": [],
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$299.00",
+      "amazonListPrice": "$399.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Inn3TGKCL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08K2GFDKM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "elgato-key-light",
@@ -960,7 +1065,7 @@
       "priceRange": "$199",
       "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B07L755X9G",
       "imageUrl": "/images/products/elgato-key-light.webp",
       "imagePlaceholder": "Elgato Key Light on desk arm illuminating creator setup",
       "badges": [
@@ -969,7 +1074,11 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$179.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31hDyrbUv+L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07L755X9G?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "benq-screenbar-halo",
@@ -998,7 +1107,7 @@
       "priceRange": "$179",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0DK59YKRS",
       "imageUrl": "/images/products/benq-screenbar-halo.webp",
       "imagePlaceholder": "BenQ ScreenBar Halo mounted on monitor with amber rear glow",
       "badges": [
@@ -1007,43 +1116,51 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$199.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31Pg9+8XaIL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DK59YKRS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "benq-screenbar-plus",
-      "name": "BenQ ScreenBar Plus",
-      "slug": "benq-screenbar-plus",
+      "id": "benq-screenbar-pro",
+      "name": "BenQ ScreenBar Pro",
+      "slug": "benq-screenbar-pro",
       "category": "lighting",
-      "shortDescription": "The BenQ ScreenBar Plus adds a puck-shaped wireless dial controller to the standard ScreenBar formula — making brightness and temperature adjustments faster without touching the light itself.",
+      "shortDescription": "The BenQ ScreenBar Pro clamps to your monitor and lights your desk—not your screen—with auto-dimming, a presence sensor that switches on when you sit down, and tunable color temperature for zero glare.",
       "prosAndCons": {
         "pros": [
-          "Wireless dial controller enables one-motion adjustments without clicking through menus",
-          "Auto-dimming sensor maintains consistent desk illumination as ambient light changes",
-          "No screen glare by design — asymmetric light distribution keeps beam off the monitor"
+          "Asymmetric optics light the desk without casting glare on the screen",
+          "Presence sensor auto-turns the light on/off as you sit down or leave",
+          "Reclaims desk space entirely—no base, clamps to the top of the monitor"
         ],
         "cons": [
-          "Controller dial requires a AAA battery that needs periodic replacement",
-          "At $109 it costs significantly more than the standard ScreenBar for incremental convenience"
+          "Premium price for a desk light",
+          "Curved-monitor fit depends on the bezel and curvature"
         ]
       },
       "specifications": {
-        "Brightness": "1000 lux max at 50 cm",
-        "Color Temperature": "2700K–6500K",
-        "Controller": "Wireless puck",
-        "Auto-Dimming": "Yes",
-        "Power": "USB-A"
+        "Type": "Monitor light bar",
+        "Mount": "Clamp (top of monitor)",
+        "Control": "Auto-dim + presence sensor",
+        "Power": "USB-C",
+        "Color Temp": "2700–6500K"
       },
       "priceRange": "$109",
-      "rating": 4.5,
+      "rating": 4.8,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/benq-screenbar-plus.webp",
-      "imagePlaceholder": "BenQ ScreenBar Plus on monitor with wireless controller on desk",
+      "asin": "B0CZ9P1QW9",
+      "imageUrl": "/images/products/benq-screenbar-pro.webp",
+      "imagePlaceholder": "BenQ ScreenBar Pro light bar mounted on a monitor",
       "badges": [],
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$139.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31cJh7q+yNL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CZ9P1QW9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "cable-matters-under-desk-tray",
@@ -1072,7 +1189,7 @@
       "priceRange": "$25",
       "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B0170GSAQW",
       "imageUrl": "/images/products/cable-matters-under-desk-tray.webp",
       "imagePlaceholder": "Cable Matters under-desk tray mounted with surge protector and cables",
       "badges": [
@@ -1081,7 +1198,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$21.32",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31cSp1I0k0L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0170GSAQW?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "velcro-cable-ties",
@@ -1110,14 +1231,2109 @@
       "priceRange": "$10",
       "rating": 4.7,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
+      "asin": "B001E1Y5O6",
       "imageUrl": "/images/products/velcro-cable-ties.webp",
       "imagePlaceholder": "VELCRO cable ties bundling keyboard and monitor cables",
       "badges": [],
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-05-01",
+      "amazonPrice": "$15.89",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41YZ-l-wRAL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B001E1Y5O6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "fezibo-48x24",
+      "name": "FEZIBO Electric Standing Desk 48×24",
+      "slug": "fezibo-48x24",
+      "category": "standing-desks",
+      "shortDescription": "The FEZIBO 48×24 electric standing desk pairs an FSC-certified wood top with a whisper-quiet sub-45dB motor, anti-collision detection, and 3 memory presets — outstanding value under $100.",
+      "prosAndCons": {
+        "pros": [
+          "Whisper-quiet motor runs under 45dB even at full speed",
+          "FSC-certified wood top with anti-collision safety detection",
+          "Exceptional value — full electric sit/stand under $100"
+        ],
+        "cons": [
+          "Single-motor lift is slower than premium dual-motor desks",
+          "48×24 top is on the smaller side for dual-monitor setups"
+        ]
+      },
+      "specifications": {
+        "Top": "FSC-certified wood (Splice board)",
+        "Size": "48 × 24 in",
+        "Motor": "Single, <45dB",
+        "Presets": "3 memory",
+        "Frame": "White"
+      },
+      "priceRange": "$99.98",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0F8MHPVPH",
+      "imageUrl": "/images/products/fezibo-48x24.webp",
+      "imagePlaceholder": "FEZIBO white-frame maple-top electric standing desk",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$99.98",
+      "amazonListPrice": "$112.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0F8MHPVPH?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "amseatec-mesh-chair",
+      "name": "amseatec Ergonomic Mesh Chair",
+      "slug": "amseatec-mesh-chair",
+      "category": "ergonomic-chairs",
+      "shortDescription": "The amseatec mesh chair is a triple-certified (BIFMA/SGS/TÜV) aerospace-grade frame with a breathable mesh back, 3\" thick cushion, and flip-up arms — a remarkable amount of ergonomic chair for under $50.",
+      "prosAndCons": {
+        "pros": [
+          "BIFMA/SGS/TÜV triple-certified frame rated to 300 lbs",
+          "Breathable full mesh back stays cool over long days",
+          "Flip-up arms tuck it neatly under the desk"
+        ],
+        "cons": [
+          "Mesh seat is firmer than padded options",
+          "Limited recline and tilt adjustment at this price"
+        ]
+      },
+      "specifications": {
+        "Back": "Breathable mesh",
+        "Arms": "Flip-up",
+        "Capacity": "300 lbs",
+        "Certification": "BIFMA/SGS/TÜV",
+        "Cushion": "3\" thick"
+      },
+      "priceRange": "$49.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0GS6XMPF3",
+      "imageUrl": "/images/products/amseatec-mesh-chair.webp",
+      "imagePlaceholder": "amseatec Ergonomic Mesh Chair",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$49.99",
+      "amazonListPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/519yLHcnSML._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0GS6XMPF3?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "elabest-t96",
+      "name": "ELABEST T96 Mesh Office Chair",
+      "slug": "elabest-t96",
+      "category": "ergonomic-chairs",
+      "shortDescription": "The ELABEST T96 brings a bionic-curve mesh backrest with “Golden Triangle” shoulder support, a 3-position recline lock, and BIFMA-certified components rated to 300 lbs — proper ergonomics at a mid-range price.",
+      "prosAndCons": {
+        "pros": [
+          "“Golden Triangle” back targets shoulder and upper-back support",
+          "3-position recline lock for dialed-in posture",
+          "BIFMA-certified components, 300 lb capacity"
+        ],
+        "cons": [
+          "No headrest on the base T96",
+          "Assembly takes a bit longer than average"
+        ]
+      },
+      "specifications": {
+        "Back": "Bionic-curve mesh",
+        "Recline": "3-position lock",
+        "Capacity": "300 lbs",
+        "Certification": "BIFMA",
+        "Arms": "Adjustable"
+      },
+      "priceRange": "$239.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0BKT1NR68",
+      "imageUrl": "/images/products/elabest-t96.webp",
+      "imagePlaceholder": "ELABEST T96 Mesh Office Chair",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$239.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Zt+jm6mFL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BKT1NR68?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "ngen-gaming-recliner",
+      "name": "N-GEN Gaming Recliner Chair",
+      "slug": "ngen-gaming-recliner",
+      "category": "ergonomic-chairs",
+      "shortDescription": "The N-GEN gaming chair is a high-back recliner with a pull-out footrest, lumbar support, an SGS-certified gas lift rated to 300 lbs, and 360° swivel — a comfortable budget pick for long gaming or work sessions.",
+      "prosAndCons": {
+        "pros": [
+          "High-back recline with pull-out footrest for breaks",
+          "SGS-certified gas lift rated to 300 lbs",
+          "360° swivel with heavy-duty steel base"
+        ],
+        "cons": [
+          "PU leather runs warmer than mesh",
+          "Bulkier footprint than a task chair"
+        ]
+      },
+      "specifications": {
+        "Style": "High-back recliner",
+        "Footrest": "Pull-out",
+        "Capacity": "300 lbs",
+        "Lift": "SGS-certified gas",
+        "Swivel": "360°"
+      },
+      "priceRange": "$89.77",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0D7M7396C",
+      "imageUrl": "/images/products/ngen-gaming-recliner.webp",
+      "imagePlaceholder": "N-GEN Gaming Recliner Chair",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$89.77",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41cEgMJQnoL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0D7M7396C?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "vivo-stand-v002",
+      "name": "VIVO Dual Monitor Desk Mount (V002)",
+      "slug": "vivo-stand-v002",
+      "category": "monitor-arms",
+      "shortDescription": "One of the most-reviewed mounts on Amazon — heavy-duty steel holding two 13–30\" screens up to 22 lbs each, with 180° swivel, 360° rotation, and C-clamp or grommet mounting.",
+      "prosAndCons": {
+        "pros": [
+          "Heavy-duty steel build feels rock solid",
+          "Holds larger, heavier screens up to 22 lbs each",
+          "Among the most proven mounts on Amazon"
+        ],
+        "cons": [
+          "Tube-style arms are not gas-spring smooth",
+          "Height set by collar, not one-hand glide"
+        ]
+      },
+      "specifications": {
+        "Type": "Dual mount",
+        "Screens": "13–30 in",
+        "Capacity": "22 lbs/arm",
+        "Swivel": "180°",
+        "Mount": "C-clamp + grommet"
+      },
+      "priceRange": "$34.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B009S750LA",
+      "imageUrl": "/images/products/vivo-stand-v002.webp",
+      "imagePlaceholder": "VIVO Dual Monitor Desk Mount (V002)",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$34.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41t32WYz36L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B009S750LA?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "huanuo-flowlift-single",
+      "name": "HUANUO FlowLift Single Monitor Mount",
+      "slug": "huanuo-flowlift-single",
+      "category": "monitor-arms",
+      "shortDescription": "Automotive-grade single arm tested for 20,000+ motion cycles, fits 13–32\" monitors, sets up in about 3 minutes, with both C-clamp and grommet options.",
+      "prosAndCons": {
+        "pros": [
+          "Tested for 20,000+ motion cycles",
+          "Fast ~3-minute setup",
+          "C-clamp and grommet both included"
+        ],
+        "cons": [
+          "Single-monitor only",
+          "Max ~19.8 lbs limits very large displays"
+        ]
+      },
+      "specifications": {
+        "Type": "Single arm",
+        "Screens": "13–32 in",
+        "Capacity": "4.4–19.8 lbs",
+        "Mount": "C-clamp + grommet",
+        "Motion": "Full"
+      },
+      "priceRange": "$35.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07T3KCQ94",
+      "imageUrl": "/images/products/huanuo-flowlift-single.webp",
+      "imagePlaceholder": "HUANUO FlowLift Single Monitor Mount",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$35.99",
+      "amazonListPrice": "$47.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07T3KCQ94?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "ergear-single-arm",
+      "name": "ErGear Single Monitor Arm",
+      "slug": "ergear-single-arm",
+      "category": "monitor-arms",
+      "shortDescription": "Budget-friendly single arm with a 40% wider VESA head for extra stability, fitting 13–34\" screens up to 19.8 lbs, with a tool-free VESA mount and full-motion flexibility.",
+      "prosAndCons": {
+        "pros": [
+          "40% wider VESA head adds real stability",
+          "Tool-free VESA mount for quick install",
+          "Fits up to 34\" screens, full motion"
+        ],
+        "cons": [
+          "Basic spring tension, not premium gas-spring",
+          "No frills at this price"
+        ]
+      },
+      "specifications": {
+        "Type": "Single arm",
+        "Screens": "13–34 in",
+        "Capacity": "19.8 lbs",
+        "Mount": "Tool-free VESA",
+        "Motion": "Full"
+      },
+      "priceRange": "$20.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0FQM6QB48",
+      "imageUrl": "/images/products/ergear-single-arm.webp",
+      "imagePlaceholder": "ErGear Single Monitor Arm",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$20.99",
+      "amazonListPrice": "$31.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0FQM6QB48?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "ysagi-leather-mat",
+      "name": "YSAGi Leather Desk Protector",
+      "slug": "ysagi-leather-mat",
+      "category": "desk-mats",
+      "shortDescription": "The YSAGi is a premium-feeling PU-leather desk protector with a suede non-slip backing, fully waterproof, doubling as a full-size mouse pad in a 31.5\" x 15.8\" footprint.",
+      "prosAndCons": {
+        "pros": [
+          "Larger 31.5 x 15.8 surface covers keyboard and mouse",
+          "Suede non-slip backing grips well",
+          "Fully waterproof, easy to clean"
+        ],
+        "cons": [
+          "PU leather will not patina like real leather",
+          "Ships rolled, needs to flatten"
+        ]
+      },
+      "specifications": {
+        "Material": "PU leather",
+        "Size": "31.5\" x 15.8\"",
+        "Backing": "Suede non-slip",
+        "Waterproof": "Yes"
+      },
+      "priceRange": "$13.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0BMTSL48B",
+      "imageUrl": "/images/products/ysagi-leather-mat.webp",
+      "imagePlaceholder": "YSAGi Leather Desk Protector",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$13.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41oQvh4OHlL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BMTSL48B?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-desk-mat",
+      "name": "Logitech Desk Mat Studio Series",
+      "slug": "logitech-desk-mat",
+      "category": "desk-mats",
+      "shortDescription": "The Logitech Studio Series desk mat is sustainably made from recycled polyester with a spill-resistant fine-weave cloth surface, anti-fray stitched edges, and a natural-rubber anti-slip base.",
+      "prosAndCons": {
+        "pros": [
+          "Spill-resistant fine-weave cloth surface",
+          "Made from recycled polyester",
+          "Anti-fray stitched edges and rubber base"
+        ],
+        "cons": [
+          "Smaller 27.5 x 11.8 footprint",
+          "Cloth shows wear sooner than leather"
+        ]
+      },
+      "specifications": {
+        "Material": "Recycled polyester cloth",
+        "Size": "27.5\" x 11.8\"",
+        "Edges": "Anti-fray stitched",
+        "Base": "Natural rubber"
+      },
+      "priceRange": "$18.80",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B09DV8WKK8",
+      "imageUrl": "/images/products/logitech-desk-mat.webp",
+      "imagePlaceholder": "Logitech Desk Mat Studio Series",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.18",
+      "amazonListPrice": "$22.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41H+HBufefL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09DV8WKK8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "corsair-mm350-pro",
+      "name": "Corsair MM350 PRO Extended XL",
+      "slug": "corsair-mm350-pro",
+      "category": "desk-mats",
+      "shortDescription": "The Corsair MM350 PRO Extended XL is an oversized spill-proof desk mat with 4mm-thick plush rubber, a micro-weave cloth surface for smooth mouse glide, and 360 anti-fray stitched edges.",
+      "prosAndCons": {
+        "pros": [
+          "Huge 36.6 x 15.7 coverage for full setups",
+          "4mm plush rubber feels premium and stays flat",
+          "Spill-proof micro-weave surface, 2-year warranty"
+        ],
+        "cons": [
+          "Pricier than basic mats",
+          "Cloth surface, not leather aesthetic"
+        ]
+      },
+      "specifications": {
+        "Material": "Micro-weave cloth",
+        "Size": "36.6\" x 15.7\"",
+        "Thickness": "4mm",
+        "Edges": "360 anti-fray",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$39.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B08JH8C5T5",
+      "imageUrl": "/images/products/corsair-mm350-pro.webp",
+      "imagePlaceholder": "Corsair MM350 PRO Extended XL",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/11nBA7jDfGL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08JH8C5T5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-c920x",
+      "name": "Logitech C920x HD Pro Webcam",
+      "slug": "logitech-c920x",
+      "category": "webcams",
+      "shortDescription": "The Logitech C920x is the gold-standard 1080p/30fps webcam — a five-element glass lens, dual stereo noise-reducing mics, and HD auto light correction that just works on every platform.",
+      "prosAndCons": {
+        "pros": [
+          "Proven 1080p/30fps quality trusted by millions",
+          "Five-element glass lens with auto light correction",
+          "Dual stereo noise-reducing microphones"
+        ],
+        "cons": [
+          "1080p only, no 4K",
+          "Fixed field of view"
+        ]
+      },
+      "specifications": {
+        "Resolution": "1080p/30fps",
+        "Lens": "5-element glass",
+        "Mics": "Dual stereo",
+        "Mount": "Clip + tripod thread",
+        "Connection": "USB-A"
+      },
+      "priceRange": "$59.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B085TFF7M1",
+      "imageUrl": "/images/products/logitech-c920x.webp",
+      "imagePlaceholder": "Logitech C920x HD Pro Webcam",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$59.99",
+      "amazonListPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31UjVjrQ4vL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B085TFF7M1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-mx-brio",
+      "name": "Logitech MX Brio 4K Webcam",
+      "slug": "logitech-mx-brio",
+      "category": "webcams",
+      "shortDescription": "The Logitech MX Brio is a premium 4K webcam with 70% larger pixels, AI-enhanced image quality, dual beamforming noise-reducing mics, Show Mode for desk sharing, and a built-in privacy cover.",
+      "prosAndCons": {
+        "pros": [
+          "Ultra HD 4K with 70% larger pixels",
+          "AI-enhanced image quality in tough light",
+          "Show Mode for sharing your desk, USB-C"
+        ],
+        "cons": [
+          "Premium price",
+          "4K capture needs a capable PC"
+        ]
+      },
+      "specifications": {
+        "Resolution": "4K UHD",
+        "Mics": "Dual beamforming",
+        "Privacy": "Built-in cover",
+        "Feature": "Show Mode",
+        "Connection": "USB-C"
+      },
+      "priceRange": "$199.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0CX8S8JLX",
+      "imageUrl": "/images/products/logitech-mx-brio.webp",
+      "imagePlaceholder": "Logitech MX Brio 4K Webcam",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$199.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31MO34WBGhL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CX8S8JLX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "razer-kiyo-x",
+      "name": "Razer Kiyo X Streaming Webcam",
+      "slug": "razer-kiyo-x",
+      "category": "webcams",
+      "shortDescription": "The Razer Kiyo X is an excellent 1080p/30fps (or 720p/60fps) streaming webcam with autofocus, fully customizable settings via Razer Synapse 3, and flexible tripod or monitor mounting.",
+      "prosAndCons": {
+        "pros": [
+          "1080p/30fps or 720p/60fps for smooth streaming",
+          "Full manual control via Razer Synapse 3",
+          "Flexible monitor or tripod mounting"
+        ],
+        "cons": [
+          "No built-in ring light (unlike the original Kiyo)",
+          "USB 2.0 connection"
+        ]
+      },
+      "specifications": {
+        "Resolution": "1080p/30 or 720p/60",
+        "Focus": "Autofocus",
+        "Software": "Razer Synapse 3",
+        "Mount": "Monitor + tripod",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$85.30",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B09FNX2PLL",
+      "imageUrl": "/images/products/razer-kiyo-x.webp",
+      "imagePlaceholder": "Razer Kiyo X Streaming Webcam",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$85.30",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41ak+kwwdaL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09FNX2PLL?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "gimars-gm115-set",
+      "name": "Gimars Gel Keyboard Wrist Rest Set",
+      "slug": "gimars-gm115-set",
+      "category": "wrist-rests",
+      "shortDescription": "A bestselling 3-piece set — keyboard rest, mouse rest, and coaster — with 1.2-inch ultra-thick slow-rebound memory foam, a waterproof spandex top, and a super non-slip natural-rubber base.",
+      "prosAndCons": {
+        "pros": [
+          "Complete 3-piece set covers keyboard and mouse",
+          "1.2-inch thick slow-rebound memory foam",
+          "Waterproof spandex top wipes clean"
+        ],
+        "cons": [
+          "Foam may feel tall for low-profile keyboards",
+          "Spandex can pill over heavy use"
+        ]
+      },
+      "specifications": {
+        "Pieces": "Keyboard + mouse + coaster",
+        "Foam": "1.2in memory foam",
+        "Top": "Waterproof spandex",
+        "Base": "Non-slip rubber"
+      },
+      "priceRange": "$13.90",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B01M11FLUJ",
+      "imageUrl": "/images/products/gimars-gm115-set.webp",
+      "imagePlaceholder": "Gimars Gel Keyboard Wrist Rest Set",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$13.90",
+      "amazonListPrice": "$16.97",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Zuk6TAmLL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B01M11FLUJ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "gimars-gm116-combo",
+      "name": "Gimars Gel Mouse & Keyboard Wrist Set",
+      "slug": "gimars-gm116-combo",
+      "category": "wrist-rests",
+      "shortDescription": "A popular 2-piece combo with superfine Lycra fabric, gel memory-foam fill, and a grooved mouse rest shaped to the hand's natural curve — backed by an 18-month warranty.",
+      "prosAndCons": {
+        "pros": [
+          "Grooved mouse rest fits the hand's natural curve",
+          "Superfine Lycra over gel memory foam",
+          "18-month warranty"
+        ],
+        "cons": [
+          "No coaster included",
+          "Lighter cushioning than the thicker set"
+        ]
+      },
+      "specifications": {
+        "Pieces": "Keyboard + mouse",
+        "Fill": "Gel memory foam",
+        "Top": "Superfine Lycra",
+        "Warranty": "18 months"
+      },
+      "priceRange": "$16.91",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B01MYZMODY",
+      "imageUrl": "/images/products/gimars-gm116-combo.webp",
+      "imagePlaceholder": "Gimars Gel Mouse & Keyboard Wrist Set",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$16.91",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31XgS8yr2uL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B01MYZMODY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "gimars-gm1109-mouse",
+      "name": "Gimars Memory Foam Mouse Wrist Rest",
+      "slug": "gimars-gm1109-mouse",
+      "category": "wrist-rests",
+      "shortDescription": "An excellent standalone mouse wrist rest with gel memory foam, a high-pressure bonded Lycra surface for precise tracking, and a non-toxic anti-slip rubber base that grips firmly.",
+      "prosAndCons": {
+        "pros": [
+          "Bonded Lycra surface tracks precisely",
+          "Gel memory foam supports the wrist all day",
+          "Firm non-toxic anti-slip base"
+        ],
+        "cons": [
+          "Mouse-only, no keyboard rest",
+          "Single size"
+        ]
+      },
+      "specifications": {
+        "Type": "Mouse wrist rest",
+        "Fill": "Gel memory foam",
+        "Surface": "Bonded Lycra",
+        "Base": "Anti-slip rubber"
+      },
+      "priceRange": "$9.97",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07KD7SCQG",
+      "imageUrl": "/images/products/gimars-gm1109-mouse.webp",
+      "imagePlaceholder": "Gimars Memory Foam Mouse Wrist Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$9.97",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31iEWYmmn-L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07KD7SCQG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "kensington-duo-gel",
+      "name": "Kensington Duo Gel Mouse Wrist Rest",
+      "slug": "kensington-duo-gel",
+      "category": "wrist-rests",
+      "shortDescription": "An ergonomist-approved dual-gel mouse pad with a ventilation channel to keep hands cool and dry, a durable vinyl mouse surface for fast tracking, and a 2-year warranty.",
+      "prosAndCons": {
+        "pros": [
+          "Dual-gel design is ergonomist-approved",
+          "Ventilation channel keeps hands cool",
+          "Durable vinyl tracking surface, 2-year warranty"
+        ],
+        "cons": [
+          "Smaller 9.6 x 7.6 footprint",
+          "Vinyl surface is firmer than cloth"
+        ]
+      },
+      "specifications": {
+        "Type": "Mouse pad + wrist rest",
+        "Size": "9.6\" x 7.6\"",
+        "Gel": "Dual gel",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$17.61",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B018GFBCO8",
+      "imageUrl": "/images/products/kensington-duo-gel.webp",
+      "imagePlaceholder": "Kensington Duo Gel Mouse Wrist Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.61",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41ELwNsKitL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B018GFBCO8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "mroco-oval-gel",
+      "name": "MROCO Oval Gel Mouse Wrist Rest",
+      "slug": "mroco-oval-gel",
+      "category": "wrist-rests",
+      "shortDescription": "A highly reviewed oval-shaped gel wrist rest with a premium heat-treated Lycra surface for precise mouse control, reinforced anti-fray edges, and a non-skid PU base.",
+      "prosAndCons": {
+        "pros": [
+          "Heat-treated Lycra surface for precise control",
+          "Comfortable oval ergonomic shape",
+          "Reinforced anti-fray edges, non-skid PU base"
+        ],
+        "cons": [
+          "Mouse-only",
+          "Gel firmness is a personal preference"
+        ]
+      },
+      "specifications": {
+        "Type": "Mouse pad + gel wrist rest",
+        "Size": "9.4\" x 8.1\"",
+        "Surface": "Heat-treated Lycra",
+        "Base": "Non-skid PU"
+      },
+      "priceRange": "$9.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07DVCGX7G",
+      "imageUrl": "/images/products/mroco-oval-gel.webp",
+      "imagePlaceholder": "MROCO Oval Gel Mouse Wrist Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$9.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31OldV+I7IL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07DVCGX7G?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "everlasting-comfort-footrest",
+      "name": "Everlasting Comfort Foot Rest",
+      "slug": "everlasting-comfort-footrest",
+      "category": "footrests",
+      "shortDescription": "The most-reviewed footrest on Amazon — premium high-density memory foam with dual stationary or rocking modes, an ergonomic teardrop shape, and a machine-washable removable cover.",
+      "prosAndCons": {
+        "pros": [
+          "High-density memory foam holds its shape",
+          "Use stationary or flip for a gentle rocker",
+          "Machine-washable removable cover"
+        ],
+        "cons": [
+          "Single fixed height",
+          "Foam can feel firm at first"
+        ]
+      },
+      "specifications": {
+        "Foam": "High-density memory foam",
+        "Modes": "Stationary or rocking",
+        "Shape": "Ergonomic teardrop",
+        "Cover": "Machine-washable"
+      },
+      "priceRange": "$27.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07PGLBCFG",
+      "imageUrl": "/images/products/everlasting-comfort-footrest.webp",
+      "imagePlaceholder": "Everlasting Comfort Foot Rest",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$27.99",
+      "amazonListPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41A7PFY1dBL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07PGLBCFG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "comfilife-footrest",
+      "name": "ComfiLife Adjustable Foot Rest",
+      "slug": "comfilife-footrest",
+      "category": "footrests",
+      "shortDescription": "A highly rated adjustable-height memory-foam footrest with multi-purpose use — foot elevation, knee support, or flipped as a rocker — and a machine-washable cover.",
+      "prosAndCons": {
+        "pros": [
+          "Adjustable height for the right elevation",
+          "Doubles as knee support or a rocker",
+          "Portable, lightweight, washable cover"
+        ],
+        "cons": [
+          "Pricier than basic foam rests",
+          "One firmness option"
+        ]
+      },
+      "specifications": {
+        "Foam": "Memory foam",
+        "Height": "Adjustable",
+        "Uses": "Feet / knees / rocker",
+        "Cover": "Machine-washable"
+      },
+      "priceRange": "$39.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B08DHMMBFF",
+      "imageUrl": "/images/products/comfilife-footrest.webp",
+      "imagePlaceholder": "ComfiLife Adjustable Foot Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/516I8VHe1KL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08DHMMBFF?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "tranquilrelax-footrest",
+      "name": "TranquilRelax Modular Foot Rest",
+      "slug": "tranquilrelax-footrest",
+      "category": "footrests",
+      "shortDescription": "A three-layer modular foam footrest with 3 adjustable heights (2\", 4\", or 6.7\"), high-density foam that won't sink, a non-slip bottom, and a machine-washable zippered cover.",
+      "prosAndCons": {
+        "pros": [
+          "3 stackable heights via touch-fastener layers",
+          "High-density foam resists sinking",
+          "Non-slip base and washable zippered cover"
+        ],
+        "cons": [
+          "Layers can shift if not pressed firmly",
+          "Newer brand, fewer reviews"
+        ]
+      },
+      "specifications": {
+        "Design": "3-layer modular",
+        "Heights": "2\" / 4\" / 6.7\"",
+        "Foam": "High-density",
+        "Cover": "Washable zippered"
+      },
+      "priceRange": "$21.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0DK4HP264",
+      "imageUrl": "/images/products/tranquilrelax-footrest.webp",
+      "imagePlaceholder": "TranquilRelax Modular Foot Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$21.99",
+      "amazonListPrice": "$25.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/410obIxl-+L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DK4HP264?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "humanscale-fm500c",
+      "name": "Humanscale FM500C Foot Machine",
+      "slug": "humanscale-fm500c",
+      "category": "footrests",
+      "shortDescription": "An award-winning, minimalist footrest in solid wood and die-cast aluminum that encourages a healthy rocking motion to boost circulation — backed by a lifetime warranty and non-skid rubber grips.",
+      "prosAndCons": {
+        "pros": [
+          "Premium solid wood and die-cast aluminum build",
+          "Rocking motion encourages circulation",
+          "Lifetime warranty, non-skid grips"
+        ],
+        "cons": [
+          "Premium price",
+          "Hard surface, no foam cushioning"
+        ]
+      },
+      "specifications": {
+        "Material": "Wood + die-cast aluminum",
+        "Motion": "Rocking",
+        "Grips": "Non-skid rubber",
+        "Warranty": "Lifetime"
+      },
+      "priceRange": "$125.00",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00GKD9PTI",
+      "imageUrl": "/images/products/humanscale-fm500c.webp",
+      "imagePlaceholder": "Humanscale FM500C Foot Machine",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$125.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41aGboF73vL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00GKD9PTI?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "anker-351-power-strip",
+      "name": "Anker 351 Power Strip",
+      "slug": "anker-351-power-strip",
+      "category": "power-strips",
+      "shortDescription": "The Anker 351 packs 12 AC outlets plus 20W USB-C fast charging into a flat-plug design with 2100J surge protection, TÜV listing, and a $200,000 connected-equipment warranty.",
+      "prosAndCons": {
+        "pros": [
+          "12 AC outlets plus 20W USB-C and 2 USB-A",
+          "Flat plug and 5ft cord tuck behind furniture",
+          "2100J protection with $200K equipment warranty"
+        ],
+        "cons": [
+          "USB-C drops wattage when USB-A ports are in use",
+          "Not the cheapest option"
+        ]
+      },
+      "specifications": {
+        "Outlets": "12 AC",
+        "USB": "1 USB-C (20W) + 2 USB-A",
+        "Surge": "2100J",
+        "Plug": "Flat",
+        "Cert": "TÜV Listed"
+      },
+      "priceRange": "$28.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B09SG2Q23M",
+      "imageUrl": "/images/products/anker-351-power-strip.webp",
+      "imagePlaceholder": "Anker 351 Power Strip",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$28.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41eIUhRPqpL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09SG2Q23M?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "hanycony-power-strip",
+      "name": "HANYCONY Surge Protector Power Strip",
+      "slug": "hanycony-power-strip",
+      "category": "power-strips",
+      "shortDescription": "A best-value surge strip with 8 widely-spaced outlets, 2 USB-C + 2 USB-A ports, a 5ft braided flat-plug cord, and ETL certification — the highest-reviewed pick on the list.",
+      "prosAndCons": {
+        "pros": [
+          "8 outlets spaced 2.2in apart for bulky adapters",
+          "2 USB-C and 2 USB-A charging ports",
+          "Braided 5ft cord, flat plug, wall-mountable"
+        ],
+        "cons": [
+          "Lower joule rating than heavy-duty units",
+          "USB output is modest"
+        ]
+      },
+      "specifications": {
+        "Outlets": "8 AC",
+        "USB": "2 USB-C + 2 USB-A",
+        "Cord": "5ft braided",
+        "Plug": "Flat",
+        "Cert": "ETL Listed"
+      },
+      "priceRange": "$12.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B092J8LPWR",
+      "imageUrl": "/images/products/hanycony-power-strip.webp",
+      "imagePlaceholder": "HANYCONY Surge Protector Power Strip",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$12.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B092J8LPWR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "belkin-surgemaster",
+      "name": "Belkin SurgeMaster 12-Outlet",
+      "slug": "belkin-surgemaster",
+      "category": "power-strips",
+      "shortDescription": "A 12-outlet surge protector with 8 rotating/pivoting outlets for bulky chargers, 4,320J of protection, an 8ft flat-pivot cord, and a $300,000 connected-equipment warranty.",
+      "prosAndCons": {
+        "pros": [
+          "8 rotating outlets fit large adapters without blocking",
+          "High 4,320J surge protection",
+          "8ft pivot-plug cord, $300K warranty"
+        ],
+        "cons": [
+          "No USB ports on this model",
+          "Bulkier than flat strips"
+        ]
+      },
+      "specifications": {
+        "Outlets": "12 (8 rotating)",
+        "Surge": "4,320J",
+        "Cord": "8ft flat pivot",
+        "Warranty": "$300K equipment"
+      },
+      "priceRange": "$44.95",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B000JE9LD4",
+      "imageUrl": "/images/products/belkin-surgemaster.webp",
+      "imagePlaceholder": "Belkin SurgeMaster 12-Outlet",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$44.95",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41XEVUmkwlL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B000JE9LD4?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "kasa-hs300",
+      "name": "Kasa Smart Power Strip HS300",
+      "slug": "kasa-hs300",
+      "category": "power-strips",
+      "shortDescription": "A Wi-Fi smart strip with 6 individually controlled outlets, energy monitoring, and 3 USB ports — works with Alexa and Google Home, ETL-certified surge protection, no hub required.",
+      "prosAndCons": {
+        "pros": [
+          "6 individually app/voice-controlled outlets",
+          "Built-in energy monitoring per outlet",
+          "Works with Alexa & Google Home, no hub"
+        ],
+        "cons": [
+          "Needs 2.4GHz Wi-Fi setup",
+          "Only 6 outlets vs 8–12 on others"
+        ]
+      },
+      "specifications": {
+        "Outlets": "6 smart",
+        "USB": "3 ports",
+        "Control": "Alexa / Google / app",
+        "Feature": "Energy monitoring",
+        "Cert": "ETL"
+      },
+      "priceRange": "$39.96",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07G95FFN3",
+      "imageUrl": "/images/products/kasa-hs300.webp",
+      "imagePlaceholder": "Kasa Smart Power Strip HS300",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$39.96",
+      "amazonListPrice": "$49.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41MRW2Nq98L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07G95FFN3?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "tripp-lite-isobar8",
+      "name": "Tripp Lite ISOBAR8ULTRA",
+      "slug": "tripp-lite-isobar8",
+      "category": "power-strips",
+      "shortDescription": "A heavy-duty all-metal surge protector with 3,840J network-grade protection, 4 isolated filter banks that block EMI/RFI noise, a 12ft cord, lifetime warranty, and $50,000 equipment insurance.",
+      "prosAndCons": {
+        "pros": [
+          "All-metal housing, 3,840J network-grade surge",
+          "4 isolated filter banks block EMI/RFI noise",
+          "12ft cord, lifetime warranty"
+        ],
+        "cons": [
+          "Premium price",
+          "No USB ports"
+        ]
+      },
+      "specifications": {
+        "Outlets": "8 AC",
+        "Surge": "3,840J",
+        "Housing": "All-metal",
+        "Filters": "4 isolated banks",
+        "Cord": "12ft"
+      },
+      "priceRange": "$97.71",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0000511U7",
+      "imageUrl": "/images/products/tripp-lite-isobar8.webp",
+      "imagePlaceholder": "Tripp Lite ISOBAR8ULTRA",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$97.71",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41+uRMREBlL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0000511U7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "amazonbasics-pen-cup",
+      "name": "Amazon Basics Wire Mesh Pen Holder",
+      "slug": "amazonbasics-pen-cup",
+      "category": "desk-organizers",
+      "shortDescription": "The most-reviewed pick here — a durable powder-coated black steel wire-mesh pencil cup with a double-rimmed cone design that holds pens, scissors, rulers, and more.",
+      "prosAndCons": {
+        "pros": [
+          "Powder-coated steel, built to last",
+          "Double-rimmed cone design",
+          "Cheap, instant desk tidiness"
+        ],
+        "cons": [
+          "Single cup, limited capacity",
+          "Mesh lets small items slip through"
+        ]
+      },
+      "specifications": {
+        "Material": "Powder-coated steel mesh",
+        "Size": "3.7\" x 3.3\"",
+        "Color": "Black",
+        "Use": "Pens / scissors / rulers"
+      },
+      "priceRange": "$4.54",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B07VVB7DSK",
+      "imageUrl": "/images/products/amazonbasics-pen-cup.webp",
+      "imagePlaceholder": "Amazon Basics Wire Mesh Pen Holder",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$4.54",
+      "amazonListPrice": "$5.35",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/61qkURgGfbL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07VVB7DSK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "skydue-rotating-organizer",
+      "name": "SKYDUE 360° Rotating Pen Organizer",
+      "slug": "skydue-rotating-organizer",
+      "category": "desk-organizers",
+      "shortDescription": "A space-saving 5-compartment rotating caddy with a 360° spinning base, non-slip pad, and a modern beige design that suits offices, kitchens, and classrooms.",
+      "prosAndCons": {
+        "pros": [
+          "360° spin keeps everything in reach",
+          "5 compartments in a small footprint",
+          "Non-slip base, modern look"
+        ],
+        "cons": [
+          "Plastic build",
+          "Compartments suit small items only"
+        ]
+      },
+      "specifications": {
+        "Slots": "5",
+        "Base": "360° rotating + non-slip",
+        "Size": "5\" x 3.8\"",
+        "Color": "Beige"
+      },
+      "priceRange": "$9.98",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B0CQTJ2RRG",
+      "imageUrl": "/images/products/skydue-rotating-organizer.webp",
+      "imagePlaceholder": "SKYDUE 360° Rotating Pen Organizer",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$12.98",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41NURjJZbAL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CQTJ2RRG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "marbrasse-2drawer",
+      "name": "Marbrasse Pen Organizer with 2 Drawers",
+      "slug": "marbrasse-2drawer",
+      "category": "desk-organizers",
+      "shortDescription": "A multi-functional ABS desk caddy with open compartments, 2 transparent drawers for hidden storage, a top tray, and a notebook holder — no assembly required.",
+      "prosAndCons": {
+        "pros": [
+          "Open slots plus 2 hidden drawers",
+          "Top tray and notebook holder",
+          "No assembly required"
+        ],
+        "cons": [
+          "ABS plastic feels light",
+          "Drawers are small"
+        ]
+      },
+      "specifications": {
+        "Compartments": "6 slots",
+        "Drawers": "2 transparent",
+        "Extras": "Top tray + notebook slot",
+        "Material": "ABS"
+      },
+      "priceRange": "$9.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0CQC63DBZ",
+      "imageUrl": "/images/products/marbrasse-2drawer.webp",
+      "imagePlaceholder": "Marbrasse Pen Organizer with 2 Drawers",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$12.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51+G-FpQr6L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CQC63DBZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "marbrasse-6tier-tray",
+      "name": "Marbrasse 6-Tier Letter Tray",
+      "slug": "marbrasse-6tier-tray",
+      "category": "desk-organizers",
+      "shortDescription": "A six-tier metal-mesh letter tray with a portable handle and reinforced steel frame — large capacity for organizing letters, files, and documents of all sizes.",
+      "prosAndCons": {
+        "pros": [
+          "6 tiers handle lots of paper and files",
+          "Reinforced steel frame is sturdy",
+          "Portable carry handle"
+        ],
+        "cons": [
+          "Takes vertical desk space",
+          "Some assembly needed"
+        ]
+      },
+      "specifications": {
+        "Tiers": "6",
+        "Material": "Metal mesh + steel frame",
+        "Fits": "Letter / A4",
+        "Handle": "Yes"
+      },
+      "priceRange": "$20.88",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B08PBFKGJG",
+      "imageUrl": "/images/products/marbrasse-6tier-tray.webp",
+      "imagePlaceholder": "Marbrasse 6-Tier Letter Tray",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$20.88",
+      "amazonListPrice": "$25.98",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/61WfW0WLsqL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08PBFKGJG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "vtopmart-drawers",
+      "name": "Vtopmart Clear Stackable Drawers (2-Pack)",
+      "slug": "vtopmart-drawers",
+      "category": "desk-organizers",
+      "shortDescription": "BPA-free clear acrylic stackable drawers with pull-out handles and silicone non-slip pads — ideal for desk, vanity, bathroom, or pantry organization.",
+      "prosAndCons": {
+        "pros": [
+          "Clear acrylic shows contents at a glance",
+          "Stackable to build vertical storage",
+          "Pull-out handles, non-slip pads"
+        ],
+        "cons": [
+          "Acrylic can scratch over time",
+          "12.1in width needs the space"
+        ]
+      },
+      "specifications": {
+        "Pack": "2 drawers",
+        "Material": "BPA-free acrylic",
+        "Width": "12.1\"",
+        "Feature": "Stackable + non-slip"
+      },
+      "priceRange": "$23.74",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0CDXLYN2W",
+      "imageUrl": "/images/products/vtopmart-drawers.webp",
+      "imagePlaceholder": "Vtopmart Clear Stackable Drawers (2-Pack)",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$23.74",
+      "amazonListPrice": "$24.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/316T8lzyRsL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CDXLYN2W?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "nulaxy-c1-stand",
+      "name": "Nulaxy C1 Laptop Stand",
+      "slug": "nulaxy-c1-stand",
+      "category": "laptop-stands",
+      "shortDescription": "A highly rated dual-shaft aluminum laptop stand with 7-level height adjustment (3.15\"–10.6\"), built-in heat ventilation, silicone scratch protection, and tool-free adjustment.",
+      "prosAndCons": {
+        "pros": [
+          "7 height levels via dual shafts",
+          "Aluminum vents heat, silicone protects the laptop",
+          "Tool-free, stable, great value"
+        ],
+        "cons": [
+          "Not a sit-to-stand height",
+          "Best with an external keyboard"
+        ]
+      },
+      "specifications": {
+        "Material": "Aluminum",
+        "Height": "3.15\"–10.6\"",
+        "Levels": "7",
+        "Fits": "10–17\"",
+        "Capacity": "22 lbs"
+      },
+      "priceRange": "$17.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B077B9W343",
+      "imageUrl": "/images/products/nulaxy-c1-stand.webp",
+      "imagePlaceholder": "Nulaxy C1 Laptop Stand",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "boyata-n21-stand",
+      "name": "BoYata N21 Laptop Stand",
+      "slug": "boyata-n21-stand",
+      "category": "laptop-stands",
+      "shortDescription": "A sturdy Z-type alloy-steel stand supporting laptops up to 17\", with multi-angle and height adjustment, 360° airflow ventilation, and 4 slide-proof silicone pads.",
+      "prosAndCons": {
+        "pros": [
+          "Heavy, stable Z-type alloy-steel build",
+          "Multi-angle and height adjustment",
+          "Holds laptops up to 17\""
+        ],
+        "cons": [
+          "Heavier and less portable",
+          "Premium price for the category"
+        ]
+      },
+      "specifications": {
+        "Material": "Alloy steel",
+        "Type": "Z-type",
+        "Fits": "up to 17\"",
+        "Pads": "4 silicone",
+        "Airflow": "360°"
+      },
+      "priceRange": "$29.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B07WRC9B86",
+      "imageUrl": "/images/products/boyata-n21-stand.webp",
+      "imagePlaceholder": "BoYata N21 Laptop Stand",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "boyata-m600212-stand",
+      "name": "BoYata Push-Button Laptop Stand",
+      "slug": "boyata-m600212-stand",
+      "category": "laptop-stands",
+      "shortDescription": "A U-shaped aluminum stand with push-button height adjustment (3.9\"–7.4\"), dual 3mm metal base plates, 8 rubber pads for grip and scratch protection, and improved airflow.",
+      "prosAndCons": {
+        "pros": [
+          "One-hand push-button height adjust",
+          "Dual 3mm base plates feel rock solid",
+          "U-shape boosts cooling airflow"
+        ],
+        "cons": [
+          "Narrower height range than dual-shaft stands",
+          "11 lb load limit"
+        ]
+      },
+      "specifications": {
+        "Material": "Aluminum",
+        "Height": "3.9\"–7.4\"",
+        "Adjust": "Push-button",
+        "Pads": "8 rubber",
+        "Fits": "11–17\""
+      },
+      "priceRange": "$26.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B08R9V1HNQ",
+      "imageUrl": "/images/products/boyata-m600212-stand.webp",
+      "imagePlaceholder": "BoYata Push-Button Laptop Stand",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "nulaxy-c5-stand",
+      "name": "Nulaxy C5 Sit-Stand Laptop Stand",
+      "slug": "nulaxy-c5-stand",
+      "category": "laptop-stands",
+      "shortDescription": "A versatile sit-to-stand converter adjusting from 1.2\" to 20\" with a retractable pull handle, aluminum build with ventilation holes, rubber safety edge-stoppers, and a 22 lb capacity.",
+      "prosAndCons": {
+        "pros": [
+          "True sit-to-stand range (1.2\"–20\")",
+          "Retractable pull handle switches posture fast",
+          "22 lb capacity, vented aluminum"
+        ],
+        "cons": [
+          "Pricier than fixed stands",
+          "No height lock button"
+        ]
+      },
+      "specifications": {
+        "Material": "Aluminum",
+        "Height": "1.2\"–20\"",
+        "Type": "Sit-to-stand",
+        "Capacity": "22 lbs",
+        "Fits": "10–17\""
+      },
+      "priceRange": "$43.98",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0CKZ5P9P7",
+      "imageUrl": "/images/products/nulaxy-c5-stand.webp",
+      "imagePlaceholder": "Nulaxy C5 Sit-Stand Laptop Stand",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "rain-design-mstand",
+      "name": "Rain Design mStand Laptop Stand",
+      "slug": "rain-design-mstand",
+      "category": "laptop-stands",
+      "shortDescription": "A premium single-piece aluminum stand that doubles as a heat sink, raising the screen 5.9\" to eye level, with a cable-management hole and a keyboard stash area — a timeless desk design.",
+      "prosAndCons": {
+        "pros": [
+          "Single-piece aluminum doubles as a heat sink",
+          "Raises screen 5.9\" to eye level",
+          "Cable hole and keyboard stash, iconic design"
+        ],
+        "cons": [
+          "Fixed height, not adjustable",
+          "Sized mainly for MacBooks / ~15\" laptops"
+        ]
+      },
+      "specifications": {
+        "Material": "Single-piece aluminum",
+        "Lift": "5.9\"",
+        "Feature": "Heat sink + cable hole",
+        "Fits": "MacBook / ~15\""
+      },
+      "priceRange": "$39.90",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B000OOYECC",
+      "imageUrl": "/images/products/rain-design-mstand.webp",
+      "imagePlaceholder": "Rain Design mStand Laptop Stand",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "edifier-r1280t",
+      "name": "Edifier R1280T Bookshelf Speakers",
+      "slug": "edifier-r1280t",
+      "category": "speakers",
+      "shortDescription": "Audiophile-grade 42W RMS active near-field studio monitors in a solid MDF wooden enclosure, with dual AUX inputs, on-speaker bass/treble EQ, a remote, and a 2-year warranty — a serious upgrade for any desk.",
+      "prosAndCons": {
+        "pros": [
+          "42W RMS active near-field studio sound",
+          "Real wood MDF enclosure, warm balanced tone",
+          "On-speaker EQ, dual AUX inputs, remote"
+        ],
+        "cons": [
+          "Larger footprint than compact USB speakers",
+          "No Bluetooth on this model"
+        ]
+      },
+      "specifications": {
+        "Power": "42W RMS",
+        "Type": "2.0 active bookshelf",
+        "Inputs": "Dual AUX",
+        "Enclosure": "MDF wood",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$149.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B016P9HJIA",
+      "imageUrl": "/images/products/edifier-r1280t.webp",
+      "imagePlaceholder": "Edifier R1280T Bookshelf Speakers",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "logitech-z623",
+      "name": "Logitech Z623 THX 2.1 Speaker System",
+      "slug": "logitech-z623",
+      "category": "speakers",
+      "shortDescription": "A THX-certified 2.1 speaker system delivering 400W peak / 200W RMS with a dedicated subwoofer, RCA and 3.5mm inputs for up to 3 devices, and a bass-boost feature — ideal for music, movies, and gaming.",
+      "prosAndCons": {
+        "pros": [
+          "THX-certified, 400W peak / 200W RMS",
+          "Dedicated subwoofer for deep bass",
+          "Connect up to 3 devices (RCA + 3.5mm)"
+        ],
+        "cons": [
+          "Subwoofer needs floor/desk space",
+          "Wired only"
+        ]
+      },
+      "specifications": {
+        "Power": "400W peak / 200W RMS",
+        "Type": "2.1 + subwoofer",
+        "Cert": "THX",
+        "Inputs": "RCA + 2x 3.5mm"
+      },
+      "priceRange": "$164.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B003UPJXIC",
+      "imageUrl": "/images/products/logitech-z623.webp",
+      "imagePlaceholder": "Logitech Z623 THX 2.1 Speaker System",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "bose-companion-2",
+      "name": "Bose Companion 2 Series III",
+      "slug": "bose-companion-2",
+      "category": "speakers",
+      "shortDescription": "Premium 50W desktop speakers with Bose TrueSpace stereo digital processing for a wide soundstage, a ported cabinet for deeper bass, a front headphone jack, and aux input — the most affordable Bose computer speaker.",
+      "prosAndCons": {
+        "pros": [
+          "TrueSpace processing widens the soundstage",
+          "Ported cabinet adds low-end depth",
+          "Front headphone jack and aux input"
+        ],
+        "cons": [
+          "Premium price for 2.0 speakers",
+          "May show a ship date depending on stock"
+        ]
+      },
+      "specifications": {
+        "Power": "~50W",
+        "Type": "2.0 desktop",
+        "Processing": "TrueSpace stereo",
+        "Inputs": "Aux + PC",
+        "Extra": "Front headphone jack"
+      },
+      "priceRange": "$159.95",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00CD1PTF0",
+      "imageUrl": "/images/products/bose-companion-2.webp",
+      "imagePlaceholder": "Bose Companion 2 Series III",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "blue-yeti",
+      "name": "Blue Yeti USB Microphone",
+      "slug": "blue-yeti",
+      "category": "microphones",
+      "shortDescription": "The most-reviewed mic here — a tri-capsule array with 4 selectable polar patterns, onboard gain/mute controls, and Blue VO!CE software for broadcast-quality sound right out of the box.",
+      "prosAndCons": {
+        "pros": [
+          "4 polar patterns cover any recording setup",
+          "Onboard gain, mute, and headphone controls",
+          "Blue VO!CE effects, true plug-and-play"
+        ],
+        "cons": [
+          "Picks up desk vibration without a boom arm",
+          "Large desktop footprint"
+        ]
+      },
+      "specifications": {
+        "Type": "USB condenser",
+        "Patterns": "4 selectable",
+        "Controls": "Gain / mute / monitor",
+        "Software": "Blue VO!CE"
+      },
+      "priceRange": "$91.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00N1YPXW2",
+      "imageUrl": "/images/products/blue-yeti.webp",
+      "imagePlaceholder": "Blue Yeti USB Microphone",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "hyperx-quadcast-2s",
+      "name": "HyperX QuadCast 2 S USB Microphone",
+      "slug": "hyperx-quadcast-2s",
+      "category": "microphones",
+      "shortDescription": "The best RGB streaming mic here — 32-bit/192kHz resolution, 4 polar patterns, customizable aRGB LEDs, a tap-to-mute sensor, and a detachable shock mount with spring-loaded pins.",
+      "prosAndCons": {
+        "pros": [
+          "32-bit/192kHz best-in-class resolution",
+          "100+ customizable aRGB LEDs",
+          "Tap-to-mute sensor and included shock mount"
+        ],
+        "cons": [
+          "RGB appeals more to gamers than offices",
+          "Software needed for full control"
+        ]
+      },
+      "specifications": {
+        "Type": "USB condenser",
+        "Resolution": "32-bit/192kHz",
+        "Patterns": "4",
+        "Lighting": "aRGB",
+        "Mount": "Shock mount"
+      },
+      "priceRange": "$90.00",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0DG9X4WHW",
+      "imageUrl": "/images/products/hyperx-quadcast-2s.webp",
+      "imagePlaceholder": "HyperX QuadCast 2 S USB Microphone",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "rode-nt-usb-mini",
+      "name": "RØDE NT-USB Mini Microphone",
+      "slug": "rode-nt-usb-mini",
+      "category": "microphones",
+      "shortDescription": "A studio-grade cardioid condenser with a built-in pop filter, magnetic desk stand, zero-latency headphone monitoring, and free RØDE Connect software with noise gate, compressor, and APHEX processing.",
+      "prosAndCons": {
+        "pros": [
+          "Warm, studio-quality cardioid sound",
+          "Built-in pop filter and magnetic stand",
+          "Free RØDE Connect with APHEX processing"
+        ],
+        "cons": [
+          "Single cardioid pattern only",
+          "Compact size limits low-end body"
+        ]
+      },
+      "specifications": {
+        "Type": "USB condenser",
+        "Pattern": "Cardioid",
+        "Filter": "Built-in pop",
+        "Stand": "Magnetic desk",
+        "Software": "RØDE Connect"
+      },
+      "priceRange": "$103.00",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B084P1CXFD",
+      "imageUrl": "/images/products/rode-nt-usb-mini.webp",
+      "imagePlaceholder": "RØDE NT-USB Mini Microphone",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "shure-mv7",
+      "name": "Shure MV7 USB Podcast Microphone",
+      "slug": "shure-mv7",
+      "category": "microphones",
+      "shortDescription": "A legendary all-metal USB/XLR dynamic mic with Shure's voice-isolating technology, onboard touch-panel controls, and ShurePlus MOTIV app support — the gold standard for podcasters and streamers.",
+      "prosAndCons": {
+        "pros": [
+          "USB and XLR dual output for any rig",
+          "Voice-isolating dynamic capsule rejects room noise",
+          "All-metal build, touch-panel controls"
+        ],
+        "cons": [
+          "Premium price",
+          "Dynamic mic wants close-mic technique"
+        ]
+      },
+      "specifications": {
+        "Type": "Dynamic",
+        "Output": "USB + XLR",
+        "Tech": "Voice-isolating",
+        "Controls": "Touch panel",
+        "App": "ShurePlus MOTIV"
+      },
+      "priceRange": "$299.00",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B08G7RG9ML",
+      "imageUrl": "/images/products/shure-mv7.webp",
+      "imagePlaceholder": "Shure MV7 USB Podcast Microphone",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "elgato-wave-3",
+      "name": "Elgato Wave:3 USB Microphone",
+      "slug": "elgato-wave-3",
+      "category": "microphones",
+      "shortDescription": "A streamer favorite with proprietary Clipguard anti-distortion technology, 24-bit/96kHz audio, a capacitive mute sensor, and the powerful Wave Link mixer app for up to 8 audio sources.",
+      "prosAndCons": {
+        "pros": [
+          "Clipguard makes distortion virtually impossible",
+          "Wave Link mixes up to 8 audio sources",
+          "Capacitive mute, clean 24-bit/96kHz audio"
+        ],
+        "cons": [
+          "Condenser picks up room noise",
+          "Best paired with a boom arm"
+        ]
+      },
+      "specifications": {
+        "Type": "USB condenser",
+        "Audio": "24-bit/96kHz",
+        "Tech": "Clipguard",
+        "Software": "Wave Link",
+        "Mute": "Capacitive"
+      },
+      "priceRange": "$119.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B088HHWC47",
+      "imageUrl": "/images/products/elgato-wave-3.webp",
+      "imagePlaceholder": "Elgato Wave:3 USB Microphone",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "amazonbasics-monitor-riser",
+      "name": "Amazon Basics Monitor Stand Riser",
+      "slug": "amazonbasics-monitor-riser",
+      "category": "desk-shelves",
+      "shortDescription": "The most-reviewed desk riser here — a durable ABS riser with 3 adjustable heights (2.87\"–4.9\"), non-skid feet, and a spacious 11.6\" x 11\" under-shelf storage compartment.",
+      "prosAndCons": {
+        "pros": [
+          "3 adjustable heights for the right eye level",
+          "Roomy 11.6\" x 11\" under-shelf storage",
+          "Holds up to 22 lbs, non-skid feet"
+        ],
+        "cons": [
+          "ABS plastic rather than metal",
+          "Single-monitor width"
+        ]
+      },
+      "specifications": {
+        "Heights": "2.87\"–4.9\"",
+        "Capacity": "22 lbs",
+        "Storage": "11.6\" x 11\"",
+        "Material": "ABS"
+      },
+      "priceRange": "$23.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00X4SCCFG",
+      "imageUrl": "/images/products/amazonbasics-monitor-riser.webp",
+      "imagePlaceholder": "Amazon Basics Monitor Stand Riser",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "gianotter-dual-riser",
+      "name": "gianotter Dual Monitor Stand Riser",
+      "slug": "gianotter-dual-riser",
+      "category": "desk-shelves",
+      "shortDescription": "A 40.6\"-wide heavy-duty metal dual-monitor shelf with a pull-out drawer, 2 magnetic pen holders, multiple compartments, and a 44 lb capacity — no assembly required.",
+      "prosAndCons": {
+        "pros": [
+          "40.6\" wide fits dual monitors",
+          "Pull-out drawer and 2 magnetic pen holders",
+          "Sturdy metal, 44 lb capacity, no assembly"
+        ],
+        "cons": [
+          "Wide footprint needs the desk space",
+          "Fixed height"
+        ]
+      },
+      "specifications": {
+        "Width": "40.6\"",
+        "Capacity": "44 lbs",
+        "Storage": "Drawer + pen holders",
+        "Assembly": "None"
+      },
+      "priceRange": "$29.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0DJKSMV2T",
+      "imageUrl": "/images/products/gianotter-dual-riser.webp",
+      "imagePlaceholder": "gianotter Dual Monitor Stand Riser",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "fitueyes-2tier-stand",
+      "name": "FITUEYES 2-Tier Monitor Stand",
+      "slug": "fitueyes-2tier-stand",
+      "category": "desk-shelves",
+      "shortDescription": "A 2-tier 15mm MDF-wood desktop shelf that raises monitors 5.5\" to eye level, with two storage compartments, anti-slip rubber legs, and a 33 lb capacity for a clean office look.",
+      "prosAndCons": {
+        "pros": [
+          "Warm 2-tier wood aesthetic",
+          "Raises monitor 5.5\" to eye level",
+          "Two storage compartments, 33 lb capacity"
+        ],
+        "cons": [
+          "Assembly required",
+          "Wood finish shows dust"
+        ]
+      },
+      "specifications": {
+        "Tiers": "2",
+        "Lift": "5.5\"",
+        "Material": "15mm MDF wood",
+        "Capacity": "33 lbs"
+      },
+      "priceRange": "$25.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B01A6JLT3Q",
+      "imageUrl": "/images/products/fitueyes-2tier-stand.webp",
+      "imagePlaceholder": "FITUEYES 2-Tier Monitor Stand",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "tangkula-hutch",
+      "name": "Tangkula Desktop Bookshelf Hutch",
+      "slug": "tangkula-hutch",
+      "category": "desk-shelves",
+      "shortDescription": "A full 37\"-wide countertop hutch with 5 shelves, an open-back compartment that fits monitors up to 27\", anti-fall baffles, anti-tip wall anchors, and non-slip foot pads — a complete desk-shelf solution.",
+      "prosAndCons": {
+        "pros": [
+          "37\" wide with 5 storage shelves",
+          "Open back fits monitors up to 27\"",
+          "Anti-tip anchors and baffles included"
+        ],
+        "cons": [
+          "Largest footprint here",
+          "More involved assembly"
+        ]
+      },
+      "specifications": {
+        "Width": "37\"",
+        "Shelves": "5",
+        "Fits": "monitor up to 27\"",
+        "Safety": "Anti-tip anchors"
+      },
+      "priceRange": "$62.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0CZTS65FZ",
+      "imageUrl": "/images/products/tangkula-hutch.webp",
+      "imagePlaceholder": "Tangkula Desktop Bookshelf Hutch",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "anker-4port-usb3",
+      "name": "Anker 4-Port USB 3.0 Hub",
+      "slug": "anker-4port-usb3",
+      "category": "usb-hubs",
+      "shortDescription": "The most-reviewed USB hub here — an ultra-slim, heat-resistant design with 5 Gbps SuperSpeed data transfer, a 2ft cable, and an 18-month warranty. The ultimate plug-and-play desktop essential.",
+      "prosAndCons": {
+        "pros": [
+          "5 Gbps SuperSpeed across all 4 ports",
+          "Ultra-slim, heat-resistant build",
+          "Plug-and-play, 18-month warranty"
+        ],
+        "cons": [
+          "Data only — no device charging",
+          "USB-A input (not USB-C)"
+        ]
+      },
+      "specifications": {
+        "Ports": "4x USB-A 3.0",
+        "Speed": "5 Gbps",
+        "Cable": "2 ft",
+        "Charging": "No"
+      },
+      "priceRange": "$9.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B07L32B9C2",
+      "imageUrl": "/images/products/anker-4port-usb3.webp",
+      "imagePlaceholder": "Anker 4-Port USB 3.0 Hub",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "sabrent-hb-um43",
+      "name": "SABRENT 4-Port USB 3.0 Hub",
+      "slug": "sabrent-hb-um43",
+      "category": "usb-hubs",
+      "shortDescription": "The highest-review-count hub here — a slim portable design with individual LED-lit power switches per port, 5 Gbps transfer speeds, and a 2-year warranty. Compatible with Mac, PC, and Linux.",
+      "prosAndCons": {
+        "pros": [
+          "Individual LED power switch per port",
+          "5 Gbps, slim and portable",
+          "2-year warranty, broad compatibility"
+        ],
+        "cons": [
+          "Data only — no charging",
+          "USB-A input"
+        ]
+      },
+      "specifications": {
+        "Ports": "4x USB-A 3.0",
+        "Speed": "5 Gbps",
+        "Switches": "Per-port LED",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$14.95",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00JX1ZS5O",
+      "imageUrl": "/images/products/sabrent-hb-um43.webp",
+      "imagePlaceholder": "SABRENT 4-Port USB 3.0 Hub",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "ugreen-cm478-hub",
+      "name": "UGREEN USB-C Hub 5-in-1",
+      "slug": "ugreen-cm478-hub",
+      "category": "usb-hubs",
+      "shortDescription": "A compact aluminum 5-in-1 hub with 4K HDMI, 100W USB-C pass-through charging, one 5 Gbps USB-A 3.0 port, and two USB-A 2.0 ports — an excellent USB-C upgrade for your monitor and laptop.",
+      "prosAndCons": {
+        "pros": [
+          "4K HDMI output plus 100W PD pass-through",
+          "5-in-1 in a compact aluminum body",
+          "Broad MacBook / XPS / iPad compatibility"
+        ],
+        "cons": [
+          "HDMI tops out at 4K@30Hz",
+          "Two ports are USB 2.0 speed"
+        ]
+      },
+      "specifications": {
+        "Type": "USB-C 5-in-1",
+        "Video": "4K HDMI",
+        "PD": "100W pass-through",
+        "USB": "1x 3.0 + 2x 2.0"
+      },
+      "priceRange": "$11.36",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0BR3M8XHK",
+      "imageUrl": "/images/products/ugreen-cm478-hub.webp",
+      "imagePlaceholder": "UGREEN USB-C Hub 5-in-1",
+      "badges": [],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "ugreen-revodok-1071",
+      "name": "UGREEN Revodok 1071 USB-C Hub 7-in-1",
+      "slug": "ugreen-revodok-1071",
+      "category": "usb-hubs",
+      "shortDescription": "A feature-rich 7-in-1 aluminum hub with 4K HDMI, 100W PD charging, a USB-C plus dual USB-A 5 Gbps data ports, and simultaneous SD/MicroSD card reading — perfect for content creators.",
+      "prosAndCons": {
+        "pros": [
+          "7-in-1: HDMI, PD, USB-C + 2 USB-A, SD/TF",
+          "All data ports run at 5 Gbps",
+          "Reads SD and MicroSD simultaneously"
+        ],
+        "cons": [
+          "~95W effective PD after overhead",
+          "4K HDMI at 30Hz"
+        ]
+      },
+      "specifications": {
+        "Type": "USB-C 7-in-1",
+        "Video": "4K HDMI",
+        "PD": "100W",
+        "Data": "USB-C + 2x USB-A 5Gbps",
+        "Card": "SD + MicroSD"
+      },
+      "priceRange": "$17.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0BLNDNBG1",
+      "imageUrl": "/images/products/ugreen-revodok-1071.webp",
+      "imagePlaceholder": "UGREEN Revodok 1071 USB-C Hub 7-in-1",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": "soundcore-q20i",
+      "name": "Soundcore by Anker Q20i ANC Headphones",
+      "slug": "soundcore-q20i",
+      "category": "headsets",
+      "shortDescription": "Exceptional value with hybrid ANC that cancels up to 90% of noise, 40H battery with ANC on, Hi-Res audio, BassUp technology, Transparency Mode, and dual-device Bluetooth 5.0 — all for under $50.",
+      "prosAndCons": {
+        "pros": [
+          "Hybrid ANC cancels up to 90% of noise",
+          "40H battery with ANC on (60H without)",
+          "Hi-Res audio, BassUp, dual-device Bluetooth"
+        ],
+        "cons": [
+          "Plastic build at this price",
+          "Mic quality is fine, not pro-grade"
+        ]
+      },
+      "specifications": {
+        "ANC": "Hybrid (up to 90%)",
+        "Battery": "40H ANC / 60H",
+        "Audio": "Hi-Res (wired)",
+        "Bluetooth": "5.0 dual-device"
+      },
+      "priceRange": "$44.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0C3HCD34R",
+      "imageUrl": "/images/products/soundcore-q20i.webp",
+      "imagePlaceholder": "Soundcore Q20i ANC headphones",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01"
     }
   ]
 }

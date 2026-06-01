@@ -17,13 +17,13 @@ export default function GuidesPage() {
     <div className="pt-24 md:pt-12 min-h-screen">
       <section className="section-container">
         <div className="mb-16">
-          <span className="text-[10px] font-black text-indigo-400 uppercase tracking-[0.3em] mb-4 block">
-            Expert Analysis
-          </span>
-          <h1 className="text-5xl md:text-7xl font-black text-white mb-6">
-            Buying <span className="text-gradient">Guides</span>
+          <div className="section-label">Expert Analysis</div>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-black text-white mb-4 leading-[1.05]">
+            Buying guides.
+            <br />
+            <span className="italic text-slate-500">Written by testers.</span>
           </h1>
-          <p className="text-xl text-slate-400 max-w-2xl">
+          <p className="text-lg text-slate-400 max-w-2xl">
             Expert buying guides to help you make the right choice for every part of your desk setup.
           </p>
         </div>

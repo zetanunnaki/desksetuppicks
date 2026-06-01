@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ChevronRight, Clock, Calendar, User } from "lucide-react";
+import { Clock, Calendar, User } from "lucide-react";
 import { getGuideBySlug } from "@/lib/data";
 import { getGuideContent, getAllGuideSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/MdxContent";
@@ -42,31 +42,32 @@ export default async function GuidePage({
       {/* Hero */}
       <section className="section-container pb-0">
         {/* Breadcrumb */}
-        <div className="flex items-center space-x-2 text-[10px] text-slate-500 mb-8 font-black uppercase tracking-widest">
+        <nav className="flex items-center space-x-2 text-xs text-slate-500 mb-8">
           <Link
             href="/"
-            className="hover:text-indigo-400 transition-colors"
+            className="hover:text-white transition-colors"
           >
             Home
           </Link>
-          <ChevronRight className="w-3 h-3" />
+          <span className="text-slate-700">&gt;</span>
           <Link
             href="/guides"
-            className="hover:text-indigo-400 transition-colors"
+            className="hover:text-white transition-colors"
           >
             Guides
           </Link>
-          <ChevronRight className="w-3 h-3" />
+          <span className="text-slate-700">&gt;</span>
           <span className="text-slate-300">{guide.title}</span>
-        </div>
+        </nav>
 
-        <h1 className="text-4xl md:text-6xl font-black text-white mb-6">
+        <div className="section-label">Buying Guide</div>
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-6 leading-[1.05]">
           {guide.title}
         </h1>
-        <p className="text-xl text-slate-400 max-w-3xl mb-8">
+        <p className="text-lg text-slate-400 max-w-3xl mb-8">
           {guide.description}
         </p>
-        <div className="flex items-center gap-6 text-sm text-slate-500 mb-16">
+        <div className="flex flex-wrap items-center gap-6 text-sm text-slate-500 mb-16">
           <span className="flex items-center gap-2">
             <User className="w-4 h-4" />
             {guide.author}

@@ -1,11 +1,9 @@
-import { Star, StarHalf } from "lucide-react";
+import { Star } from "lucide-react";
 
 export function StarRating({
   rating,
-  reviewCount,
 }: {
   rating: number;
-  reviewCount?: number;
 }) {
   const full = Math.floor(rating);
   const hasHalf = rating - full >= 0.25;
@@ -36,11 +34,6 @@ export function StarRating({
         );
       })}
       <span className="ml-2 text-sm font-bold text-white">{rating}</span>
-      {reviewCount != null && (
-        <span className="ml-1 text-xs text-slate-500">
-          ({reviewCount.toLocaleString()})
-        </span>
-      )}
     </div>
   );
 }

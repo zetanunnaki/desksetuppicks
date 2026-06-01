@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, Laptop, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown, Search } from "lucide-react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -10,7 +10,7 @@ import { getCategories } from "@/lib/data";
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [showReviews, setShowReviews] = useState(false);
+  const [showCategories, setShowCategories] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -30,69 +30,77 @@ export function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
           ? "bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50 py-3"
-          : "bg-transparent py-6"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 group">
-          <motion.div
-            whileHover={{ rotate: 15, scale: 1.1 }}
-            className="p-2.5 bg-indigo-600 rounded-2xl shadow-lg shadow-indigo-500/20"
-          >
-            <Laptop className="w-5 h-5 text-white" />
-          </motion.div>
-          <span className="text-xl font-extrabold tracking-tight text-white">
-            DeskSetup<span className="text-indigo-400">Picks</span>
-          </span>
+          <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center group-hover:bg-indigo-500 transition-colors">
+            <span className="text-white font-black text-sm">D.</span>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-lg font-extrabold tracking-tight text-white leading-tight">
+              DeskSetupPicks
+            </span>
+            <span className="text-[9px] font-bold text-slate-500 uppercase tracking-[0.2em] leading-tight">
+              Workspace · Reviewed
+            </span>
+          </div>
         </Link>
 
+        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-1">
-          <Link
-            href="/"
-            className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
-          >
-            Home
-          </Link>
-
           <div
             className="relative"
-            onMouseEnter={() => setShowReviews(true)}
-            onMouseLeave={() => setShowReviews(false)}
+            onMouseEnter={() => setShowCategories(true)}
+            onMouseLeave={() => setShowCategories(false)}
           >
             <button className="px-4 py-2 flex items-center space-x-1 text-sm font-medium text-slate-300 hover:text-white transition-colors">
-              <span>Reviews</span>
+              <span>Categories</span>
               <ChevronDown
-                className={`w-4 h-4 transition-transform duration-300 ${showReviews ? "rotate-180" : ""}`}
+                className={`w-4 h-4 transition-transform duration-300 ${showCategories ? "rotate-180" : ""}`}
               />
             </button>
 
             <AnimatePresence>
-              {showReviews && (
+              {showCategories && (
                 <motion.div
                   initial={{ opacity: 0, y: 10, scale: 0.95 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                  className="absolute top-full left-0 w-64 bg-slate-900/90 backdrop-blur-xl shadow-2xl rounded-2xl border border-slate-800 p-2 mt-2"
+                  className="absolute top-full -left-4 w-[calc(100vw-3rem)] sm:w-[400px] lg:w-[520px] bg-slate-900/95 backdrop-blur-xl shadow-2xl rounded-2xl border border-slate-800 p-3 sm:p-4 mt-2"
                 >
-                  {categories.map((cat) => (
-                    <Link
-                      key={cat.id}
-                      href={`/reviews/${cat.slug}`}
-                      className="flex items-center space-x-3 px-4 py-3 text-sm text-slate-400 hover:bg-slate-800 hover:text-white rounded-xl transition-all group"
-                    >
-                      <span className="opacity-0 group-hover:opacity-100 transition-opacity">
-                        <ChevronRight className="w-4 h-4 text-indigo-400" />
-                      </span>
-                      <span className="-ml-6 group-hover:ml-0 transition-all">
-                        {cat.name}
-                      </span>
-                    </Link>
-                  ))}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-0.5">
+                    {categories.map((cat, idx) => (
+                      <Link
+                        key={cat.id}
+                        href={`/reviews/${cat.slug}`}
+                        className="flex items-center justify-between px-4 py-2.5 text-sm text-slate-400 hover:bg-slate-800/60 hover:text-white rounded-lg transition-all"
+                      >
+                        <span className="flex items-center gap-3">
+                          <span className="text-[10px] font-bold text-slate-600 w-4">
+                            {String(idx + 1).padStart(2, "0")}
+                          </span>
+                          <span className="font-medium">{cat.name}</span>
+                        </span>
+                        {cat.productCount > 0 && (
+                          <span className="text-xs text-slate-600">{cat.productCount}</span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
                 </motion.div>
               )}
             </AnimatePresence>
           </div>
 
+          <Link
+            href="/reviews/standing-desks"
+            className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
+          >
+            Reviews
+          </Link>
           <Link
             href="/guides"
             className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
@@ -103,7 +111,7 @@ export function Header() {
             href="/blog"
             className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
           >
-            Blog
+            Journal
           </Link>
           <Link
             href="/about"
@@ -113,15 +121,21 @@ export function Header() {
           </Link>
         </nav>
 
-        <div className="hidden md:block">
+        {/* Right side */}
+        <div className="hidden md:flex items-center space-x-3">
+          <button className="p-2.5 text-slate-400 hover:text-white transition-colors rounded-xl hover:bg-slate-800/50">
+            <Search className="w-5 h-5" />
+          </button>
           <Link
-            href="/guides/how-to-build-the-perfect-home-office"
-            className="px-5 py-2.5 bg-indigo-600 text-white text-sm font-bold rounded-xl hover:bg-indigo-500 transition-colors"
+            href="/reviews/standing-desks"
+            className="px-5 py-2.5 bg-indigo-600 text-white text-sm font-bold rounded-xl hover:bg-indigo-500 transition-colors inline-flex items-center gap-1.5"
           >
-            Setup Guide
+            Top Picks
+            <span className="text-indigo-200">→</span>
           </Link>
         </div>
 
+        {/* Mobile toggle */}
         <button
           className="md:hidden p-2 text-white"
           onClick={() => setIsOpen(!isOpen)}
@@ -130,6 +144,7 @@ export function Header() {
         </button>
       </div>
 
+      {/* Mobile menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -139,12 +154,9 @@ export function Header() {
             className="md:hidden bg-slate-950 border-t border-slate-900 overflow-hidden"
           >
             <div className="px-6 py-8 space-y-6">
-              <Link href="/" className="block text-xl font-bold text-white">
-                Home
-              </Link>
               <div className="space-y-3">
                 <p className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
-                  Product Categories
+                  Categories
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   {categories.map((cat) => (
@@ -159,19 +171,25 @@ export function Header() {
                 </div>
               </div>
               <Link
+                href="/reviews/standing-desks"
+                className="block text-xl font-bold text-white"
+              >
+                Reviews
+              </Link>
+              <Link
                 href="/guides"
                 className="block text-xl font-bold text-white"
               >
                 Guides
               </Link>
               <Link href="/blog" className="block text-xl font-bold text-white">
-                Blog
+                Journal
               </Link>
               <Link
                 href="/about"
                 className="block text-xl font-bold text-white"
               >
-                About Us
+                About
               </Link>
             </div>
           </motion.div>

@@ -39,7 +39,6 @@ export interface Product {
   amazonListPrice?: string;
   amazonImageUrl?: string;
   amazonRating?: number;
-  reviewCount?: number;
   amazonUrl?: string;
   lastAmazonSync?: string;
   budgetTier?: "budget" | "mid-range" | "premium";

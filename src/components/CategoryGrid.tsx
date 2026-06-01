@@ -28,42 +28,40 @@ export function CategoryGrid() {
 
   return (
     <section className="section-container">
-      <div className="text-center mb-20">
-        <motion.span
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="inline-block text-[10px] font-black text-indigo-400 uppercase tracking-[0.3em] mb-4"
-        >
-          20 Categories
-        </motion.span>
-        <motion.h2
+      {/* Header: left heading + right description */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-5xl md:text-6xl font-black text-white mb-6"
         >
-          Browse The Lab
-        </motion.h2>
+          <div className="section-label">The Full Catalogue</div>
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white leading-[1.05]">
+            Twenty categories.
+            <br />
+            <span className="italic text-slate-500 font-black">Three hundred reviews.</span>
+          </h2>
+        </motion.div>
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.1 }}
-          className="text-slate-500 max-w-xl mx-auto text-lg leading-relaxed"
+          transition={{ delay: 0.2 }}
+          className="text-slate-400 text-lg leading-relaxed self-end"
         >
-          Systematic testing and data analysis for every component of your workstation.
+          Browse the desk we sit at, the chair we sit in, and every accessory we&apos;d put between us and a productive day. Click any category to read every review.
         </motion.p>
       </div>
 
+      {/* Grid */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-50px" }}
-        className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4"
       >
-        {categories.map((cat) => {
+        {categories.map((cat, idx) => {
           const Icon =
             (Icons as unknown as Record<string, React.ComponentType<{ className?: string }>>)[
               cat.icon
@@ -72,20 +70,27 @@ export function CategoryGrid() {
             <motion.div key={cat.id} variants={cardVariants}>
               <Link
                 href={`/reviews/${cat.slug}`}
-                className="block p-6 md:p-8 bg-slate-900/40 border border-slate-800/50 rounded-[2rem] hover:bg-indigo-600/10 hover:border-indigo-500/40 hover:-translate-y-1 transition-all duration-500 text-center group relative overflow-hidden"
+                className="flex flex-col justify-between h-full p-5 md:p-6 bg-slate-900/40 border border-slate-800/50 rounded-2xl hover:bg-slate-800/40 hover:border-slate-700/50 transition-all duration-400 group relative overflow-hidden min-h-[160px]"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/0 to-indigo-500/0 group-hover:from-indigo-500/5 group-hover:to-transparent transition-all duration-500" />
-                <div className="absolute -right-4 -top-4 w-24 h-24 bg-indigo-500/0 blur-3xl group-hover:bg-indigo-500/15 transition-all duration-700" />
-
-                <div className="relative w-16 h-16 md:w-20 md:h-20 bg-slate-800/80 rounded-2xl md:rounded-3xl flex items-center justify-center text-slate-400 group-hover:bg-indigo-600 group-hover:text-white mx-auto mb-5 transition-all duration-500 shadow-xl group-hover:shadow-indigo-500/20 group-hover:rotate-3 group-hover:scale-105">
-                  <Icon className="w-8 h-8 md:w-10 md:h-10" />
+                {/* Top: number + icon */}
+                <div className="flex justify-between items-start mb-auto">
+                  <span className="text-xs font-bold text-slate-600">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <div className="w-9 h-9 rounded-xl bg-slate-800/60 border border-slate-700/30 flex items-center justify-center text-slate-500 group-hover:text-indigo-400 group-hover:border-indigo-500/30 transition-all">
+                    <Icon className="w-4 h-4" />
+                  </div>
                 </div>
-                <h3 className="relative font-black text-white text-base md:text-lg mb-1 group-hover:text-white transition-colors">
-                  {cat.name}
-                </h3>
-                <p className="relative text-[10px] text-slate-600 group-hover:text-indigo-400 font-black uppercase tracking-widest transition-colors">
-                  {cat.productCount > 0 ? `${cat.productCount} Items` : "Coming Soon"}
-                </p>
+
+                {/* Bottom: name + count */}
+                <div className="mt-8">
+                  <h3 className="font-bold text-white text-sm mb-0.5 group-hover:text-indigo-300 transition-colors">
+                    {cat.name}
+                  </h3>
+                  <p className="text-xs text-slate-600">
+                    {cat.productCount > 0 ? `${cat.productCount} picks` : "Coming soon"}
+                  </p>
+                </div>
               </Link>
             </motion.div>
           );

@@ -28,13 +28,13 @@ export default function BlogPage() {
     <div className="pt-24 md:pt-12 min-h-screen">
       <section className="section-container">
         <div className="mb-16">
-          <span className="text-[10px] font-black text-indigo-400 uppercase tracking-[0.3em] mb-4 block">
-            Workspace Intel
-          </span>
-          <h1 className="text-5xl md:text-7xl font-black text-white mb-6">
-            The <span className="text-gradient">Blog</span>
+          <div className="section-label">The Journal</div>
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-black text-white mb-4 leading-[1.05]">
+            Workspace intel.
+            <br />
+            <span className="italic text-slate-500">No fluff.</span>
           </h1>
-          <p className="text-xl text-slate-400 max-w-2xl">
+          <p className="text-lg text-slate-400 max-w-2xl">
             Tips, insights, and deep-dives on building the perfect workspace.
           </p>
         </div>

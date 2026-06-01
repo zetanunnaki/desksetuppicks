@@ -2,8 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import Link from "next/link";
-import { Microscope, Award, ArrowRight, ShieldCheck, BarChart3 } from "lucide-react";
+import { FlaskConical, ShieldCheck, Eye, Star } from "lucide-react";
 
 function AnimatedCounter({ end, suffix = "", duration = 2000 }: { end: number; suffix?: string; duration?: number }) {
   const [count, setCount] = useState(0);
@@ -12,7 +11,6 @@ function AnimatedCounter({ end, suffix = "", duration = 2000 }: { end: number; s
 
   useEffect(() => {
     if (!inView) return;
-    let start = 0;
     const startTime = performance.now();
     const step = (now: number) => {
       const progress = Math.min((now - startTime) / duration, 1);
@@ -28,80 +26,86 @@ function AnimatedCounter({ end, suffix = "", duration = 2000 }: { end: number; s
 
 const cards = [
   {
-    icon: Microscope,
-    iconColor: "text-indigo-400",
-    bgGlow: "bg-indigo-500/10",
-    title: "Metric Based",
-    description: "We benchmark stability, motor speed, fabric breathability, and lumbar pressure points using standardized tools.",
-  },
-  {
-    icon: Award,
-    iconColor: "text-emerald-400",
-    bgGlow: "bg-emerald-500/10",
-    title: "Expert Vetted",
-    description: "Our writers have decades of experience in hybrid workspace design, ergonomics, and hardware engineering.",
+    icon: FlaskConical,
+    num: "01",
+    title: "30 days of testing.",
+    description: "Every product lives on a real desk before it lives on this list. We measure noise, feel, build quality, and longevity in conditions you'd actually work in.",
   },
   {
     icon: ShieldCheck,
-    iconColor: "text-amber-400",
-    bgGlow: "bg-amber-500/10",
-    title: "Fully Independent",
-    description: "No sponsored placements. Every product earns its spot through real-world testing against our quality bar.",
+    num: "02",
+    title: "No paid placement.",
+    description: "We refuse review samples that come with strings attached. If a brand asks for editorial control, the product doesn't get reviewed. Period.",
+  },
+  {
+    icon: Eye,
+    num: "03",
+    title: "Reasons to skip, always.",
+    description: "Every review tells you who shouldn't buy the product. We'd rather lose a click than recommend the wrong chair for your back.",
   },
 ];
 
 const stats = [
-  { value: 500, suffix: "k+", label: "Readers Monthly" },
-  { value: 200, suffix: "+", label: "Products Tested" },
-  { value: 4, suffix: ".5★", label: "Min Rating Bar" },
+  { value: 500, suffix: "k+", label: "Monthly Readers" },
+  { value: 287, suffix: "", label: "Products Reviewed" },
+  { value: 4, suffix: ".9", icon: true, label: "Average Reader Rating" },
+  { value: 12, suffix: " yrs", label: "Cumulative Testing Time" },
 ];
 
 export function TrustSection() {
   return (
     <section className="section-container">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-20">
-        <div className="lg:col-span-1 flex flex-col justify-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-              Our Editorial <br />
-              <span className="text-indigo-400">Pact.</span>
-            </h2>
-            <p className="text-slate-400 leading-relaxed mb-8">
-              We don&apos;t take free gear, we don&apos;t take bribes, and we don&apos;t cut corners. Every review is independent.
-            </p>
-            <Link href="/about" className="inline-flex items-center space-x-2 text-white font-bold group">
-              <span className="link-underline pb-1">Read Methodology</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
-          </motion.div>
-        </div>
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mb-6"
+      >
+        <div className="section-label">How We Earn Your Trust</div>
+      </motion.div>
 
-        <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {cards.map((card, idx) => (
-            <motion.div
-              key={card.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1, duration: 0.5 }}
-              className="p-8 glass-card group hover:border-indigo-500/30 transition-all duration-500 relative overflow-hidden"
-            >
-              <div className={`absolute -right-6 -top-6 w-24 h-24 ${card.bgGlow} blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-              <div className={`relative w-12 h-12 rounded-2xl ${card.bgGlow} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500`}>
-                <card.icon className={`w-6 h-6 ${card.iconColor}`} />
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mb-6"
+      >
+        <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-4">
+          The editorial promise.
+        </h2>
+        <p className="text-slate-400 text-lg max-w-2xl leading-relaxed">
+          We exist because we got tired of fake review sites. Here&apos;s exactly how this one is different.
+        </p>
+      </motion.div>
+
+      {/* 3 Promise cards */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 mb-12">
+        {cards.map((card, idx) => (
+          <motion.div
+            key={card.title}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: idx * 0.1, duration: 0.5 }}
+            className="p-8 bg-slate-900/40 border border-slate-800/50 rounded-2xl relative overflow-hidden group hover:border-slate-700/50 transition-all"
+          >
+            {/* Icon + ghost number */}
+            <div className="flex justify-between items-start mb-8">
+              <div className="w-11 h-11 rounded-xl bg-slate-800/60 border border-slate-700/30 flex items-center justify-center">
+                <card.icon className="w-5 h-5 text-indigo-400" />
               </div>
-              <h3 className="relative text-lg font-bold text-white mb-3">{card.title}</h3>
-              <p className="relative text-slate-500 text-sm leading-relaxed">
-                {card.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+              <span className="text-5xl font-black text-slate-800/30 leading-none select-none">
+                {card.num}
+              </span>
+            </div>
+
+            <h3 className="text-xl font-black text-white mb-3">{card.title}</h3>
+            <p className="text-slate-500 text-sm leading-relaxed">
+              {card.description}
+            </p>
+          </motion.div>
+        ))}
       </div>
 
       {/* Stats bar */}
@@ -109,15 +113,16 @@ export function TrustSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="glass-card p-8 md:p-10"
+        className="bg-slate-900/60 border border-slate-800/50 rounded-2xl p-8 md:p-10"
       >
-        <div className="grid grid-cols-3 divide-x divide-slate-800">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 md:divide-x md:divide-slate-800/50">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center px-4">
-              <div className="text-3xl md:text-4xl font-black text-white mb-1">
+              <div className="text-2xl sm:text-3xl md:text-5xl font-black text-white mb-2 flex items-center justify-center gap-1">
                 <AnimatedCounter end={stat.value} suffix={stat.suffix} />
+                {stat.icon && <Star className="w-6 h-6 text-amber-400 fill-amber-400 inline" />}
               </div>
-              <div className="text-xs text-slate-500 font-bold uppercase tracking-widest">
+              <div className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em]">
                 {stat.label}
               </div>
             </div>

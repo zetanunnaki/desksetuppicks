@@ -44,7 +44,7 @@
   }
 
   .section-container {
-    @apply w-full max-w-7xl mx-auto px-6 py-20 md:py-32;
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-24 lg:py-32;
   }
 
   .glass-card {
@@ -57,6 +57,22 @@
 
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-br from-white via-indigo-100 to-indigo-500;
+  }
+
+  .text-gradient-italic {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-slate-600 italic;
+  }
+
+  .section-label {
+    @apply flex items-center gap-4 text-[11px] font-black uppercase tracking-[0.25em] text-amber-500 mb-8;
+  }
+  .section-label::before {
+    content: '';
+    @apply w-10 h-[2px] bg-amber-500;
+  }
+
+  .ghost-number {
+    @apply text-[5rem] font-black leading-none text-slate-800/40 select-none pointer-events-none;
   }
 
   .glass-card-hover {

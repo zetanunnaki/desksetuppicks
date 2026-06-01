@@ -1,52 +1,52 @@
 "use client";
 
 import Link from "next/link";
-import { Laptop } from "lucide-react";
 
 const editorialLinks = [
-  { href: "/reviews/standing-desks", label: "Our Reviews" },
+  { href: "/reviews/standing-desks", label: "Latest Reviews" },
   { href: "/guides", label: "Buying Guides" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "The Journal" },
+  { href: "/about", label: "Methodology" },
 ];
 
 const companyLinks = [
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms" },
   { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
+];
+
+const socials = [
+  { name: "Twitter", letter: "𝕏" },
+  { name: "YouTube", letter: "▶" },
+  { name: "Instagram", letter: "◎" },
+  { name: "RSS", letter: "⊙" },
 ];
 
 export function Footer() {
   return (
     <footer className="bg-slate-950 pt-24 pb-12 border-t border-slate-900 relative overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[200px] bg-indigo-600/3 blur-[120px] rounded-full" />
-
       <div className="max-w-7xl mx-auto px-6 relative">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-16 md:mb-20">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center space-x-3 mb-8 group">
-              <div className="p-2 bg-indigo-600 rounded-xl group-hover:bg-indigo-500 transition-colors">
-                <Laptop className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center group-hover:bg-indigo-500 transition-colors">
+                <span className="text-white font-black text-sm">D.</span>
               </div>
               <span className="text-xl font-extrabold tracking-tight text-white">
-                DeskSetup<span className="text-indigo-400">Picks</span>
+                DeskSetupPicks
               </span>
             </Link>
             <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-xs">
-              Meticulously researched workspace gear for creators, engineers, and dreamers. Built for the modern hybrid world.
+              An independent editorial publication reviewing the gear that shapes how we work. We test every product for at least 30 days before recommending it.
             </p>
             <div className="flex space-x-3">
-              {[
-                { name: "Twitter", letter: "X" },
-                { name: "Pinterest", letter: "P" },
-                { name: "Instagram", letter: "I" },
-              ].map((social) => (
+              {socials.map((social) => (
                 <a
                   key={social.name}
                   href="#"
-                  className="w-10 h-10 rounded-xl bg-slate-900/60 flex items-center justify-center hover:bg-indigo-600 border border-slate-800/50 hover:border-indigo-500 text-slate-500 hover:text-white transition-all duration-300 text-xs font-black"
+                  className="w-10 h-10 rounded-xl bg-slate-900/60 flex items-center justify-center hover:bg-indigo-600 border border-slate-800/50 hover:border-indigo-500 text-slate-500 hover:text-white transition-all duration-300 text-sm"
                 >
                   <span className="sr-only">{social.name}</span>
                   {social.letter}
@@ -57,12 +57,12 @@ export function Footer() {
 
           {/* Editorial */}
           <div>
-            <h3 className="text-sm font-black text-white uppercase tracking-widest mb-6">
+            <h3 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6">
               Editorial
             </h3>
             <ul className="space-y-3">
               {editorialLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.href + link.label}>
                   <Link
                     href={link.href}
                     className="text-sm text-slate-500 hover:text-white transition-colors duration-300 link-underline inline-block pb-0.5"
@@ -76,12 +76,12 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="text-sm font-black text-white uppercase tracking-widest mb-6">
+            <h3 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-6">
               Company
             </h3>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.href + link.label}>
                   <Link
                     href={link.href}
                     className="text-sm text-slate-500 hover:text-white transition-colors duration-300 link-underline inline-block pb-0.5"
@@ -96,11 +96,11 @@ export function Footer() {
 
         <div className="pt-12 border-t border-slate-800/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-            <p className="text-[10px] text-slate-600 leading-relaxed italic max-w-2xl">
-              DeskSetupPicks.com is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate, we earn from qualifying purchases.
+            <p className="text-[11px] text-slate-600 leading-relaxed max-w-2xl">
+              &copy; {new Date().getFullYear()} DeskSetupPicks. Independent editorial. Affiliate links may earn us a commission at no cost to you.
             </p>
-            <p className="text-xs text-slate-600 whitespace-nowrap">
-              &copy; {new Date().getFullYear()} DeskSetupPicks
+            <p className="text-[10px] text-slate-700 uppercase tracking-[0.25em] font-bold whitespace-nowrap">
+              The Science of a Perfect Workspace
             </p>
           </div>
         </div>

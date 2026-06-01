@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, Star } from "lucide-react";
 import { useRef } from "react";
 
 const containerVariants = {
@@ -19,6 +19,13 @@ const itemVariants = {
     transition: { duration: 0.9, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] },
   },
 };
+
+const issueItems = [
+  { num: "01", title: "Best standing desks under $500", tag: "GUIDE" },
+  { num: "02", title: "Best ergonomic chairs compared", tag: "REVIEWED" },
+  { num: "03", title: "Standing desk vs sitting desk", tag: "OPINION" },
+  { num: "04", title: "A complete WFH lighting guide", tag: "GUIDE" },
+];
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -65,14 +72,6 @@ export function Hero() {
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
           className="absolute -bottom-20 -left-20 w-[800px] h-[800px] bg-blue-600/10 blur-[150px] rounded-full"
         />
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.05, 0.1, 0.05],
-          }}
-          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-violet-500/10 blur-[130px] rounded-full"
-        />
       </motion.div>
 
       {/* Content */}
@@ -80,51 +79,124 @@ export function Hero() {
         style={{ opacity }}
         className="max-w-7xl mx-auto px-6 w-full"
       >
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={containerVariants}
-          className="text-center max-w-5xl mx-auto"
-        >
-          <motion.span
-            variants={itemVariants}
-            className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-black uppercase tracking-widest mb-10 border border-indigo-500/20"
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            Trusted by 500k+ Remote Professionals
-          </motion.span>
-
-          <motion.h1
-            variants={itemVariants}
-            className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-8 leading-[0.9] tracking-tighter"
-          >
-            The Science of a{" "}
-            <span className="text-gradient">Perfect Workspace.</span>
-          </motion.h1>
-
-          <motion.p
-            variants={itemVariants}
-            className="text-lg md:text-xl text-slate-400 mb-14 max-w-2xl mx-auto leading-relaxed"
-          >
-            Data-backed reviews, ergonomic benchmarks, and aesthetic deep-dives to help you build the ultimate setup.
-          </motion.p>
-
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] lg:grid-cols-[1fr_380px] gap-8 md:gap-12 lg:gap-16 items-center">
+          {/* Left: Main content */}
           <motion.div
-            variants={itemVariants}
-            className="flex flex-col sm:flex-row items-center justify-center gap-5"
+            initial="hidden"
+            animate="visible"
+            variants={containerVariants}
           >
-            <Link href="/reviews/standing-desks" className="btn-primary group w-full sm:w-auto text-lg">
-              <span>Explore The Gear</span>
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link
-              href="/guides/how-to-build-the-perfect-home-office"
-              className="btn-outline w-full sm:w-auto text-lg"
+            {/* Issue badge */}
+            <motion.div
+              variants={itemVariants}
+              className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-slate-900/60 border border-slate-800/50 mb-10"
             >
-              Read Our Guides
-            </Link>
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span className="text-sm text-slate-300 font-medium">
+                Issue 24 · May 2026
+              </span>
+              <span className="text-slate-600">/</span>
+              <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                12 New Reviews
+              </span>
+            </motion.div>
+
+            {/* Heading */}
+            <motion.h1
+              variants={itemVariants}
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] font-black text-white mb-8 leading-[0.95] tracking-tight"
+            >
+              The science of a{" "}
+              <span className="text-gradient-italic font-black not-italic block sm:inline"
+                style={{
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                  backgroundImage: "linear-gradient(135deg, #c7d2fe 0%, #6366f1 50%, #818cf8 100%)",
+                  fontStyle: "italic",
+                }}
+              >
+                perfect
+              </span>{" "}
+              workspace.
+            </motion.h1>
+
+            {/* Description */}
+            <motion.p
+              variants={itemVariants}
+              className="text-base sm:text-lg text-slate-400 mb-8 sm:mb-12 max-w-xl leading-relaxed"
+            >
+              We review desks, chairs, monitors, and the small things that make a great workday feel inevitable. Every product is tested for at least{" "}
+              <span className="text-white font-bold">30 days</span> — only the top{" "}
+              <span className="text-white font-bold">4.5★</span> make this list.
+            </motion.p>
+
+            {/* CTAs */}
+            <motion.div
+              variants={itemVariants}
+              className="flex flex-col sm:flex-row items-start gap-4"
+            >
+              <Link
+                href="/reviews/standing-desks"
+                className="px-7 py-4 bg-indigo-600 text-white font-bold rounded-2xl hover:bg-indigo-500 transition-all duration-300 inline-flex items-center gap-2 shadow-lg shadow-indigo-500/20 active:scale-95 text-base"
+              >
+                Explore the latest picks
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                href="/about"
+                className="px-7 py-4 border border-slate-700 text-slate-300 font-medium rounded-2xl hover:bg-slate-900 hover:border-slate-600 transition-all duration-300 inline-flex items-center text-base active:scale-95"
+              >
+                Read our methodology
+              </Link>
+            </motion.div>
           </motion.div>
-        </motion.div>
+
+          {/* Right: IN THIS ISSUE sidebar */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.8, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="hidden md:block"
+          >
+            <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.25em] mb-6 text-center">
+              In This Issue
+            </p>
+            <div className="bg-slate-900/50 border border-slate-800/50 rounded-2xl overflow-hidden">
+              {issueItems.map((item, idx) => (
+                <div
+                  key={item.num}
+                  className={`flex items-center gap-5 px-6 py-5 hover:bg-slate-800/30 transition-colors group cursor-pointer ${
+                    idx < issueItems.length - 1 ? "border-b border-slate-800/30" : ""
+                  }`}
+                >
+                  <span className="text-2xl font-black text-indigo-500/60">{item.num}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-bold text-white group-hover:text-indigo-300 transition-colors truncate">
+                      {item.title}
+                    </p>
+                    <p className="text-[9px] font-black text-slate-600 uppercase tracking-[0.2em] mt-0.5">
+                      {item.tag}
+                    </p>
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-slate-700 group-hover:text-indigo-400 transition-colors flex-none" />
+                </div>
+              ))}
+            </div>
+
+            {/* Trust badge */}
+            <div className="flex items-center justify-center gap-2 mt-6">
+              <div className="flex">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+                ))}
+              </div>
+              <span className="text-sm text-slate-400">
+                <span className="text-white font-bold">4.9</span> trusted by 500k+ readers
+              </span>
+            </div>
+          </motion.div>
+        </div>
       </motion.div>
 
       {/* Scroll indicator */}

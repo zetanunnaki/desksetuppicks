@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Check, X, Package } from "lucide-react";
 import { StarRating } from "./StarRating";
-import { Badge } from "./Badge";
 import { AffiliateButton } from "./AffiliateButton";
 import type { Product } from "@/lib/types";
 
@@ -15,9 +14,16 @@ export function ProductReviewCard({
   index: number;
 }) {
   const num = String(index + 1).padStart(2, "0");
-  const isEditorChoice = product.badges.includes("Editor's Choice");
+  const badgeLabel = product.badges[0] || "";
   const specs = Object.entries(product.specifications);
   const displayPrice = product.amazonPrice || product.priceRange;
+
+  const badgeColor =
+    badgeLabel === "Editor's Choice"
+      ? "bg-emerald-500"
+      : badgeLabel === "Best Value"
+        ? "bg-blue-500"
+        : "bg-violet-500";
 
   return (
     <motion.div
@@ -27,57 +33,76 @@ export function ProductReviewCard({
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      {/* Header */}
-      <div className="mb-8">
-        <div className="flex items-start space-x-6 mb-4">
-          <span className="text-6xl md:text-8xl font-black text-indigo-600/20 leading-none select-none">
-            {num}
-          </span>
-          <div className="pt-2 md:pt-4">
-            <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
-              {product.name}
-            </h2>
-            <div className="mt-3">
-              <StarRating
-                rating={product.amazonRating || product.rating}
-                reviewCount={product.reviewCount}
+      {/* Hero card: image + details */}
+      <div className="bg-slate-900/40 border border-slate-800/50 rounded-2xl overflow-hidden mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+          {/* Image side */}
+          <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center min-h-[280px] overflow-hidden group">
+            {product.amazonImageUrl ? (
+              <img
+                src={product.amazonImageUrl}
+                alt={product.name}
+                loading="lazy"
+                className="max-h-[240px] sm:max-h-[280px] lg:max-h-[320px] object-contain p-6 sm:p-8 lg:p-10 group-hover:scale-105 transition-transform duration-700"
               />
+            ) : (
+              <div className="flex flex-col items-center gap-3">
+                <Package className="w-16 h-16 text-slate-800" />
+                <span className="text-xs text-slate-700 font-bold uppercase tracking-widest">
+                  Photo coming soon
+                </span>
+              </div>
+            )}
+            {badgeLabel && (
+              <div className="absolute top-5 left-5">
+                <span className={`text-[10px] font-black px-3 py-1.5 rounded-lg uppercase tracking-wider text-white ${badgeColor}`}>
+                  {badgeLabel}
+                </span>
+              </div>
+            )}
+            {product.useCases && product.useCases.length > 0 && (
+              <div className="absolute bottom-0 left-0 right-0 px-5 py-3 bg-slate-950/80 backdrop-blur-sm">
+                <span className="text-[9px] font-black text-slate-400 uppercase tracking-[0.2em]">
+                  Best for: {product.useCases.slice(0, 3).join(", ")}
+                </span>
+              </div>
+            )}
+          </div>
+
+          {/* Details side */}
+          <div className="p-6 md:p-8 lg:p-10 relative overflow-hidden">
+            {/* Ghost number */}
+            <div className="absolute -right-4 -top-2 text-[8rem] font-black text-slate-800/20 leading-none select-none pointer-events-none">
+              {num}
+            </div>
+
+            <div className="relative">
+              <p className="text-[10px] font-black text-slate-600 uppercase tracking-[0.2em] mb-3">
+                Review · {num}
+              </p>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight mb-3">
+                {product.name}
+              </h2>
+              <div className="flex items-center gap-4 mb-4">
+                <StarRating
+                  rating={product.amazonRating || product.rating}
+                />
+                <span className="text-2xl font-black text-white ml-auto">
+                  {displayPrice}
+                </span>
+              </div>
+              <p className="text-slate-400 leading-relaxed">
+                {product.shortDescription}
+              </p>
             </div>
           </div>
         </div>
-        {isEditorChoice && (
-          <div className="flex flex-wrap gap-2 mt-4 ml-0 md:ml-20">
-            {product.badges.map((badge) => (
-              <Badge key={badge} label={badge} />
-            ))}
-          </div>
-        )}
       </div>
 
-      {/* Product image */}
-      <div className="aspect-[21/9] rounded-[2.5rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800/50 mb-12 flex items-center justify-center overflow-hidden relative group">
-        {product.amazonImageUrl ? (
-          <img
-            src={product.amazonImageUrl}
-            alt={product.name}
-            loading="lazy"
-            className="max-h-full object-contain p-8 group-hover:scale-105 transition-transform duration-700"
-          />
-        ) : (
-          <div className="flex flex-col items-center gap-3">
-            <Package className="w-16 h-16 text-slate-800" />
-            <span className="text-xs text-slate-700 font-bold uppercase tracking-widest">
-              Photo coming soon
-            </span>
-          </div>
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent pointer-events-none" />
-      </div>
-
-      {/* Pros and Cons */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-        <div className="glass-card p-8 border-l-2 border-l-emerald-500/30 hover:border-l-emerald-500/60 transition-colors">
-          <h3 className="text-xs font-black text-emerald-400 uppercase tracking-widest mb-6">
+      {/* Pros and Cons - side by side with divider */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-10">
+        <div className="p-8 md:border-r border-slate-800/30">
+          <h3 className="text-[10px] font-black text-emerald-400 uppercase tracking-[0.2em] mb-6">
             What We Love
           </h3>
           <ul className="space-y-4">
@@ -93,9 +118,9 @@ export function ProductReviewCard({
             ))}
           </ul>
         </div>
-        <div className="glass-card p-8 border-l-2 border-l-rose-500/30 hover:border-l-rose-500/60 transition-colors">
-          <h3 className="text-xs font-black text-rose-400 uppercase tracking-widest mb-6">
-            What Could Improve
+        <div className="p-8">
+          <h3 className="text-[10px] font-black text-rose-400 uppercase tracking-[0.2em] mb-6">
+            Reasons to Skip
           </h3>
           <ul className="space-y-4">
             {product.prosAndCons.cons.map((con, i) => (
@@ -112,38 +137,47 @@ export function ProductReviewCard({
         </div>
       </div>
 
-      {/* Verdict */}
-      <div className="mb-12 relative pl-6 border-l-2 border-indigo-500/30">
-        <p className="text-2xl md:text-3xl text-white font-bold italic leading-relaxed">
-          &ldquo;{product.shortDescription}&rdquo;
-        </p>
-      </div>
-
-      {/* Specs + CTA */}
-      <div className="glass-card p-8 md:p-10">
-        <h3 className="text-xs font-black text-slate-500 uppercase tracking-widest mb-6">
-          Key Specifications
-        </h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+      {/* Specs row */}
+      <div className="mb-10">
+        <p className="section-label text-xs">The Numbers</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3">
           {specs.map(([key, value]) => (
-            <div key={key} className="p-3 rounded-xl bg-slate-800/30">
-              <span className="text-[10px] font-bold text-slate-600 uppercase tracking-widest block mb-1">
+            <div
+              key={key}
+              className="p-4 bg-slate-900/40 border border-slate-800/40 rounded-xl"
+            >
+              <span className="text-[9px] font-bold text-slate-600 uppercase tracking-[0.15em] block mb-1.5">
                 {key}
               </span>
               <span className="text-sm font-bold text-white">{value}</span>
             </div>
           ))}
         </div>
-        <div className="flex flex-col xl:flex-row items-start xl:items-center gap-4 pt-4 border-t border-slate-800/50">
-          <AffiliateButton asin={product.asin} amazonUrl={product.amazonUrl} />
-          <div className="flex flex-col">
-            <span className="text-lg text-white font-black">{displayPrice}</span>
-            {product.amazonListPrice && product.amazonPrice !== product.amazonListPrice && (
-              <span className="text-xs text-slate-500 line-through">
-                {product.amazonListPrice}
+      </div>
+
+      {/* Verdict quote + CTA */}
+      <div className="bg-slate-900/40 border border-slate-800/50 rounded-2xl p-6 md:p-8 lg:p-10 flex flex-col md:flex-row items-start gap-6 md:gap-8">
+        <div className="flex-1">
+          <span className="text-3xl text-indigo-500/40 font-serif leading-none block mb-3">&ldquo;&rdquo;</span>
+          <p className="text-xl md:text-2xl text-white italic leading-relaxed mb-4">
+            &ldquo;{product.shortDescription}&rdquo;
+          </p>
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white text-[10px] font-black">
+              DS
+            </div>
+            <div>
+              <span className="text-sm font-bold text-white block leading-tight">
+                DeskSetupPicks Team
               </span>
-            )}
+              <span className="text-[9px] font-bold text-slate-600 uppercase tracking-[0.15em]">
+                Senior Editor
+              </span>
+            </div>
           </div>
+        </div>
+        <div className="flex-none">
+          <AffiliateButton asin={product.asin} amazonUrl={product.amazonUrl} />
         </div>
       </div>
     </motion.div>
