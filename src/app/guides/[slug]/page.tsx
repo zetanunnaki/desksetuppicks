@@ -8,12 +8,10 @@ import { MdxContent } from "@/components/mdx/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { BackToTop } from "@/components/BackToTop";
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { GuideToc } from "@/components/GuideToc";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { breadcrumbSchema, articleSchema } from "@/lib/schema";
 import { getReviewSlugsForGuide } from "@/lib/recommendations";
-import { extractHeadings } from "@/lib/toc";
 
 export function generateStaticParams() {
   return getAllGuideSlugs().map((slug) => ({ slug }));
@@ -44,7 +42,6 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const { content } = getGuideContent(slug);
-  const headings = extractHeadings(content);
 
   const catBySlug = new Map(getCategories().map((c) => [c.slug, c]));
   const relatedReviews = getReviewSlugsForGuide(guide)
@@ -120,19 +117,9 @@ export default async function GuidePage({
       <AffiliateDisclosure />
 
       <div className="section-container py-0">
-        <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-14 xl:gap-20">
-          <article className="max-w-[44rem]">
-            <MdxContent source={content} />
-          </article>
-
-          {headings.length >= 3 && (
-            <aside className="hidden lg:block">
-              <div className="sticky top-28 max-h-[calc(100vh-9rem)] overflow-y-auto scrollbar-hide pb-8">
-                <GuideToc items={headings} />
-              </div>
-            </aside>
-          )}
-        </div>
+        <article className="max-w-[44rem] mx-auto">
+          <MdxContent source={content} />
+        </article>
       </div>
 
       {relatedReviews.length > 0 && (
