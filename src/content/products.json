@@ -4943,6 +4943,209 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31Z6ZgChfGL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B000062VUO?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "anker-7in1-hub",
+      "name": "Anker 7-in-1 USB-C Hub",
+      "slug": "anker-7in1-hub",
+      "category": "usb-hubs",
+      "shortDescription": "A compact metal 7-in-1 hub with 4K HDMI, 85W USB-C PD, dual USB-A 3.0, a USB-C data port, and dual SD/TF card slots — a great all-rounder for laptops and dual card-slot users.",
+      "prosAndCons": {
+        "pros": [
+          "4K HDMI + 85W PD pass-through",
+          "Dual USB-A 5Gbps + USB-C data",
+          "Both SD and microSD slots"
+        ],
+        "cons": [
+          "No Ethernet on this model",
+          "85W PD (not full 100W)"
+        ]
+      },
+      "specifications": {
+        "Type": "USB-C 7-in-1",
+        "Video": "4K HDMI",
+        "PD": "85W",
+        "Data": "2x USB-A + USB-C",
+        "Card": "SD + microSD"
+      },
+      "priceRange": "$19.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B07ZVKTP53",
+      "imageUrl": "/images/products/anker-7in1-hub.webp",
+      "imagePlaceholder": "Anker 7-in-1 USB-C Hub",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$25.99",
+      "amazonListPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41SfemNZeDL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07ZVKTP53?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "anker-4port-usbc",
+      "name": "Anker 4-Port USB-C Data Hub",
+      "slug": "anker-4port-usbc",
+      "category": "usb-hubs",
+      "shortDescription": "An ultra-slim 4-port USB-A 3.0 hub on a 2ft flexible USB-C cable with 5Gbps transfer — best for users who just need more USB-A ports off a USB-C laptop without the bulk.",
+      "prosAndCons": {
+        "pros": [
+          "4 USB-A 3.0 ports at 5Gbps",
+          "USB-C connector for modern laptops",
+          "Slim, light, 2ft flexible cable"
+        ],
+        "cons": [
+          "Data only — no charging",
+          "No HDMI/card slots"
+        ]
+      },
+      "specifications": {
+        "Type": "USB-C to 4x USB-A",
+        "Speed": "5 Gbps",
+        "Cable": "2 ft",
+        "Charging": "No"
+      },
+      "priceRange": "$17.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0CCDZWH5H",
+      "imageUrl": "/images/products/anker-4port-usbc.webp",
+      "imagePlaceholder": "Anker 4-Port USB-C Data Hub",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31ln6Er5aoL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CCDZWH5H?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "sabrent-hb-umls",
+      "name": "SABRENT 4-Port USB 2.0 Hub",
+      "slug": "sabrent-hb-umls",
+      "category": "usb-hubs",
+      "shortDescription": "An incredibly popular budget hub with individual LED power switches per port, 480Mbps USB 2.0, and daisy-chain support — the best ultra-budget desktop hub for keyboards, mice, and small peripherals.",
+      "prosAndCons": {
+        "pros": [
+          "Per-port LED power switches",
+          "Dirt-cheap, hugely reviewed",
+          "Plug-and-play, daisy-chainable"
+        ],
+        "cons": [
+          "USB 2.0 speeds (480Mbps)",
+          "Not for fast storage transfers"
+        ]
+      },
+      "specifications": {
+        "Type": "4x USB-A 2.0",
+        "Speed": "480 Mbps",
+        "Switches": "Per-port LED",
+        "Charging": "No"
+      },
+      "priceRange": "$7.95",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B00BWF5U0M",
+      "imageUrl": "/images/products/sabrent-hb-umls.webp",
+      "imagePlaceholder": "SABRENT 4-Port USB 2.0 Hub",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$7.95",
+      "amazonListPrice": "$8.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41lMdNjeHrL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00BWF5U0M?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "sabrent-hb-bu10",
+      "name": "SABRENT 10-Port 60W USB 3.0 Hub",
+      "slug": "sabrent-hb-bu10",
+      "category": "usb-hubs",
+      "shortDescription": "A massive 10-port powered hub with individual on/off switches and blue LED indicators per port, a 60W 12V/5A adapter, and 5Gbps speeds — the best high-port-count desktop hub for a loaded workstation.",
+      "prosAndCons": {
+        "pros": [
+          "10 powered USB 3.0 ports at 5Gbps",
+          "Per-port switches + LED indicators",
+          "60W adapter drives many devices"
+        ],
+        "cons": [
+          "Needs the included power brick",
+          "Large desktop footprint"
+        ]
+      },
+      "specifications": {
+        "Type": "10x USB-A 3.0 (powered)",
+        "Speed": "5 Gbps",
+        "Power": "60W (12V/5A)",
+        "Switches": "Per-port + LED"
+      },
+      "priceRange": "$47.49",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0797NZFYP",
+      "imageUrl": "/images/products/sabrent-hb-bu10.webp",
+      "imagePlaceholder": "SABRENT 10-Port 60W USB 3.0 Hub",
+      "badges": [],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$47.49",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/415EsJUQGrL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0797NZFYP?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "caldigit-element-5",
+      "name": "CalDigit Element 5 Thunderbolt 5 Hub",
+      "slug": "caldigit-element-5",
+      "category": "usb-hubs",
+      "shortDescription": "The pinnacle Thunderbolt 5 hub — 4x TB5/USB4 v2 ports at 80Gb/s, 3x USB-A + 2x USB-C 10Gb/s, 90W charging, a 180W PSU, and dual 8K@60Hz display support — built for M-series Macs and TB5 Windows power users.",
+      "prosAndCons": {
+        "pros": [
+          "4x Thunderbolt 5 / USB4 v2 at 80Gb/s",
+          "90W host charging, 180W PSU",
+          "Dual 8K@60Hz display support"
+        ],
+        "cons": [
+          "Premium price",
+          "Overkill unless you have TB5 gear"
+        ]
+      },
+      "specifications": {
+        "Type": "Thunderbolt 5 hub",
+        "TB5": "4 ports @ 80Gb/s",
+        "USB": "3x USB-A + 2x USB-C 10Gb/s",
+        "Charging": "90W",
+        "PSU": "180W"
+      },
+      "priceRange": "$249.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0DX8FS8KC",
+      "imageUrl": "/images/products/caldigit-element-5.webp",
+      "imagePlaceholder": "CalDigit Element 5 Thunderbolt 5 Hub",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 9,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$249.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31QKkkmqqhL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DX8FS8KC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
