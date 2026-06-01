@@ -4821,6 +4821,128 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31V1JXYVdqL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CT6D6Q27?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "presonus-eris-35-g2",
+      "name": "PreSonus Eris 3.5 Studio Monitors (Gen 2)",
+      "slug": "presonus-eris-35-g2",
+      "category": "speakers",
+      "shortDescription": "Updated 2nd-gen near-field studio monitors with improved woven-composite woofers, 50W Class AB amplification, a power-saving auto mode, Bluetooth, and optional Eris Sub 8BT compatibility — the best overall value studio monitor for a desk.",
+      "prosAndCons": {
+        "pros": [
+          "Accurate, flat studio-monitor sound",
+          "50W Class AB, improved woofers",
+          "Bluetooth + auto power-saving mode"
+        ],
+        "cons": [
+          "Sold as a powered pair, takes desk space",
+          "Neutral tuning isn't bass-forward"
+        ]
+      },
+      "specifications": {
+        "Type": "Powered studio monitors (pair)",
+        "Driver": "3.5\" woven composite",
+        "Power": "50W Class AB",
+        "Inputs": "TRS / RCA / AUX",
+        "Bluetooth": "Yes"
+      },
+      "priceRange": "$114.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0C88ZB3D9",
+      "imageUrl": "/images/products/presonus-eris-35-g2.webp",
+      "imagePlaceholder": "PreSonus Eris 3.5 Studio Monitors (Gen 2)",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$114.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41fY2ymSB-L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0C88ZB3D9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "mackie-cr35",
+      "name": "Mackie CR3.5 Studio Monitors",
+      "slug": "mackie-cr35",
+      "category": "speakers",
+      "shortDescription": "Powered 3.5\" studio monitors with a unique Tone Knob (transparent reference to bass-boosted) plus a Location Switch (Desktop vs Bookshelf), silk-dome tweeter, 50W, headphone out, and foam isolation pads included.",
+      "prosAndCons": {
+        "pros": [
+          "Tone Knob tunes from flat to bass-boosted",
+          "Location Switch optimizes desk vs shelf",
+          "Silk-dome tweeter, headphone out, foam pads"
+        ],
+        "cons": [
+          "Wired source only on base model",
+          "Powered pair needs desk space"
+        ]
+      },
+      "specifications": {
+        "Type": "Powered studio monitors (pair)",
+        "Driver": "3.5\" woofer + silk dome",
+        "Power": "50W",
+        "Controls": "Tone Knob + Location Switch",
+        "Extras": "Headphone out, foam pads"
+      },
+      "priceRange": "$99.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0DFZZ5ZZY",
+      "imageUrl": "/images/products/mackie-cr35.webp",
+      "imagePlaceholder": "Mackie CR3.5 Studio Monitors",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$99.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/3180Q36LZLL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DFZZ5ZZY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "klipsch-promedia-21",
+      "name": "Klipsch ProMedia 2.1 THX System",
+      "slug": "klipsch-promedia-21",
+      "category": "speakers",
+      "shortDescription": "A THX-certified 2.1 system with MicroTractrix Horn satellites, a 6.5\" side-firing subwoofer, 200W peak, and a control pod with volume + sub gain — the best desk speaker system for immersive gaming, movies, and music.",
+      "prosAndCons": {
+        "pros": [
+          "THX-certified, punchy horn-loaded clarity",
+          "6.5\" subwoofer for real low-end",
+          "Control pod with volume + sub gain"
+        ],
+        "cons": [
+          "Subwoofer needs floor/desk space",
+          "Wired only, dated control pod"
+        ]
+      },
+      "specifications": {
+        "Type": "2.1 system + subwoofer",
+        "Satellites": "MicroTractrix Horn",
+        "Sub": "6.5\" side-firing",
+        "Power": "200W peak",
+        "Cert": "THX"
+      },
+      "priceRange": "$169.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B000062VUO",
+      "imageUrl": "/images/products/klipsch-promedia-21.webp",
+      "imagePlaceholder": "Klipsch ProMedia 2.1 THX System",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$169.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31Z6ZgChfGL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B000062VUO?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
