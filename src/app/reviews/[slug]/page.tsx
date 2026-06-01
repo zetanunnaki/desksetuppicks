@@ -16,7 +16,11 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { Sidebar } from "@/components/Sidebar";
 import { BackToTop } from "@/components/BackToTop";
 import { JsonLd } from "@/components/JsonLd";
+import { QuickPicks } from "@/components/QuickPicks";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { breadcrumbSchema, reviewItemListSchema } from "@/lib/schema";
+import { getGuides } from "@/lib/data";
+import { getRelatedCategories, getGuidesForCategory } from "@/lib/recommendations";
 import { Star, Clock, Calendar, FlaskConical } from "lucide-react";
 
 export function generateStaticParams() {
@@ -49,6 +53,8 @@ export default async function CategoryReviewPage({
 
   const products = getProductsByCategory(slug);
   const categoryContent = getCategoryContent(slug);
+  const relatedCats = getRelatedCategories(slug, getCategories());
+  const relatedGuides = getGuidesForCategory(slug, getGuides());
   const avgRating =
     products.length > 0
       ? (
@@ -217,6 +223,7 @@ export default async function CategoryReviewPage({
         </div>
 
         <main className="flex-1 min-w-0">
+          <QuickPicks products={products} />
           <ComparisonTable products={products} />
 
           <section id="reviews" className="space-y-40 mb-32 scroll-mt-32">
@@ -231,6 +238,28 @@ export default async function CategoryReviewPage({
 
           <BuyingGuide categorySlug={slug} />
           <FaqAccordion faqs={categoryContent.faqs} />
+
+          {relatedGuides.length > 0 && (
+            <RelatedLinks
+              label="Go Deeper"
+              heading="Related buying guides"
+              links={relatedGuides.map((g) => ({
+                name: g.title,
+                href: `/guides/${g.slug}/`,
+                note: g.readTime,
+              }))}
+            />
+          )}
+
+          <RelatedLinks
+            label="Keep Building"
+            heading="Related categories"
+            links={relatedCats.map((c) => ({
+              name: c.name,
+              href: `/reviews/${c.slug}/`,
+              note: `${c.productCount} picks`,
+            }))}
+          />
         </main>
       </div>
 

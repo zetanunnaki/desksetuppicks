@@ -154,7 +154,11 @@
       "Bash(grep -o application/ld+json __TRACKED_VAR__/index.html)",
       "Bash(grep -o '<h1' __TRACKED_VAR__/index.html)",
       "Bash(grep -o '<title>[^<]*</title>' __TRACKED_VAR__/index.html)",
-      "Bash(grep -n 'title:\\\\|description:\\\\|alternates' src/app/__TRACKED_VAR__.tsx)"
+      "Bash(grep -n 'title:\\\\|description:\\\\|alternates' src/app/__TRACKED_VAR__.tsx)",
+      "Bash(gh auth *)",
+      "Bash(git remote *)",
+      "PowerShell($procs = Get-CimInstance Win32_Process -Filter \"Name='node.exe'\" | Where-Object { $_.CommandLine -match 'next' }; if \\($procs\\) { $procs | ForEach-Object { \"Stopping PID $\\($_.ProcessId\\): $\\($_.CommandLine.Substring\\(0,[Math]::Min\\(70,$_.CommandLine.Length\\)\\)\\)\"; Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue } } else { \"No Next.js dev servers running.\" })",
+      "PowerShell(Set-Location 'C:\\\\Users\\\\Issam'; if \\(Test-Path 'desksetuppicks'\\) { \"TARGET EXISTS — aborting\" } elseif \\(-not \\(Test-Path 'DeskSetupPro'\\)\\) { \"SOURCE MISSING\" } else { try { Rename-Item -Path 'DeskSetupPro' -NewName 'desksetuppicks' -ErrorAction Stop; \"RENAMED OK\" } catch { \"FAILED: $\\($_.Exception.Message\\)\" } })"
     ],
     "additionalDirectories": [
       "c:\\Users\\Issam\\DeskSetupPro\\src\\app\\reviews",

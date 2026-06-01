@@ -52,6 +52,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
+      <head>
+        {/* Speed up product-image loading from Amazon's CDN */}
+        <link rel="preconnect" href="https://m.media-amazon.com" />
+        <link rel="dns-prefetch" href="https://m.media-amazon.com" />
+      </head>
       <body>
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
         <Header />

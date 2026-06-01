@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Clock, Calendar, User } from "lucide-react";
-import { getGuideBySlug } from "@/lib/data";
+import { getGuideBySlug, getCategories } from "@/lib/data";
 import { getGuideContent, getAllGuideSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { BackToTop } from "@/components/BackToTop";
 import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { breadcrumbSchema, articleSchema } from "@/lib/schema";
+import { getReviewSlugsForGuide } from "@/lib/recommendations";
 
 export function generateStaticParams() {
   return getAllGuideSlugs().map((slug) => ({ slug }));
@@ -39,6 +41,12 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const { content } = getGuideContent(slug);
+
+  const catBySlug = new Map(getCategories().map((c) => [c.slug, c]));
+  const relatedReviews = getReviewSlugsForGuide(guide)
+    .map((s) => catBySlug.get(s))
+    .filter((c): c is NonNullable<typeof c> => !!c && c.productCount > 0)
+    .slice(0, 4);
 
   return (
     <div className="pt-24 md:pt-12 min-h-screen">
@@ -111,6 +119,20 @@ export default async function GuidePage({
           <MdxContent source={content} />
         </article>
       </div>
+
+      {relatedReviews.length > 0 && (
+        <div className="section-container py-0">
+          <RelatedLinks
+            label="Shop the Picks"
+            heading="Reviews from this guide"
+            links={relatedReviews.map((c) => ({
+              name: `Best ${c.name}`,
+              href: `/reviews/${c.slug}/`,
+              note: `${c.productCount} reviewed`,
+            }))}
+          />
+        </div>
+      )}
 
       <BackToTop />
     </div>
