@@ -5146,6 +5146,206 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31QKkkmqqhL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DX8FS8KC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "cushionlab-footrest",
+      "name": "Cushion Lab Ergonomic Foot Rest",
+      "slug": "cushionlab-footrest",
+      "category": "footrests",
+      "shortDescription": "A patented WaveMassage ridge design over crescent-shaped CloudSupport memory foam, with adjustable height and multi-use modes (foot rest, knee support, rocker) — backed by a lifetime satisfaction guarantee.",
+      "prosAndCons": {
+        "pros": [
+          "Massage-ridge surface relaxes the feet",
+          "Premium CloudSupport memory foam",
+          "Multi-use, lifetime satisfaction guarantee"
+        ],
+        "cons": [
+          "Pricier than basic foam rests",
+          "One firmness level"
+        ]
+      },
+      "specifications": {
+        "Foam": "CloudSupport memory foam",
+        "Surface": "WaveMassage ridges",
+        "Height": "Adjustable",
+        "Uses": "Feet / knees / rocker"
+      },
+      "priceRange": "$45.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B09P89479J",
+      "imageUrl": "/images/products/cushionlab-footrest.webp",
+      "imagePlaceholder": "Cushion Lab Ergonomic Foot Rest",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$55.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31WoYusZPEL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09P89479J?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "huanuo-hnfr9",
+      "name": "HUANUO Adjustable Footrest (Tilt + Roller)",
+      "slug": "huanuo-hnfr9",
+      "category": "footrests",
+      "shortDescription": "An adjustable under-desk footrest with 3 height settings (3.9\", 5\", 6\"), ±20° tilt for smooth rocking, a massage-textured surface with rollers, and a pre-assembled design — out of the box and ready to use.",
+      "prosAndCons": {
+        "pros": [
+          "3 heights plus ±20° rocking tilt",
+          "Massage texture with built-in rollers",
+          "Pre-assembled, non-slip feet"
+        ],
+        "cons": [
+          "Plastic build",
+          "Rollers are a love-it-or-not feature"
+        ]
+      },
+      "specifications": {
+        "Heights": "3.9\" / 5\" / 6\"",
+        "Tilt": "±20°",
+        "Surface": "Massage + rollers",
+        "Assembly": "Pre-assembled"
+      },
+      "priceRange": "$29.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0B5JL2PZ7",
+      "imageUrl": "/images/products/huanuo-hnfr9.webp",
+      "imagePlaceholder": "HUANUO Adjustable Footrest (Tilt + Roller)",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$29.99",
+      "amazonListPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41r0KDHrbJL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0B5JL2PZ7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "eureka-dsn03048",
+      "name": "EUREKA Ergonomic Tilt Footrest",
+      "slug": "eureka-dsn03048",
+      "category": "footrests",
+      "shortDescription": "A durable metal-frame footrest with a TPR massage surface, smooth 0–20° tilt adjustment, and scratch-resistant rubber feet — a sturdy, no-nonsense pick that holds up to daily use.",
+      "prosAndCons": {
+        "pros": [
+          "Sturdy metal frame, supports 150 lbs",
+          "0–20° tilt with bumpy massage surface",
+          "Scratch-resistant rubber feet"
+        ],
+        "cons": [
+          "No height adjustment",
+          "Tilt has no lock"
+        ]
+      },
+      "specifications": {
+        "Frame": "Metal",
+        "Surface": "TPR massage",
+        "Tilt": "0–20°",
+        "Capacity": "150 lbs"
+      },
+      "priceRange": "$45.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B071DQM9DD",
+      "imageUrl": "/images/products/eureka-dsn03048.webp",
+      "imagePlaceholder": "EUREKA Ergonomic Tilt Footrest",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$45.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/418F+nKsHGL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B071DQM9DD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "huanuo-bamboo-footrest",
+      "name": "HUANUO Bamboo Footrest",
+      "slug": "huanuo-bamboo-footrest",
+      "category": "footrests",
+      "shortDescription": "A sustainable, water-resistant bamboo footrest with 4 height settings (3.15\"–6.89\"), wide angle adjustment, a pebble massage surface, a triangular frame, and anti-slip pads — the best eco-friendly pick.",
+      "prosAndCons": {
+        "pros": [
+          "Sustainable, water-resistant bamboo",
+          "4 heights plus adjustable angle",
+          "Pebble massage surface, anti-slip"
+        ],
+        "cons": [
+          "Hard surface (no foam cushion)",
+          "Assembly required"
+        ]
+      },
+      "specifications": {
+        "Material": "Bamboo (water-resistant)",
+        "Heights": "3.15\"–6.89\"",
+        "Surface": "Pebble massage",
+        "Frame": "Triangular"
+      },
+      "priceRange": "$35.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0DQTJ21TX",
+      "imageUrl": "/images/products/huanuo-bamboo-footrest.webp",
+      "imagePlaceholder": "HUANUO Bamboo Footrest",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$35.99",
+      "amazonListPrice": "$39.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51MkDYV3fTL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DQTJ21TX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "eureka-rolling-stool",
+      "name": "EUREKA Ergonomic Multi-Use Rolling Stool",
+      "slug": "eureka-rolling-stool",
+      "category": "footrests",
+      "shortDescription": "A height-adjustable (16¾\"–20¼\") swivel rolling ottoman that doubles as a footrest, gaming stool, or guest chair — PU leather, BIFMA/SGS-rated gas lift, and a 250 lb capacity. The most versatile footrest here.",
+      "prosAndCons": {
+        "pros": [
+          "Doubles as footrest, stool, or guest seat",
+          "Height-adjustable gas lift, 360° swivel",
+          "PU leather, 250 lb capacity, rolling wheels"
+        ],
+        "cons": [
+          "Much pricier than a simple footrest",
+          "Takes more floor space"
+        ]
+      },
+      "specifications": {
+        "Type": "Rolling stool / footrest",
+        "Height": "16.75\"–20.25\"",
+        "Material": "PU leather",
+        "Capacity": "250 lbs",
+        "Mobility": "360° swivel + wheels"
+      },
+      "priceRange": "$113.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B09SHN6DQZ",
+      "imageUrl": "/images/products/eureka-rolling-stool.webp",
+      "imagePlaceholder": "EUREKA Ergonomic Multi-Use Rolling Stool",
+      "badges": [],
+      "featured": false,
+      "rank": 9,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$113.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31daAJ7gMaL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09SHN6DQZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
