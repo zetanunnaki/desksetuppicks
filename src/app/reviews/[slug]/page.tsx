@@ -223,7 +223,7 @@ export default async function CategoryReviewPage({
         </div>
 
         <main className="flex-1 min-w-0">
-          <QuickPicks products={products} />
+          <QuickPicks products={products} categorySlug={slug} />
           <ComparisonTable products={products} />
 
           <section id="reviews" className="space-y-40 mb-32 scroll-mt-32">

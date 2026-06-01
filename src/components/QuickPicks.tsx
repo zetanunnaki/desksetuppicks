@@ -3,8 +3,8 @@ import { getQuickPicks } from "@/lib/recommendations";
 import type { Product } from "@/lib/types";
 
 // "Best for…" strip — fast, scannable picks that convert browsers to buyers.
-export function QuickPicks({ products }: { products: Product[] }) {
-  const picks = getQuickPicks(products);
+export function QuickPicks({ products, categorySlug }: { products: Product[]; categorySlug: string }) {
+  const picks = getQuickPicks(products, categorySlug);
   if (picks.length < 2) return null;
 
   return (
