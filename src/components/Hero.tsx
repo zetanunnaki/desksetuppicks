@@ -21,10 +21,10 @@ const itemVariants = {
 };
 
 const issueItems = [
-  { num: "01", title: "Best standing desks under $500", tag: "GUIDE" },
-  { num: "02", title: "Best ergonomic chairs compared", tag: "REVIEWED" },
-  { num: "03", title: "Standing desk vs sitting desk", tag: "OPINION" },
-  { num: "04", title: "A complete WFH lighting guide", tag: "GUIDE" },
+  { num: "01", title: "Best under-desk treadmills & walking pads", tag: "NEW", href: "/guides/best-under-desk-treadmills/" },
+  { num: "02", title: "Best ergonomic chairs compared", tag: "REVIEWED", href: "/guides/best-ergonomic-chairs-compared/" },
+  { num: "03", title: "Are walking pads worth it?", tag: "OPINION", href: "/blog/are-walking-pads-worth-it/" },
+  { num: "04", title: "The complete WFH ergonomics guide", tag: "GUIDE", href: "/guides/complete-wfh-ergonomics-guide/" },
 ];
 
 export function Hero() {
@@ -93,11 +93,11 @@ export function Hero() {
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="text-sm text-slate-300 font-medium">
-                Issue 24 · May 2026
+                Issue 25 · June 2026
               </span>
               <span className="text-slate-600">/</span>
               <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                12 New Reviews
+                40 New Articles
               </span>
             </motion.div>
 
@@ -164,9 +164,10 @@ export function Hero() {
             </p>
             <div className="bg-slate-900/50 border border-slate-800/50 rounded-2xl overflow-hidden">
               {issueItems.map((item, idx) => (
-                <div
+                <Link
+                  href={item.href}
                   key={item.num}
-                  className={`flex items-center gap-5 px-6 py-5 hover:bg-slate-800/30 transition-colors group cursor-pointer ${
+                  className={`flex items-center gap-5 px-6 py-5 hover:bg-slate-800/30 transition-colors group ${
                     idx < issueItems.length - 1 ? "border-b border-slate-800/30" : ""
                   }`}
                 >
@@ -180,7 +181,7 @@ export function Hero() {
                     </p>
                   </div>
                   <ArrowRight className="w-4 h-4 text-slate-700 group-hover:text-indigo-400 transition-colors flex-none" />
-                </div>
+                </Link>
               ))}
             </div>
 
