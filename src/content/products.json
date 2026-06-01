@@ -4575,6 +4575,252 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51jnW29OITL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0B687J37D?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "sony-wh1000xm4",
+      "name": "Sony WH-1000XM4 Wireless Headphones",
+      "slug": "sony-wh1000xm4",
+      "category": "headsets",
+      "shortDescription": "The most-reviewed Sony on Amazon — industry-leading ANC, 30-hour battery, multipoint pairing, Speak-to-Chat, and DSEE Extreme upscaling for compressed audio. A benchmark for premium noise-cancelling headphones.",
+      "prosAndCons": {
+        "pros": [
+          "Class-leading adaptive noise cancellation",
+          "30-hour battery, multipoint pairing",
+          "Speak-to-Chat and DSEE Extreme upscaling"
+        ],
+        "cons": [
+          "No aptX on this model",
+          "Older than the XM5/XM6"
+        ]
+      },
+      "specifications": {
+        "Type": "Over-ear wireless",
+        "ANC": "Industry-leading",
+        "Battery": "30H",
+        "Pairing": "Multipoint",
+        "Audio": "DSEE Extreme"
+      },
+      "priceRange": "$348.00",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0863TXGM3",
+      "imageUrl": "/images/products/sony-wh1000xm4.webp",
+      "imagePlaceholder": "Sony WH-1000XM4 Wireless Headphones",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$348.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31+1OdrDX+L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0863TXGM3?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "bose-qc45",
+      "name": "Bose QuietComfort 45 Headphones",
+      "slug": "bose-qc45",
+      "category": "headsets",
+      "shortDescription": "Legendary Bose comfort with TriPort acoustics, 24-hour battery, Quiet/Aware modes, Volume-Optimized Active EQ, a six-mic array for crystal-clear calls, and reliable Bluetooth 5.1 — superb for hybrid work and travel.",
+      "prosAndCons": {
+        "pros": [
+          "Bose comfort and balanced ANC",
+          "Six-mic array for clear calls",
+          "Quiet/Aware modes, 24-hour battery"
+        ],
+        "cons": [
+          "No multipoint at launch",
+          "USB-C charge only, no wireless"
+        ]
+      },
+      "specifications": {
+        "Type": "Over-ear wireless",
+        "ANC": "Quiet/Aware",
+        "Battery": "24H",
+        "Mics": "6-mic array",
+        "Bluetooth": "5.1"
+      },
+      "priceRange": "$299.00",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B098FKXT8L",
+      "imageUrl": "/images/products/bose-qc45.webp",
+      "imagePlaceholder": "Bose QuietComfort 45 Headphones",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$299.00",
+      "amazonListPrice": "$329.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41-YRwc6lFL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B098FKXT8L?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "airpods-pro-2",
+      "name": "Apple AirPods Pro (2nd Gen, USB-C)",
+      "slug": "airpods-pro-2",
+      "category": "headsets",
+      "shortDescription": "The highest-rated earbuds here — the H2 chip delivers 2x more ANC, Adaptive Audio, Personalized Spatial Audio with head tracking, and Conversation Awareness. The best-in-class pick for Apple ecosystem users.",
+      "prosAndCons": {
+        "pros": [
+          "H2 chip: 2x more ANC than gen 1",
+          "Adaptive Audio + Personalized Spatial Audio",
+          "Seamless across the Apple ecosystem, USB-C"
+        ],
+        "cons": [
+          "Best features need Apple devices",
+          "In-ear fit isn't for everyone"
+        ]
+      },
+      "specifications": {
+        "Type": "In-ear (ANC)",
+        "Chip": "Apple H2",
+        "Audio": "Personalized Spatial",
+        "Charging": "USB-C / MagSafe",
+        "Battery": "6H + 30H case"
+      },
+      "priceRange": "$258.00",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0CHWRXH8B",
+      "imageUrl": "/images/products/airpods-pro-2.webp",
+      "imagePlaceholder": "Apple AirPods Pro (2nd Gen, USB-C)",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$258.42",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21fBDZCm5QL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CHWRXH8B?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "sennheiser-hd560s",
+      "name": "Sennheiser HD 560S Open-Back Headphones",
+      "slug": "sennheiser-hd560s",
+      "category": "headsets",
+      "shortDescription": "Neutral reference-grade open-back headphones with E.A.R. technology for a wide, natural soundstage, a 6Hz–38kHz range, and a detachable cable — the audiophile benchmark under $200 for critical listening and mixing.",
+      "prosAndCons": {
+        "pros": [
+          "Neutral, reference-grade tuning",
+          "Wide, natural open-back soundstage",
+          "Detachable cable, light and comfortable"
+        ],
+        "cons": [
+          "Open-back leaks sound (not for offices)",
+          "Wired only, benefits from an amp"
+        ]
+      },
+      "specifications": {
+        "Type": "Open-back wired",
+        "Tuning": "Neutral reference",
+        "Range": "6Hz–38kHz",
+        "Impedance": "120 ohm",
+        "Cable": "Detachable"
+      },
+      "priceRange": "$149.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B08J9MVB6W",
+      "imageUrl": "/images/products/sennheiser-hd560s.webp",
+      "imagePlaceholder": "Sennheiser HD 560S Open-Back Headphones",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$149.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/411Gs0OpBWL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08J9MVB6W?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "jbl-tune-770nc",
+      "name": "JBL Tune 770NC Wireless Headphones",
+      "slug": "jbl-tune-770nc",
+      "category": "headsets",
+      "shortDescription": "Outstanding value with Adaptive ANC, JBL Pure Bass Sound, an industry-leading 70-hour battery, 5-minute Speed Charge (3 hrs), Bluetooth 5.3 with LE Audio, multipoint pairing, and a foldable travel design.",
+      "prosAndCons": {
+        "pros": [
+          "Huge 70-hour battery, Speed Charge",
+          "Adaptive ANC, Bluetooth 5.3 LE Audio",
+          "Multipoint pairing, foldable"
+        ],
+        "cons": [
+          "Bass-forward default tuning",
+          "Plastic build at the price"
+        ]
+      },
+      "specifications": {
+        "Type": "Over-ear wireless",
+        "ANC": "Adaptive",
+        "Battery": "70H",
+        "Bluetooth": "5.3 LE Audio",
+        "Charge": "5-min = 3H"
+      },
+      "priceRange": "$149.95",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0CT9XTKKM",
+      "imageUrl": "/images/products/jbl-tune-770nc.webp",
+      "imagePlaceholder": "JBL Tune 770NC Wireless Headphones",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$149.95",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31c19bUnr1L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CT9XTKKM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "jbl-live-770nc",
+      "name": "JBL Live 770NC Wireless Headphones",
+      "slug": "jbl-live-770nc",
+      "category": "headsets",
+      "shortDescription": "True Adaptive ANC with 4 noise-sensing mics, JBL Spatial Sound (40mm drivers), 65-hour battery, Speed Charge, auto play/pause wear detection, and a premium comfort-fit fabric headband.",
+      "prosAndCons": {
+        "pros": [
+          "Adaptive ANC with 4 mics",
+          "65-hour battery, Spatial Sound",
+          "Comfort-fit fabric headband, wear detection"
+        ],
+        "cons": [
+          "No LDAC/hi-res codec",
+          "ANC trails premium Bose/Sony"
+        ]
+      },
+      "specifications": {
+        "Type": "Over-ear wireless",
+        "ANC": "True Adaptive (4 mic)",
+        "Battery": "65H",
+        "Drivers": "40mm",
+        "Headband": "Fabric comfort-fit"
+      },
+      "priceRange": "$119.95",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0CT6D6Q27",
+      "imageUrl": "/images/products/jbl-live-770nc.webp",
+      "imagePlaceholder": "JBL Live 770NC Wireless Headphones",
+      "badges": [],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$119.95",
+      "amazonListPrice": "$199.95",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31V1JXYVdqL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CT6D6Q27?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
