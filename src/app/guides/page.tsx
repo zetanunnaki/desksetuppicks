@@ -5,6 +5,7 @@ import { Clock, Calendar, ArrowRight, BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Buying Guides",
+  alternates: { canonical: "/guides/" },
   description:
     "Expert buying guides for building your perfect desk setup. Standing desks, ergonomic chairs, monitors, and more.",
 };

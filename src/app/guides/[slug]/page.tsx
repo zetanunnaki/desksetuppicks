@@ -7,6 +7,8 @@ import { getGuideContent, getAllGuideSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { BackToTop } from "@/components/BackToTop";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema, articleSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return getAllGuideSlugs().map((slug) => ({ slug }));
@@ -23,6 +25,7 @@ export async function generateMetadata({
   return {
     title: guide.metaTitle,
     description: guide.metaDescription,
+    alternates: { canonical: `/guides/${slug}/` },
   };
 }
 
@@ -39,6 +42,24 @@ export default async function GuidePage({
 
   return (
     <div className="pt-24 md:pt-12 min-h-screen">
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Guides", path: "/guides" },
+            { name: guide.title, path: `/guides/${slug}` },
+          ]),
+          articleSchema({
+            title: guide.title,
+            description: guide.description,
+            author: guide.author,
+            datePublished: guide.datePublished,
+            dateModified: guide.dateUpdated,
+            image: guide.imageUrl,
+            path: `/guides/${slug}`,
+          }),
+        ]}
+      />
       {/* Hero */}
       <section className="section-container pb-0">
         {/* Breadcrumb */}

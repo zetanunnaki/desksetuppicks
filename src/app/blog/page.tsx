@@ -5,6 +5,7 @@ import { getAllBlogSlugs, getBlogContent } from "@/lib/mdx";
 
 export const metadata: Metadata = {
   title: "Blog",
+  alternates: { canonical: "/blog/" },
   description:
     "Tips, insights, and deep-dives on building the perfect workspace.",
 };

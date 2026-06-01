@@ -6,6 +6,8 @@ import { getBlogContent, getAllBlogSlugs } from "@/lib/mdx";
 import { MdxContent } from "@/components/mdx/MdxContent";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { BackToTop } from "@/components/BackToTop";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema, articleSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return getAllBlogSlugs().map((slug) => ({ slug }));
@@ -22,6 +24,7 @@ export async function generateMetadata({
     return {
       title: frontmatter.title as string,
       description: frontmatter.description as string,
+      alternates: { canonical: `/blog/${slug}/` },
     };
   } catch {
     return {};
@@ -45,26 +48,25 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: frontmatter.title as string,
-    description: frontmatter.description as string,
-    author: {
-      "@type": "Organization",
-      name: frontmatter.author as string,
-    },
-    datePublished: frontmatter.date as string,
-    dateModified: (frontmatter.updated as string) ?? (frontmatter.date as string),
-    image: frontmatter.image as string,
-  };
-
   return (
     <div className="pt-24 md:pt-12 min-h-screen">
-      {/* JSON-LD Article Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Journal", path: "/blog" },
+            { name: frontmatter.title as string, path: `/blog/${slug}` },
+          ]),
+          articleSchema({
+            title: frontmatter.title as string,
+            description: frontmatter.description as string,
+            author: frontmatter.author as string,
+            datePublished: frontmatter.date as string,
+            dateModified: (frontmatter.updated as string) ?? (frontmatter.date as string),
+            image: frontmatter.image as string,
+            path: `/blog/${slug}`,
+          }),
+        ]}
       />
 
       {/* Hero */}

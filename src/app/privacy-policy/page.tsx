@@ -3,6 +3,7 @@ import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
+  alternates: { canonical: "/privacy-policy/" },
   description:
     "DeskSetupPicks privacy policy — how we collect, use, and protect your data. Covers cookies, Google Analytics, AdSense, and Amazon Associates.",
 };

@@ -15,6 +15,8 @@ import { BuyingGuide } from "@/components/BuyingGuide";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { Sidebar } from "@/components/Sidebar";
 import { BackToTop } from "@/components/BackToTop";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema, reviewItemListSchema } from "@/lib/schema";
 import { Star, Clock, Calendar, FlaskConical } from "lucide-react";
 
 export function generateStaticParams() {
@@ -32,6 +34,7 @@ export async function generateMetadata({
   return {
     title: category.metaTitle,
     description: category.metaDescription,
+    alternates: { canonical: `/reviews/${slug}/` },
   };
 }
 
@@ -56,6 +59,16 @@ export default async function CategoryReviewPage({
 
   return (
     <div className="pt-24 md:pt-12 bg-slate-950 min-h-screen">
+      <JsonLd
+        data={[
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Reviews", path: "/reviews/standing-desks" },
+            { name: category.name, path: `/reviews/${slug}` },
+          ]),
+          reviewItemListSchema(category, products),
+        ]}
+      />
       <ScrollProgress />
 
       {/* Hero section */}

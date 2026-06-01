@@ -3,6 +3,7 @@ import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
+  alternates: { canonical: "/terms/" },
   description:
     "DeskSetupPicks terms of service — the rules and conditions for using our website, content, and affiliate links.",
 };

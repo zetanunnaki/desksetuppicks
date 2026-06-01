@@ -3,6 +3,7 @@ import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
+  alternates: { canonical: "/affiliate-disclosure/" },
   description:
     "DeskSetupPicks affiliate disclosure — how affiliate links work, Amazon Associates program details, and our FTC compliance statement.",
 };

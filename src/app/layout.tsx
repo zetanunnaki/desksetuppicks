@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { JsonLd } from "@/components/JsonLd";
+import { organizationSchema, websiteSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site-config";
 import "./globals.css";
 
@@ -51,6 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <body>
+        <JsonLd data={[organizationSchema(), websiteSchema()]} />
         <Header />
         <main>{children}</main>
         <Footer />

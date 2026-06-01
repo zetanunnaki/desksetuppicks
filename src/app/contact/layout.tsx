@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us",
+  alternates: { canonical: "/contact/" },
   description:
     "Get in touch with the DeskSetupPicks team. Questions, corrections, partnership inquiries, or press requests — we read every message.",
 };

@@ -4,6 +4,7 @@ import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
   title: "About Us",
+  alternates: { canonical: "/about/" },
   description:
     "Learn about DeskSetupPicks — our mission, methodology, and the team behind the data-backed desk setup reviews you trust.",
 };
