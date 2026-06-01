@@ -109,13 +109,18 @@ const USE_CASES_BY_CATEGORY: Record<string, UseCaseDef[]> = {
     { label: "Best for Dual Monitors", blurb: "Wide, stable surface", test: /55|60|dual|whole-piece|one-piece/ },
   ],
   "ergonomic-chairs": [{ label: "Best for Gaming", blurb: "Recline & footrest", test: /gaming|recliner|racing|footrest/ }],
+  "under-desk-treadmills": [
+    { label: "Best with Incline", blurb: "Burns more calories", test: /incline/ },
+    { label: "Best 2-in-1", blurb: "Walk or run", test: /2-in-1|running|run mode|6\.2|7\.5/ },
+  ],
 };
 
 // ---- Related categories (curated internal-linking map) ----
 
 const RELATED: Record<string, string[]> = {
-  "standing-desks": ["ergonomic-chairs", "footrests", "monitor-arms", "cable-management"],
+  "standing-desks": ["under-desk-treadmills", "ergonomic-chairs", "footrests", "monitor-arms"],
   "ergonomic-chairs": ["standing-desks", "footrests", "wrist-rests", "desk-mats"],
+  "under-desk-treadmills": ["standing-desks", "ergonomic-chairs", "footrests", "desk-mats"],
   "monitor-arms": ["monitors", "desk-shelves", "standing-desks", "cable-management"],
   "desk-mats": ["wrist-rests", "desk-organizers", "mice", "keyboards"],
   "webcams": ["microphones", "lighting", "headsets", "speakers"],

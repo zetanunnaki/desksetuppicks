@@ -5346,6 +5346,252 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31daAJ7gMaL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09SHN6DQZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "sunny-treadpad-100",
+      "name": "Sunny Health & Fitness Treadpad 100 (SF-T724064)",
+      "slug": "sunny-treadpad-100",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The most-reviewed walking pad on Amazon, with 9,000+ ratings. A no-assembly, slide-under-the-desk slab with Wi-Fi and Bluetooth SunnyFit app tracking, a 41-inch deck, shock-absorbing cushioning, and a remote — the safe default for a home office.",
+      "prosAndCons": {
+        "pros": [
+          "9,000+ reviews — by far the most-proven pick here",
+          "Wi-Fi + Bluetooth SunnyFit app tracks every walk",
+          "41-inch deck with genuine shock absorption",
+          "Ships fully assembled — unbox and walk"
+        ],
+        "cons": [
+          "Walking-class motor, not built for running",
+          "245 lb capacity is lower than rivals"
+        ]
+      },
+      "specifications": {
+        "Type": "Walking pad",
+        "Speed": "0.5–3.7 mph",
+        "Deck": "41.1 × 16.1 in",
+        "Capacity": "245 lbs",
+        "App": "Wi-Fi + Bluetooth SunnyFit"
+      },
+      "priceRange": "$299.99",
+      "rating": 4.4,
+      "affiliateUrl": "",
+      "asin": "B0DMGF2DSC",
+      "imageUrl": "/images/products/sunny-treadpad-100.webp",
+      "imagePlaceholder": "Sunny Health & Fitness Treadpad 100",
+      "badges": ["Editor’s Choice"],
+      "featured": true,
+      "rank": 1,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$299.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/3155KeWMX5L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DMGF2DSC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "urevo-strol-2e",
+      "name": "UREVO Strol 2E Smart 2-in-1 Folding Treadmill (URTM030)",
+      "slug": "urevo-strol-2e",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The best 2-in-1 for people who also want to run. The Strol 2E folds between a flat walking pad (0.6–4 mph) and a running mode with a safety handle up to 6.2 mph, with a dual LED display, app control, and a 5-layer belt on 8 silicone shock absorbers. 6,400+ reviews back it up.",
+      "prosAndCons": {
+        "pros": [
+          "True 2-in-1: walk flat, or raise the handle to run",
+          "6,400+ reviews — the most-proven 2-in-1 here",
+          "Dual LED display and UREVO Sport app",
+          "5-layer belt with 8 silicone shock absorbers"
+        ],
+        "cons": [
+          "Taller and heavier than a pure walking pad",
+          "Running mode tops out at 6.2 mph"
+        ]
+      },
+      "specifications": {
+        "Type": "2-in-1 (walk/run)",
+        "Speed": "0.6–6.2 mph",
+        "Incline": "12%",
+        "Belt": "15 × 40.1 in",
+        "App": "UREVO Sport"
+      },
+      "priceRange": "$294.42",
+      "rating": 4.3,
+      "affiliateUrl": "",
+      "asin": "B0F24WR3VV",
+      "imageUrl": "/images/products/urevo-strol-2e.webp",
+      "imagePlaceholder": "UREVO Strol 2E 2-in-1 Folding Treadmill",
+      "badges": [],
+      "featured": true,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$294.42",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41sL6yqbPzL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0F24WR3VV?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "buztrio-x22d",
+      "name": "Buztrio X22D Walking Pad",
+      "slug": "buztrio-x22d",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The highest-rated pad in our roundup at 4.8 stars, and under $90. The Buztrio X22D pairs a 2.5HP motor with honeycomb cushioning, a 0.6–4 mph range, an LED display, a remote, and built-in wheels — no assembly, just plug in and walk.",
+      "prosAndCons": {
+        "pros": [
+          "4.8-star rating — the highest in this category",
+          "2.5HP motor in a sub-$90 pad",
+          "Honeycomb cushioning eases joint impact",
+          "Lightweight with built-in wheels, no assembly"
+        ],
+        "cons": [
+          "Walk-only — no running mode or incline",
+          "Smaller brand with a shorter track record"
+        ]
+      },
+      "specifications": {
+        "Type": "Walking pad",
+        "Motor": "2.5 HP",
+        "Speed": "0.6–4.0 mph",
+        "Cushioning": "Honeycomb",
+        "Setup": "No assembly"
+      },
+      "priceRange": "$89.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B0GW6WSFCG",
+      "imageUrl": "/images/products/buztrio-x22d.webp",
+      "imagePlaceholder": "Buztrio X22D Walking Pad",
+      "badges": ["Best Value"],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$89.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41UcKb5JS3L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0GW6WSFCG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "superun-ba10-b",
+      "name": "Superun BA10-B Walking Pad with Incline",
+      "slug": "superun-ba10-b",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The best budget incline pad. At 35 lbs with a 6% manual incline, a 2.5HP motor, 300 lb capacity, and a 5-layer shock belt, the Superun BA10-B adds calorie-burning incline and PitPat app tracking for around $100 while staying under 45 dB for calls.",
+      "prosAndCons": {
+        "pros": [
+          "6% incline burns more calories than flat pads",
+          "300 lb capacity from an ultra-light 35 lb frame",
+          "Under 45 dB — quiet enough for calls",
+          "PitPat app tracks six metrics"
+        ],
+        "cons": [
+          "Incline is manual, not motorized",
+          "Walk-only — no running handle"
+        ]
+      },
+      "specifications": {
+        "Type": "Walking pad (incline)",
+        "Motor": "2.5 HP",
+        "Incline": "6% manual",
+        "Capacity": "300 lbs",
+        "Noise": "Under 45 dB"
+      },
+      "priceRange": "$99.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0GCHYP9J9",
+      "imageUrl": "/images/products/superun-ba10-b.webp",
+      "imagePlaceholder": "Superun BA10-B Walking Pad with Incline",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$99.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41F+iPg36QL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0GCHYP9J9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "vhorilix-xm-a1",
+      "name": "Vhorilix XM-A1 Walking Pad",
+      "slug": "vhorilix-xm-a1",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The best-rated pad under $100. The Vhorilix XM-A1 is a 4.6-star, no-assembly walking pad with a 2.5HP motor, a 5-layer anti-slip belt on silicone shock absorbers, an LED display, a remote, and 264 lb capacity — a quiet, simple slab for walking while you work.",
+      "prosAndCons": {
+        "pros": [
+          "4.6 stars at the lowest price in this roundup",
+          "2.5HP motor with a 5-layer anti-slip belt",
+          "Silicone shock absorbers cushion each step",
+          "No assembly — unbox and walk"
+        ],
+        "cons": [
+          "Walk-only — no incline or running mode",
+          "Smaller review base than the big brands"
+        ]
+      },
+      "specifications": {
+        "Type": "Walking pad",
+        "Motor": "2.5 HP",
+        "Speed": "0.6–4.0 mph",
+        "Capacity": "264 lbs",
+        "Setup": "No assembly"
+      },
+      "priceRange": "$80.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0GGB9BV77",
+      "imageUrl": "/images/products/vhorilix-xm-a1.webp",
+      "imagePlaceholder": "Vhorilix XM-A1 Walking Pad",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$80.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0GGB9BV77?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "acezoe-p20-2",
+      "name": "Acezoe P20-2 3-in-1 Treadmill with Desk Workstation",
+      "slug": "acezoe-p20-2",
+      "category": "under-desk-treadmills",
+      "shortDescription": "The premium pick with a desk built in. The Acezoe P20-2 mounts a removable, height-adjustable desk workstation over a 3-in-1 treadmill with 0–10% manual incline, a 7-layer belt on double shock absorption, a 7.5 mph top speed, 12 workout programs, and 300 lb capacity.",
+      "prosAndCons": {
+        "pros": [
+          "Removable, height-adjustable desk workstation included",
+          "0–10% incline and a 7.5 mph running mode",
+          "7-layer belt with double shock absorption",
+          "12 workout programs, smart app, 300 lb capacity"
+        ],
+        "cons": [
+          "The most expensive pick here",
+          "Heavier and bulkier with the workstation attached"
+        ]
+      },
+      "specifications": {
+        "Type": "3-in-1 + desk",
+        "Speed": "0.6–7.5 mph",
+        "Incline": "0–10% manual",
+        "Capacity": "300 lbs",
+        "Extra": "Removable desk workstation"
+      },
+      "priceRange": "$347.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0FCYFFXLC",
+      "imageUrl": "/images/products/acezoe-p20-2.webp",
+      "imagePlaceholder": "Acezoe P20-2 3-in-1 Treadmill with Desk",
+      "badges": ["Premium Pick"],
+      "featured": true,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$347.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41bLjwx9owL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0FCYFFXLC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }

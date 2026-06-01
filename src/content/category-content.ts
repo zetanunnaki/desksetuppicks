@@ -1026,6 +1026,57 @@ const content: Record<string, CategoryContent> = {
       },
     ],
   },
+  "under-desk-treadmills": {
+    buyingGuide: [
+      {
+        title: "Motor Power and Continuous-Duty Rating",
+        content:
+          "A walking pad's motor is rated in horsepower, and the number that matters is continuous-duty (CHP), not the inflated peak figure on the box. For walking at 1 to 4 mph, a 2.0 to 2.5 CHP motor handles daily use without overheating; if you want a 2-in-1 model that also runs up to 7.5 mph, look for 2.5 to 3.0 CHP so the motor isn't constantly maxed out. Underpowered motors run hot, get louder, and burn out years early. If you only ever plan to walk during calls, a 2.0 CHP pad is plenty; if you'll jog or you weigh over 220 lbs, step up to 2.5 CHP or more.",
+      },
+      {
+        title: "Deck Size and Weight Capacity",
+        content:
+          "Belt size decides who can use the pad comfortably and at what speed. Walking decks run roughly 40 to 48 inches long by 16 to 20 inches wide; under about 17 inches of width you'll feel boxed in, and a short deck forces you to shorten your stride above 3 mph. Weight capacity typically ranges from 220 to 400 lbs, and you want real headroom over your bodyweight because the rating reflects the frame and motor margin, not just whether it holds you. If you're tall, over 6 feet, or want to run, get a deck at least 45 inches long rated for 300 lbs or more; petite users on a tight budget can size down.",
+      },
+      {
+        title: "Noise Level for Calls",
+        content:
+          "If the pad lives under a desk during meetings, noise is the spec that makes or breaks it. Quiet walking pads run around 40 to 45 dB at walking speed, which is soft enough that a decent headset mic won't pick it up; cheaper units hit 55 to 65 dB and your callers will hear a hum. Noise climbs with speed, so a model that's silent at 2 mph can be obvious at 4 mph. Prioritize a sub-45 dB rating and a quality drive belt if you take frequent calls; if you only walk between meetings, you can relax this and save money.",
+      },
+      {
+        title: "Speed Range, Incline, and Folding",
+        content:
+          "Match the feature set to how you'll actually use it. A pure walking pad covers 0.5 to 4 mph and is the flattest and most desk-friendly; a 2-in-1 with a fold-up handrail adds a running mode to about 7.5 mph but is taller and heavier. Auto-incline (a few percent) raises calorie burn but adds height, cost, and noise, so skip it if your desk clearance is tight. Folding and no-assembly designs matter if you'll stow the pad daily; a flat single-fold or no-fold slab that slides under a couch is far easier to live with than a bulky 2-in-1 if you only ever walk.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are walking pads quiet enough to use during video calls?",
+        answer:
+          "A good walking pad runs around 40 to 45 dB at typical walking speeds of 1 to 3 mph, which is quiet enough that a headset or laptop mic usually won't transmit it on a call. Cheaper models can reach 55 to 65 dB, especially as you raise the speed, and that hum is audible to others. If calls are a priority, look for a model rated under 45 dB and keep your pace below 3 mph during meetings.",
+      },
+      {
+        question: "What motor horsepower do I need for an under-desk treadmill?",
+        answer:
+          "Look at the continuous-duty horsepower (CHP), not the peak rating, because peak numbers are marketing. For walking at 0.5 to 4 mph, 2.0 to 2.5 CHP is enough and runs cool and quiet. If you weigh over 220 lbs or want a 2-in-1 that can run up to about 7.5 mph, choose 2.5 to 3.0 CHP so the motor isn't working at its limit, which shortens its life.",
+      },
+      {
+        question: "What's the difference between a walking pad and a 2-in-1 treadmill?",
+        answer:
+          "A walking pad is a rail-free, low-profile slab meant for walking under a standing desk at roughly 0.5 to 4 mph; it's thin, light, and easy to slide away. A 2-in-1 treadmill adds a fold-up handrail and a faster running mode up to about 7.5 mph, so you can both walk at your desk and jog with the rail raised. The trade-off is that 2-in-1 units are taller, heavier, and pricier, so buy one only if you actually want to run.",
+      },
+      {
+        question: "How much weight can an under-desk treadmill hold?",
+        answer:
+          "Most walking pads are rated between 220 and 400 lbs, with budget models clustering near 220 to 265 lbs and sturdier 2-in-1 units reaching 300 to 400 lbs. Choose a pad whose capacity comfortably exceeds your bodyweight rather than just matching it, since the rating reflects frame and motor margin and affects belt feel and longevity. If you're over 220 lbs or plan to jog, target a model rated for 300 lbs or more.",
+      },
+      {
+        question: "Do under-desk treadmills require assembly?",
+        answer:
+          "Most walking pads ship fully assembled and need no setup beyond unboxing, plugging in, and a short charge or power-on; you walk on them straight away. Folding 2-in-1 models with a handrail may require attaching the rail with a few bolts, which takes about 10 to 15 minutes with the included tools. Check the listing for a no-assembly note if you want a true out-of-the-box experience.",
+      },
+    ],
+  },
 };
 
 export function getCategoryContent(slug: string): CategoryContent {

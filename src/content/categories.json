@@ -409,6 +409,27 @@
       ],
       "featured": false,
       "searchIndex": "OfficeProducts"
+    },
+    {
+      "id": "under-desk-treadmills",
+      "name": "Under-Desk Treadmills",
+      "slug": "under-desk-treadmills",
+      "icon": "Footprints",
+      "description": "Walking pads and 2-in-1 treadmills that keep you moving at a standing desk.",
+      "productCount": 6,
+      "metaTitle": "The Best Under-Desk Treadmills & Walking Pads of 2026",
+      "metaDescription": "We verified live prices, stock, and ratings on the best walking pads and under-desk treadmills — from an $81 budget pad to a model with a desk built in. These are the picks worth buying.",
+      "priceRange": "$80–$350",
+      "buyingGuideIntro": "The right walking pad depends on whether you only want to walk while you work or also run, how much noise you can tolerate on calls, and how much weight and incline you need.",
+      "keyFactors": [
+        "Motor power (continuous-duty HP)",
+        "Deck size & weight capacity",
+        "Noise level (dB)",
+        "Speed range & incline",
+        "Folding & portability"
+      ],
+      "featured": true,
+      "searchIndex": "SportingGoods"
     }
   ]
 }
