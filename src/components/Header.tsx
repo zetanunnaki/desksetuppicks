@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { getCategories } from "@/lib/data";
+import { Logo } from "./Logo";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,19 +36,7 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-3 group">
-          <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center group-hover:bg-indigo-500 transition-colors">
-            <span className="text-white font-black text-sm">D.</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-lg font-extrabold tracking-tight text-white leading-tight">
-              DeskSetupPicks
-            </span>
-            <span className="text-[9px] font-bold text-slate-500 uppercase tracking-[0.2em] leading-tight">
-              Workspace · Reviewed
-            </span>
-          </div>
-        </Link>
+        <Logo />
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-1">

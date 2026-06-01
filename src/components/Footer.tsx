@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Logo } from "./Logo";
 
 const editorialLinks = [
   { href: "/reviews/standing-desks", label: "Latest Reviews" },
@@ -30,14 +31,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-16 md:mb-20">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center space-x-3 mb-8 group">
-              <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center group-hover:bg-indigo-500 transition-colors">
-                <span className="text-white font-black text-sm">D.</span>
-              </div>
-              <span className="text-xl font-extrabold tracking-tight text-white">
-                DeskSetupPicks
-              </span>
-            </Link>
+            <div className="mb-8">
+              <Logo size="lg" />
+            </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-xs">
               An independent editorial publication reviewing the gear that shapes how we work. We test every product for at least 30 days before recommending it.
             </p>
