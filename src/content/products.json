@@ -3682,6 +3682,329 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B094QTGHNZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "shw-55x28-desk",
+      "name": "SHW 55×28 Electric Standing Desk",
+      "slug": "shw-55x28-desk",
+      "category": "standing-desks",
+      "shortDescription": "A 55×28 electric standing desk with a built-in under-desk drawer, 4 memory presets, a cable-management tray, 2 utility hooks, and a patent-protected curved-edge design — exceptional storage and organization.",
+      "prosAndCons": {
+        "pros": [
+          "Built-in drawer + cable tray + utility hooks",
+          "Large 55×28 surface, 4 memory presets",
+          "Among the most-reviewed standing desks on Amazon"
+        ],
+        "cons": [
+          "Single-motor lift",
+          "Drawer reduces under-desk clearance"
+        ]
+      },
+      "specifications": {
+        "Size": "55 × 28 in",
+        "Presets": "4 memory",
+        "Storage": "Drawer + cable tray + hooks",
+        "Edge": "Curved"
+      },
+      "priceRange": "$189.87",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B085KBN2DN",
+      "imageUrl": "/images/products/shw-55x28-desk.webp",
+      "imagePlaceholder": "SHW 55×28 Electric Standing Desk",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$189.87",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/419Gv7Ov+rL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B085KBN2DN?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "flexispot-e6-bamboo",
+      "name": "FlexiSpot E6 Bamboo Standing Desk 55×28",
+      "slug": "flexispot-e6-bamboo",
+      "category": "standing-desks",
+      "shortDescription": "A premium FSC-certified solid-bamboo desktop (stronger than steel by tensile strength) with dual motors, 45dB whisper-quiet operation, 220 lb capacity, a 23.6\"–48.8\" height range, and a 5-year frame/motor warranty.",
+      "prosAndCons": {
+        "pros": [
+          "Solid FSC-certified bamboo top, eco and durable",
+          "Dual motors, 45dB quiet, 220 lb capacity",
+          "5-year frame/motor warranty"
+        ],
+        "cons": [
+          "Premium price",
+          "Bamboo needs occasional conditioning"
+        ]
+      },
+      "specifications": {
+        "Top": "Solid bamboo (FSC)",
+        "Size": "55 × 28 in",
+        "Motor": "Dual",
+        "Capacity": "220 lbs",
+        "Warranty": "5-year frame/motor"
+      },
+      "priceRange": "$284.97",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B09DYF1SRQ",
+      "imageUrl": "/images/products/flexispot-e6-bamboo.webp",
+      "imagePlaceholder": "FlexiSpot E6 Bamboo Standing Desk 55×28",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$284.97",
+      "amazonListPrice": "$299.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09DYF1SRQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "flexispot-en1-55x28",
+      "name": "FlexiSpot EN1 Standing Desk 55×28",
+      "slug": "flexispot-en1-55x28",
+      "category": "standing-desks",
+      "shortDescription": "A wide 55×28 one-piece seamless desktop with a 1\"-thick surface for superior rigidity, 4 memory presets, and 176 lb capacity — ideal for dual-monitor power users who need a larger work surface.",
+      "prosAndCons": {
+        "pros": [
+          "Seamless one-piece 1\"-thick top, no wobble",
+          "Wide 55×28 surface for dual monitors",
+          "4 memory presets, quiet motor"
+        ],
+        "cons": [
+          "Single-motor lift",
+          "Larger footprint needs the room"
+        ]
+      },
+      "specifications": {
+        "Top": "One-piece seamless (1\" thick)",
+        "Size": "55 × 28 in",
+        "Presets": "4 memory",
+        "Capacity": "176 lbs"
+      },
+      "priceRange": "$209.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0851BVHCD",
+      "imageUrl": "/images/products/flexispot-en1-55x28.webp",
+      "imagePlaceholder": "FlexiSpot EN1 Standing Desk 55×28",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$209.99",
+      "amazonListPrice": "$239.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41OMhRJSX9L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0851BVHCD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "microsoft-arc-mouse",
+      "name": "Microsoft Arc Mouse",
+      "slug": "microsoft-arc-mouse",
+      "category": "mice",
+      "shortDescription": "An iconic snap-flat foldable mouse for ultimate portability — a full touch scroll plane, Bluetooth, ambidextrous shape, and up to 6-month battery. Perfect for travel and tidy desks.",
+      "prosAndCons": {
+        "pros": [
+          "Snap-flat foldable design slips into any bag",
+          "Full-surface touch scroll plane",
+          "Ambidextrous, ~6-month battery"
+        ],
+        "cons": [
+          "Flat shape suits travel more than long sessions",
+          "Premium price for a travel mouse"
+        ]
+      },
+      "specifications": {
+        "Type": "Bluetooth",
+        "Design": "Snap-flat foldable",
+        "Scroll": "Full touch plane",
+        "Battery": "~6 months"
+      },
+      "priceRange": "$105.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B072FG8LBV",
+      "imageUrl": "/images/products/microsoft-arc-mouse.webp",
+      "imagePlaceholder": "Microsoft Arc Mouse",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$105.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31IBHbIm-WL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B072FG8LBV?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "ms-surface-mobile-mouse",
+      "name": "Microsoft Surface Mobile Mouse",
+      "slug": "ms-surface-mobile-mouse",
+      "category": "mice",
+      "shortDescription": "A sculpted Bluetooth ergonomic travel mouse with BlueTrack tracking on virtually any surface, a smooth enhanced scroll wheel, up to 1-year battery, and an elegant ambidextrous design.",
+      "prosAndCons": {
+        "pros": [
+          "BlueTrack works on nearly any surface",
+          "Comfortable sculpted ambidextrous shape",
+          "Up to 1-year battery"
+        ],
+        "cons": [
+          "AA-battery powered, not rechargeable",
+          "Few extra buttons"
+        ]
+      },
+      "specifications": {
+        "Type": "Bluetooth",
+        "Tracking": "BlueTrack",
+        "Battery": "~1 year",
+        "Design": "Ambidextrous"
+      },
+      "priceRange": "$65.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B07FDQ2MGG",
+      "imageUrl": "/images/products/ms-surface-mobile-mouse.webp",
+      "imagePlaceholder": "Microsoft Surface Mobile Mouse",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$65.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31UduT4t-NL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07FDQ2MGG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "apple-magic-mouse",
+      "name": "Apple Magic Mouse (USB-C)",
+      "slug": "apple-magic-mouse",
+      "category": "mice",
+      "shortDescription": "Apple's flagship wireless mouse with a seamless Multi-Touch surface for intuitive gestures, optimized glide feet, ~1-month battery, USB-C charging, and auto-pairing with Mac.",
+      "prosAndCons": {
+        "pros": [
+          "Multi-Touch surface for swipe/scroll gestures",
+          "Auto-pairs and integrates with macOS",
+          "USB-C charging, ~1-month battery"
+        ],
+        "cons": [
+          "Charge port on the underside",
+          "Flat profile isn't very ergonomic"
+        ]
+      },
+      "specifications": {
+        "Type": "Bluetooth",
+        "Surface": "Multi-Touch",
+        "Charging": "USB-C",
+        "Battery": "~1 month"
+      },
+      "priceRange": "$63.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0DL72PK1P",
+      "imageUrl": "/images/products/apple-magic-mouse.webp",
+      "imagePlaceholder": "Apple Magic Mouse (USB-C)",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$63.99",
+      "amazonListPrice": "$79.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21M+VZqrDtL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DL72PK1P?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-gpx-superlight-2",
+      "name": "Logitech G PRO X Superlight 2",
+      "slug": "logitech-gpx-superlight-2",
+      "category": "mice",
+      "shortDescription": "A championship-winning 60g ultralight wireless gaming mouse with the HERO 2 44K DPI sensor, 8kHz polling, LIGHTFORCE switches, 95-hour battery, and USB-C charging — the pro esports standard.",
+      "prosAndCons": {
+        "pros": [
+          "Ultralight 60g with 95-hour battery",
+          "HERO 2 44K sensor, 8kHz polling",
+          "LIGHTFORCE hybrid switches"
+        ],
+        "cons": [
+          "Minimalist 5-button layout",
+          "Premium price"
+        ]
+      },
+      "specifications": {
+        "Weight": "60g",
+        "Sensor": "HERO 2 (44K DPI)",
+        "Polling": "8kHz",
+        "Battery": "95 hours",
+        "Charging": "USB-C"
+      },
+      "priceRange": "$149.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B09NBWQDKX",
+      "imageUrl": "/images/products/logitech-gpx-superlight-2.webp",
+      "imagePlaceholder": "Logitech G PRO X Superlight 2",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$145.00",
+      "amazonListPrice": "$159.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21OWJN0LkYL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09NBWQDKX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "razer-basilisk-v3",
+      "name": "Razer Basilisk V3 Wired Gaming Mouse",
+      "slug": "razer-basilisk-v3",
+      "category": "mice",
+      "shortDescription": "The most-reviewed Razer here — a 26K DPI Focus+ sensor, HyperScroll tilt wheel, 11 programmable buttons, Gen-2 optical switches, 11-zone Chroma RGB, and an iconic ergonomic thumb rest. Outstanding value.",
+      "prosAndCons": {
+        "pros": [
+          "26K sensor + HyperScroll tilt wheel",
+          "11 programmable buttons, ergonomic thumb rest",
+          "Outstanding value, hugely reviewed"
+        ],
+        "cons": [
+          "Wired only",
+          "Heavier than esports mice"
+        ]
+      },
+      "specifications": {
+        "Sensor": "26K Focus+",
+        "Wheel": "HyperScroll tilt",
+        "Buttons": "11 programmable",
+        "Lighting": "11-zone Chroma"
+      },
+      "priceRange": "$37.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B09C13PZX7",
+      "imageUrl": "/images/products/razer-basilisk-v3.webp",
+      "imagePlaceholder": "Razer Basilisk V3 Wired Gaming Mouse",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$36.95",
+      "amazonListPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31N1BZUZLwL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09C13PZX7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
