@@ -4005,6 +4005,576 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31N1BZUZLwL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09C13PZX7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "keychron-v1",
+      "name": "Keychron V1 75% Mechanical Keyboard",
+      "slug": "keychron-v1",
+      "category": "keyboards",
+      "shortDescription": "Fully QMK/VIA programmable with hot-swappable K Pro Brown switches (50M keystrokes), south-facing RGB, screw-in PCB stabilizers, an acoustic silicone pad, and dual Mac/Windows keycaps — exceptional build for the price.",
+      "prosAndCons": {
+        "pros": [
+          "QMK/VIA fully programmable, hot-swappable",
+          "Screw-in stabilizers + acoustic pad = great sound",
+          "Dual Mac/Windows keycaps included"
+        ],
+        "cons": [
+          "Wired only on the base V1",
+          "75% layout omits a numpad"
+        ]
+      },
+      "specifications": {
+        "Layout": "75%",
+        "Programmable": "QMK/VIA",
+        "Switches": "Hot-swap K Pro Brown",
+        "Connection": "Wired",
+        "Keycaps": "Double-shot PBT"
+      },
+      "priceRange": "$75.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B09NLWG6X1",
+      "imageUrl": "/images/products/keychron-v1.webp",
+      "imagePlaceholder": "Keychron V1 75% Mechanical Keyboard",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$75.99",
+      "amazonListPrice": "$80.74",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Cku56Z17L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09NLWG6X1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "keychron-c1-pro",
+      "name": "Keychron C1 Pro 8K TKL Keyboard",
+      "slug": "keychron-c1-pro",
+      "category": "keyboards",
+      "shortDescription": "An ultra-fast 8000Hz polling TKL with QMK/Keychron Launcher support, hot-swappable pre-lubed Super Red switches, south-facing RGB, double-shot PBT keycaps, and a 1-year warranty — the best budget Keychron for fast typists.",
+      "prosAndCons": {
+        "pros": [
+          "8000Hz polling, hot-swappable Super Red",
+          "QMK / Keychron Launcher programmable",
+          "Double-shot PBT keycaps, great value"
+        ],
+        "cons": [
+          "Wired only",
+          "TKL drops the numpad"
+        ]
+      },
+      "specifications": {
+        "Layout": "TKL",
+        "Polling": "8000Hz",
+        "Switches": "Hot-swap Super Red",
+        "Software": "QMK / Launcher",
+        "Keycaps": "Double-shot PBT"
+      },
+      "priceRange": "$54.99",
+      "rating": 4.8,
+      "affiliateUrl": "",
+      "asin": "B0DYJQ5Z2Z",
+      "imageUrl": "/images/products/keychron-c1-pro.webp",
+      "imagePlaceholder": "Keychron C1 Pro 8K TKL Keyboard",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$54.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Xh5E9pYUL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DYJQ5Z2Z?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "apple-magic-keyboard-touchid",
+      "name": "Apple Magic Keyboard with Touch ID",
+      "slug": "apple-magic-keyboard-touchid",
+      "category": "keyboards",
+      "shortDescription": "Apple's flagship Bluetooth keyboard with Touch ID fingerprint authentication, 1-month+ battery, USB-C charging, and scissor-mechanism keys — the cleanest companion for any Mac with Apple silicon.",
+      "prosAndCons": {
+        "pros": [
+          "Touch ID for secure one-tap login",
+          "Crisp scissor keys, slim profile",
+          "USB-C charging, ~1-month battery"
+        ],
+        "cons": [
+          "Works only with Apple-silicon Macs",
+          "No backlighting"
+        ]
+      },
+      "specifications": {
+        "Type": "Bluetooth",
+        "Auth": "Touch ID",
+        "Charging": "USB-C",
+        "Battery": "~1 month+",
+        "Layout": "Compact"
+      },
+      "priceRange": "$146.43",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0DL6KW75T",
+      "imageUrl": "/images/products/apple-magic-keyboard-touchid.webp",
+      "imagePlaceholder": "Apple Magic Keyboard with Touch ID",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$146.43",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41h9S383dnL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DL6KW75T?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-mx-keys-s-mac",
+      "name": "Logitech MX Keys S for Mac",
+      "slug": "logitech-mx-keys-s-mac",
+      "category": "keyboards",
+      "shortDescription": "The Mac-optimized MX Keys S with a Space Grey finish, Mac key layout, smart auto-backlight, USB-C recharge, Logi Bolt + Bluetooth 3-device pairing, and Smart Actions via Logi Options+.",
+      "prosAndCons": {
+        "pros": [
+          "Spherically-dished keys, superb typing feel",
+          "Smart proximity backlight, Smart Actions",
+          "3-device pairing, USB-C rechargeable"
+        ],
+        "cons": [
+          "Premium price",
+          "Membrane, not mechanical"
+        ]
+      },
+      "specifications": {
+        "Type": "Wireless (Bluetooth/Bolt)",
+        "Layout": "Mac, full-size",
+        "Backlight": "Smart auto",
+        "Charging": "USB-C",
+        "Devices": "3"
+      },
+      "priceRange": "$129.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B0BXX499PC",
+      "imageUrl": "/images/products/logitech-mx-keys-s-mac.webp",
+      "imagePlaceholder": "Logitech MX Keys S for Mac",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$129.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41mtObU8cAL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BXX499PC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "logitech-mx-keys-mini-mac",
+      "name": "Logitech MX Keys Mini for Mac",
+      "slug": "logitech-mx-keys-mini-mac",
+      "category": "keyboards",
+      "shortDescription": "A compact, minimalist Mac keyboard with smart backlit keys, Dictation and Emoji smart keys, USB-C recharge, and Flow-enabled multi-device workflow with the MX Master 3S for Mac — great for saving desk space.",
+      "prosAndCons": {
+        "pros": [
+          "Compact 75% footprint frees desk space",
+          "Smart backlight, Dictation/Emoji keys",
+          "Flow + 3-device pairing, USB-C"
+        ],
+        "cons": [
+          "No numpad",
+          "Membrane switches"
+        ]
+      },
+      "specifications": {
+        "Type": "Wireless (Bluetooth)",
+        "Layout": "Mac, compact",
+        "Backlight": "Smart auto",
+        "Charging": "USB-C",
+        "Devices": "3"
+      },
+      "priceRange": "$99.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B098JF32PT",
+      "imageUrl": "/images/products/logitech-mx-keys-mini-mac.webp",
+      "imagePlaceholder": "Logitech MX Keys Mini for Mac",
+      "badges": [],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$95.90",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41iFCecWVvL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B098JF32PT?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "benq-screenbar",
+      "name": "BenQ ScreenBar Monitor Light Bar",
+      "slug": "benq-screenbar",
+      "category": "lighting",
+      "shortDescription": "A premium monitor-mounted light bar with ASYM optics that light your desk without any screen glare, auto-dimming via a built-in light sensor, and CRI>95 color accuracy — the original and a perfect ergonomic upgrade.",
+      "prosAndCons": {
+        "pros": [
+          "Lights the desk, not the screen — zero glare",
+          "Auto-dimming ambient light sensor",
+          "CRI>95 accurate color, reclaims desk space"
+        ],
+        "cons": [
+          "No backlight (see Halo 2)",
+          "USB-powered brightness ceiling"
+        ]
+      },
+      "specifications": {
+        "Type": "Monitor light bar",
+        "Mount": "Clamp",
+        "Control": "Auto-dim sensor",
+        "CRI": ">95",
+        "Power": "USB"
+      },
+      "priceRange": "$109.00",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B076VNFZJG",
+      "imageUrl": "/images/products/benq-screenbar.webp",
+      "imagePlaceholder": "BenQ ScreenBar Monitor Light Bar",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$109.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31CmVBXX+EL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B076VNFZJG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "airlonv-desk-lamp",
+      "name": "Airlonv LED Desk Lamp",
+      "slug": "airlonv-desk-lamp",
+      "category": "lighting",
+      "shortDescription": "A 17\" extra-wide aluminum clamp lamp with stepless dimming (1–100%), a 2700K–6500K color range, 100 LED beads, a 60,000-hour lifespan, built-in wire management, and a clamp that fits desks up to 2.36\" thick.",
+      "prosAndCons": {
+        "pros": [
+          "17\" wide bar lights the whole desk",
+          "Stepless dimming + full color-temp range",
+          "Clamp frees desk space, 60K-hour LEDs"
+        ],
+        "cons": [
+          "Clamp mount only",
+          "Adapter-powered"
+        ]
+      },
+      "specifications": {
+        "Width": "17\"",
+        "Dimming": "Stepless 1–100%",
+        "ColorTemp": "2700K–6500K",
+        "Life": "60,000 hrs",
+        "Mount": "Clamp"
+      },
+      "priceRange": "$20.97",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0C4JTPPYY",
+      "imageUrl": "/images/products/airlonv-desk-lamp.webp",
+      "imagePlaceholder": "Airlonv LED Desk Lamp",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$20.97",
+      "amazonListPrice": "$25.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/415a2-2URFL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0C4JTPPYY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "govee-table-lamp-2",
+      "name": "Govee RGBIC Smart Table Lamp 2",
+      "slug": "govee-table-lamp-2",
+      "category": "lighting",
+      "shortDescription": "A vibrant smart ambient lamp with 64+ scene modes, 8 music-sync modes, 2700K–6500K white light, Matter/Alexa/Google/HomeKit/SmartThings support, and a Pat-to-Wake mode — adds personality and smart control to a setup.",
+      "prosAndCons": {
+        "pros": [
+          "RGBIC with 64+ scenes and music sync",
+          "Works with Matter, Alexa, Google, HomeKit",
+          "Pat-to-Wake, tunable white light"
+        ],
+        "cons": [
+          "Ambient accent, not a task light",
+          "Corded"
+        ]
+      },
+      "specifications": {
+        "Type": "RGBIC smart lamp",
+        "Scenes": "64+",
+        "Music": "8 sync modes",
+        "Smart": "Matter/Alexa/Google/HomeKit",
+        "White": "2700K–6500K"
+      },
+      "priceRange": "$69.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0D41XL87F",
+      "imageUrl": "/images/products/govee-table-lamp-2.webp",
+      "imagePlaceholder": "Govee RGBIC Smart Table Lamp 2",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$69.99",
+      "amazonListPrice": "$79.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41g8-ONEigL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0D41XL87F?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "staples-dexley",
+      "name": "Staples Dexley Ergonomic Task Chair",
+      "slug": "staples-dexley",
+      "category": "ergonomic-chairs",
+      "shortDescription": "A complete ergonomic package from a trusted office brand — full breathable mesh back and seat, 3D adjustable armrests, a height- and angle-adjustable headrest, 3-position tilt lock, and 275 lb capacity.",
+      "prosAndCons": {
+        "pros": [
+          "Full mesh back and seat stays cool",
+          "3D arms + adjustable headrest",
+          "3-position tilt lock, 275 lb capacity"
+        ],
+        "cons": [
+          "Assembly required",
+          "Mid-tier cushioning"
+        ]
+      },
+      "specifications": {
+        "Back": "Breathable mesh",
+        "Arms": "3D adjustable",
+        "Headrest": "Height + angle",
+        "Tilt": "3-position lock",
+        "Capacity": "275 lbs"
+      },
+      "priceRange": "$149.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B07Z44KBR7",
+      "imageUrl": "/images/products/staples-dexley.webp",
+      "imagePlaceholder": "Staples Dexley Ergonomic Task Chair",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$149.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31VuGiW4EGL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07Z44KBR7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "alextech-sleeve-half",
+      "name": "Alex Tech 10ft Split Wire Loom (1/2\")",
+      "slug": "alextech-sleeve-half",
+      "category": "cable-management",
+      "shortDescription": "The most-reviewed cable product here — UL-recognized split PET sleeving that loads cables at any point without unplugging, cuts to any length, and resists chewing, heat, and abrasion.",
+      "prosAndCons": {
+        "pros": [
+          "Split design loads without unplugging",
+          "UL-recognized, chew/heat/abrasion resistant",
+          "Cuts to any length"
+        ],
+        "cons": [
+          "1/2\" fits a moderate bundle",
+          "Black only in this pack"
+        ]
+      },
+      "specifications": {
+        "Length": "10 ft",
+        "Diameter": "1/2\"",
+        "Material": "Split PET",
+        "Rating": "UL-recognized"
+      },
+      "priceRange": "$8.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B07FW3GTXB",
+      "imageUrl": "/images/products/alextech-sleeve-half.webp",
+      "imagePlaceholder": "Alex Tech 10ft Split Wire Loom (1/2\")",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 3,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$8.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41y+vnwtbQL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07FW3GTXB?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "alextech-sleeve-25",
+      "name": "Alex Tech 25ft Split Wire Loom (1/4\")",
+      "slug": "alextech-sleeve-25",
+      "category": "cable-management",
+      "shortDescription": "A 25-foot split polyethylene wire loom with thick walls for full cable protection, resistant to abrasion and chemicals — ideal for bundling desk, automotive, and home-office wiring into a clean, professional run.",
+      "prosAndCons": {
+        "pros": [
+          "25 ft covers long cable runs",
+          "Thick-wall PE, abrasion/chemical resistant",
+          "Split for easy loading"
+        ],
+        "cons": [
+          "1/4\" suits thinner bundles",
+          "Trim to length needed"
+        ]
+      },
+      "specifications": {
+        "Length": "25 ft",
+        "Diameter": "1/4\"",
+        "Material": "Split PE",
+        "Use": "Desk / auto / home"
+      },
+      "priceRange": "$13.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B07FW86XV6",
+      "imageUrl": "/images/products/alextech-sleeve-25.webp",
+      "imagePlaceholder": "Alex Tech 25ft Split Wire Loom (1/4\")",
+      "badges": [],
+      "featured": false,
+      "rank": 4,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$13.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41y+vnwtbQL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07FW86XV6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "yecaye-jchannel",
+      "name": "YECAYE J-Channel Cable Management (6-Pack)",
+      "slug": "yecaye-jchannel",
+      "category": "cable-management",
+      "shortDescription": "A 94.2-inch (6-pack) flame-retardant PVC J-channel kit with pre-applied adhesive, an outward-facing opening for effortless cable placement, and damage-free, no-drill installation under your desk.",
+      "prosAndCons": {
+        "pros": [
+          "Outward opening makes routing effortless",
+          "Pre-applied adhesive, no drilling",
+          "Flame-retardant PVC, 94.2\" total"
+        ],
+        "cons": [
+          "Adhesive needs a clean surface + cure time",
+          "Surface-mount only"
+        ]
+      },
+      "specifications": {
+        "Length": "94.2 in (6-pack)",
+        "Material": "Flame-retardant PVC",
+        "Install": "Adhesive, no-drill",
+        "Opening": "Outward-facing"
+      },
+      "priceRange": "$16.14",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B089N5CSNN",
+      "imageUrl": "/images/products/yecaye-jchannel.webp",
+      "imagePlaceholder": "YECAYE J-Channel Cable Management (6-Pack)",
+      "badges": [],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$19.99",
+      "amazonListPrice": "$21.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/513CpXdkO9L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B089N5CSNN?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "cinati-cable-tray",
+      "name": "Cinati Under-Desk Cable Tray (No-Drill)",
+      "slug": "cinati-cable-tray",
+      "category": "cable-management",
+      "shortDescription": "A sturdy powder-coated metal tray with no-drill clamp installation (fits desks 0.4\"–2.4\" thick), 10 lb capacity, anti-scratch mats, 4 cable clips, and 6 cable ties included — backed by a 2-year warranty.",
+      "prosAndCons": {
+        "pros": [
+          "No-drill clamp install, anti-scratch pads",
+          "Powder-coated metal, 10 lb capacity",
+          "Includes clips + ties, 2-year warranty"
+        ],
+        "cons": [
+          "Single tray size",
+          "Clamp fits 0.4–2.4\" desks only"
+        ]
+      },
+      "specifications": {
+        "Material": "Powder-coated metal",
+        "Install": "No-drill clamp",
+        "Capacity": "10 lbs",
+        "Fits": "0.4\"–2.4\" desk",
+        "Warranty": "2 years"
+      },
+      "priceRange": "$15.29",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0BPLT7T1V",
+      "imageUrl": "/images/products/cinati-cable-tray.webp",
+      "imagePlaceholder": "Cinati Under-Desk Cable Tray (No-Drill)",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.99",
+      "amazonListPrice": "$21.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51FP7-vLEIL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BPLT7T1V?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "norocme-cable-kit",
+      "name": "N NOROCME 192-Piece Cable Management Kit",
+      "slug": "norocme-cable-kit",
+      "category": "cable-management",
+      "shortDescription": "An all-in-one 192-piece kit — 4 split cable sleeves, 46 adhesive clips (6 styles), 20 reusable velcro ties, 2 rolls of cable straps, and 100 cable ties — everything to completely overhaul a desk cable setup in one box.",
+      "prosAndCons": {
+        "pros": [
+          "192 pieces across 6 organizer types",
+          "Sleeves, clips, velcro, and ties in one kit",
+          "Covers a full desk overhaul"
+        ],
+        "cons": [
+          "Adhesive clips need clean surfaces",
+          "Mixed quality across piece types"
+        ]
+      },
+      "specifications": {
+        "Pieces": "192",
+        "Sleeves": "4 split",
+        "Clips": "46 (6 styles)",
+        "Velcro": "20 reusable",
+        "Ties": "100"
+      },
+      "priceRange": "$15.75",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0B687J37D",
+      "imageUrl": "/images/products/norocme-cable-kit.webp",
+      "imagePlaceholder": "N NOROCME 192-Piece Cable Management Kit",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$15.75",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51jnW29OITL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0B687J37D?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
