@@ -21,10 +21,19 @@ export async function generateMetadata({
   const { slug } = await params;
   try {
     const { frontmatter } = getBlogContent(slug);
+    const image = (frontmatter.image as string) || `/images/blog/${slug}.webp`;
     return {
       title: frontmatter.title as string,
       description: frontmatter.description as string,
       alternates: { canonical: `/blog/${slug}/` },
+      openGraph: {
+        type: "article",
+        title: frontmatter.title as string,
+        description: frontmatter.description as string,
+        url: `/blog/${slug}/`,
+        images: [{ url: image, width: 1200, height: 630 }],
+      },
+      twitter: { card: "summary_large_image", images: [image] },
     };
   } catch {
     return {};

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getGuides } from "@/lib/data";
-import { Clock, Calendar, ArrowRight, BookOpen } from "lucide-react";
+import { Clock, Calendar, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Buying Guides",
@@ -37,7 +37,11 @@ export default function GuidesPage() {
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               <div className="aspect-[16/10] lg:aspect-auto bg-gradient-to-br from-indigo-900/30 to-slate-900 rounded-[1.5rem] lg:rounded-r-none relative overflow-hidden flex items-center justify-center">
-                <BookOpen className="w-20 h-20 text-indigo-500/20" />
+                <img
+                  src={featured.imageUrl}
+                  alt={featured.title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
                 <div className="absolute bottom-4 left-4">
                   <span className="badge-best">Featured</span>
@@ -77,7 +81,12 @@ export default function GuidesPage() {
               className="glass-card glass-card-hover p-2 group block"
             >
               <div className="w-full aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-[1.5rem] mb-5 relative overflow-hidden flex items-center justify-center">
-                <BookOpen className="w-12 h-12 text-slate-800 group-hover:text-indigo-500/20 transition-colors duration-500" />
+                <img
+                  src={guide.imageUrl}
+                  alt={guide.title}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
               <div className="px-4 pb-4">

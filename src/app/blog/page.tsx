@@ -48,6 +48,11 @@ export default function BlogPage() {
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               <div className="aspect-[16/10] lg:aspect-auto bg-gradient-to-br from-indigo-900/30 to-slate-900 rounded-[1.5rem] lg:rounded-r-none relative overflow-hidden">
+                <img
+                  src={featured.frontmatter.image as string}
+                  alt={featured.frontmatter.title as string}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent" />
                 <div className="absolute bottom-4 left-4">
                   <span className="badge-best">Latest</span>
@@ -88,6 +93,12 @@ export default function BlogPage() {
               className="glass-card glass-card-hover p-2 group block"
             >
               <div className="w-full aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-[1.5rem] mb-5 relative overflow-hidden">
+                <img
+                  src={post.frontmatter.image as string}
+                  alt={post.frontmatter.title as string}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
               <div className="px-4 pb-4">
