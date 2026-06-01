@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, ChevronDown, Star } from "lucide-react";
+import { ArrowRight, ChevronDown, ShieldCheck } from "lucide-react";
 import { useRef } from "react";
 
 const containerVariants = {
@@ -187,13 +187,10 @@ export function Hero() {
 
             {/* Trust badge */}
             <div className="flex items-center justify-center gap-2 mt-6">
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-                ))}
-              </div>
+              <ShieldCheck className="w-4 h-4 text-emerald-400 flex-none" />
               <span className="text-sm text-slate-400">
-                <span className="text-white font-bold">4.9</span> trusted by 500k+ readers
+                <span className="text-white font-bold">137</span> products tested across{" "}
+                <span className="text-white font-bold">21</span> categories
               </span>
             </div>
           </motion.div>

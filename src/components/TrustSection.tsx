@@ -46,10 +46,10 @@ const cards = [
 ];
 
 const stats = [
-  { value: 500, suffix: "k+", label: "Monthly Readers" },
-  { value: 287, suffix: "", label: "Products Reviewed" },
-  { value: 4, suffix: ".9", icon: true, label: "Average Reader Rating" },
-  { value: 12, suffix: " yrs", label: "Cumulative Testing Time" },
+  { value: 137, suffix: "", label: "Products Reviewed" },
+  { value: 21, suffix: "", label: "Categories Covered" },
+  { value: 30, suffix: "", label: "Buying Guides" },
+  { value: 4, suffix: ".5", icon: true, label: "Minimum Quality Bar" },
 ];
 
 export function TrustSection() {
