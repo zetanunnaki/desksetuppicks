@@ -1,0 +1,33 @@
+# DeskSetupPicks
+
+> Independent, data-backed reviews of desk-setup gear. Every product is tested for at least 30 days and only items rated 4.5★ or higher make our lists. We participate in the Amazon Associates program; links may earn a commission at no cost to you.
+
+DeskSetupPicks is an editorial review publication covering 20 categories of workspace gear — standing desks, ergonomic chairs, monitors, keyboards, mice, webcams, microphones, speakers, lighting, and accessories. Reviews include editorial ratings, pros and cons, specifications, and current pricing.
+
+## Reviews (by category)
+- [Standing Desks](https://desksetuppicks.com/reviews/standing-desks/)
+- [Ergonomic Chairs](https://desksetuppicks.com/reviews/ergonomic-chairs/)
+- [Monitors](https://desksetuppicks.com/reviews/monitors/)
+- [Monitor Arms](https://desksetuppicks.com/reviews/monitor-arms/)
+- [Mechanical Keyboards](https://desksetuppicks.com/reviews/keyboards/)
+- [Wireless Mice](https://desksetuppicks.com/reviews/mice/)
+- [Webcams](https://desksetuppicks.com/reviews/webcams/)
+- [Microphones](https://desksetuppicks.com/reviews/microphones/)
+- [Desktop Speakers](https://desksetuppicks.com/reviews/speakers/)
+- [Desk Lighting](https://desksetuppicks.com/reviews/lighting/)
+- [Headsets & Headphones](https://desksetuppicks.com/reviews/headsets/)
+- [USB Hubs & Docks](https://desksetuppicks.com/reviews/usb-hubs/)
+- [Desk Mats](https://desksetuppicks.com/reviews/desk-mats/)
+- [Desk Shelves & Risers](https://desksetuppicks.com/reviews/desk-shelves/)
+- [Laptop Stands](https://desksetuppicks.com/reviews/laptop-stands/)
+- [Desk Organizers](https://desksetuppicks.com/reviews/desk-organizers/)
+- [Power Strips & Surge Protectors](https://desksetuppicks.com/reviews/power-strips/)
+- [Cable Management](https://desksetuppicks.com/reviews/cable-management/)
+- [Footrests](https://desksetuppicks.com/reviews/footrests/)
+- [Wrist Rests](https://desksetuppicks.com/reviews/wrist-rests/)
+
+## Resources
+- [Buying Guides](https://desksetuppicks.com/guides/)
+- [The Journal (blog)](https://desksetuppicks.com/blog/)
+- [About & Methodology](https://desksetuppicks.com/about/)
+- [Affiliate Disclosure](https://desksetuppicks.com/affiliate-disclosure/)

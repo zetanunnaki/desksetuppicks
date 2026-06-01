@@ -104,6 +104,21 @@ export function reviewItemListSchema(category: Category, products: Product[]) {
   };
 }
 
+// Homepage ItemList linking the category review pages (helps sitelinks/coverage).
+export function categoryListSchema(categories: Category[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${SITE.name} Review Categories`,
+    itemListElement: categories.map((c, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: c.name,
+      url: url(`/reviews/${c.slug}`),
+    })),
+  };
+}
+
 export function articleSchema(opts: {
   title: string;
   description: string;
