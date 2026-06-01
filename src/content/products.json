@@ -920,42 +920,45 @@
       "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "dell-ultrasharp-u2723de",
-      "name": "Dell UltraSharp U2723DE",
-      "slug": "dell-ultrasharp-u2723de",
+      "id": "dell-s2725qs",
+      "name": "Dell 27 Plus 4K Monitor (S2725QS)",
+      "slug": "dell-s2725qs",
       "category": "monitors",
-      "shortDescription": "The Dell UltraSharp U2723DE is the best all-around 4K office monitor — a Thunderbolt 4 hub, ComfortView Plus for low blue light, and factory-calibrated IPS Black panel.",
+      "shortDescription": "A stunning 27\" 4K IPS panel with 120Hz, AMD FreeSync Premium, 99% sRGB, ComfortView Plus blue-light reduction, re-engineered speakers, and full ergonomic adjustment — the best all-around productivity + multimedia monitor.",
       "prosAndCons": {
         "pros": [
-          "Thunderbolt 4 hub with 90W power delivery charges most laptops over a single cable",
-          "IPS Black panel achieves 2000:1 contrast ratio — near OLED levels for an IPS screen",
-          "Factory calibration certification ensures ΔE<2 color accuracy out of the box"
+          "27\" 4K IPS at 120Hz — sharp and smooth",
+          "99% sRGB with ComfortView Plus low blue light",
+          "Full height/tilt/swivel/pivot + built-in speakers"
         ],
         "cons": [
-          "60Hz refresh rate is a limitation for users who mix creative work and gaming",
-          "Premium price of $550+ commands a higher budget than many home office setups"
+          "No USB-C on this S-series model",
+          "1500:1 contrast is good, not OLED-deep"
         ]
       },
       "specifications": {
-        "Panel": "IPS Black",
-        "Resolution": "3840 × 2160 (4K)",
-        "Refresh Rate": "60Hz",
-        "Connectivity": "Thunderbolt 4, USB-C 90W, HDMI 2.0",
-        "Contrast": "2000:1"
+        "Panel": "IPS",
+        "Resolution": "3840 x 2160 (4K)",
+        "Refresh": "120Hz",
+        "Color": "99% sRGB",
+        "Sync": "AMD FreeSync Premium"
       },
-      "priceRange": "$579",
-      "rating": 4.6,
+      "priceRange": "$279.99",
+      "rating": 4.5,
       "affiliateUrl": "",
-      "asin": "PLACEHOLDER",
-      "imageUrl": "/images/products/dell-ultrasharp-u2723de.webp",
-      "imagePlaceholder": "Dell UltraSharp U2723DE 4K monitor on ergonomic desk",
-      "badges": [
-        "Premium Pick"
-      ],
+      "asin": "B0F1GF1KFC",
+      "imageUrl": "/images/products/dell-s2725qs.webp",
+      "imagePlaceholder": "Dell S2725QS 27-inch 4K monitor",
+      "badges": [],
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$279.99",
+      "amazonListPrice": "$299.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41+pt9WOb2L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0F1GF1KFC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "samsung-viewfinity-s9",
@@ -1605,7 +1608,7 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$17.18",
+      "amazonPrice": "$16.82",
       "amazonListPrice": "$22.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41H+HBufefL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09DV8WKK8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
@@ -2574,7 +2577,12 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.99",
+      "amazonListPrice": "$19.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/413Vg4tz8SL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B077B9W343?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "boyata-n21-stand",
@@ -2610,7 +2618,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$29.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31JIPVTyFVL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07WRC9B86?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "boyata-m600212-stand",
@@ -2646,7 +2658,11 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$29.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51tGrhb7pOL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08R9V1HNQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "nulaxy-c5-stand",
@@ -2682,7 +2698,12 @@
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$44.99",
+      "amazonListPrice": "$49.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41m7FD38dVL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CKZ5P9P7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "rain-design-mstand",
@@ -2719,7 +2740,11 @@
       "featured": false,
       "rank": 5,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$39.90",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/311FX9vaiJL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B000OOYECC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "edifier-r1280t",
@@ -2757,7 +2782,11 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$149.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41JdMdErl7L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B016P9HJIA?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "logitech-z623",
@@ -2792,7 +2821,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$164.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31PpHAeZlDL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B003UPJXIC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "bose-companion-2",
@@ -2828,7 +2861,11 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$159.95",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Msfl5WSZL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00CD1PTF0?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "blue-yeti",
@@ -2865,7 +2902,12 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$91.99",
+      "amazonListPrice": "$139.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/3130DkWZPWL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00N1YPXW2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "hyperx-quadcast-2s",
@@ -2901,7 +2943,12 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$90.00",
+      "amazonListPrice": "$199.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31WFV9ydexL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DG9X4WHW?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "rode-nt-usb-mini",
@@ -2937,7 +2984,11 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$101.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41PJUsYMcsL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B084P1CXFD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "shure-mv7",
@@ -2975,7 +3026,11 @@
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$299.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/411zG0XzyJL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08G7RG9ML?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "elgato-wave-3",
@@ -3011,7 +3066,12 @@
       "featured": false,
       "rank": 5,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$119.99",
+      "amazonListPrice": "$149.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31A4l2i7pwL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B088HHWC47?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "amazonbasics-monitor-riser",
@@ -3048,7 +3108,11 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$23.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21X2klzUZGL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00X4SCCFG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "gianotter-dual-riser",
@@ -3083,7 +3147,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$29.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DJKSMV2T?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "fitueyes-2tier-stand",
@@ -3118,7 +3186,11 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$25.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/514WxuUYdOL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B01A6JLT3Q?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "tangkula-hutch",
@@ -3153,7 +3225,11 @@
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41q9bWdcw9L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0CZTS65FZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "anker-4port-usb3",
@@ -3190,7 +3266,12 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$9.99",
+      "amazonListPrice": "$14.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31EVVjapPYL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B07L32B9C2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "sabrent-hb-um43",
@@ -3225,7 +3306,11 @@
       "featured": false,
       "rank": 2,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$14.95",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Q3U7SHhFL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00JX1ZS5O?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "ugreen-cm478-hub",
@@ -3260,7 +3345,12 @@
       "featured": false,
       "rank": 3,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$11.36",
+      "amazonListPrice": "$15.98",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41DJO-tB2pL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BR3M8XHK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "ugreen-revodok-1071",
@@ -3296,7 +3386,12 @@
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$17.99",
+      "amazonListPrice": "$22.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41HirSbDr5L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BLNDNBG1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     },
     {
       "id": "soundcore-q20i",
@@ -3333,7 +3428,260 @@
       "featured": false,
       "rank": 1,
       "dateAdded": "2026-06-01",
-      "lastUpdated": "2026-06-01"
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$44.99",
+      "amazonListPrice": "$69.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41-LcaT-aKL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0C3HCD34R?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "asus-proart-pa278qv",
+      "name": "ASUS ProArt PA278QV 27\" WQHD",
+      "slug": "asus-proart-pa278qv",
+      "category": "monitors",
+      "shortDescription": "A professional-grade 27\" QHD IPS monitor with Calman-Verified ΔE<2 color accuracy, 100% sRGB/Rec.709, a frameless design, built-in speakers, and full tilt/pivot/swivel/height adjustability — ideal for creative work.",
+      "prosAndCons": {
+        "pros": [
+          "Factory-calibrated ΔE<2, 100% sRGB/Rec.709",
+          "Full ergonomic stand + USB hub",
+          "Excellent value for color-accurate work"
+        ],
+        "cons": [
+          "60Hz — not for high-refresh gaming",
+          "QHD, not 4K"
+        ]
+      },
+      "specifications": {
+        "Panel": "IPS",
+        "Resolution": "2560 x 1440 (QHD)",
+        "Color": "100% sRGB, ΔE<2",
+        "Calibration": "Calman Verified",
+        "Ergonomics": "Tilt/pivot/swivel/height"
+      },
+      "priceRange": "$199.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B088BC5HMM",
+      "imageUrl": "/images/products/asus-proart-pa278qv.webp",
+      "imagePlaceholder": "ASUS ProArt PA278QV 27\" WQHD",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$199.99",
+      "amazonListPrice": "$269.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41oFF17eGhL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B088BC5HMM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "acer-nitro-kg271u",
+      "name": "Acer Nitro KG271U 27\" QHD 180Hz",
+      "slug": "acer-nitro-kg271u",
+      "category": "monitors",
+      "shortDescription": "A high-performance 27\" QHD IPS gaming monitor with a 180Hz refresh rate, 0.5ms response, AMD FreeSync, 95% DCI-P3, HDR10, built-in speakers, and a 3-year warranty — exceptional value for gaming and content.",
+      "prosAndCons": {
+        "pros": [
+          "180Hz / 0.5ms IPS for fast, smooth gaming",
+          "95% DCI-P3 with HDR10",
+          "3-year warranty, great price"
+        ],
+        "cons": [
+          "HDR is HDR10 entry-level",
+          "Stand is tilt-only"
+        ]
+      },
+      "specifications": {
+        "Panel": "IPS",
+        "Resolution": "2560 x 1440 (QHD)",
+        "Refresh": "180Hz",
+        "Response": "0.5ms",
+        "Color": "95% DCI-P3"
+      },
+      "priceRange": "$159.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0D8LH2VSP",
+      "imageUrl": "/images/products/acer-nitro-kg271u.webp",
+      "imagePlaceholder": "Acer Nitro KG271U 27\" QHD 180Hz",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$159.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/412urGQRLsL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0D8LH2VSP?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "philips-271v8lb",
+      "name": "Philips 271V8LB 27\" FHD 100Hz",
+      "slug": "philips-271v8lb",
+      "category": "monitors",
+      "shortDescription": "An outstanding-value 27\" Full HD VA panel with 100Hz, 4ms response, 3000:1 contrast, a virtually bezel-free 3-sided design, LowBlue mode, flicker-free tech, and a 4-year advance-replacement warranty.",
+      "prosAndCons": {
+        "pros": [
+          "100Hz VA panel with deep 3000:1 contrast",
+          "Frameless 3-sided design",
+          "4-year advance-replacement warranty"
+        ],
+        "cons": [
+          "1080p resolution at 27\"",
+          "VA viewing angles trail IPS"
+        ]
+      },
+      "specifications": {
+        "Panel": "VA",
+        "Resolution": "1920 x 1080 (FHD)",
+        "Refresh": "100Hz",
+        "Contrast": "3000:1",
+        "Warranty": "4 years"
+      },
+      "priceRange": "$89.99",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0C8ZJNZY8",
+      "imageUrl": "/images/products/philips-271v8lb.webp",
+      "imagePlaceholder": "Philips 271V8LB 27\" FHD 100Hz",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$89.99",
+      "amazonListPrice": "$99.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51FynWQQJ9L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0C8ZJNZY8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "dell-u2723qe",
+      "name": "Dell UltraSharp U2723QE 4K",
+      "slug": "dell-u2723qe",
+      "category": "monitors",
+      "shortDescription": "A premium 27\" 4K IPS Black hub monitor with a built-in USB-C dock, RJ45 Ethernet, and exceptional contrast and color accuracy — the cleanest single-cable setup for a serious productivity desk.",
+      "prosAndCons": {
+        "pros": [
+          "IPS Black panel doubles contrast for deeper blacks",
+          "Built-in USB-C hub with 90W PD and RJ45 Ethernet",
+          "Factory-calibrated color, full ergonomic stand"
+        ],
+        "cons": [
+          "Premium price",
+          "60Hz — built for work, not gaming"
+        ]
+      },
+      "specifications": {
+        "Panel": "IPS Black",
+        "Resolution": "3840 x 2160 (4K)",
+        "Hub": "USB-C 90W + RJ45",
+        "Color": "98% DCI-P3",
+        "Ergonomics": "Height/tilt/swivel/pivot"
+      },
+      "priceRange": "$659.00",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B0BXQX2BG4",
+      "imageUrl": "/images/products/dell-u2723qe.webp",
+      "imagePlaceholder": "Dell UltraSharp U2723QE 4K hub monitor",
+      "badges": [
+        "Editor’s Choice"
+      ],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$659.00",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/51UkDaCer+L._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0BXQX2BG4?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "epos-adapt-660",
+      "name": "EPOS Adapt 660 Wireless Headset",
+      "slug": "epos-adapt-660",
+      "category": "headsets",
+      "shortDescription": "A premium over-ear wireless headset with adaptive ANC, EPOS BrainAdapt technology proven to cut listening effort in noisy rooms, renowned stereo sound, and Microsoft Teams certification — built for serious professionals.",
+      "prosAndCons": {
+        "pros": [
+          "Adaptive hybrid ANC tuned for focus",
+          "BrainAdapt reduces listening fatigue",
+          "Teams certified, dual Bluetooth + USB-C dongle"
+        ],
+        "cons": [
+          "Premium price",
+          "Business-tuned sound over bass-heavy fun"
+        ]
+      },
+      "specifications": {
+        "Type": "Over-ear wireless",
+        "ANC": "Adaptive hybrid",
+        "Battery": "~30H",
+        "Connectivity": "Bluetooth + USB-C dongle",
+        "Cert": "Microsoft Teams"
+      },
+      "priceRange": "$258.60",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B08BN3T2NJ",
+      "imageUrl": "/images/products/epos-adapt-660.webp",
+      "imagePlaceholder": "EPOS Adapt 660 wireless headset",
+      "badges": [],
+      "featured": false,
+      "rank": 2,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$258.60",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31E0tbwDSCL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08BN3T2NJ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "wali-monitor-riser",
+      "name": "WALI Monitor Stand Riser",
+      "slug": "wali-monitor-riser",
+      "category": "desk-shelves",
+      "shortDescription": "A 3-height-adjustable metal monitor riser (3.9\"–5.5\") with a ventilated platform, rubber non-slip pads, under-shelf storage, and a 10-year warranty with US-based support — outstanding value.",
+      "prosAndCons": {
+        "pros": [
+          "3 adjustable heights on a sturdy metal platform",
+          "Under-shelf storage reclaims desk space",
+          "10-year warranty, US-based support"
+        ],
+        "cons": [
+          "Single-monitor width",
+          "Assembly required"
+        ]
+      },
+      "specifications": {
+        "Heights": "3.9\"–5.5\"",
+        "Material": "Vented metal",
+        "Storage": "Under-shelf",
+        "Warranty": "10 years"
+      },
+      "priceRange": "$9.79",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B094QTGHNZ",
+      "imageUrl": "/images/products/wali-monitor-riser.webp",
+      "imagePlaceholder": "WALI metal monitor stand riser",
+      "badges": [
+        "Best Value"
+      ],
+      "featured": false,
+      "rank": 5,
+      "dateAdded": "2026-06-01",
+      "lastUpdated": "2026-06-01",
+      "amazonPrice": "$9.79",
+      "amazonListPrice": "$14.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B094QTGHNZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-01"
     }
   ]
 }
