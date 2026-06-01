@@ -516,6 +516,516 @@ const content: Record<string, CategoryContent> = {
       },
     ],
   },
+  "usb-hubs": {
+    buyingGuide: [
+      {
+        title: "USB-C vs. USB-A Hubs",
+        content:
+          "Match the hub to your computer's port. USB-C multiport hubs (often called dongles or docks) plug into a single USB-C/Thunderbolt port and fan out to HDMI, USB-A, card readers, and pass-through charging — ideal for modern laptops with few ports. USB-A hubs simply add more legacy USB-A ports to a desktop or older machine. Buying the wrong type is the most common mistake, so confirm your port before anything else.",
+      },
+      {
+        title: "Powered vs. Bus-Powered",
+        content:
+          "Bus-powered hubs draw all their energy from the host port and are great for travel and low-draw devices like flash drives and keyboards. Powered hubs include their own adapter and can reliably run high-draw devices — external hard drives, charging phones, or many devices at once — without brownouts. If you plan to connect spinning hard drives or charge tablets, buy a powered hub.",
+      },
+      {
+        title: "Data Speed and Display Output",
+        content:
+          "Look for USB 3.0/3.2 ports rated at 5Gbps (or 10Gbps on premium hubs) for fast file transfers; USB 2.0 at 480Mbps is fine for mice and keyboards but slow for storage. For laptop docks, check the HDMI spec: many cap at 4K@30Hz, while better hubs deliver 4K@60Hz, and Thunderbolt docks drive dual or 8K displays. Power Delivery pass-through of 85–100W lets one cable charge your laptop too.",
+      },
+      {
+        title: "Build, Heat, and Cable Length",
+        content:
+          "Aluminum housings dissipate heat far better than plastic — important for USB-C docks that run warm under load. A short, flexible captive cable keeps a desktop hub tidy, while a longer cable suits reaching a laptop. Per-port power switches (common on USB-A desktop hubs) let you cut power to idle devices. Check certifications (UL/ETL) and that the chipset is from a reputable maker for stable connections.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the difference between a USB hub and a USB-C dock?",
+        answer:
+          "A USB hub adds more of the same port type (usually USB-A) for connecting peripherals. A USB-C dock (multiport adapter) takes one USB-C port and expands it into different connections — HDMI, Ethernet, card readers, USB-A — plus pass-through charging. If you have a modern laptop with only USB-C ports, you want a dock; if you just need more USB-A ports on a desktop, a hub is cheaper.",
+      },
+      {
+        question: "Do I need a powered USB hub?",
+        answer:
+          "You need a powered hub if you connect high-draw devices — external hard drives, charging phones or tablets, or many devices at once. Bus-powered hubs share the host port's limited power and can cause devices to disconnect under load. For just keyboards, mice, and flash drives, a bus-powered hub is fine and more portable.",
+      },
+      {
+        question: "Will a USB hub slow down my data transfers?",
+        answer:
+          "Only if you exceed its shared bandwidth. A USB 3.0 hub shares 5Gbps across its ports, which is plenty for everyday use, but copying from two fast SSDs simultaneously will split that bandwidth. For demanding storage work, use a 10Gbps hub or a Thunderbolt dock, and avoid running storage through a USB 2.0 port.",
+      },
+      {
+        question: "Can a USB-C hub charge my laptop while I use it?",
+        answer:
+          "Yes, if it supports Power Delivery (PD) pass-through. Plug your laptop charger into the hub's USB-C PD port and the hub powers your laptop while driving displays and peripherals over the single cable. Look for at least 85W PD for most laptops, or 100W for larger 15–16 inch machines, and note that the hub itself consumes a little, so effective charging is slightly below the rated figure.",
+      },
+      {
+        question: "Why does my USB-C dock only output 4K at 30Hz?",
+        answer:
+          "That is a limitation of the dock's HDMI version or the bandwidth it allocates to video. Cheaper docks use HDMI 1.4, which caps 4K at 30Hz — fine for productivity but choppy for cursor motion. For smooth 4K@60Hz, choose a dock that explicitly lists 4K@60Hz (HDMI 2.0+) or a Thunderbolt dock, and make sure your laptop's USB-C port supports DisplayPort Alt Mode.",
+      },
+    ],
+  },
+  "headsets": {
+    buyingGuide: [
+      {
+        title: "Noise Cancellation: ANC vs. Passive",
+        content:
+          "Active noise cancellation (ANC) uses microphones to electronically cancel low, droning sounds — planes, HVAC, office hum — and is worth it if you work in noisy spaces. Passive isolation comes from the ear cushions sealing around or in your ears. Over-ear ANC headphones give the best quiet for focus, while open-back headphones (no isolation) leak sound and suit quiet rooms where soundstage matters more than privacy.",
+      },
+      {
+        title: "Microphone Quality for Calls",
+        content:
+          "If you take a lot of calls, the mic matters as much as the audio. Headsets with a boom mic or a multi-microphone beamforming array reject background noise and keep your voice clear — look for Microsoft Teams or Zoom certification for business use. Earbuds and consumer ANC cans have smaller mics that are fine for casual calls but less crisp than a dedicated headset.",
+      },
+      {
+        title: "Wireless, Battery, and Multipoint",
+        content:
+          "Bluetooth is the standard for headphones; a USB dongle is common on dedicated headsets for lower-latency PC audio. Battery life ranges from ~20 hours (premium ANC) to 70+ hours (value models). Multipoint pairing — connecting to your laptop and phone at once and switching automatically — is a genuine daily convenience for hybrid work. Quick-charge (a few hours from a 5-minute top-up) saves you when the battery runs low.",
+      },
+      {
+        title: "Comfort and Fit for Long Sessions",
+        content:
+          "Comfort decides whether you actually wear it all day. Plush memory-foam or fabric cushions, even clamping force, and a light frame prevent hot spots and headaches over an 8-hour session. Over-ear designs distribute weight best; on-ear styles run warmer and press on the ear. For earbuds, multiple tip sizes are essential to get a seal that delivers both ANC and bass.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are noise-cancelling headphones worth it for working from home?",
+        answer:
+          "If you share space, live somewhere noisy, or take frequent calls, yes — ANC dramatically reduces background distraction and lets you work at lower, safer volumes. It excels at constant low-frequency noise (fans, traffic, AC) but does less for sudden voices. If you work in a quiet room, you can save money with well-isolating passive headphones instead.",
+      },
+      {
+        question: "Should I get a headset or regular headphones for video calls?",
+        answer:
+          "For frequent meetings, a headset with a boom or beamforming mic gives noticeably clearer voice pickup and background-noise rejection — look for Teams/Zoom certification. If calls are occasional and you mostly listen to music, premium ANC headphones with a good built-in mic are a fine dual-purpose choice. Dedicated headsets win on mic clarity; consumer headphones win on sound quality and style.",
+      },
+      {
+        question: "Is Bluetooth good enough, or do I need a USB dongle?",
+        answer:
+          "Bluetooth is great for music and calls and is the most flexible across devices. A 2.4GHz USB dongle provides lower, more consistent latency that matters for gaming and tightly synced video. Many headsets include both. For pure work-and-music use, Bluetooth with multipoint is the most convenient; for gaming, prefer the dongle.",
+      },
+      {
+        question: "What battery life should I expect from wireless headphones?",
+        answer:
+          "Premium ANC over-ears typically run 20–30 hours per charge, while value models stretch to 50–70 hours with ANC off. Earbuds get 5–8 hours plus several more charges from the case. Quick-charge is the spec to watch — many give 3+ hours of use from a 5-minute charge, which matters more day to day than the maximum number.",
+      },
+      {
+        question: "Open-back or closed-back headphones for a desk?",
+        answer:
+          "Closed-back (or ANC) headphones isolate you and keep your audio private — the right choice for shared spaces, calls, and noisy rooms. Open-back headphones have a wider, more natural soundstage that audiophiles and some creatives prefer, but they leak sound both ways, so everyone near you hears your audio and you hear the room. Pick open-back only for a quiet, private room.",
+      },
+    ],
+  },
+  "microphones": {
+    buyingGuide: [
+      {
+        title: "Condenser vs. Dynamic",
+        content:
+          "Condenser mics are sensitive and detailed, capturing a bright, full sound — great in a treated or quiet room, but they also pick up keyboard clatter and room echo. Dynamic mics (like the Shure MV7) are less sensitive, rejecting background noise and room reflections, which makes them more forgiving in an untreated home office. If your space is noisy or echoey, a dynamic mic will sound cleaner with no acoustic treatment.",
+      },
+      {
+        title: "USB vs. XLR Connection",
+        content:
+          "USB mics plug straight into your computer and need no extra gear — ideal for streaming, calls, and podcasting starters. XLR mics require an audio interface or mixer but offer an upgrade path and pro-grade flexibility. Several modern mics (again, the MV7) offer both USB and XLR, letting you start simple and grow into a proper interface later without rebuying.",
+      },
+      {
+        title: "Polar Patterns",
+        content:
+          "The polar pattern sets what the mic hears. Cardioid picks up only what is in front — the right default for solo voice, isolating you from the room. Multi-pattern mics add omnidirectional (all around, for groups), bidirectional (front and back, for two-person interviews), and stereo. If you only record your own voice, cardioid is all you need; buy multi-pattern only if you record interviews or instruments.",
+      },
+      {
+        title: "Onboard Controls and Mounting",
+        content:
+          "Onboard gain, mute, and headphone monitoring let you adjust levels and hear yourself without diving into software. A built-in or included shock mount isolates the capsule from desk bumps and typing vibration, and a pop filter tames plosives. Most desk mics sound best on a boom arm that positions the capsule close to your mouth and off the desk surface — factor that into your budget.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Should I buy a USB or XLR microphone?",
+        answer:
+          "Start with USB unless you already own an audio interface. USB mics deliver excellent quality for streaming, podcasting, and calls with true plug-and-play simplicity. XLR makes sense once you want multiple mics, pro processing, or an upgrade path — and some mics offer both connections so you can start on USB and move to XLR later without rebuying.",
+      },
+      {
+        question: "Is a condenser or dynamic mic better for a home office?",
+        answer:
+          "For most untreated home offices, a dynamic mic is the safer pick — it rejects room echo, keyboard noise, and background sound, so you sound clean without acoustic panels. Condenser mics capture more detail and air, which is fantastic in a quiet or treated room but unforgiving in a noisy one. If you can't control your room, go dynamic.",
+      },
+      {
+        question: "Do I need a boom arm and pop filter?",
+        answer:
+          "A boom arm is highly recommended: it positions the mic close to your mouth (where it sounds best and rejects room noise), frees desk space, and isolates the mic from desk vibration. A pop filter reduces harsh 'p' and 'b' plosives and is cheap insurance for clean vocals. Many mics include a basic desk stand, but a boom arm noticeably improves both sound and ergonomics.",
+      },
+      {
+        question: "What polar pattern do I need?",
+        answer:
+          "For solo voice — streaming, calls, podcasting your own track — cardioid is ideal because it captures only what is in front and rejects the room. Choose a multi-pattern mic only if you record two-person interviews (bidirectional), group conversations around one mic (omnidirectional), or instruments in stereo. Most people never leave cardioid.",
+      },
+      {
+        question: "Why does my USB mic pick up so much background noise?",
+        answer:
+          "Usually the gain is set too high or it's a sensitive condenser in an untreated room. Lower the input gain so your voice peaks healthily without the mic straining to hear, position the mic 6–10 inches from your mouth, and enable any noise-gate or noise-suppression feature in the companion app. If the problem persists, a dynamic mic will reject far more room and background noise.",
+      },
+    ],
+  },
+  "speakers": {
+    buyingGuide: [
+      {
+        title: "Powered Speakers vs. Studio Monitors",
+        content:
+          "Most desk speakers are 'powered' (active) — the amplifier is built in, so you just plug in a source. Compact USB speakers are the simplest and cheapest. Studio monitors are powered speakers tuned for flat, accurate sound; they reveal detail and are great for music and content work, though their honesty can feel less 'fun' than bass-boosted consumer speakers. Bookshelf speakers sit in between, offering richer sound from larger cabinets.",
+      },
+      {
+        title: "2.0 vs. 2.1 Systems",
+        content:
+          "A 2.0 system is two speakers with no subwoofer — clean, space-saving, and plenty for music, calls, and casual listening. A 2.1 system adds a subwoofer for deep bass that you feel, which transforms gaming and movies but takes floor or desk space and can annoy neighbors. Choose 2.0 for a tidy productivity desk; choose 2.1 if bass impact matters for entertainment.",
+      },
+      {
+        title: "Connectivity and Inputs",
+        content:
+          "Match inputs to your gear. USB power-and-audio is the simplest for a single computer. A 3.5mm aux or RCA inputs let you connect multiple devices (PC, console, phone) and are common on bookshelf and monitor speakers. Bluetooth adds wireless streaming from a phone. If you want to connect several sources at once — say a PC and a console — check for multiple inputs and an easy way to switch between them.",
+      },
+      {
+        title: "Driver Size, Power, and Desk Placement",
+        content:
+          "Larger drivers and higher RMS wattage generally mean fuller sound and more headroom, but room and placement matter just as much. Desk speakers sound best raised to ear level and angled toward you — stands or a 45-degree elevated design noticeably improve clarity. Studio monitors benefit from isolation pads that reduce desk resonance. Don't chase peak-power marketing numbers; RMS wattage and driver quality tell the real story.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are studio monitors better than regular computer speakers?",
+        answer:
+          "For accuracy, yes — studio monitors are tuned for flat, honest sound, which is ideal for music, mixing, and content work where you want to hear detail. Consumer speakers often boost bass and treble for a 'fun' sound that can be more enjoyable casually but less accurate. If you mostly watch videos and game, consumer speakers (or a 2.1 system) may please you more; for critical listening, choose monitors.",
+      },
+      {
+        question: "Do I need a subwoofer (2.1) for my desk?",
+        answer:
+          "Only if deep bass matters to you. A 2.1 system makes games and movies more immersive and music punchier, but the subwoofer needs space and can disturb others. For a clean desk focused on music, calls, and productivity, a quality 2.0 pair sounds great and saves room. Many bookshelf 2.0 speakers have enough low-end for most listeners without a sub.",
+      },
+      {
+        question: "USB, Bluetooth, or aux — which connection should I use?",
+        answer:
+          "USB is the simplest for a single computer (power and audio over one cable on compact models). Aux/RCA inputs are best when connecting multiple devices or higher-quality bookshelf speakers to a PC and console. Bluetooth is convenient for streaming from a phone but adds slight latency. Pick based on how many sources you connect and whether you want wireless flexibility.",
+      },
+      {
+        question: "How should I position desk speakers for the best sound?",
+        answer:
+          "Raise them to ear level and angle them inward toward your listening position so the two speakers and your head form a triangle. Speakers sitting flat on the desk firing at your chest sound muffled; stands or a 45-degree elevated design fix that. For studio monitors, add isolation pads to cut desk resonance and keep the speakers a little away from the wall to control bass.",
+      },
+      {
+        question: "How much power (wattage) do desk speakers need?",
+        answer:
+          "For near-field desk listening you sit close, so you don't need huge wattage — 10–50W RMS total is plenty for a personal desk. Focus on RMS (continuous) power rather than inflated 'peak' numbers, and weigh driver size and cabinet quality just as heavily. A well-built 20W monitor will outperform a cheap 100W-peak plastic speaker.",
+      },
+    ],
+  },
+  "laptop-stands": {
+    buyingGuide: [
+      {
+        title: "Fixed Riser vs. Adjustable vs. Sit-to-Stand",
+        content:
+          "Fixed-height stands (like the Rain Design mStand) are rigid and elegant but lock you to one height — ideal if you pair an external keyboard and just want eye-level screen. Adjustable stands tune height and angle for your desk and chair. Sit-to-stand converters raise the laptop from desk level up to ~20 inches so you can alternate sitting and standing. Match the type to whether you want simplicity, flexibility, or standing capability.",
+      },
+      {
+        title: "Ergonomic Height and External Keyboard",
+        content:
+          "Raising your laptop screen to eye level fixes the neck-craning 'laptop hunch,' but it also lifts the built-in keyboard out of a comfortable typing position. That means a laptop stand works best paired with an external keyboard and mouse. If you won't use external peripherals, a low-angle stand that tilts the laptop slightly is more practical than a tall riser.",
+      },
+      {
+        title: "Material, Stability, and Cooling",
+        content:
+          "Aluminum stands are sturdy, look premium, and act as a heat sink that helps cool the laptop; plastic stands are lighter and cheaper but can flex. Open or vented designs improve airflow under the laptop, reducing thermal throttling during heavy work. Check the weight capacity and footprint — a wobbly stand under a 16-inch laptop is both annoying and risky.",
+      },
+      {
+        title: "Portability vs. Desk Permanence",
+        content:
+          "Foldable, lightweight stands slip into a bag for travel and hot-desking but trade away some rigidity. Heavier Z-type or single-piece stands are rock-solid for a permanent desk but stay put. Decide whether you need a travel companion or a fixed home-office anchor; many people own a light foldable one for the bag and a sturdier one for the desk.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need an external keyboard with a laptop stand?",
+        answer:
+          "For ergonomic benefit, yes. Raising the screen to eye level lifts the built-in keyboard too high to type comfortably, so you should add an external keyboard and mouse. If you don't want extra peripherals, choose a low-tilt stand that angles the laptop slightly rather than a tall riser — you'll get better wrist comfort even if the screen isn't at full eye level.",
+      },
+      {
+        question: "Are aluminum laptop stands better than plastic?",
+        answer:
+          "Generally yes. Aluminum is more rigid (less wobble under larger laptops), looks more premium, and conducts heat away from the laptop, helping it run cooler. Plastic stands are lighter and cheaper, which suits travel, but can flex and trap heat. For a permanent desk, aluminum is the safer long-term choice.",
+      },
+      {
+        question: "Will a laptop stand help my laptop run cooler?",
+        answer:
+          "Usually a little. Lifting the laptop and using a vented or open design improves airflow to the underside intakes, which can reduce thermal throttling during demanding tasks. Aluminum stands also draw heat away. It's not a replacement for a dedicated cooling pad with fans, but for most users a vented stand provides a meaningful, silent improvement.",
+      },
+      {
+        question: "What is a sit-to-stand laptop stand?",
+        answer:
+          "It's a height-adjustable stand that raises your laptop from desk level up to around 18–20 inches, letting you switch between sitting and standing without a full standing desk. It's a budget-friendly way to add standing time to a fixed desk. The trade-off versus a true standing desk is a smaller work surface and that you'll want a separate keyboard when raised.",
+      },
+      {
+        question: "Are laptop stands worth it, or just a nice-to-have?",
+        answer:
+          "If you work on a laptop for hours, a stand is one of the cheapest, highest-impact ergonomic upgrades — it stops you hunching over a low screen, which is a leading cause of neck and upper-back strain. Paired with an external keyboard and mouse, it effectively turns a laptop into a proper desktop workstation. For occasional, short laptop use, it's more of a nice-to-have.",
+      },
+    ],
+  },
+  "desk-organizers": {
+    buyingGuide: [
+      {
+        title: "Match the Organizer to Your Clutter",
+        content:
+          "Start by identifying what actually clutters your desk. Pen cups and caddies corral writing tools; letter trays and file sorters handle paper and documents; drawer units hide small items out of sight; and monitor-stand organizers reclaim the space under your screen. Buying a beautiful organizer that doesn't fit your specific mess just adds another object — inventory your clutter first.",
+      },
+      {
+        title: "Material and Aesthetic",
+        content:
+          "Metal mesh and steel organizers are durable, look clean, and resist tipping; wood and bamboo bring warmth and a premium feel; clear acrylic keeps contents visible and suits a minimal aesthetic. Choose a finish that matches the rest of your desk gear so the setup looks intentional rather than assembled from whatever was cheapest.",
+      },
+      {
+        title: "Footprint and Capacity",
+        content:
+          "An organizer should save net desk space, not consume it. Vertical designs (tiered letter trays, rotating caddies) store more in a smaller footprint, while wide trays spread out. Measure the area you can dedicate before buying, and favor stackable or modular pieces if your needs may grow. Rotating organizers keep everything in reach without a large static footprint.",
+      },
+      {
+        title: "Stability and Assembly",
+        content:
+          "Non-slip feet or a weighted base keep an organizer from sliding or tipping when you grab something — important for anything holding pens or small parts. Some metal and drawer units require assembly; check that fasteners are included and the build feels solid. Drawers should slide smoothly; flimsy drawers that stick are the most common complaint in this category.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How do I choose the right desk organizer?",
+        answer:
+          "Inventory what clutters your desk first, then match the tool: pen cups for writing tools, letter trays for paper, drawer units for small items you want hidden, and rotating caddies for frequently used supplies in a small footprint. Pick a material and finish that matches your other gear, and measure the space you can dedicate so the organizer saves room rather than crowding the desk.",
+      },
+      {
+        question: "Metal, wood, or acrylic — which material is best?",
+        answer:
+          "Metal mesh is the most durable and tip-resistant and looks clean; wood and bamboo feel warm and premium; clear acrylic keeps contents visible for a minimal look but scratches more easily. There's no single best — choose the finish that matches the rest of your desk so the setup looks cohesive, and prioritize a sturdy, non-slip base whatever the material.",
+      },
+      {
+        question: "Do desk organizers actually save space?",
+        answer:
+          "The good ones do, by going vertical — tiered letter trays, rotating caddies, and stackable drawers store more in a smaller footprint than spreading items flat. A monitor-stand organizer reclaims the dead space under your screen. A poorly chosen organizer can add bulk, so favor vertical or modular designs and measure your available space before buying.",
+      },
+      {
+        question: "What is the best way to organize cables on a desk?",
+        answer:
+          "Cable clutter is best handled by dedicated cable management — clips, sleeves, and an under-desk tray — rather than a desktop organizer (see our cable management picks). On the desktop itself, a small caddy with a cable slot or a monitor stand with a cable channel keeps charging cables tidy and within reach without tangling.",
+      },
+      {
+        question: "Are drawer organizers worth it over open trays?",
+        answer:
+          "Drawers hide clutter for a cleaner look and protect contents from dust — ideal if you like a minimal surface. Open trays and caddies keep items visible and faster to grab, which suits tools you use constantly. Many people combine both: a drawer unit for occasional items and an open cup for everyday pens. Check that drawers slide smoothly, as cheap ones tend to stick.",
+      },
+    ],
+  },
+  "power-strips": {
+    buyingGuide: [
+      {
+        title: "Joule Rating and Surge Protection",
+        content:
+          "A surge protector's joule rating measures how much energy it can absorb before failing — higher is better for protecting expensive electronics. Look for at least 1000 joules for a basic desk, 2000+ joules for a computer and monitors, and 3000+ joules for a full workstation with peripherals. A plain power strip with no joule rating offers extra outlets but zero surge protection, so confirm you're buying an actual surge protector.",
+      },
+      {
+        title: "Outlet Count, Spacing, and USB Ports",
+        content:
+          "Count your devices and add a couple of spares for future growth. Just as important is outlet spacing — bulky wall-wart adapters block adjacent outlets on tightly packed strips, so look for widely spaced or rotating outlets if you use chargers and adapters. Built-in USB-A/USB-C ports let you charge phones and accessories without occupying AC outlets, a real space-saver on a desk.",
+      },
+      {
+        title: "Cord Length, Plug, and Mounting",
+        content:
+          "Measure the distance to your wall outlet and add slack; a flat or right-angle plug sits flush so furniture can push against the wall. Longer braided cords resist tangling and reach across larger setups. Keyhole mounting slots let you fix the strip to the underside of a desk or to a wall, keeping it off the floor and out of the cable mess.",
+      },
+      {
+        title: "Smart, Metal, and Specialty Options",
+        content:
+          "Wi-Fi smart strips let you control and schedule individual outlets by app or voice and monitor energy use — handy for turning a whole setup on or off at once. Heavy-duty all-metal strips with isolated filter banks suit high-end A/V and networking gear that's sensitive to line noise. For most desks a quality 8–12 outlet surge protector is enough; choose smart or metal only if you need those specific features.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the difference between a power strip and a surge protector?",
+        answer:
+          "A power strip just splits one outlet into several — it adds convenience but no protection. A surge protector includes components that absorb voltage spikes (rated in joules) to shield your electronics from damage. For anything valuable — computers, monitors, consoles — buy a surge protector and check its joule rating; a plain power strip offers no protection during a surge or storm.",
+      },
+      {
+        question: "How many joules of surge protection do I need?",
+        answer:
+          "For a basic desk lamp and charger, 1000 joules is adequate. For a computer plus monitors, aim for 2000+ joules, and for a full workstation with many peripherals, 3000+ joules gives more headroom and longer life. Higher joule ratings absorb more energy over the protector's lifetime, so erring higher is worthwhile for expensive gear.",
+      },
+      {
+        question: "Do surge protectors wear out?",
+        answer:
+          "Yes. The protective components degrade each time they absorb a surge, so a protector that has taken several hits — or is many years old — may no longer protect even though it still powers devices. Many units have a 'protection working' indicator light; if it's off, replace the unit. As a rule, replace surge protectors every few years or after a major surge.",
+      },
+      {
+        question: "Are power strips with USB ports worth it?",
+        answer:
+          "For a desk, yes — built-in USB-A and USB-C ports charge phones, earbuds, and accessories without using up AC outlets or cluttering the strip with wall adapters. Look for USB-C with enough wattage (20W+) to fast-charge a phone, or higher if you want to top up a tablet. Just note the built-in ports rarely match a dedicated charger's speed for laptops.",
+      },
+      {
+        question: "Can I mount a power strip under my desk?",
+        answer:
+          "Many power strips have keyhole slots on the back for screw-mounting to the underside of a desk or a wall, which gets them off the floor and out of the cable tangle. Combined with an under-desk cable tray, mounting keeps the strip accessible but hidden. If yours lacks mounting slots, adhesive cable-tray holders or a mountable cable box achieve the same result.",
+      },
+    ],
+  },
+  "footrests": {
+    buyingGuide: [
+      {
+        title: "Memory Foam vs. Hard Surface vs. Rocking",
+        content:
+          "Memory-foam footrests cushion your feet and relieve pressure — the most popular, comfortable choice for static support. Hard-surface and rocking footrests (like the Humanscale Foot Machine) encourage active movement that boosts circulation and engages leg muscles. Rocking and tilting designs keep your ankles moving through the day, which counters the stiffness of a fixed position. Pick foam for plush comfort, a rocker for active ergonomics.",
+      },
+      {
+        title: "Height and Angle Adjustment",
+        content:
+          "The right footrest restores a neutral posture: thighs roughly parallel to the floor, knees near 90 degrees, feet fully supported. Adjustable-height models (often 3–7 inches) let you dial that in for your chair and desk; tilt adjustment (commonly 0–30 degrees) reduces ankle strain and improves comfort. If you share a desk or change chairs, prioritize adjustability over a fixed-height block.",
+      },
+      {
+        title: "Size, Surface, and Grip",
+        content:
+          "A platform wide enough for both feet to rest and shift naturally beats a narrow pad. Textured or massage surfaces add mild stimulation and keep feet from sliding; a non-slip base keeps the footrest itself planted on the floor. If you like to slip your shoes off, a washable cover (common on foam models) keeps things hygienic over months of use.",
+      },
+      {
+        title: "Material and Durability",
+        content:
+          "High-density foam holds its shape far longer than cheap foam that compresses flat within months — a key durability signal. Bamboo and wood platforms are sustainable and sturdy for hard-surface fans. Metal-framed footrests with rubber feet handle heavy daily use. A removable, machine-washable cover extends the life and freshness of foam models, so look for one if you'll use the footrest daily.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I actually need a footrest?",
+        answer:
+          "You benefit from one if your feet dangle or don't rest flat when your chair is set to the correct height for your desk — common for shorter users or with fixed-height desks. A footrest restores a neutral posture (thighs parallel to the floor, feet supported), which relieves pressure on the back of your thighs and lower back. If your feet already rest flat comfortably, you don't need one.",
+      },
+      {
+        question: "Memory foam or a hard rocking footrest — which is better?",
+        answer:
+          "Memory foam is the most comfortable for plush, static support and pressure relief. A hard rocking or tilting footrest encourages constant micro-movement that improves circulation and engages your legs, which counters stiffness from sitting still. Choose foam if you want cushioned comfort, or a rocker if you want active ergonomics and don't mind a firm surface.",
+      },
+      {
+        question: "What is the correct footrest height?",
+        answer:
+          "Set it so your knees sit around 90 degrees and your thighs are roughly parallel to the floor with your feet fully supported — no pressure under your thighs and no dangling feet. Because the right height depends on your chair and desk, an adjustable footrest (typically 3–7 inches, often with tilt) is the safest choice, especially if more than one person uses the desk.",
+      },
+      {
+        question: "Will a footrest help with lower back pain?",
+        answer:
+          "It can, indirectly. Supporting your feet improves your overall sitting posture and reduces strain on the lower back and the backs of your thighs, particularly if your feet otherwise dangle. A footrest works best as part of a good setup — a supportive chair, correct desk height, and regular movement. It's a helpful piece, not a cure on its own.",
+      },
+      {
+        question: "Does a tilting or rocking footrest really improve circulation?",
+        answer:
+          "Yes, modestly. Gentle rocking or tilting keeps your ankles and lower-leg muscles active rather than static, which promotes blood flow and reduces the stiffness and swelling that come from holding feet still for hours. It's not a substitute for getting up and walking, but it adds beneficial low-effort movement throughout the workday.",
+      },
+    ],
+  },
+  "wrist-rests": {
+    buyingGuide: [
+      {
+        title: "Memory Foam vs. Gel",
+        content:
+          "Memory foam conforms to your wrist and stays put, offering soft, even support that many find most comfortable for typing. Gel rests feel cooler and springier and are common on mouse pads, though cheaper gel can flatten over time. Both aim to keep your wrist neutral; the choice is mostly feel. Look for a slow-rebound, higher-density foam or a quality gel that won't compress within months.",
+      },
+      {
+        title: "Height Match to Your Keyboard",
+        content:
+          "A wrist rest should fill the gap so your wrists stay straight, not bent up or down, while typing. The right height depends on your keyboard's profile — low-profile keyboards need a thin rest, while tall mechanical boards need a thicker one. A mismatched rest that's too tall or short can create the very angle it's meant to prevent, so match the rest height to your keyboard.",
+      },
+      {
+        title: "Surface and Cover Material",
+        content:
+          "The top surface affects comfort and durability. Breathable spandex or Lycra fabric over foam stays cooler and resists sweat; smooth PU or coated surfaces wipe clean easily. For mouse wrist rests, a bonded Lycra surface that doubles as a tracking surface is handy. A removable or wipeable cover keeps the rest hygienic over months of daily skin contact.",
+      },
+      {
+        title: "Non-Slip Base and Set Options",
+        content:
+          "A non-slip rubber or PU base keeps the rest from sliding while you type or mouse — a sliding rest is worse than none. Many products come as sets (keyboard rest plus mouse rest, sometimes a coaster), which is cost-effective if you want matching support for both hands. Match the length of the keyboard rest to your board (full-size vs. TKL) so it supports the full width.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are wrist rests actually good for you, or do they cause harm?",
+        answer:
+          "Used correctly, they help — by filling the gap so your wrists stay neutral rather than bending up while typing. The key is to rest your palms (not your wrists) on them and only between keystrokes, not while actively typing, and to keep the height matched to your keyboard. Planting your wrists hard on a rest while typing can create pressure points, so think of it as support during pauses.",
+      },
+      {
+        question: "Memory foam or gel — which wrist rest is better?",
+        answer:
+          "It's mostly personal preference. Memory foam conforms to your wrist and offers soft, even support that many prefer for keyboards. Gel feels cooler and springier and is popular for mouse pads. Both work; just choose a higher-density foam or quality gel that won't flatten within a few months, and prioritize a surface and feel you find comfortable.",
+      },
+      {
+        question: "What height wrist rest do I need?",
+        answer:
+          "Match it to your keyboard so your wrists stay flat. Low-profile keyboards (like laptop-style or Apple boards) need a thin rest; tall mechanical keyboards need a thicker one to bridge the gap. A rest that's too tall tilts your wrists back — the opposite of what you want. If unsure, measure the height of your keyboard's front edge where your palms rest.",
+      },
+      {
+        question: "Do I need a wrist rest for my mouse too?",
+        answer:
+          "If you feel strain in your mousing wrist during long sessions, yes — a gel or foam mouse wrist rest keeps that wrist neutral and relieves pressure. Many wrist-rest sets include both a keyboard and a mouse rest. If you use a vertical or ergonomic mouse that already keeps your wrist neutral, a separate mouse rest is less necessary.",
+      },
+      {
+        question: "How do I keep a wrist rest clean?",
+        answer:
+          "Wrist rests see constant skin contact, so hygiene matters. Wipe PU or coated surfaces with a damp cloth regularly. For fabric-covered foam, check whether the cover is removable and machine-washable — several are — or spot-clean with mild soap and let it fully dry. Replacing a worn, compressed, or stained rest every year or two keeps support and hygiene at their best.",
+      },
+    ],
+  },
+  "desk-shelves": {
+    buyingGuide: [
+      {
+        title: "Monitor Riser vs. Shelf vs. Hutch",
+        content:
+          "Decide what you're solving. A monitor riser lifts a single screen to eye level and reclaims the space beneath for a keyboard or storage. A wider dual-monitor riser or shelf spans two screens and adds organizer space. A full desktop hutch stacks multiple shelves above the desk for books, decor, and gear. Match the type to whether you need ergonomics, storage, or both.",
+      },
+      {
+        title: "Height, Eye-Level, and Ergonomics",
+        content:
+          "The main ergonomic job of a riser is putting your monitor's top edge at or just below eye level so you're not craning down. Fixed risers give one height; adjustable ones (often stacking layers or pins) let you dial it in. Measure from your seated eye level to your current monitor to know how much lift you need — too high is as uncomfortable as too low.",
+      },
+      {
+        title: "Material, Width, and Capacity",
+        content:
+          "Metal risers are sturdy and slim with good capacity; wood and MDF bring warmth and often more storage; acrylic looks minimal. Check the width fits your monitor base (and both bases for dual setups) and the weight rating exceeds your monitor plus anything you'll stack. A vented or open platform helps if you store a laptop or hub underneath that generates heat.",
+      },
+      {
+        title: "Storage, Stability, and Footprint",
+        content:
+          "The space under and around a riser is the real value — room for a keyboard, notebooks, or a small drawer. Some include drawers, pen holders, or pull-outs; hutches add vertical shelving. Ensure the unit is stable and won't wobble with a monitor on top, has non-slip feet, and that anti-tip anchors are included on taller hutches. Confirm the footprint fits your desk depth before buying.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need a monitor riser if I have a monitor arm?",
+        answer:
+          "Usually not — a monitor arm already lets you set screen height precisely and frees the desk surface entirely. A riser or shelf makes more sense if your monitor uses its original stand, if you want the storage space the riser provides underneath, or if your desk can't clamp an arm. They solve overlapping problems, so pick one based on whether you value adjustability (arm) or storage (riser).",
+      },
+      {
+        question: "What height monitor riser should I get?",
+        answer:
+          "Enough to bring the top of your screen to roughly eye level when seated upright. Measure the gap between your current monitor's top edge and your eye line — that's the lift you need. If you're between sizes or share the desk, an adjustable or stacking riser is safer than a fixed one. Remember the riser's own surface adds the height your monitor's existing stand contributes.",
+      },
+      {
+        question: "Will a desk shelf hold my monitor safely?",
+        answer:
+          "Check the weight rating against your monitor's weight (listed in its specs) plus anything you'll place on top, and confirm the width fits the monitor's base. Quality metal and solid-wood risers easily hold a single monitor; for dual monitors or a heavy ultrawide, choose a wide riser explicitly rated for that load. Non-slip feet and, on hutches, anti-tip anchors add safety.",
+      },
+      {
+        question: "Are desktop hutches worth it for a small desk?",
+        answer:
+          "A hutch can be a great fit for a small desk because it builds upward, adding shelf storage without consuming more desktop footprint, and many fit a monitor in the open lower section. The trade-off is they need vertical clearance and can feel bulky on a very shallow desk. Measure your desk depth and the space above it, and choose a unit with anti-tip anchors for safety.",
+      },
+      {
+        question: "Metal, wood, or MDF — which riser material is best?",
+        answer:
+          "Metal risers are slim, sturdy, and have high weight capacity, making them the safe all-rounder. Solid wood looks premium and often includes more storage but costs more; MDF offers a wood look for less but is less moisture-resistant. Choose based on your aesthetic and storage needs, and in every case verify the weight rating comfortably exceeds your monitor's weight.",
+      },
+    ],
+  },
 };
 
 export function getCategoryContent(slug: string): CategoryContent {
