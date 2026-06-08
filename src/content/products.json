@@ -251,48 +251,6 @@
       "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "fully-jarvis-monitor-arm",
-      "name": "Fully Jarvis Monitor Arm",
-      "slug": "fully-jarvis-monitor-arm",
-      "category": "monitor-arms",
-      "shortDescription": "The Fully Jarvis Monitor Arm is the best single-monitor arm on the market — incredibly smooth movement, a 19.8 lb capacity, and one of the cleanest cable management channels available.",
-      "prosAndCons": {
-        "pros": [
-          "Gas spring mechanism holds position perfectly with zero drift over time",
-          "360° rotation allows portrait mode and lateral sharing with ease",
-          "Internal cable routing channel keeps the desk completely wire-free"
-        ],
-        "cons": [
-          "Initial spring tension calibration requires some patience to dial in",
-          "No dual-arm configuration available — requires purchasing two separate units"
-        ]
-      },
-      "specifications": {
-        "Max Load": "19.8 lbs",
-        "VESA": "75/100 mm",
-        "Rotation": "360°",
-        "Tilt": "+90° / -45°",
-        "Mount": "Clamp or grommet"
-      },
-      "priceRange": "$129",
-      "rating": 4.7,
-      "affiliateUrl": "",
-      "asin": "B0BTN8JH3K",
-      "imageUrl": "/images/products/fully-jarvis-monitor-arm.webp",
-      "imagePlaceholder": "Fully Jarvis Monitor Arm with 27-inch monitor in white",
-      "badges": [
-        "Editor’s Choice"
-      ],
-      "featured": true,
-      "rank": 1,
-      "dateAdded": "2026-05-01",
-      "lastUpdated": "2026-05-01",
-      "amazonPrice": "$59.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/21OR8SG5+ML._SL500_.jpg",
-      "amazonUrl": "https://www.amazon.com/dp/B0BTN8JH3K?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
-    },
-    {
       "id": "ergotron-lx-arm",
       "name": "Ergotron LX Monitor Arm",
       "slug": "ergotron-lx-arm",
@@ -1483,9 +1441,9 @@
       "asin": "B07T3KCQ94",
       "imageUrl": "/images/products/huanuo-flowlift-single.webp",
       "imagePlaceholder": "HUANUO FlowLift Single Monitor Mount",
-      "badges": [],
-      "featured": false,
-      "rank": 5,
+      "badges": ["Editor’s Choice"],
+      "featured": true,
+      "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$35.99",
@@ -2223,7 +2181,7 @@
     },
     {
       "id": "belkin-surgemaster",
-      "name": "Belkin SurgeMaster 12-Outlet",
+      "name": "Belkin 12-Outlet Surge Protector",
       "slug": "belkin-surgemaster",
       "category": "power-strips",
       "shortDescription": "A 12-outlet surge protector with 8 rotating/pivoting outlets for bulky chargers, 4,320J of protection, an 8ft flat-pivot cord, and a $300,000 connected-equipment warranty.",
@@ -4007,46 +3965,43 @@
       "lastAmazonSync": "2026-06-01"
     },
     {
-      "id": "keychron-v1",
-      "name": "Keychron V1 75% Mechanical Keyboard",
-      "slug": "keychron-v1",
+      "id": "keychron-k8",
+      "name": "Keychron K8 Wireless Mechanical Keyboard",
+      "slug": "keychron-k8",
       "category": "keyboards",
-      "shortDescription": "Fully QMK/VIA programmable with hot-swappable K Pro Brown switches (50M keystrokes), south-facing RGB, screw-in PCB stabilizers, an acoustic silicone pad, and dual Mac/Windows keycaps — exceptional build for the price.",
+      "shortDescription": "A tenkeyless wireless board for Mac and Windows: Bluetooth across three devices or USB-C wired, a long-lasting 4000mAh battery, tactile brown switches, white backlight, and an aluminum frame — a reliable everyday keyboard.",
       "prosAndCons": {
         "pros": [
-          "QMK/VIA fully programmable, hot-swappable",
-          "Screw-in stabilizers + acoustic pad = great sound",
+          "Wireless Bluetooth (3 devices) or USB-C wired",
+          "Long-lasting 4000mAh battery",
           "Dual Mac/Windows keycaps included"
         ],
         "cons": [
-          "Wired only on the base V1",
-          "75% layout omits a numpad"
+          "TKL layout omits a numpad",
+          "Base model is not hot-swappable"
         ]
       },
       "specifications": {
-        "Layout": "75%",
-        "Programmable": "QMK/VIA",
-        "Switches": "Hot-swap K Pro Brown",
-        "Connection": "Wired",
-        "Keycaps": "Double-shot PBT"
+        "Layout": "TKL (87-key)",
+        "Connection": "Bluetooth 5.1 + USB-C",
+        "Switches": "Brown (tactile)",
+        "Battery": "4000mAh",
+        "Frame": "Aluminum"
       },
-      "priceRange": "$75.99",
-      "rating": 4.8,
+      "priceRange": "$79.99",
+      "rating": 4.6,
       "affiliateUrl": "",
-      "asin": "B09NLWG6X1",
-      "imageUrl": "/images/products/keychron-v1.webp",
-      "imagePlaceholder": "Keychron V1 75% Mechanical Keyboard",
-      "badges": [
-        "Editor’s Choice"
-      ],
+      "asin": "B08B5WHYTT",
+      "imageUrl": "/images/products/keychron-k8.webp",
+      "imagePlaceholder": "Keychron K8 Wireless Mechanical Keyboard",
+      "badges": [],
       "featured": false,
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$75.99",
-      "amazonListPrice": "$80.74",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Cku56Z17L._SL500_.jpg",
-      "amazonUrl": "https://www.amazon.com/dp/B09NLWG6X1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "amazonPrice": "$79.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31pMhuBQSQL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B08B5WHYTT?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
     },
     {
