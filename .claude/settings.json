@@ -242,7 +242,8 @@
       "Bash(node --check generate-placeholder-covers.mjs)",
       "Bash(node create/create-affiliate-site.mjs)",
       "Bash(node --check create/create-affiliate-site.mjs)",
-      "Bash(node scripts/audit-asins.mjs)"
+      "Bash(node scripts/audit-asins.mjs)",
+      "Bash(node -e \"console.log\\('products:', require\\('./src/content/products.json'\\).products.length, '| monitor-arms:', require\\('./src/content/products.json'\\).products.filter\\(p=>p.category==='monitor-arms'\\).length\\)\")"
     ],
     "additionalDirectories": [
       "c:\\Users\\Issam\\DeskSetupPro\\src\\app\\reviews",

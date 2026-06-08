@@ -5547,6 +5547,206 @@
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41bLjwx9owL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0FCYFFXLC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
       "lastAmazonSync": "2026-06-01"
+    },
+    {
+      "id": "vivo-v001-single",
+      "name": "VIVO Single Ultrawide Monitor Arm (STAND-V001)",
+      "slug": "vivo-v001-single",
+      "category": "monitor-arms",
+      "shortDescription": "A heavy-duty steel single arm that handles regular screens to 32 inches and ultrawides to 38 inches at up to 22 lbs, with full tilt/swivel/rotation, 16 inches of height travel, and both C-clamp and grommet bases. One of Amazon's most-reviewed arms.",
+      "prosAndCons": {
+        "pros": [
+          "Handles ultrawides up to 38 inches and 22 lbs",
+          "20,000+ reviews — a proven, trusted pick",
+          "Both C-clamp and grommet bases included"
+        ],
+        "cons": [
+          "Mechanical (not gas-spring) height adjust",
+          "Steel build is heavier than aluminum arms"
+        ]
+      },
+      "specifications": {
+        "Type": "Single arm",
+        "Screens": "13–38 in (ultrawide)",
+        "Capacity": "22 lbs",
+        "Height travel": "16 in",
+        "Mount": "C-clamp + grommet"
+      },
+      "priceRange": "$34.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B00B21TLQU",
+      "imageUrl": "/images/products/vivo-v001-single.webp",
+      "imagePlaceholder": "VIVO Single Ultrawide Monitor Arm",
+      "badges": [],
+      "featured": false,
+      "rank": 6,
+      "dateAdded": "2026-06-08",
+      "lastUpdated": "2026-06-08",
+      "amazonPrice": "$34.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41yJLs4KTIL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B00B21TLQU?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-08"
+    },
+    {
+      "id": "ergear-dual-arm",
+      "name": "ErGear Dual Monitor Arm",
+      "slug": "ergear-dual-arm",
+      "category": "monitor-arms",
+      "shortDescription": "A budget dual mount that holds two screens up to 32 inches at up to 17.6 lbs each, with independent tilt, swivel, and rotation, full height adjustment per arm, and tool-light VESA setup. Strong value for a two-screen workstation.",
+      "prosAndCons": {
+        "pros": [
+          "Holds two 32-inch screens independently",
+          "Among the cheapest solid dual arms",
+          "Tool-light VESA install"
+        ],
+        "cons": [
+          "17.6 lb per-arm limit rules out very large displays",
+          "Steel, not aluminum"
+        ]
+      },
+      "specifications": {
+        "Type": "Dual arm",
+        "Screens": "up to 32 in each",
+        "Capacity": "17.6 lbs/arm",
+        "Motion": "Tilt/swivel/rotate",
+        "Mount": "C-clamp + grommet"
+      },
+      "priceRange": "$28.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B082MLVXRR",
+      "imageUrl": "/images/products/ergear-dual-arm.webp",
+      "imagePlaceholder": "ErGear Dual Monitor Arm",
+      "badges": [],
+      "featured": false,
+      "rank": 7,
+      "dateAdded": "2026-06-08",
+      "lastUpdated": "2026-06-08",
+      "amazonPrice": "$28.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31h3+CjiwAL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B082MLVXRR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-08"
+    },
+    {
+      "id": "huanuo-titanlift",
+      "name": "HUANUO TitanLift Heavy-Duty Monitor Arm",
+      "slug": "huanuo-titanlift",
+      "category": "monitor-arms",
+      "shortDescription": "An aluminum heavy-duty single arm built for big screens — up to 49 inches and 44 lbs — with a one-press VESA head, dual C-clamp base, and springs tested to 50,000 cycles. The pick for a large ultrawide or a heavy panel.",
+      "prosAndCons": {
+        "pros": [
+          "Holds up to 49 inches and 44 lbs",
+          "Aluminum build, 50,000-cycle tested",
+          "Dual C-clamp grips thick desks securely"
+        ],
+        "cons": [
+          "Overkill (and pricier) for normal monitors",
+          "Single-monitor only"
+        ]
+      },
+      "specifications": {
+        "Type": "Single arm (heavy-duty)",
+        "Screens": "up to 49 in",
+        "Capacity": "44 lbs",
+        "Build": "Aluminum alloy",
+        "Mount": "Dual C-clamp"
+      },
+      "priceRange": "$93.99",
+      "rating": 4.7,
+      "affiliateUrl": "",
+      "asin": "B0DQ19YC9H",
+      "imageUrl": "/images/products/huanuo-titanlift.webp",
+      "imagePlaceholder": "HUANUO TitanLift Heavy-Duty Monitor Arm",
+      "badges": [],
+      "featured": false,
+      "rank": 8,
+      "dateAdded": "2026-06-08",
+      "lastUpdated": "2026-06-08",
+      "amazonPrice": "$93.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41HvkXv8ulL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B0DQ19YC9H?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-08"
+    },
+    {
+      "id": "ergear-ultrawide-single",
+      "name": "ErGear Ultrawide Single Monitor Mount",
+      "slug": "ergear-ultrawide-single",
+      "category": "monitor-arms",
+      "shortDescription": "An aircraft-grade aluminum single arm for ultrawide and curved screens up to 49 inches and 26.5 lbs, with a long 26-inch reach, 21 inches of height range, and full motion. Built for big curved panels on deep desks.",
+      "prosAndCons": {
+        "pros": [
+          "Supports ultrawides up to 49 inches, 26.5 lbs",
+          "Long 26-inch reach + 21-inch height range",
+          "Aircraft-grade aluminum"
+        ],
+        "cons": [
+          "Single-monitor only",
+          "Long reach needs a deeper desk"
+        ]
+      },
+      "specifications": {
+        "Type": "Single arm (ultrawide)",
+        "Screens": "13–49 in",
+        "Capacity": "26.5 lbs",
+        "Reach": "~26 in",
+        "Mount": "C-clamp + grommet"
+      },
+      "priceRange": "$54.99",
+      "rating": 4.5,
+      "affiliateUrl": "",
+      "asin": "B098JT9SFR",
+      "imageUrl": "/images/products/ergear-ultrawide-single.webp",
+      "imagePlaceholder": "ErGear Ultrawide Single Monitor Mount",
+      "badges": [],
+      "featured": false,
+      "rank": 9,
+      "dateAdded": "2026-06-08",
+      "lastUpdated": "2026-06-08",
+      "amazonPrice": "$54.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41MAmMgQ9LL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B098JT9SFR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-08"
+    },
+    {
+      "id": "ergotron-lx-dual-stacking",
+      "name": "Ergotron LX Dual Stacking Monitor Arm",
+      "slug": "ergotron-lx-dual-stacking",
+      "category": "monitor-arms",
+      "shortDescription": "Ergotron's vertical-stacking dual arm for two screens up to 40 inches and 22 lbs each, with constant-force lift, a tall pole that expands to three or four displays, and a 10-year warranty. The premium pick for stacked multi-monitor setups.",
+      "prosAndCons": {
+        "pros": [
+          "Vertical stacking for two 40-inch screens",
+          "Expandable to 3–4 displays, 10-year warranty",
+          "Ergotron constant-force smoothness"
+        ],
+        "cons": [
+          "Premium price",
+          "Tall pole needs vertical clearance"
+        ]
+      },
+      "specifications": {
+        "Type": "Dual arm (vertical stack)",
+        "Screens": "up to 40 in each",
+        "Capacity": "22 lbs/arm",
+        "Warranty": "10 years",
+        "Expandable": "3–4 displays"
+      },
+      "priceRange": "$455.66",
+      "rating": 4.6,
+      "affiliateUrl": "",
+      "asin": "B09T78LQYQ",
+      "imageUrl": "/images/products/ergotron-lx-dual-stacking.webp",
+      "imagePlaceholder": "Ergotron LX Dual Stacking Monitor Arm",
+      "badges": ["Premium Pick"],
+      "featured": false,
+      "rank": 10,
+      "dateAdded": "2026-06-08",
+      "lastUpdated": "2026-06-08",
+      "amazonPrice": "$455.66",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31ibESROACL._SL500_.jpg",
+      "amazonUrl": "https://www.amazon.com/dp/B09T78LQYQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
+      "lastAmazonSync": "2026-06-08"
     }
   ]
 }
