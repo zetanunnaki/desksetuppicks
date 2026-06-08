@@ -25,7 +25,7 @@ export function organizationSchema() {
     "@id": ORG_ID,
     name: SITE.name,
     url: `${SITE.url}/`,
-    logo: absoluteUrl("/images/og/default.webp"),
+    logo: absoluteUrl("/images/logo.png"),
     description: SITE.description,
     sameAs: [SITE.social.twitter, SITE.social.pinterest, SITE.social.instagram],
   };
