@@ -57,6 +57,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <head>
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5950611856721613"
+          crossOrigin="anonymous"
+        ></script>
         {/* Speed up product-image loading from Amazon's CDN */}
         <link rel="preconnect" href="https://m.media-amazon.com" />
         <link rel="dns-prefetch" href="https://m.media-amazon.com" />
@@ -78,15 +84,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FQTFKDL72C');`}
         </Script>
-
-        {/* Google AdSense */}
-        <Script
-          id="adsbygoogle-init"
-          strategy="afterInteractive"
-          async
-          crossOrigin="anonymous"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5950611856721613"
-        />
       </body>
     </html>
   );
