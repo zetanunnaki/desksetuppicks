@@ -44,6 +44,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "google-adsense-account": "ca-pub-5950611856721613",
+  },
 };
 
 export default function RootLayout({
@@ -75,6 +78,15 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FQTFKDL72C');`}
         </Script>
+
+        {/* Google AdSense */}
+        <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          async
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5950611856721613"
+        />
       </body>
     </html>
   );
