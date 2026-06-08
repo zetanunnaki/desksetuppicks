@@ -11,7 +11,7 @@ interface AffiliateButtonProps {
 export function AffiliateButton({
   asin,
   amazonUrl,
-  label = "Check Retailer Price",
+  label = "Check Price on Amazon",
   variant = "primary",
 }: AffiliateButtonProps) {
   const href = amazonLink(asin, amazonUrl);
@@ -24,7 +24,7 @@ export function AffiliateButton({
         rel="sponsored nofollow noopener"
         className="px-6 py-3 bg-white text-slate-950 text-xs font-black rounded-xl hover:bg-indigo-400 hover:text-white transition-all duration-300"
       >
-        Check Amazon
+        Check Price on Amazon
       </a>
     );
   }
