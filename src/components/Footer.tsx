@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { SITE } from "@/lib/site-config";
 
 const editorialLinks = [
   { href: "/reviews/standing-desks", label: "Latest Reviews" },
@@ -15,14 +16,14 @@ const companyLinks = [
   { href: "/contact", label: "Contact" },
   { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
   { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms", label: "Terms of Service" },
 ];
 
 const socials = [
-  { name: "Twitter", letter: "𝕏" },
-  { name: "YouTube", letter: "▶" },
-  { name: "Instagram", letter: "◎" },
-  { name: "RSS", letter: "⊙" },
-];
+  { name: "X (Twitter)", letter: "𝕏", href: SITE.social.twitter },
+  { name: "Instagram", letter: "◎", href: SITE.social.instagram },
+  { name: "Pinterest", letter: "P", href: SITE.social.pinterest },
+].filter((s) => s.href);
 
 export function Footer() {
   return (
@@ -41,7 +42,9 @@ export function Footer() {
               {socials.map((social) => (
                 <a
                   key={social.name}
-                  href="#"
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer me"
                   className="w-10 h-10 rounded-xl bg-slate-900/60 flex items-center justify-center hover:bg-indigo-600 border border-slate-800/50 hover:border-indigo-500 text-slate-500 hover:text-white transition-all duration-300 text-sm"
                 >
                   <span className="sr-only">{social.name}</span>
