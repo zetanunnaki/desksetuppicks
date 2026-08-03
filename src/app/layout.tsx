@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Inter, Outfit } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ConsentBanner } from "@/components/ConsentBanner";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site-config";
@@ -57,6 +58,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${outfit.variable}`}>
       <head>
+        {/* Consent Mode v2 defaults — inline + synchronous so it runs before the
+            async GA/AdSense loaders read consent state (denied until the banner grants). */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});`,
+          }}
+        />
         {/* Google AdSense */}
         <script
           async
@@ -84,6 +92,8 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FQTFKDL72C');`}
         </Script>
+
+        <ConsentBanner />
       </body>
     </html>
   );
