@@ -47,7 +47,7 @@ export default function BlogPage() {
             className="glass-card glass-card-hover p-2 group block mb-12"
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-              <div className="aspect-[16/10] lg:aspect-auto bg-gradient-to-br from-indigo-900/30 to-slate-900 rounded-[1.5rem] lg:rounded-r-none relative overflow-hidden">
+              <div className="aspect-[1200/630] lg:aspect-auto bg-gradient-to-br from-indigo-900/30 to-slate-900 rounded-[1.5rem] lg:rounded-r-none relative overflow-hidden">
                 <img
                   src={featured.frontmatter.image as string}
                   alt={featured.frontmatter.title as string}
@@ -92,7 +92,7 @@ export default function BlogPage() {
               href={`/blog/${post.slug}`}
               className="glass-card glass-card-hover p-2 group block"
             >
-              <div className="w-full aspect-[16/10] bg-gradient-to-br from-slate-800 to-slate-900 rounded-[1.5rem] mb-5 relative overflow-hidden">
+              <div className="w-full aspect-[1200/630] bg-gradient-to-br from-slate-800 to-slate-900 rounded-[1.5rem] mb-5 relative overflow-hidden">
                 <img
                   src={post.frontmatter.image as string}
                   alt={post.frontmatter.title as string}
