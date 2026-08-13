@@ -180,7 +180,7 @@
       "imageUrl": "/images/guides/budget-desk-setup-under-300.webp",
       "featured": false,
       "datePublished": "2026-05-01",
-      "dateUpdated": "2026-05-01"
+      "dateUpdated": "2026-08-13"
     },
     {
       "id": "desk-setup-for-developers",
@@ -221,7 +221,7 @@
       "imageUrl": "/images/guides/best-under-desk-treadmills.webp",
       "featured": true,
       "datePublished": "2026-06-01",
-      "dateUpdated": "2026-06-01"
+      "dateUpdated": "2026-08-13"
     },
     {
       "id": "best-monitor-arms",
@@ -233,7 +233,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "11 min",
       "category": "monitor-arms",
-      "relatedCategories": ["monitors", "desk-shelves", "standing-desks"],
+      "relatedCategories": [
+        "monitors",
+        "desk-shelves",
+        "standing-desks"
+      ],
       "imageUrl": "/images/guides/best-monitor-arms.webp",
       "featured": true,
       "datePublished": "2026-06-01",
@@ -249,7 +253,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "12 min",
       "category": "webcams",
-      "relatedCategories": ["microphones", "lighting", "headsets"],
+      "relatedCategories": [
+        "microphones",
+        "lighting",
+        "headsets"
+      ],
       "imageUrl": "/images/guides/best-webcams.webp",
       "featured": true,
       "datePublished": "2026-06-01",
@@ -265,7 +273,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "13 min",
       "category": "keyboards",
-      "relatedCategories": ["mice", "wrist-rests", "desk-mats"],
+      "relatedCategories": [
+        "mice",
+        "wrist-rests",
+        "desk-mats"
+      ],
       "imageUrl": "/images/guides/best-mechanical-keyboards.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -281,7 +293,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "11 min",
       "category": "mice",
-      "relatedCategories": ["keyboards", "wrist-rests", "desk-mats"],
+      "relatedCategories": [
+        "keyboards",
+        "wrist-rests",
+        "desk-mats"
+      ],
       "imageUrl": "/images/guides/best-ergonomic-mice.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -297,7 +313,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "11 min",
       "category": "lighting",
-      "relatedCategories": ["webcams", "monitors", "desk-organizers"],
+      "relatedCategories": [
+        "webcams",
+        "monitors",
+        "desk-organizers"
+      ],
       "imageUrl": "/images/guides/best-desk-lighting.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -313,7 +333,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "11 min",
       "category": "usb-hubs",
-      "relatedCategories": ["cable-management", "monitors", "power-strips"],
+      "relatedCategories": [
+        "cable-management",
+        "monitors",
+        "power-strips"
+      ],
       "imageUrl": "/images/guides/best-usb-c-hubs.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -329,7 +353,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "12 min",
       "category": "microphones",
-      "relatedCategories": ["webcams", "headsets", "speakers"],
+      "relatedCategories": [
+        "webcams",
+        "headsets",
+        "speakers"
+      ],
       "imageUrl": "/images/guides/best-microphones.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -345,7 +373,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "11 min",
       "category": "speakers",
-      "relatedCategories": ["headsets", "microphones", "monitors"],
+      "relatedCategories": [
+        "headsets",
+        "microphones",
+        "monitors"
+      ],
       "imageUrl": "/images/guides/best-desk-speakers.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -361,7 +393,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "12 min",
       "category": "headsets",
-      "relatedCategories": ["microphones", "speakers", "webcams"],
+      "relatedCategories": [
+        "microphones",
+        "speakers",
+        "webcams"
+      ],
       "imageUrl": "/images/guides/best-headsets.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -377,7 +413,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "10 min",
       "category": "laptop-stands",
-      "relatedCategories": ["monitor-arms", "usb-hubs", "keyboards"],
+      "relatedCategories": [
+        "monitor-arms",
+        "usb-hubs",
+        "keyboards"
+      ],
       "imageUrl": "/images/guides/best-laptop-stands.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -393,7 +433,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "9 min",
       "category": "desk-mats",
-      "relatedCategories": ["wrist-rests", "desk-organizers", "mice"],
+      "relatedCategories": [
+        "wrist-rests",
+        "desk-organizers",
+        "mice"
+      ],
       "imageUrl": "/images/guides/best-desk-mats.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -409,7 +453,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "10 min",
       "category": "footrests",
-      "relatedCategories": ["ergonomic-chairs", "standing-desks", "wrist-rests"],
+      "relatedCategories": [
+        "ergonomic-chairs",
+        "standing-desks",
+        "wrist-rests"
+      ],
       "imageUrl": "/images/guides/best-footrests.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -425,7 +473,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "9 min",
       "category": "desk-shelves",
-      "relatedCategories": ["monitor-arms", "monitors", "desk-organizers"],
+      "relatedCategories": [
+        "monitor-arms",
+        "monitors",
+        "desk-organizers"
+      ],
       "imageUrl": "/images/guides/best-desk-shelves.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -441,7 +493,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "9 min",
       "category": "desk-organizers",
-      "relatedCategories": ["desk-mats", "cable-management", "desk-shelves"],
+      "relatedCategories": [
+        "desk-mats",
+        "cable-management",
+        "desk-shelves"
+      ],
       "imageUrl": "/images/guides/best-desk-organizers.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -457,7 +513,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "9 min",
       "category": "power-strips",
-      "relatedCategories": ["cable-management", "usb-hubs", "standing-desks"],
+      "relatedCategories": [
+        "cable-management",
+        "usb-hubs",
+        "standing-desks"
+      ],
       "imageUrl": "/images/guides/best-power-strips.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -473,7 +533,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "8 min",
       "category": "wrist-rests",
-      "relatedCategories": ["keyboards", "mice", "desk-mats"],
+      "relatedCategories": [
+        "keyboards",
+        "mice",
+        "desk-mats"
+      ],
       "imageUrl": "/images/guides/best-wrist-rests.webp",
       "featured": false,
       "datePublished": "2026-06-01",
@@ -489,7 +553,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "13 min",
       "category": "monitors",
-      "relatedCategories": ["monitor-arms", "desk-shelves", "standing-desks"],
+      "relatedCategories": [
+        "monitor-arms",
+        "desk-shelves",
+        "standing-desks"
+      ],
       "imageUrl": "/images/guides/best-monitors-for-work.webp",
       "featured": true,
       "datePublished": "2026-06-01",
@@ -505,7 +573,11 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "13 min",
       "category": "standing-desks",
-      "relatedCategories": ["under-desk-treadmills", "ergonomic-chairs", "monitor-arms"],
+      "relatedCategories": [
+        "under-desk-treadmills",
+        "ergonomic-chairs",
+        "monitor-arms"
+      ],
       "imageUrl": "/images/guides/best-standing-desks.webp",
       "featured": true,
       "datePublished": "2026-06-01",
@@ -521,7 +593,12 @@
       "author": "The DeskSetupPicks Team",
       "readTime": "14 min",
       "category": null,
-      "relatedCategories": ["standing-desks", "ergonomic-chairs", "monitor-arms", "lighting"],
+      "relatedCategories": [
+        "standing-desks",
+        "ergonomic-chairs",
+        "monitor-arms",
+        "lighting"
+      ],
       "imageUrl": "/images/guides/complete-wfh-ergonomics-guide.webp",
       "featured": true,
       "datePublished": "2026-06-01",
