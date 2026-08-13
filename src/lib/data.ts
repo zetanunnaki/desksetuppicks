@@ -7,6 +7,11 @@ const categories = categoriesData.categories as unknown as Category[];
 const products = productsData.products as unknown as Product[];
 const guides = guidesData.guides as unknown as Guide[];
 
+// Live counts — used for on-page stats so they never go stale as the catalog grows.
+export const PRODUCT_COUNT = products.length;
+export const CATEGORY_COUNT = categories.length;
+export const GUIDE_COUNT = guides.length;
+
 export function getCategories(): Category[] {
   return categories;
 }

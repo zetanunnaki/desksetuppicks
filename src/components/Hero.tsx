@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, ChevronDown, ShieldCheck } from "lucide-react";
 import { useRef } from "react";
+import { PRODUCT_COUNT, CATEGORY_COUNT } from "@/lib/data";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -189,8 +190,8 @@ export function Hero() {
             <div className="flex items-center justify-center gap-2 mt-6">
               <ShieldCheck className="w-4 h-4 text-emerald-400 flex-none" />
               <span className="text-sm text-slate-400">
-                <span className="text-white font-bold">137</span> products tested across{" "}
-                <span className="text-white font-bold">21</span> categories
+                <span className="text-white font-bold">{PRODUCT_COUNT}</span> products tested across{" "}
+                <span className="text-white font-bold">{CATEGORY_COUNT}</span> categories
               </span>
             </div>
           </motion.div>

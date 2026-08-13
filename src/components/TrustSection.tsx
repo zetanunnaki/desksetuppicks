@@ -3,6 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { FlaskConical, ShieldCheck, Eye, Star } from "lucide-react";
+import { PRODUCT_COUNT, CATEGORY_COUNT, GUIDE_COUNT } from "@/lib/data";
 
 function AnimatedCounter({ end, suffix = "", duration = 2000 }: { end: number; suffix?: string; duration?: number }) {
   const [count, setCount] = useState(0);
@@ -46,9 +47,9 @@ const cards = [
 ];
 
 const stats = [
-  { value: 137, suffix: "", label: "Products Reviewed" },
-  { value: 21, suffix: "", label: "Categories Covered" },
-  { value: 30, suffix: "", label: "Buying Guides" },
+  { value: PRODUCT_COUNT, suffix: "", label: "Products Reviewed" },
+  { value: CATEGORY_COUNT, suffix: "", label: "Categories Covered" },
+  { value: GUIDE_COUNT, suffix: "", label: "Buying Guides" },
   { value: 4, suffix: ".5", icon: true, label: "Minimum Quality Bar" },
 ];
 
