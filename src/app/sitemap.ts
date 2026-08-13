@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u("/"), lastModified: now },
     { url: u("/guides/"), lastModified: now },
     { url: u("/blog/"), lastModified: now },
+    { url: u("/tools/desk-ergonomics-calculator/"), lastModified: now },
     { url: u("/about/"), lastModified: legal },
     { url: u("/contact/"), lastModified: legal },
     { url: u("/affiliate-disclosure/"), lastModified: legal },
