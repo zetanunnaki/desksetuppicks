@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: u("/tools/"), lastModified: now },
     { url: u("/tools/desk-ergonomics-calculator/"), lastModified: now },
     { url: u("/tools/standing-desk-calorie-calculator/"), lastModified: now },
+    { url: u("/tools/monitor-size-calculator/"), lastModified: now },
     { url: u("/about/"), lastModified: legal },
     { url: u("/contact/"), lastModified: legal },
     { url: u("/affiliate-disclosure/"), lastModified: legal },

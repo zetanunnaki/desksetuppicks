@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Ruler, Flame } from "lucide-react";
+import { Ruler, Flame, Monitor } from "lucide-react";
 import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
@@ -22,6 +22,12 @@ const tools = [
     icon: Flame,
     title: "Standing Desk Calorie Calculator",
     desc: "Compare how many calories you burn sitting, standing, and walking at your desk, based on your bodyweight.",
+  },
+  {
+    href: "/tools/monitor-size-calculator",
+    icon: Monitor,
+    title: "Monitor Size & Distance Calculator",
+    desc: "See a monitor's pixel density, ideal viewing distance, and whether 4K is worth it at your screen size.",
   },
 ];
 
