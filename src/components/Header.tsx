@@ -103,10 +103,10 @@ export function Header() {
             Journal
           </Link>
           <Link
-            href="/tools/desk-ergonomics-calculator"
+            href="/tools"
             className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
           >
-            Calculator
+            Tools
           </Link>
           <Link
             href="/about"
