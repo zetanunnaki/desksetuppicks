@@ -17,6 +17,7 @@ export function ProductReviewCard({
   const badgeLabel = product.badges[0] || "";
   const specs = Object.entries(product.specifications);
   const displayPrice = product.amazonPrice || product.priceRange;
+  const priceDate = product.lastAmazonSync || product.lastUpdated;
 
   const badgeColor =
     badgeLabel === "Editor's Choice"
@@ -83,14 +84,22 @@ export function ProductReviewCard({
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight mb-3">
                 {product.name}
               </h2>
-              <div className="flex items-center gap-4 mb-4">
-                <StarRating
-                  rating={product.amazonRating || product.rating}
-                />
+              <div className="flex items-center gap-4 mb-1">
+                <div className="flex items-center gap-2">
+                  <span className="text-[9px] font-bold uppercase tracking-wider text-slate-500">Our rating</span>
+                  <StarRating
+                    rating={product.amazonRating || product.rating}
+                  />
+                </div>
                 <span className="text-2xl font-black text-white ml-auto">
                   {displayPrice}
                 </span>
               </div>
+              {displayPrice && (
+                <p className="text-[10px] text-slate-600 mb-4">
+                  Price as of {priceDate}; subject to change.
+                </p>
+              )}
               <p className="text-slate-400 leading-relaxed">
                 {product.shortDescription}
               </p>

@@ -96,7 +96,8 @@ export function Footer() {
         <div className="pt-12 border-t border-slate-800/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <p className="text-[11px] text-slate-600 leading-relaxed max-w-2xl">
-              &copy; {new Date().getFullYear()} DeskSetupPicks. Independent editorial. Affiliate links may earn us a commission at no cost to you.
+              &copy; {new Date().getFullYear()} DeskSetupPicks. Independent editorial. <strong className="text-slate-500 font-semibold">As an Amazon Associate we earn from qualifying purchases.</strong> Prices and availability shown are accurate as of the date of our last update and are subject to change; star ratings reflect our editorial assessment, not Amazon&apos;s customer ratings. See our{" "}
+              <a href="/affiliate-disclosure" className="underline hover:text-slate-400">affiliate disclosure</a>.
             </p>
             <p className="text-[10px] text-slate-700 uppercase tracking-[0.25em] font-bold whitespace-nowrap">
               The Science of a Perfect Workspace

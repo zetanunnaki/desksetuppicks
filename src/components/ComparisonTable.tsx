@@ -36,8 +36,11 @@ export function ComparisonTable({ products }: { products: Product[] }) {
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-white mb-3 italic">
         The shortlist
       </h2>
-      <p className="text-slate-500 mb-10 max-w-xl">
+      <p className="text-slate-500 mb-2 max-w-xl">
         Sort and scan our top {products.length} picks. Tap a column header to sort. Tap a row to jump to the full review.
+      </p>
+      <p className="text-[11px] text-slate-600 mb-10 max-w-xl">
+        Prices are accurate as of our last update and are subject to change; check Amazon for current pricing. Ratings reflect our editorial assessment. As an Amazon Associate we earn from qualifying purchases.
       </p>
 
       <div className="rounded-2xl border border-slate-800/50 bg-slate-900/30 overflow-hidden">
