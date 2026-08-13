@@ -1,35 +1,29 @@
-# DeskSetupPicks — SEO Action Plan
+# DeskSetupPicks — SEO Action Plan (2026-06-08)
 
-Prioritized fixes from the 2026-06-01 audit (score: **85/100**). Ordered by impact-to-effort.
-
-## Critical (do now)
-
-- [ ] **Enable Enforce HTTPS** once GitHub finishes the TLS cert (in progress). Until then, http-only with https canonicals is a temporary mismatch. *(Effort: 1 API call.)*
-- [ ] **Generate cover + OG images** — run `scripts/generate-covers.mjs` after topping up kie.ai credits. This is the single biggest score lever (Images 35→~90) and fixes social previews + schema images in one move. *(Effort: 1 command + wiring already planned.)*
+Score: **90/100** (up from 84). Most of the prior critical items are done. Remaining, by impact-to-effort.
 
 ## High (within 1 week)
-
-- [ ] **Add a default 1200×630 OG image** at `/images/og/default.webp` (add it as a target in the cover generator). *(Effort: small.)*
-- [ ] **Wire cover images into the UI** — guide/blog cards, featured hero, and article headers currently ignore `imageUrl` and show icon placeholders. Render the real cover with the icon as fallback. *(Effort: medium; already in the cover-image plan.)*
-- [ ] **Per-article OG + Article-schema images** — point `articleSchema.image` and per-page `og:image` at each article's cover once generated. *(Effort: small, in schema/metadata builders.)*
-- [ ] **Named authorship + bio** — introduce at least one named editor persona with credentials; add `Person` schema and an author byline/`sameAs`. Strengthens E-E-A-T for product recommendations. *(Effort: medium; content + schema.)*
+- [ ] **Named author + bio + `Person` schema.** Replace the generic "The DeskSetupPicks Team" with a real named editor (credentials + photo). The engine already supports per-site authors; wire DeskSetupPicks' author into the Article schema + bylines. Biggest remaining E-E-A-T lever.
+- [ ] **Connect Google Search Console**, submit `https://desksetuppicks.com/sitemap.xml`, request indexing of key pages. Turns "estimated" indexation into measured.
 
 ## Medium (within 1 month)
-
-- [ ] **Trim long `<title>`s** — certification found **40 of 82 pages** exceed 60 chars (longest 85). Shorten `metaTitle`s before the brand suffix to avoid SERP truncation on ~half the site. *(Effort: small, data edits.)*
-- [ ] **Reduce client-side JS** — audit framer-motion usage; consider CSS animations or `prefers-reduced-motion` and lazy/viewport-gated motion on below-fold sections to cut main-thread work. *(Effort: medium.)*
-- [ ] **Substantiate testing claims** — add brief per-product "how we tested" notes instead of a flat site-wide "30 days". *(Effort: medium, content.)*
-- [ ] **Connect Search Console + run Lighthouse** (post-HTTPS) to replace lab estimates with field CWV and indexation data. *(Effort: small setup.)*
+- [ ] **Run a live Lighthouse/PageSpeed test** (now that HTTPS is up) to get real CWV, then act on INP/TBT.
+- [ ] **Trim client-side JS:** audit framer-motion usage; gate below-fold animations behind `prefers-reduced-motion` and viewport, or swap simple ones to CSS.
+- [ ] **Substantiate testing claims** with brief per-product "how we tested" notes.
+- [ ] **Keep prices/availability fresh:** re-run `node scripts/audit-catalog.mjs` + `node scripts/refresh-prices.mjs` periodically (Amazon prices drift).
 
 ## Low (backlog)
+- [ ] Point the breadcrumb "Reviews" link at a reviews index instead of a fixed category.
+- [ ] Replace branded placeholder covers with kie.ai AI art (pending kie.ai credits — say "go").
+- [ ] Bump the deploy workflow's GitHub Actions to Node-24-compatible versions (deprecation notice).
+- [ ] Security headers (HSTS/CSP) would require a header-capable host or a meta-CSP (GitHub Pages can't set them).
 
-- [ ] Remove unused Next starter assets in `public/` (`file.svg`, `globe.svg`, `next.svg`, `vercel.svg`, `window.svg`).
-- [ ] Point the breadcrumb "Reviews" link at a reviews index rather than a fixed category.
-- [ ] Revisit the review-hero "from {N×6}+ considered" computed figure for literal accuracy.
-- [ ] Consider a header-capable host or meta-CSP if security headers become a priority (GitHub Pages can't set them).
+## Already fixed (this + last session)
+- Images: all covers + OG + square logo + logo-shaped favicon (was the #1 gap).
+- HTTPS live + enforced; titles all ≤60; sitemap real lastmod, no dead tags.
+- Removed a fabricated-rating product + an out-of-stock product; refreshed 39 live prices; monitor-arms expanded to 10 verified arms.
+- GA4 analytics; ads.txt; Organization schema square logo; typography plugin; honest stats.
+- Full schema suite, per-page canonicals, llms.txt, GPTBot-allowed robots.
 
-## Already fixed this session (no action needed)
-- Enabled `@tailwindcss/typography` (content was rendering unstyled site-wide).
-- Replaced fabricated social proof (500k readers / 4.9 rating / 287 products) with verifiable stats.
-- Added 40 high-value articles with deep internal linking.
-- Per-page canonicals, full schema suite (Product/Review, Breadcrumb, Org, WebSite, ItemList, Article, FAQPage), sitemap, llms.txt.
+## Not auto-certifiable
+Star ratings (Amazon API doesn't expose them; Amazon blocks scraping) — verify via Rufus/manual as done for monitor arms + walking pads. Audit tools left in `scripts/`: `seo-verify.mjs`, `audit-catalog.mjs`, `audit-asins.mjs`, `refresh-prices.mjs`.

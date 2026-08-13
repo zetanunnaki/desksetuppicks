@@ -39,7 +39,7 @@
       "amazonListPrice": "$169.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41fVLrl+dnL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08BHPMYGK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "vari-classic-60x30",
@@ -82,7 +82,7 @@
       "amazonPrice": "$829.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31fIg8iVOYL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B089CNX4B5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ergear-egesd5b",
@@ -119,11 +119,11 @@
       "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$99.99",
+      "amazonPrice": "$104.99",
       "amazonListPrice": "$139.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0B41YH9B6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "herman-miller-aeron",
@@ -208,7 +208,7 @@
       "amazonPrice": "$22.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31e6JLXZ3+L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07TF9P886?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "secretlab-titan-evo",
@@ -287,10 +287,10 @@
       "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$326.00",
+      "amazonPrice": "$299.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31qRkOHPbKL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B06Y5WBVXC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "huanuo-flowlift-dual",
@@ -329,11 +329,11 @@
       "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$59.99",
+      "amazonPrice": "$54.62",
       "amazonListPrice": "$69.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Mr-S3C6XL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07T5SY43L?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "aothia-desk-pad",
@@ -375,7 +375,7 @@
       "amazonPrice": "$9.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/411OTIiT0EL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B091F3Y53V?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "gallaway-leather-mat",
@@ -417,7 +417,7 @@
       "amazonPrice": "$29.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41OodagX1OL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07QT81VRS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "steelseries-qck-xxl",
@@ -456,11 +456,11 @@
       "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$29.99",
+      "amazonPrice": "$34.99",
       "amazonListPrice": "$34.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/21D455bl6oL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00WAA2704?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-brio-4k",
@@ -499,10 +499,10 @@
       "rank": 1,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$159.99",
+      "amazonPrice": "$169.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/21JK5gzEnYL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09NBWWP79?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "elgato-facecam-mk2",
@@ -544,7 +544,7 @@
       "amazonPrice": "$139.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31v1y7qj8QL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CW1S7XP5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "razer-kiyo-pro-ultra",
@@ -584,7 +584,7 @@
       "amazonPrice": "$399.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/413NnHzV0CL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CT6FFK4R?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "keychron-q1-pro",
@@ -626,7 +626,7 @@
       "amazonPrice": "$157.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41C0NrEm4VL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0H1JV4DGG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "corsair-k70-rgb-pro",
@@ -663,11 +663,11 @@
       "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$108.82",
+      "amazonPrice": "$84.99",
       "amazonListPrice": "$109.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41vKRIn880L._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41rSCVGGHBL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CH3MRGK7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "nuphy-air75-v2",
@@ -704,11 +704,11 @@
       "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$98.76",
+      "amazonPrice": "$52.55",
       "amazonListPrice": "$113.06",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41R186D-rBL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CMZ7PPNB?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-mx-master-3s",
@@ -747,11 +747,11 @@
       "rank": 1,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$89.99",
+      "amazonPrice": "$100.03",
       "amazonListPrice": "$119.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31vwylJ4PgL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09HM94VDS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "razer-pro-click-v2",
@@ -788,10 +788,10 @@
       "rank": 3,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$89.99",
+      "amazonPrice": "$58.35",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31Vmvc3i6ZL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0F72VH42N?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-mx-anywhere-3s",
@@ -831,7 +831,7 @@
       "amazonPrice": "$89.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/3139Bbxxp-L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BPY4ZQXG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "lg-27gx704a-b",
@@ -871,11 +871,11 @@
       "rank": 1,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$459.00",
+      "amazonPrice": "$479.95",
       "amazonListPrice": "$496.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51Uvkpvhc2L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0FNQ4B2Z2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "dell-s2725qs",
@@ -912,11 +912,11 @@
       "rank": 2,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$279.99",
+      "amazonPrice": "$239.99",
       "amazonListPrice": "$299.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41+pt9WOb2L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0F1GF1KFC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "samsung-viewfinity-s9",
@@ -993,11 +993,11 @@
       "rank": 4,
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-05-01",
-      "amazonPrice": "$299.00",
+      "amazonPrice": "$340.40",
       "amazonListPrice": "$399.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Inn3TGKCL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08K2GFDKM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "elgato-key-light",
@@ -1039,7 +1039,7 @@
       "amazonPrice": "$179.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31hDyrbUv+L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07L755X9G?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "benq-screenbar-halo",
@@ -1081,7 +1081,7 @@
       "amazonPrice": "$199.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31Pg9+8XaIL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DK59YKRS?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "benq-screenbar-pro",
@@ -1119,9 +1119,9 @@
       "dateAdded": "2026-05-01",
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$139.00",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/31cJh7q+yNL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31TCF39+s3L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CZ9P1QW9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "cable-matters-under-desk-tray",
@@ -1163,7 +1163,7 @@
       "amazonPrice": "$21.32",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31cSp1I0k0L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0170GSAQW?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "velcro-cable-ties",
@@ -1203,7 +1203,7 @@
       "amazonPrice": "$15.89",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41YZ-l-wRAL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B001E1Y5O6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "fezibo-48x24",
@@ -1242,11 +1242,11 @@
       "rank": 3,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$99.98",
+      "amazonPrice": "$104.99",
       "amazonListPrice": "$112.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0F8MHPVPH?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "amseatec-mesh-chair",
@@ -1285,11 +1285,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$49.99",
+      "amazonPrice": "$59.99",
       "amazonListPrice": "$69.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/519yLHcnSML._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0GS6XMPF3?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "elabest-t96",
@@ -1329,7 +1329,7 @@
       "amazonPrice": "$239.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Zt+jm6mFL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BKT1NR68?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ngen-gaming-recliner",
@@ -1369,7 +1369,7 @@
       "amazonPrice": "$109.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41cEgMJQnoL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0D7M7396C?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "vivo-stand-v002",
@@ -1409,7 +1409,7 @@
       "amazonPrice": "$34.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41t32WYz36L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B009S750LA?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "huanuo-flowlift-single",
@@ -1450,9 +1450,9 @@
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$35.99",
       "amazonListPrice": "$47.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41ETKOM20kL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07T3KCQ94?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ergear-single-arm",
@@ -1489,11 +1489,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$20.99",
+      "amazonPrice": "$19.99",
       "amazonListPrice": "$31.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0FQM6QB48?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ysagi-leather-mat",
@@ -1529,10 +1529,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$13.99",
+      "amazonPrice": "$12.59",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41oQvh4OHlL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BMTSL48B?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$13.99"
     },
     {
       "id": "logitech-desk-mat",
@@ -1568,11 +1569,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$17.68",
+      "amazonPrice": "$20.95",
       "amazonListPrice": "$22.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41H+HBufefL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09DV8WKK8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "corsair-mm350-pro",
@@ -1611,10 +1612,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$39.99",
+      "amazonPrice": "$29.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/11nBA7jDfGL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08JH8C5T5?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$39.99"
     },
     {
       "id": "logitech-c920x",
@@ -1651,11 +1653,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$69.99",
+      "amazonPrice": "$59.99",
       "amazonListPrice": "$69.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31UjVjrQ4vL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B085TFF7M1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-mx-brio",
@@ -1692,10 +1694,10 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$199.00",
+      "amazonPrice": "$196.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31MO34WBGhL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CX8S8JLX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "razer-kiyo-x",
@@ -1777,7 +1779,7 @@
       "amazonListPrice": "$16.97",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Zuk6TAmLL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B01M11FLUJ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "gimars-gm116-combo",
@@ -1816,7 +1818,7 @@
       "amazonPrice": "$16.91",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31XgS8yr2uL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B01MYZMODY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "gimars-gm1109-mouse",
@@ -1855,7 +1857,7 @@
       "amazonPrice": "$9.97",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31iEWYmmn-L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07KD7SCQG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "kensington-duo-gel",
@@ -1891,10 +1893,10 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$17.55",
+      "amazonPrice": "$17.95",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41ELwNsKitL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B018GFBCO8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "mroco-oval-gel",
@@ -1971,11 +1973,11 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$27.99",
+      "amazonPrice": "$29.99",
       "amazonListPrice": "$39.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41A7PFY1dBL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07PGLBCFG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "comfilife-footrest",
@@ -2011,10 +2013,11 @@
       "rank": 2,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$39.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/516I8VHe1KL._SL500_.jpg",
+      "amazonPrice": "$34.19",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/518qvT3Cd8L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08DHMMBFF?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$59.95"
     },
     {
       "id": "tranquilrelax-footrest",
@@ -2050,11 +2053,11 @@
       "rank": 3,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$21.99",
-      "amazonListPrice": "$25.99",
+      "amazonPrice": "$21.98",
+      "amazonListPrice": "$29.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/410obIxl-+L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DK4HP264?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "humanscale-fm500c",
@@ -2092,10 +2095,10 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$125.00",
+      "amazonPrice": "$124.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41aGboF73vL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00GKD9PTI?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "anker-351-power-strip",
@@ -2137,7 +2140,7 @@
       "amazonPrice": "$28.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41eIUhRPqpL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09SG2Q23M?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "hanycony-power-strip",
@@ -2176,10 +2179,11 @@
       "rank": 2,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$11.99",
+      "amazonPrice": "$9.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41w1NL7yU4L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B092J8LPWR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$13.99"
     },
     {
       "id": "belkin-surgemaster",
@@ -2215,10 +2219,10 @@
       "rank": 3,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$44.95",
+      "amazonPrice": "$43.95",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41XEVUmkwlL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B000JE9LD4?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "kasa-hs300",
@@ -2337,11 +2341,11 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$4.54",
+      "amazonPrice": "$4.76",
       "amazonListPrice": "$5.35",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/61qkURgGfbL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07VVB7DSK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "skydue-rotating-organizer",
@@ -2380,7 +2384,7 @@
       "amazonPrice": "$12.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41NURjJZbAL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CQTJ2RRG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "marbrasse-2drawer",
@@ -2419,7 +2423,7 @@
       "amazonPrice": "$12.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51+G-FpQr6L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CQC63DBZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "marbrasse-6tier-tray",
@@ -2455,11 +2459,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$20.88",
+      "amazonPrice": "$22.99",
       "amazonListPrice": "$25.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/61WfW0WLsqL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08PBFKGJG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "vtopmart-drawers",
@@ -2495,11 +2499,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$22.74",
+      "amazonPrice": "$21.49",
       "amazonListPrice": "$24.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/316T8lzyRsL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CDXLYN2W?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "nulaxy-c1-stand",
@@ -2538,11 +2542,11 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$19.99",
+      "amazonPrice": "$15.99",
       "amazonListPrice": "$19.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/413Vg4tz8SL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B077B9W343?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "boyata-n21-stand",
@@ -2582,7 +2586,7 @@
       "amazonPrice": "$29.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31JIPVTyFVL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07WRC9B86?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "boyata-m600212-stand",
@@ -2622,7 +2626,7 @@
       "amazonPrice": "$29.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51tGrhb7pOL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08R9V1HNQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "nulaxy-c5-stand",
@@ -2659,11 +2663,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$49.99",
+      "amazonPrice": "$40.49",
       "amazonListPrice": "$49.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41m7FD38dVL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CKZ5P9P7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "rain-design-mstand",
@@ -2704,7 +2708,7 @@
       "amazonPrice": "$39.90",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/311FX9vaiJL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B000OOYECC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "edifier-r1280t",
@@ -2743,10 +2747,10 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$130.89",
+      "amazonPrice": "$149.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41JdMdErl7L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B016P9HJIA?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-z407",
@@ -2782,10 +2786,11 @@
       "rank": 2,
       "dateAdded": "2026-06-08",
       "lastUpdated": "2026-06-08",
-      "amazonPrice": "$114.20",
+      "amazonPrice": "$112.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31GDCb3RVJL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0877BPCJM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$119.99"
     },
     {
       "id": "bose-companion-2",
@@ -2822,10 +2827,10 @@
       "rank": 3,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$158.00",
+      "amazonPrice": "$144.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Msfl5WSZL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00CD1PTF0?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "blue-yeti",
@@ -2863,11 +2868,11 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$91.99",
+      "amazonPrice": "$109.99",
       "amazonListPrice": "$139.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/3130DkWZPWL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00N1YPXW2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "hyperx-quadcast-2s",
@@ -2904,11 +2909,11 @@
       "rank": 2,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$130.00",
+      "amazonPrice": "$129.99",
       "amazonListPrice": "$199.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31WFV9ydexL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DG9X4WHW?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "rode-nt-usb-mini",
@@ -2948,7 +2953,7 @@
       "amazonPrice": "$103.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41PJUsYMcsL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B084P1CXFD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "shure-mv7",
@@ -2990,7 +2995,7 @@
       "amazonPrice": "$299.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/411zG0XzyJL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B08G7RG9ML?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "elgato-wave-3",
@@ -3027,11 +3032,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$119.99",
+      "amazonPrice": "$104.99",
       "amazonListPrice": "$149.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31A4l2i7pwL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B088HHWC47?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "amazonbasics-monitor-riser",
@@ -3069,10 +3074,11 @@
       "rank": 1,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$23.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/21X2klzUZGL._SL500_.jpg",
+      "amazonPrice": "$16.19",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21ntS3RMIlL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00X4SCCFG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$21.59"
     },
     {
       "id": "gianotter-dual-riser",
@@ -3108,10 +3114,11 @@
       "rank": 2,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$29.99",
+      "amazonPrice": "$27.54",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41gO3CCIg1L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DJKSMV2T?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$28.99"
     },
     {
       "id": "fitueyes-2tier-stand",
@@ -3150,7 +3157,7 @@
       "amazonPrice": "$25.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/514WxuUYdOL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B01A6JLT3Q?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "tangkula-hutch",
@@ -3186,10 +3193,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$69.99",
+      "amazonPrice": "$55.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41q9bWdcw9L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CZTS65FZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$64.99"
     },
     {
       "id": "anker-4port-usb3",
@@ -3229,9 +3237,9 @@
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$9.99",
       "amazonListPrice": "$14.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/31EVVjapPYL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31Shs0pI0IL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07L32B9C2?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "sabrent-hb-um43",
@@ -3270,7 +3278,7 @@
       "amazonPrice": "$14.95",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41Q3U7SHhFL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00JX1ZS5O?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ugreen-cm478-hub",
@@ -3306,11 +3314,11 @@
       "rank": 3,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$12.72",
+      "amazonPrice": "$12.99",
       "amazonListPrice": "$15.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41DJO-tB2pL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BR3M8XHK?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ugreen-revodok-1071",
@@ -3349,9 +3357,9 @@
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$17.99",
       "amazonListPrice": "$22.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41HirSbDr5L._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/416YE6bZ-AL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BLNDNBG1?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "soundcore-q20i",
@@ -3393,7 +3401,7 @@
       "amazonListPrice": "$69.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41-LcaT-aKL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0C3HCD34R?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "asus-proart-pa278qv",
@@ -3432,11 +3440,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$250.00",
+      "amazonPrice": "$229.00",
       "amazonListPrice": "$269.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41oFF17eGhL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B088BC5HMM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "acer-nitro-kg271u",
@@ -3473,10 +3481,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$159.99",
+      "amazonPrice": "$149.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/412urGQRLsL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0D8LH2VSP?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$179.99"
     },
     {
       "id": "philips-271v8lb",
@@ -3513,11 +3522,11 @@
       "rank": 7,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$89.99",
+      "amazonPrice": "$104.54",
       "amazonListPrice": "$99.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51FynWQQJ9L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0C8ZJNZY8?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "dell-u2723qe",
@@ -3556,10 +3565,10 @@
       "rank": 8,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$659.00",
+      "amazonPrice": "$658.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51UkDaCer+L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BXQX2BG4?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "epos-adapt-660",
@@ -3637,11 +3646,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$9.49",
-      "amazonListPrice": "$14.99",
+      "amazonPrice": "$9.98",
+      "amazonListPrice": "$16.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31VzBQ+jwWL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B094QTGHNZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "shw-55x28-desk",
@@ -3680,7 +3689,7 @@
       "amazonPrice": "$189.87",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/419Gv7Ov+rL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B085KBN2DN?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "flexispot-e6-bamboo",
@@ -3717,11 +3726,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$329.99",
-      "amazonListPrice": "$299.99",
+      "amazonPrice": "$284.96",
+      "amazonListPrice": "$469.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09DYF1SRQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "flexispot-en1-55x28",
@@ -3761,7 +3770,7 @@
       "amazonListPrice": "$239.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41OMhRJSX9L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0851BVHCD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "microsoft-arc-mouse",
@@ -3797,10 +3806,10 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$99.99",
+      "amazonPrice": "$89.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31IBHbIm-WL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B072FG8LBV?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ms-surface-mobile-mouse",
@@ -3836,10 +3845,10 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$65.99",
+      "amazonPrice": "$71.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31UduT4t-NL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07FDQ2MGG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "apple-magic-mouse",
@@ -3877,9 +3886,9 @@
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$69.00",
       "amazonListPrice": "$79.00",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/21M+VZqrDtL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/21Zoh9aD-jL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DL72PK1P?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-gpx-superlight-2",
@@ -3918,11 +3927,11 @@
       "rank": 7,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$148.99",
+      "amazonPrice": "$146.99",
       "amazonListPrice": "$159.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/21OWJN0LkYL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09NBWQDKX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "razer-basilisk-v3",
@@ -3960,11 +3969,11 @@
       "rank": 8,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$34.98",
+      "amazonPrice": "$33.99",
       "amazonListPrice": "$69.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31N1BZUZLwL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09C13PZX7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "keychron-k8",
@@ -4044,9 +4053,9 @@
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
       "amazonPrice": "$54.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41Xh5E9pYUL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/41a8aIyBa-L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DYJQ5Z2Z?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "apple-magic-keyboard-touchid",
@@ -4083,10 +4092,10 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$146.43",
+      "amazonPrice": "$145.43",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41h9S383dnL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DL6KW75T?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-mx-keys-s-mac",
@@ -4123,10 +4132,10 @@
       "rank": 7,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$119.99",
+      "amazonPrice": "$124.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41mtObU8cAL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BXX499PC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "logitech-mx-keys-mini-mac",
@@ -4166,7 +4175,7 @@
       "amazonPrice": "$95.90",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41iFCecWVvL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B098JF32PT?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "benq-screenbar",
@@ -4206,7 +4215,7 @@
       "amazonPrice": "$109.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31CmVBXX+EL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B076VNFZJG?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "airlonv-desk-lamp",
@@ -4245,11 +4254,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$20.98",
+      "amazonPrice": "$19.92",
       "amazonListPrice": "$25.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/415a2-2URFL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0C4JTPPYY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "govee-table-lamp-2",
@@ -4286,11 +4295,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$69.99",
+      "amazonPrice": "$63.99",
       "amazonListPrice": "$79.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41g8-ONEigL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0D41XL87F?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "staples-dexley",
@@ -4371,7 +4380,7 @@
       "amazonPrice": "$8.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41y+vnwtbQL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07FW3GTXB?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "alextech-sleeve-25",
@@ -4410,7 +4419,7 @@
       "amazonPrice": "$13.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41y+vnwtbQL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07FW86XV6?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "yecaye-jchannel",
@@ -4446,11 +4455,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$19.99",
+      "amazonPrice": "$22.99",
       "amazonListPrice": "$21.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/513CpXdkO9L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B089N5CSNN?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "cinati-cable-tray",
@@ -4491,7 +4500,7 @@
       "amazonListPrice": "$21.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51FP7-vLEIL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0BPLT7T1V?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "norocme-cable-kit",
@@ -4531,7 +4540,7 @@
       "amazonPrice": "$15.75",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51jnW29OITL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0B687J37D?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "sony-wh1000xm4",
@@ -4573,7 +4582,7 @@
       "amazonPrice": "$254.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31+1OdrDX+L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0863TXGM3?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "bose-qc45",
@@ -4610,11 +4619,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$299.00",
+      "amazonPrice": "$169.99",
       "amazonListPrice": "$329.00",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41-YRwc6lFL._SL500_.jpg",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31HutDDRuxL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B098FKXT8L?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "airpods-pro-2",
@@ -4733,10 +4742,10 @@
       "rank": 7,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$89.95",
+      "amazonPrice": "$69.95",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31c19bUnr1L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CT9XTKKM?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "jbl-live-770nc",
@@ -4777,7 +4786,7 @@
       "amazonListPrice": "$199.95",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31V1JXYVdqL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CT6D6Q27?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "presonus-eris-35-g2",
@@ -4816,10 +4825,11 @@
       "rank": 4,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$114.99",
+      "amazonPrice": "$99.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41fY2ymSB-L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0C88ZB3D9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$114.99"
     },
     {
       "id": "mackie-cr35",
@@ -4859,7 +4869,7 @@
       "amazonPrice": "$99.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/3180Q36LZLL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DFZZ5ZZY?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "klipsch-promedia-21",
@@ -4896,10 +4906,10 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$169.99",
+      "amazonPrice": "$167.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31Z6ZgChfGL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B000062VUO?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "anker-7in1-hub",
@@ -4936,11 +4946,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$25.99",
+      "amazonPrice": "$26.99",
       "amazonListPrice": "$39.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41SfemNZeDL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B07ZVKTP53?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "anker-4port-usbc",
@@ -4976,10 +4986,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$11.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/31ln6Er5aoL._SL500_.jpg",
+      "amazonPrice": "$12.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31ElN8jXu6L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0CCDZWH5H?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$17.99"
     },
     {
       "id": "sabrent-hb-umls",
@@ -5021,7 +5032,7 @@
       "amazonListPrice": "$8.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41lMdNjeHrL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00BWF5U0M?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "sabrent-hb-bu10",
@@ -5060,7 +5071,7 @@
       "amazonPrice": "$47.49",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/415EsJUQGrL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0797NZFYP?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "caldigit-element-5",
@@ -5102,7 +5113,7 @@
       "amazonPrice": "$249.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31QKkkmqqhL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DX8FS8KC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "cushionlab-footrest",
@@ -5141,7 +5152,7 @@
       "amazonPrice": "$55.00",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31WoYusZPEL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09P89479J?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "huanuo-hnfr9",
@@ -5177,11 +5188,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$39.99",
+      "amazonPrice": "$29.99",
       "amazonListPrice": "$39.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41r0KDHrbJL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0B5JL2PZ7?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "eureka-dsn03048",
@@ -5217,10 +5228,11 @@
       "rank": 7,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$45.99",
+      "amazonPrice": "$40.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/418F+nKsHGL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B071DQM9DD?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$49.99"
     },
     {
       "id": "huanuo-bamboo-footrest",
@@ -5258,11 +5270,11 @@
       "rank": 8,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$35.99",
-      "amazonListPrice": "$39.99",
+      "amazonPrice": "$28.49",
+      "amazonListPrice": "$35.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51MkDYV3fTL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DQTJ21TX?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "eureka-rolling-stool",
@@ -5302,7 +5314,7 @@
       "amazonPrice": "$113.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31daAJ7gMaL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09SHN6DQZ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "sunny-treadpad-100",
@@ -5470,7 +5482,8 @@
       "amazonPrice": "$99.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41F+iPg36QL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0GCHYP9J9?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$117.63"
     },
     {
       "id": "vhorilix-xm-a1",
@@ -5508,10 +5521,11 @@
       "rank": 5,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$89.99",
+      "amazonPrice": "$89.98",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0GGB9BV77?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$119.99"
     },
     {
       "id": "acezoe-p20-2",
@@ -5551,10 +5565,11 @@
       "rank": 6,
       "dateAdded": "2026-06-01",
       "lastUpdated": "2026-06-01",
-      "amazonPrice": "$347.99",
+      "amazonPrice": "$279.96",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41bLjwx9owL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0FCYFFXLC?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-01"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$329.99"
     },
     {
       "id": "vivo-v001-single",
@@ -5594,7 +5609,7 @@
       "amazonPrice": "$34.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41yJLs4KTIL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B00B21TLQU?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ergear-dual-arm",
@@ -5631,10 +5646,11 @@
       "rank": 7,
       "dateAdded": "2026-06-08",
       "lastUpdated": "2026-06-08",
-      "amazonPrice": "$28.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/31h3+CjiwAL._SL500_.jpg",
+      "amazonPrice": "$29.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/31NqFxUJu6L._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B082MLVXRR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$34.99"
     },
     {
       "id": "huanuo-titanlift",
@@ -5671,10 +5687,11 @@
       "rank": 8,
       "dateAdded": "2026-06-08",
       "lastUpdated": "2026-06-08",
-      "amazonPrice": "$93.99",
-      "amazonImageUrl": "https://m.media-amazon.com/images/I/41HvkXv8ulL._SL500_.jpg",
+      "amazonPrice": "$95.99",
+      "amazonImageUrl": "https://m.media-amazon.com/images/I/419F+Cl-4lL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B0DQ19YC9H?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13",
+      "amazonListPrice": "$107.99"
     },
     {
       "id": "ergear-ultrawide-single",
@@ -5711,10 +5728,10 @@
       "rank": 9,
       "dateAdded": "2026-06-08",
       "lastUpdated": "2026-06-08",
-      "amazonPrice": "$54.99",
+      "amazonPrice": "$64.97",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/41MAmMgQ9LL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B098JT9SFR?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     },
     {
       "id": "ergotron-lx-dual-stacking",
@@ -5753,10 +5770,10 @@
       "rank": 10,
       "dateAdded": "2026-06-08",
       "lastUpdated": "2026-06-08",
-      "amazonPrice": "$455.66",
+      "amazonPrice": "$479.99",
       "amazonImageUrl": "https://m.media-amazon.com/images/I/31ibESROACL._SL500_.jpg",
       "amazonUrl": "https://www.amazon.com/dp/B09T78LQYQ?tag=desksetuppro02-20&linkCode=ogi&th=1&psc=1",
-      "lastAmazonSync": "2026-06-08"
+      "lastAmazonSync": "2026-08-13"
     }
   ]
 }
