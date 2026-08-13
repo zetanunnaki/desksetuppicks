@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Ruler, Flame, Monitor } from "lucide-react";
+import { Ruler, Flame, Monitor, Footprints } from "lucide-react";
 import { BackToTop } from "@/components/BackToTop";
 
 export const metadata: Metadata = {
@@ -28,6 +28,12 @@ const tools = [
     icon: Monitor,
     title: "Monitor Size & Distance Calculator",
     desc: "See a monitor's pixel density, ideal viewing distance, and whether 4K is worth it at your screen size.",
+  },
+  {
+    href: "/tools/walking-pad-finder",
+    icon: Footprints,
+    title: "Walking Pad Finder",
+    desc: "Answer 1–3 questions and get matched to the right under-desk treadmill for how you'll actually use it.",
   },
 ];
 
