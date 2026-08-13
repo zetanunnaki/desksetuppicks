@@ -1,0 +1,71 @@
+name: Refresh Amazon Prices
+
+# Pulls live prices/availability from the Amazon Creators API into products.json,
+# commits the change, and redeploys — so displayed prices (and the "as of" date
+# shown for Amazon Associates compliance) stay current with no manual work.
+#
+# REQUIRED ONE-TIME SETUP (GitHub → repo Settings → Secrets and variables →
+# Actions → New repository secret), add these three from your .env.local:
+#   AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET, AMAZON_PARTNER_TAG
+# Until those secrets exist, the scheduled run will fail harmlessly (no deploy).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday at 06:00 UTC
+  workflow_dispatch: {} # also run on demand from the Actions tab
+
+permissions:
+  contents: write # commit the updated products.json
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refresh prices from Amazon
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+        run: node scripts/refresh-prices.mjs
+
+      - name: Commit updated prices (if any changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/content/products.json
+          git diff --staged --quiet || git commit -m "chore: weekly Amazon price refresh"
+          git push
+
+      - name: Build static site
+        run: npm run build:no-fetch
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: refresh-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
